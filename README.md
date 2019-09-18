@@ -1,6 +1,6 @@
 # The list of APIs in the UK Government
 
-This Github API catalogue is for central government and local government APIs. 
+This API catalogue is for central government and local government APIs. 
 
 If you are working on an API that publishes open data or connects government with other organisations, industry or consumers, then we’d like to invite you to publish details of it in this catalogue by submitting a Github Issue. 
 
