@@ -1,7 +1,7 @@
 ---
 name: New catalogue entry request
 about: Request a new API to be added to the catalogue
-title: "[NEW]"
+title: "[Name of your department/organisation:name of your API]"
 labels: enhancement
 assignees: ''
 
