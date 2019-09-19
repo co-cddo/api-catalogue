@@ -33,7 +33,7 @@ The API Catalogue:
 * is for both data and transactional APIs
 * should not compromise your organisation’s security - follow the operations guidance to avoid oversharing information about your API and posting detailed content 
 
-##Operations 
+## Operations 
 
 You will: 
 
