@@ -1,0 +1,10 @@
+<h1 id="apis-in-the-uk-government">APIs in the UK government</h1><p>This API catalogue is for central government and local government APIs.</p>
+<p>If you&rsquo;re working on an API that publishes open data or connects government with other organisations, industry or consumers, we’d like to invite you to publish details of it in this catalogue. You can publish details of your API by submitting a <a href="https://github.com/alphagov/api-catalogue/issues">GitHub Issue</a>.</p>
+<p>Collecting a list of government APIs will help us understand:</p>
+
+<ul>
+<li>what APIs are published</li>
+<li>where API development is taking place</li>
+<li>whether APIs are suitable for reuse</li>
+</ul>
+<p>If you have any questions, please contact: <a href="mailto:api-standards-request@digital.cabinet-office.gov.uk">api-standards-request@digital.cabinet-office.gov.uk</a></p>
