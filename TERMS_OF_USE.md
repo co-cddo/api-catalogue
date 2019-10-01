@@ -1,6 +1,6 @@
 # API Catalogue Terms of Use
 
-These terms of use explain what you can expect from publishing your API to this Government Catalogue of APIs on GitHub. You will need to agree to all these terms before making any pull requests to this repository. 
+These terms of use explain what you can expect from publishing your API to this Government Catalogue of APIs on GitHub. You will need to agree to all these terms before submitting Github Issues to this repository. 
 
 These terms may change from time to time and we will let contributors know when this happens. For major changes you may need to accept these terms of use again, but for minor changes we will assume you agree to the changes unless we hear from you. 
 
@@ -38,7 +38,7 @@ The API Catalogue:
 You will: 
 
 * need to have a GOV.UK email address to post details
-* be responsible for making pull requests and publishing details of your APIs to the API Catalogue on GitHub (you will be accepting these Terms on behalf of your organisation when you make a pull request and will need to have the authority to do so) 
+* be responsible for submitting Github Issues and publishing details of your APIs to the API Catalogue on GitHub (you will be accepting these Terms on behalf of your organisation when you submit an Issue and will need to have the authority to do so) 
 * include only API documentation URLs and links to the base URL of the API in the GitHub repo (do not include individual endpoint or client service information) - this will help prevent resources becoming discoverable and DDOS attacks
 * provide accompanying contact details when publishing your API details - this information should be kept accurate and up to date
 * operate in the interests of the government as a whole and the users of government APIs
@@ -48,4 +48,4 @@ You will:
 The API Catalogue details will be managed and updated by:
 
 * the contributing government organisations, who will carry the responsibility for keeping details of their APIs up to date 
-* GDS, who will review the API Catalogue regularly, respond to Pull Requests and  remove any APIs that do not abide by these Terms
+* GDS, who will review the API Catalogue regularly, respond to Issues and  remove any APIs that do not abide by these Terms
