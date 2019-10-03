@@ -63,6 +63,11 @@
                       <ul>
   <li>
     <a href="#apis-in-the-uk-government"><span>APIs in the UK government</span></a>
+    <ul>
+      <li>
+        <a href="#government-digital-service"><span>Government Digital Service</span></a>
+      </li>
+    </ul>
   </li>
 </ul>
 
@@ -84,6 +89,19 @@
 </ul>
 
 <p>If you have any questions, please contact: <a href="mailto:api-standards-request@digital.cabinet-office.gov.uk">api-standards-request@digital.cabinet-office.gov.uk</a></p>
+<p><h2 id="government-digital-service">Government Digital Service</h2><p><strong>API name:</strong>
+GOV.UK Notify API</p>
+<p><strong>API links:</strong>
+ - <a href="https://api.notifications.service.gov.uk">Base URL</a>
+ - <a href="https://www.notifications.service.gov.uk/documentation">Documentation URL</a></p>
+<p><strong>API description:</strong></p>
+<p>GOV.UK Notify allows government departments to send emails, text messages and letters to their users. The API contains:</p></p>
+
+<ul>
+<li>the public-facing REST API for GOV.UK Notify, which teams can integrate with using our clients</li>
+<li>an internal-only REST API built using Flask to manage services, users, templates, etc (this is what the admin app talks to)</li>
+<li>asynchronous workers built using Celery to put things on queues and read them off to be processed, sent to providers, updated, etc</li>
+</ul>
 
             
           </main>
