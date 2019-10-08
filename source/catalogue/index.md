@@ -89,7 +89,7 @@ The API provides a comprehensive set of resources to manage the state of your Cl
 
 The  API  handles all requests from the [Cloud Foundry Command Line Interface (CLI)](https://docs.cloudfoundry.org/cf-cli/) which is the primary user interface for users of the platform.
 
-### GOV.UK: Content-api 
+### GOV.UK: Content API
 
 **API Base URL links:**
 
@@ -97,8 +97,84 @@ The  API  handles all requests from the [Cloud Foundry Command Line Interface (C
 
 **API Docs URL links:**
 
- - [Documentation URL](https://content-api.publishing.service.gov.uk)
- 
- **API Description:**
- 
+- [Documentation URL](https://content-api.publishing.service.gov.uk)
+
+**API Description:**
+
 GOV.UK Content API makes it easy to access the data used to render content on https://www.gov.uk. For any page hosted on GOV.UK you can use the path to access the content and associated metadata for a page.
+
+### GOV.UK: Search API
+
+**API Base URL links:**
+
+- [Base URL](https://www.gov.uk/api/search.json)
+
+**API Docs URL links:**
+
+- [Documentation URL](https://docs.publishing.service.gov.uk/apis/search/search-api.html)
+
+**API Description:**
+
+GOV.UK Search API allows you to find content on GOV.UK. It's the same API that powers https://gov.uk/search/all and the other dynamic content pages on GOV.UK
+
+### GOV.UK: Organisations API
+
+**API Base URL links:**
+
+- [Base URL](https://www.gov.uk/api/organisations)
+
+**API Docs URL links:**
+
+- [Documentation URL](https://github.com/alphagov/collections/blob/master/docs/api.md)
+
+**API Description:**
+
+The organisations API provides information about government organisations
+
+### GOV.UK: Governments API
+
+**API Base URL links:**
+
+- [Base URL](https://www.gov.uk/api/governments)
+
+**API Docs URL links:**
+
+- [Documentation URL](https://docs.publishing.service.gov.uk/apis/whitehall.html)
+
+**API Description:**
+
+The governments API lists information about governments back to 1801
+
+### Document Checking System Pilot API
+
+**API Base URL links:**
+
+- [Base URL production](https://<DCS-PRODUCTION-URI>/checks/passport)
+- [Base URL testing](https://<DCS-TESTING-URI>/checks/passport)
+
+**API Docs URL links:**
+
+- [Documentation URL](https://dcs-pilot-docs.cloudapps.digital)
+
+**API Description:**
+
+The Document Checking Service (DCS) Pilot is for non-public sector organisations that want to find out if British passports are valid.
+The DCS acts as an interface between a service and HM Passport Office.
+Your service sends a passport check request to the DCS.
+The DCS validates the request and sends it to HM Passport Office.
+HM Passport Office checks the passport data against their database and sends a response back to the DCS.
+The DCS sends the response to your service as outlined in check if a passport is valid.
+
+### GOV.UK: World locations API
+
+**API Base URL links:**
+
+- [Base URL production](https://www.gov.uk/api/world-locations)
+
+**API Docs URL links:**
+
+- [Documentation URL](https://docs.publishing.service.gov.uk/apis/whitehall.html)
+
+**API Description:**
+
+Lists world locations used on GOV.UK. This is not the same as the country register.
