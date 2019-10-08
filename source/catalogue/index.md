@@ -88,3 +88,17 @@ The API provides a comprehensive set of resources to manage the state of your Cl
 [GOV.UK PaaS Technical Documentation for Users](https://docs.cloud.service.gov.uk/)
 
 The  API  handles all requests from the [Cloud Foundry Command Line Interface (CLI)](https://docs.cloudfoundry.org/cf-cli/) which is the primary user interface for users of the platform.
+
+### GOV.UK: Content-api 
+
+**API Base URL links:**
+
+- [Base URL](https://www.gov.uk/api/content)
+
+**API Docs URL links:**
+
+ - [Documentation URL](https://content-api.publishing.service.gov.uk)
+ 
+ **API Description:**
+ 
+GOV.UK Content API makes it easy to access the data used to render content on https://www.gov.uk. For any page hosted on GOV.UK you can use the path to access the content and associated metadata for a page.
