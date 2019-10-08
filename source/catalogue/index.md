@@ -24,7 +24,7 @@ If you have any questions, please contact: <api-standards-request@digital.cabine
 
  - [Documentation URL](https://www.notifications.service.gov.uk/documentation)
 
-**API description:**
+**API Description:**
 
 GOV.UK Notify allows government departments to send emails, text messages and letters to their users. The API contains:
 
