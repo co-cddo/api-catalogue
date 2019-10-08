@@ -14,8 +14,7 @@ If you have any questions, please contact: <api-standards-request@digital.cabine
 
 ## Government Digital Service
 
-**API name:**
-GOV.UK Notify API
+### GOV.UK Notify API
 
 **API Base URL links:**
 
@@ -33,8 +32,7 @@ GOV.UK Notify allows government departments to send emails, text messages and le
 - an internal-only REST API built using Flask to manage services, users, templates, etc (this is what the admin app talks to)
 - asynchronous workers built using Celery to put things on queues and read them off to be processed, sent to providers, updated, etc
 
-**API name:**
-GOV.UK Platform as a Service (PaaS) API
+### GOV.UK Platform as a Service (PaaS) API
 
 **API Base URL links:**
 
