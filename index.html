@@ -66,6 +66,17 @@
     <ul>
       <li>
         <a href="#government-digital-service"><span>Government Digital Service</span></a>
+        <ul>
+          <li>
+            <a href="#gov-uk-notify-api"><span>GOV.UK Notify API</span></a>
+          </li>
+          <li>
+            <a href="#gov-uk-pay-api"><span>GOV.UK Pay API</span></a>
+          </li>
+          <li>
+            <a href="#gov-uk-platform-as-a-service-paas-api"><span>GOV.UK Platform as a Service (PaaS) API</span></a>
+          </li>
+        </ul>
       </li>
     </ul>
   </li>
@@ -89,19 +100,88 @@
 </ul>
 
 <p>If you have any questions, please contact: <a href="mailto:api-standards-request@digital.cabinet-office.gov.uk">api-standards-request@digital.cabinet-office.gov.uk</a></p>
-<p><h2 id="government-digital-service">Government Digital Service</h2><p><strong>API name:</strong>
-GOV.UK Notify API</p>
-<p><strong>API links:</strong>
- - <a href="https://api.notifications.service.gov.uk">Base URL</a>
- - <a href="https://www.notifications.service.gov.uk/documentation">Documentation URL</a></p>
-<p><strong>API description:</strong></p>
-<p>GOV.UK Notify allows government departments to send emails, text messages and letters to their users. The API contains:</p></p>
+<p><h2 id="government-digital-service">Government Digital Service</h2><h3 id="gov-uk-notify-api">GOV.UK Notify API</h3><p><strong>API Base URL links:</strong></p></p>
+
+<ul>
+<li><a href="https://api.notifications.service.gov.uk">Base URL</a></li>
+</ul>
+
+<p><strong>API Docs URL links:</strong></p>
+
+<ul>
+<li><a href="https://www.notifications.service.gov.uk/documentation">Documentation URL</a></li>
+</ul>
+
+<p><strong>API Description:</strong></p>
+
+<p>GOV.UK Notify allows government departments to send emails, text messages and letters to their users. The API contains:</p>
 
 <ul>
 <li>the public-facing REST API for GOV.UK Notify, which teams can integrate with using our clients</li>
 <li>an internal-only REST API built using Flask to manage services, users, templates, etc (this is what the admin app talks to)</li>
 <li>asynchronous workers built using Celery to put things on queues and read them off to be processed, sent to providers, updated, etc</li>
 </ul>
+<p><h3 id="gov-uk-pay-api">GOV.UK Pay API</h3><p><strong>API Base URL links:</strong></p></p>
+
+<ul>
+<li><a href="https://publicapi.payments.service.gov.uk">Base URL</a></li>
+</ul>
+
+<p><strong>API Docs URL links:</strong></p>
+
+<ul>
+<li><a href="https://docs.payments.service.gov.uk/api_reference/#api-reference">Documentation URL</a></li>
+</ul>
+
+<p><strong>API Description:</strong></p>
+
+<p>Anyone in the public sector can use GOV.UK Pay to take online payments.</p>
+
+<p>It only takes minutes to get set up with GOV.UK Pay.</p>
+
+<p>Then you can:</p>
+
+<ul>
+<li>take payments using debit cards, credit cards or digital wallets</li>
+<li>give full or partial refunds</li>
+<li>switch Payment Service Providers, for free, when you choose</li>
+<li>use custom branding on your payment pages</li>
+</ul>
+
+<p>GOV.UK Pay is ideal if you currently take payments using paper forms, by email or if you have an online service.</p>
+
+<p>More information at <a href="https://www.payments.service.gov.uk/">https://www.payments.service.gov.uk</a>.</p>
+<p><h3 id="gov-uk-platform-as-a-service-paas-api">GOV.UK Platform as a Service (PaaS) API</h3><p><strong>API Base URL links:</strong></p></p>
+
+<ul>
+<li><a href="https://api.cloud.service.gov.uk">AWS Dublin Base URL</a></li>
+<li><a href="https://api.cloud.service.gov.uk/v2">AWS Dublin Base URL v2</a></li>
+<li><a href="https://api.cloud.service.gov.uk/v3">AWS Dublin Base URL v3</a></li>
+<li><a href="https://api.london.cloud.service.gov.uk">AWS London Base URL</a></li>
+<li><a href="https://api.london.cloud.service.gov.uk/v2">AWS London Base URL v2</a></li>
+<li><a href="https://api.london.cloud.service.gov.uk/v3">AWS London Base URL v3</a></li>
+</ul>
+
+<p><strong>API Docs URL links:</strong></p>
+
+<ul>
+<li><a href="https://apidocs.cloudfoundry.org/12.0.0/">Documentation for v2</a></li>
+<li><a href="http://v3-apidocs.cloudfoundry.org/version/3.74.0/">Documentation for v3</a></li>
+</ul>
+
+<p><strong>API Description:</strong></p>
+
+<p><a href="https://www.cloud.service.gov.uk/">GOV.UK PaaS</a> allows government departments to host web facing services in the AWS cloud in Dublin and London regions.</p>
+
+<p><a href="https://www.cloud.service.gov.uk/">GOV.UK PaaS</a> is built on the Open Source <a href="https://www.cloudfoundry.org/">Cloud Foundry</a> platform.</p>
+
+<p>There are two major versions of the API, v2 and v3.</p>
+
+<p>The API provides a comprehensive set of resources to manage the state of your Cloud Foundry Organisation, Spaces, Services and Applications.</p>
+
+<p><a href="https://docs.cloud.service.gov.uk/">GOV.UK PaaS Technical Documentation for Users</a></p>
+
+<p>The  API  handles all requests from the <a href="https://docs.cloudfoundry.org/cf-cli/">Cloud Foundry Command Line Interface (CLI)</a> which is the primary user interface for users of the platform.</p>
 
             
           </main>
