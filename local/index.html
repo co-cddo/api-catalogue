@@ -57,15 +57,88 @@
       <div class="app-pane__body" data-module="in-page-navigation">
           <div class="app-pane__toc">
             <div class="toc" data-module="table-of-contents">
-              
+              <div class="search" data-module="search">
+  <form action="https://www.google.co.uk/search" method="get" role="search">
+    <input type="hidden" name="as_sitesearch" value="https://alphagov.github.io/api-catalogue"/>
+    <label class="govuk-label search__label" for="search">
+      Search (via Google)
+    </label>
+    <input class="govuk-input govuk-!-margin-bottom-4" id="search" name="q" type="text" aria-controls="search-results" placeholder="Search">
+  </form>
+  <div id="search-results" class="search-results" aria-hidden="true" role="dialog" aria-labelledby="search-results-title">
+    <div class="search-results__inner">
+      <button class="search-results__close">Close<span class="search-results__close-label"> search results</span></button>
+      <h2 id="search-results-title" class="search-results__title" aria-live="polite">Results</h2>
+      <div class="search-results__content"></div>
+    </div>
+  </div>
+</div>
+
               <a href="#" class="toc__close js-toc-close" aria-controls="toc" aria-label="Hide table of contents"></a>
-              <nav id="toc" class="js-toc-list toc__list" aria-labelledby="toc-heading">
+              <nav id="toc" class="js-toc-list toc__list" aria-labelledby="toc-heading" data-module="collapsible-navigation">
                       <ul>
   <li>
-    <a href="#apis-in-local-uk-government"><span>APIs in local UK government</span></a>
+    <a href="/#apis-in-the-uk-government"><span>APIs in the UK government</span></a>
   </li>
 </ul>
-
+<ul><li><a href="/central/">APIs in central UK government</a>
+<ul>
+  <li>
+    <a href="/central/notify/#gov-uk-notify-api"><span>GOV.UK Notify API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/central/pay/#gov-uk-pay-api"><span>GOV.UK Pay API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/central/paas/#gov-uk-platform-as-a-service-paas-api"><span>GOV.UK Platform as a Service (PaaS) API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/central/content/#gov-uk-content-api"><span>GOV.UK: Content API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/central/ons-stats/#ons-statistics-api"><span>ONS: Statistics API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/central/search/#gov-uk-search-api"><span>GOV.UK: Search API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/central/organisations/#gov-uk-organisations-api"><span>GOV.UK Organisations API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/central/governments/#gov-uk-governments-api"><span>GOV.UK Governments API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/central/dcs-pilot/#gov-uk-document-checking-service-pilot-api"><span>GOV.UK Document Checking Service Pilot API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/central/world-locations/#gov-uk-world-locations-api"><span>GOV.UK World locations API</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/local/">APIs in local UK government</a>
+<ul>
+  <li>
+    <a href="/local/west-berkshire-council/#west-berkshire-council-api"><span>West Berkshire Council API</span></a>
+  </li>
+</ul>
+</li></ul>
 
               </nav>
             </div>
