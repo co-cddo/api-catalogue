@@ -44,7 +44,7 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.1.7)
     ffi (1.11.1)
-    govuk_tech_docs (2.0.4)
+    govuk_tech_docs (2.0.7)
       activesupport
       chronic (~> 0.10.2)
       middleman (~> 4.0)
@@ -55,7 +55,7 @@ GEM
       middleman-sprockets (~> 4.0.0)
       middleman-syntax (~> 3.0.0)
       nokogiri
-      openapi3_parser
+      openapi3_parser (~> 0.5.0)
       pry
       redcarpet (~> 3.3.2)
       sass
@@ -129,11 +129,11 @@ GEM
       middleman-core (>= 3.2)
       rouge (~> 2.0)
     mini_portile2 (2.4.0)
-    minitest (5.12.2)
-    multi_json (1.13.1)
+    minitest (5.13.0)
+    multi_json (1.14.1)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
-    openapi3_parser (0.6.1)
+    openapi3_parser (0.5.2)
       commonmarker (~> 0.17)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
@@ -183,4 +183,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   2.0.2
+   1.17.2
