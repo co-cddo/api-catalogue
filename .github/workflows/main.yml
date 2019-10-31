@@ -20,8 +20,3 @@ jobs:
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
-    - name: Publish to GithubPages
-      run: |
-        git config user.email "alexandru.jurubita@digital.cabinet-office.gov.uk"
-        git config user.name "Alex"
-        bundle exec rake publish
