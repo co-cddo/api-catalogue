@@ -1,0 +1,27 @@
+---
+title: statistics.gov.scot
+weight: 31
+---
+
+# statistics.gov.uk
+
+**API Base URL links:**
+
+- [Base URL](https://statistics.gov.scot/sparql)
+
+**API Docs URL links:**
+
+ - [Documentation URL](https://statistics.gov.scot/sparql?tab=api)
+ - [Documentation URL](https://guides.statistics.gov.scot/category/37-api)
+
+ **API Description:**
+
+[statistics.gov.scot](statistics.gov.scot) provides public access to the data behind Scotland's official statistics in linked open data format. The SPARQL endpoint allows flexible querying of the datastore using the SPARQL 1.1 language. 
+
+This API can be used to extract data, automate report-writing, publish data visualisations, or make interactive tools for exploring the data.
+
+statistics.gov.scot is managed by the Scottish Government on behalf of all producers of Scottish official statistics including Scottish Government, National Records of Scotland, NHS Information Services Division, Visit Scotland and others.
+
+The API is provided under the Open Government Licence with no requirement for registration.
+
+For queries or comments, please contact [statistics.opendata@gov.scot](statistics.opendata@gov.scot)
