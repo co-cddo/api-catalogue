@@ -1,0 +1,18 @@
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+      - uses: actions/cache@v1
+        with:
+          path: tmp/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - run: |
+          bundle config path tmp/bundle
+          bundle install --jobs 4 --retry 3
+      - run: bundle exec rake build
