@@ -1,0 +1,51 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "catalogue.csv",
+  "schema:name": "UK government APIs",
+  "schema:maintainer": "API Standards team <api-standards-request@digital.cabinet-office.gov.uk>",
+  "schema:description": "This API catalogue is for central government and local government APIs.\n\nIf you're working on an API that publishes open data or connects government with other organisations, industry or consumers, we’d like to invite you to publish details of it in this catalogue. You can publish details of your API by submitting a [GitHub Issue](https://github.com/alphagov/api-catalogue/issues).\n\nCollecting a list of government APIs will help us understand:\n\n* what APIs are published\n* where API development is taking place\n* whether APIs are suitable for reuse",
+  "tableSchema": {
+    "columns": [
+      {
+        "titles": "url",
+        "schema:description": "The base URL that uniquely identifies the web API"
+      },
+      {
+        "titles": "name",
+        "schema:description": "The name of the web API"
+      },
+      {
+        "titles": "description",
+        "schema:description": "The description of the web API"
+      },
+      {
+        "titles": "documentation",
+        "schema:description": "The URL to the web API documentation"
+      },
+      {
+        "titles": "license",
+        "schema:description": "The licence users of the API have to comply with"
+      },
+      {
+        "titles": "maintainer",
+        "schema:description": "The contact point for the web API maintainers"
+      },
+      {
+        "titles": "provider",
+        "schema:description": "The organisation that operates the web API"
+      },
+      {
+        "titles": "areaServed",
+        "schema:description": "The geographical coverage for the web API"
+      },
+      {
+        "titles": "startDate",
+        "schema:description": "The date the web API started to operate"
+      },
+      {
+        "titles": "endDate",
+        "schema:description": "The date the web API was deprecated"
+      }
+    ]
+  }
+}
