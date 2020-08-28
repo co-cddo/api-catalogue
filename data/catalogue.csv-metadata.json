@@ -8,44 +8,89 @@
     "columns": [
       {
         "titles": "url",
-        "schema:description": "The base URL that uniquely identifies the web API"
+        "schema:description": "The base URL that uniquely identifies the web API",
+        "propertyUrl": "schema:url",
+        "datatype": "schema:URL",
+        "required": true
       },
       {
         "titles": "name",
-        "schema:description": "The name of the web API"
+        "schema:description": "The name of the web API",
+        "propertyUrl": "schema:name",
+        "datatype": "string",
+        "required": true
       },
       {
         "titles": "description",
-        "schema:description": "The description of the web API"
+        "schema:description": "The description of the web API",
+        "propertyUrl": "schema:description",
+        "datatype": "string",
+        "required": true
       },
       {
         "titles": "documentation",
-        "schema:description": "The URL to the web API documentation"
+        "schema:description": "The URL to the web API documentation",
+        "propertyUrl": "schema:documentation",
+        "datatype": "schema:URL",
+        "required": true
       },
       {
         "titles": "license",
-        "schema:description": "The licence users of the API have to comply with"
+        "schema:description": "The licence users of the API have to comply with",
+        "propertyUrl": "schema:license",
+        "datatype": "schema:URL",
+        "required": true
       },
       {
         "titles": "maintainer",
-        "schema:description": "The contact point for the web API maintainers"
+        "schema:description": "The contact point for the web API maintainers",
+        "propertyUrl": "schema:maintainer",
+        "datatype": {
+          "schema:name": "Compact Contact Point",
+          "schema:description": "A compact contact point requires a name and an email: 'Team ABC <abc-team@foo.gov.uk>'",
+          "base": "string",
+          "format": "[^\s]+\s+<[^<>\s]+>"
+        },
+        "required": true
       },
       {
         "titles": "provider",
-        "schema:description": "The organisation that operates the web API"
+        "schema:description": "The organisation that operates the web API",
+        "propertyUrl": "schema:provider",
+        "datatype": {
+          "base": "string",
+          "format": "[a-z0-9-]+"
+        },
+        "required": true
       },
       {
         "titles": "areaServed",
-        "schema:description": "The geographical coverage for the web API"
+        "schema:description": "The geographical coverage for the web API",
+        "propertyUrl": "schema:areaServed",
+        "separator": ",",
+        "datatype":  "string"
       },
       {
         "titles": "startDate",
-        "schema:description": "The date the web API started to operate"
+        "schema:description": "The date the web API started to operate",
+        "propertyUrl": "schema:startDate",
+        "datatype": "date",
+        "required": true
       },
       {
         "titles": "endDate",
-        "schema:description": "The date the web API was deprecated"
+        "schema:description": "The date the web API was deprecated",
+        "propertyUrl": "schema:endDate",
+        "datatype": "date"
       }
-    ]
+    ],
+    "primaryKey": "url",
+    "foreignKeys": [{
+      "columnReference": "provider",
+      "reference": {
+        "resource": "organisations.csv",
+        "columnReference": "identifier"
+      }
+    }]
   }
 }
