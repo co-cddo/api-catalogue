@@ -8,6 +8,7 @@
     "columns": [
       {
         "titles": "url",
+        "name": "url",
         "schema:description": "The base URL that uniquely identifies the web API",
         "propertyUrl": "schema:url",
         "datatype": "schema:URL",
@@ -15,6 +16,7 @@
       },
       {
         "titles": "name",
+        "name": "name",
         "schema:description": "The name of the web API",
         "propertyUrl": "schema:name",
         "datatype": "string",
@@ -22,6 +24,7 @@
       },
       {
         "titles": "description",
+        "name": "description",
         "schema:description": "The description of the web API",
         "propertyUrl": "schema:description",
         "datatype": "string",
@@ -29,6 +32,7 @@
       },
       {
         "titles": "documentation",
+        "name": "documentation",
         "schema:description": "The URL to the web API documentation",
         "propertyUrl": "schema:documentation",
         "datatype": "schema:URL",
@@ -36,6 +40,7 @@
       },
       {
         "titles": "license",
+        "name": "license",
         "schema:description": "The licence users of the API have to comply with",
         "propertyUrl": "schema:license",
         "datatype": "schema:URL",
@@ -43,6 +48,7 @@
       },
       {
         "titles": "maintainer",
+        "name": "maintainer",
         "schema:description": "The contact point for the web API maintainers",
         "propertyUrl": "schema:maintainer",
         "datatype": {
@@ -55,6 +61,7 @@
       },
       {
         "titles": "provider",
+        "name": "provider",
         "schema:description": "The organisation that operates the web API",
         "propertyUrl": "schema:provider",
         "datatype": {
@@ -65,6 +72,7 @@
       },
       {
         "titles": "areaServed",
+        "name": "areaServed",
         "schema:description": "The geographical coverage for the web API",
         "propertyUrl": "schema:areaServed",
         "separator": ",",
@@ -72,6 +80,7 @@
       },
       {
         "titles": "startDate",
+        "name": "startDate",
         "schema:description": "The date the web API started to operate",
         "propertyUrl": "schema:startDate",
         "datatype": "date",
@@ -79,6 +88,7 @@
       },
       {
         "titles": "endDate",
+        "name": "endDate",
         "schema:description": "The date the web API was deprecated",
         "propertyUrl": "schema:endDate",
         "datatype": "date"
