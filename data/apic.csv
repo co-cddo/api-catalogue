@@ -4,7 +4,7 @@
 2020-01-08,2020-08-24,GDS,https://publicapi.payments.service.gov.uk/,https://docs.payments.service.gov.uk/api_reference/#api-reference,GOV.UK Pay,,,,,,,,,,"Anyone in the public sector can use GOV.UK Pay to take online payments. It only takes minutes to get set up with GOV.UK Pay. Then you can: - take payments using debit cards, credit cards or digital wallets - give full or partial refunds - switch Payment Service Providers, for free, when you choose - use custom branding on your payment pages GOV.UK Pay is ideal if you currently take payments using paper forms, by email or if you have an online service."
 2020-01-08,2020-08-24,GDS,https://api.london.cloud.service.gov.uk/v2,https://apidocs.cloudfoundry.org/12.0.0/,GOV.UK PaaS,,2,,,,,,,,"[GOV.UK PaaS](https://www.cloud.service.gov.uk/) allows government departments to host web facing services in the AWS cloud in Dublin and London regions. [GOV.UK PaaS](https://www.cloud.service.gov.uk/) is built on the Open Source [Cloud Foundry](https://www.cloudfoundry.org/) platform. There are two major versions of the API, v2 and v3. The API provides a comprehensive set of resources to manage the state of your Cloud Foundry Organisation, Spaces, Services and Applications. [GOV.UK PaaS Technical Documentation for Users](https://docs.cloud.service.gov.uk/) The  API  handles all requests from the [Cloud Foundry Command Line Interface (CLI)](https://docs.cloudfoundry.org/cf-cli/) which is the primary user interface for users of the platform."
 2020-01-08,2020-08-24,GDS,https://api.london.cloud.service.gov.uk/v3,http://v3-apidocs.cloudfoundry.org/version/3.74.0/,GOV.UK PaaS,,3,,,,,,,,"[GOV.UK PaaS](https://www.cloud.service.gov.uk/) allows government departments to host web facing services in the AWS cloud in Dublin and London regions. [GOV.UK PaaS](https://www.cloud.service.gov.uk/) is built on the Open Source [Cloud Foundry](https://www.cloudfoundry.org/) platform. There are two major versions of the API, v2 and v3. The API provides a comprehensive set of resources to manage the state of your Cloud Foundry Organisation, Spaces, Services and Applications. [GOV.UK PaaS Technical Documentation for Users](https://docs.cloud.service.gov.uk/) The  API  handles all requests from the [Cloud Foundry Command Line Interface (CLI)](https://docs.cloudfoundry.org/cf-cli/) which is the primary user interface for users of the platform."
-2020-01-08,2020-08-24,GDS,https://www.gov.uk/api/content,,GOV.UK Content,,,,,,,,,,GOV.UK Content API makes it easy to access the data used to render content on https://www.gov.uk. For any page hosted on GOV.UK you can use the path to access the content and associated metadata for a page.
+2020-01-08,2020-08-24,GDS,https://www.gov.uk/api/content,https://content-api.publishing.service.gov.uk/,GOV.UK Content,,,,,,,,,,GOV.UK Content API makes it easy to access the data used to render content on https://www.gov.uk. For any page hosted on GOV.UK you can use the path to access the content and associated metadata for a page.
 2020-01-08,2020-08-24,GDS,https://www.gov.uk/api/search.json,https://docs.publishing.service.gov.uk/apis/search/search-api.html,GOV.UK Search,,,,,,,,,,GOV.UK Search API allows you to find content on GOV.UK. It’s the same API that powers https://gov.uk/search/all and the other dynamic content pages on GOV.UK
 2020-01-08,2020-08-24,GDS,https://www.gov.uk/api/organisations,https://docs.publishing.service.gov.uk/apis/whitehall/api.html,GOV.UK Organisations,,,,,,,,,,The organisations API provides information about government organisations.
 2020-01-08,2020-08-24,GDS,https://www.gov.uk/api/governments,https://docs.publishing.service.gov.uk/apis/whitehall/api.html,GOV.UK Governments,,,,,,,,,,The governments API lists information about governments back to 1801.
@@ -37,3 +37,121 @@
 2020-01-08,2020-08-26,Environment Agency,https://environment.data.gov.uk/public-register/view/index,https://environment.data.gov.uk/public-register/view/api-reference,Open electronic Public Register (ePR),,,,,,,,,,"The Environment Agency licenses industry, business and individuals to carry out certain activities that have the potential to pollute the environment. When we receive an application for such a licence, we make that application and other relevant information available to the public. We do this before we make the decision of whether to issue the licence, or what conditions we will attach to it./n/nAfter any permit is issued, further information is also made available on the registers. This can typically include monitoring information, details of any breaches of the terms of the licence, any enforcement actions that we have carried out and any applications to vary the terms of the licence./n/nThe open ePR (electronic Public Register) provides access to this registration and permit information both in the form of searchable web pages and as data which can be accessed by developers via an API./n/nThe APIs cover the following public registers:/n/n- Waste Carriers, Brokers and Dealers/n- Waste exemptions/n- Scrap Metal Dealers/n- Enforcement Actions/n- Water Quality Exemptions/n- Environmental Permitting Regulations - Radioactive Substances/n- Environmental Permitting Regulations - Installations/n- Environmental Permitting Regulations - Waste Operations/n- Environmental Permitting Regulations - End of Life Vehicles/n- Environmental Permitting Regulations - Discharge Consents/n/nThese APIs are provided under the Environment Agency Conditional Licence with no requirement for registration. If you make use of this data please note the conditions carefully./n/nPlease visit the [Defra Data Services Forum](https://support.environment.data.gov.uk/hc/en-gb) to let us know about any issues or to ask questions."
 2020-01-08,2020-08-26,Food Standards Agency,https://data.food.gov.uk/food-alerts,https://data.food.gov.uk/food-alerts/ui/reference,Food Alerts,,,,,,,,,,"The FSA Food Alerts API provides access to current and recent Food Alerts: Allergy Alerts (AA), Product Recall Information Notices (PRIN) and Food Alerts for Action (FAFA). /n It provides applications with the facility to list alerts matching some filter criterion, and to retrieve a description of an alert."
 2020-01-08,2020-08-26,Food Standards Agency,https://api.ratings.food.gov.uk/,https://api.ratings.food.gov.uk/help,Food Hygiene Ratings Scheme (FHRS),,,,,,,,,,"The FHRS API provides free programmatic access to the Food Standards Agency Rating Data for England, Scotland, Wales and Northern Ireland. /n Developers can leverage FSA data to provide their own services and websites, allowing you to build and develop custom solutions that are consistent with the data being held and displayed by the FSA. /n As a developer you get access to the same data and the majority of the same functionality that is used to deliver the Food Hygiene Rating Scheme website. /n Other than calling the available endpoints, there are no registration requirements for developers before they can start using the Food Standards Agency data. /n No sign-up process, API keys, or login details are required at this time to use the service."
+2020-01-08,2020-08-26,Scottish Government,https://statistics.gov.scot/sparql,https://guides.statistics.gov.scot/category/37-api,Statistics.gov.scot,Scotland,,,,,,"[statistics.gov.scot](statistics.gov.scot) provides public access to the data behind Scotland's official statistics in linked open data format./n/nThe SPARQL endpoint allows flexible querying of the datastore using the SPARQL 1.1 language./n/nThis API can be used to extract data, automate report-writing, publish data visualisations, or make interactive tools for exploring the data./n/nThe site is managed by the Scottish Government on behalf of all producers of Scottish official statistics including Scottish Government, National Records of Scotland, NHS Information Services Division, Visit Scotland and others./n/nThe API is provided under the Open Government Licence with no requirement for registration./n/nFor queries or comments, please contact [statistics.opendata@gov.scot](mailto:statistics.opendata@gov.scot)",Sparql,,
+2020-08-24,2020-08-26,HMRC,https://api.service.hmrc.gov.uk,https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/api-example-microservice/1.0,Hello World,,1,,,,,,REST API,,"This is an example API that allows software developers to test that their applications can connect with the HMRC API Platform. It also acts as a hands-on tutorial for developers to get started with HMRC APIs.-n-nIt includes resources for testing access to the three different access levels:-n-n    Say hello world is an example of an unrestricted endpoint-n    Say hello user is an example of a user-restricted endpoint-n    Say hello application is an example of an application-restricted endpoint-n-nFurther details of the different access levels are given on the Authorisation page <https://developer.service.hmrc.gov.uk/api-documentation/docs/authorisation>.-n-nFor more information about how to develop your own client applications, including example clients for this API, see Tutorials <https://developer.service.hmrc.gov.uk/api-documentation/docs/tutorials>.-n"
+2020-08-24,2020-08-26,HMRC,https://api.service.hmrc.gov.uk,https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/agent-authorisation-api/1.0,Agent Authorisation,,1,,,,,,REST API,,-n-nThis API allows tax agents to request authorisation to act on a client's behalf for a specific Making Tax Digital (MTD) tax service and have the option to cancel the authorisation request.-n-nThe API also allows the agent to check the status of authorisations already requested and query active or inactive relationships.-n-nThis API has no effect on the existing XML API.-n-nChange Log-n-nYou can find the changelog in the agent-authorisation-api GitHub repository <https://github.com/hmrc/agent-authorisation-api/blob/master/CHANGE_LOG.md>.-n-nWhy use this API?-n-nAgents often use software to perform services for their clients. The API will benefit these agents as it allows them to create a request for authorisation to act on a client's behalf for a specific Making Tax Digital service directly through software.-n-nThis process involves the agent providing their own personal identifier and some information about the client that they wish to act on behalf of. This generates a link that the agent can send to their client. The client can then follow this link to authorise the agent for a service.-n-nThis API will save an agent time as they currently need to use an Agent Services user interface to create an authorisation request using their agent services account.-n
+2020-08-24,2020-08-26,HMRC,https://test-api.service.hmrc.gov.uk,https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/agent-authorisation-test-support-api/1.0,Agent Authorisation Test Support,,1,,,,,,Test Support API,,"The Agent Authorisation Test Support API provides test-only ability to accept or reject an authorisation request created with Agent Authorisation API. In normal circumstances, this had to be done by the individual or organisation going through dedicated acceptance UI. For an external test environment, we provide two open test endpoints which conclude the authorisation request with the same effects as UI journey."
+2020-08-24,2020-08-26,HMRC,,https://developer.service.hmrc.gov.uk/api-documentation/docs/api/xml/Agent%20Authorisation%20Online,Agent Authorisation Online,,,,,,,,XML API,,Technical specifications for software developers working with the Agent Authorisation Online service. This API is not part of the Making Tax Digital initiative.
+2020-08-24,2020-08-26,HMRC,https://api.service.hmrc.gov.uk,https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/business-rates-api/2.0,Business Rates,,2,,,,,,REST API,,"-n-nThis API provides endpoints related to Business Rates.-n-nThe Valuation Office Agency (VOA) sets the rateable value of a property. Local councils use this to calculate a business rates bill for that property.-n-nBefore using this API please ensure you have registered with the VOA for Business Rates via the website <https://www.gov.uk/correct-your-business-rates>.-n-nIn sandbox this API currently allows you to:-n-n    search for properties-n    view the summary valuations for a property-n    view the property links for your organisation-n    view the property links for your clients, if you are an agent-n    claim properties for your organisation-n    view the detailed valuation of your properties-n    view the detailed valuation of your clients properties, if you are an agent-n    create a check case for one of your properties-n    upload evidence to support a check case-n-nIn production this API currently allows you to:-n-n    search for properties-n    view the summary valuations for a property-n    view the property links for your organisation-n    view the property links for your clients, if you are an agent-n    claim properties for your organisation-n    view the detailed valuation of your properties-n    view the detailed valuation of your clients properties, if you are an agent-n-nIn future this API will allow you to:-n-n    request changes to property or valuation details-n    appoint or revoke an agent-n-nTo see the complete documentation for this API and join the private trial, contact support <https://developer.service.hmrc.gov.uk/developer/support>."
+2020-08-24,2020-08-26,HMRC,,https://developer.service.hmrc.gov.uk/api-documentation/docs/api/xml/Charities%20Online,Charities Online,,,,,,,,XML API,,Charities repayment claims technical specifications for software developers working with the Charities Online service.
+2020-08-24,2020-08-26,HMRC,,https://developer.service.hmrc.gov.uk/api-documentation/docs/api/xml/Construction%20Industry%20Scheme%20Online,Construction Industry Scheme Online,,,,,,,,XML API,,The Construction Industry Scheme (CIS) deductions REST API is listed under Income Tax (Making Tax Digital) on our API documentation page. Technical specifications for software developers working with the Construction Industry Scheme Online service.
+2020-08-24,2020-08-26,HMRC,https://test-api.service.hmrc.gov.uk,https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/interest-restriction-return/1.0,Interest Restriction Return (IRR),,1,,,,,,REST API,,-n-nThe API in its current state supports the following functions:-n-n    Revoke an existing Reporting Company from submitting Interest Restriction Returns-n    Appoint a new Reporting Company for submitting Interest Restriction Returns-n    Submit an Interest Restriction Return (full)-n    Submit an Interest Restriction Return (abbreviated)-n-n
+2020-08-24,2020-08-26,HMRC,,,Corporation Tax Online,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,Safety and security import declarations service guide,,,,,,,,Service Guide,,
+2020-08-24,2020-08-26,HMRC,,,Common Transit Convention Traders service guide,,,,,,,,Service Guide,,
+2020-08-24,2020-08-26,HMRC,,,Goods Vehicle Movements service guide,,,,,,,,Service Guide,,
+2020-08-24,2020-08-26,HMRC,,,Bulk Data File List,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Common Transit Convention Traders,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Common Transit Convention Traders Test Support,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Customs Inventory Linking Exports,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Goods Vehicle Movements,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Pull Notifications,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Safety and Security Import Declarations,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Safety and Security Import Notifications,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Safety and Security Import Outcomes,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Create Test User,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,Alcohol and Tobacco Warehouse Declaration Online,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,Excise Movement Control System,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,Exchange rates from HMRC,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,Import Control System,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,National Export System,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,New Computerised Transit System,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,VAT and EC Sales List Online,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,Estate Registration Service,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Income Tax (MTD) end-to-end service guide,,,,,,,,Service Guide,,
+2020-08-24,2020-08-26,HMRC,,,Agent Authorisation,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Business Details (MTD),,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Business Income Source Summary (MTD),,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Business Source Adjustable Summary (MTD),,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,CIS Deductions (MTD),,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Individual Calculations (MTD),,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Individual Losses (MTD),,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Obligations (MTD),,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Self Assessment (MTD),,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Self Assessment Accounts (MTD),,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Create Test User,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,Lifetime ISA,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Create Test User,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,National Insurance,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Create Test User,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,National Insurance Test Support,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,Individual PAYE,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Marriage Allowance,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Create Test User,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,Individual PAYE Test Support,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,Marriage Allowance Test Support,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,Employment intermediaries,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,PAYE Online,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,Real Time Information online,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,Pension Schemes Online,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,Relief At Source,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Self Assessment end-to-end service guide,,,,,,,,Service Guide,,
+2020-08-24,2020-08-26,HMRC,,,Individual Benefits,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Individual Employment,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Individual Income,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Individual PAYE,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Individual Tax,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Marriage Allowance,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,National Insurance,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Create Test User,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,Individual PAYE Test Support,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,Marriage Allowance Test Support,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,National Insurance Test Support,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,Self Assessment Online,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,Stamp Taxes Online,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,Trust Registration Service,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,VAT (MTD) end-to-end service guide,,,,,,,,Service Guide,,
+2020-08-24,2020-08-26,HMRC,,,VAT (MTD),,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Create Test User,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,Test Fraud Prevention Headers,,,,,,,,Test Support API,,
+2020-08-24,2020-08-26,HMRC,,,VAT and EC Sales List Online,,,,,,,,XML API,,
+2020-08-24,2020-08-26,HMRC,,,Push Pull Notifications,,,,,,,,REST API,,
+2020-08-24,2020-08-26,HMRC,,,Automatic Exchange of Information,,,,,,,,XML API,,
+,,DWP,,,Address Lookup,Digital,,,,,,ISC,,DWP,"DWP single, strategic solution for looking up addresses including fuzzy search and UPRN."
+,,DWP,,,Award Details,Digital,,,,,,ISC,,DWP,Details the amount of benefit awarded to a person within a specified period of time.
+,,DWP,,,Bank Wizard,Digital,,,,,,ISC,,DWP,Verifies and validates bank account details.
+,,DWP,,,Calculate Earnings,Digital,,,,,,ISC,,DWP,Carries out calculation for claimants DWP has an active earning interest for.
+,,DWP,,,Calculate Earnings by Payday,Digital,,,,,,ISC,,DWP,Allows to determine which earning records are to be excluded or included in calculations for a claimant.
+,,DWP,,,Citizen Address ,Digital,,,,,,ISC,,DWP,Details all current (and optionally historic) address linked to a person.
+,,DWP,,,Citizen Claims,Digital,,,,,,ISC,,DWP,"Provides a list of claims (and where relevant, which components) a person is entitled to."
+,,DWP,,,Close Records,Digital,,,,,,ISC,,DWP,Allows for the closure of document records.
+,,DWP,,,Contact Details Verification,Digital,,,,,,ISC,,DWP,Verifies if there is a match between the supplied details and DWP records.
+,,DWP,,,Copy Document References,Digital,,,,,,ISC,,DWP,Allows for the copying of documents to a target benefit area.
+,,DWP,,,Document Citizen Claims,Digital,,,,,,ISC,,DWP,Document information related to a Citizen's claim.
+,,DWP,,,Document Upload,Digital,,,,,,ISC,,DWP,Allows for the upload of a document and its metadata.
+,,DWP,,,FINDr Matching Service,Digital,,,,,,ISC,,DWP,Identifies the correct service identifier for a given set of biographic data.
+,,DWP,,,Get Case Status,Digital,,,,,,ISC,,DWP,Retrieves a range of case details relating to a claimant record.
+,,DWP,,,Get Citizen Income Information API,Digital,,,,,,ISC,,DWP,Retrieves current and historical information regarding a Citizens income.
+,,DWP,,,Get Communications,Digital,,,,,,ISC,,DWP,Retrieves communication list with a customer about his/her PIP.
+,,DWP,,,Get Determination Decision,Digital,,,,,,ISC,,DWP,Retrieves decision details for all cases related to a PIP claim.
+,,DWP,,,Get Entitlement,Digital,,,,,,ISC,,DWP,Retrieves the benefit award details related to a PIP claim.
+,,DWP,,,Get Interest Details,Digital,,,,,,ISC,,DWP,Allows users to update a citizen's interest record.
+,,DWP,,,Get Medical Details,Digital,,,,,,ISC,,DWP,Retrieves a range of medical details for a person.
+,,DWP,,,Get Payment Details,Digital,,,,,,ISC,,DWP,Retrieves  payment details related to a claimant record.
+,,DWP,,,Get Personal Details,Digital,,,,,,ISC,,DWP,Retrieves a range of personal details for a person.
+,,DWP,,,Get Tasks,Digital,,,,,,ISC,,DWP,Retrieves all tasks listed against a claimant's record.
+,,DWP,,,Include Exclude Earnings,Digital,,,,,,ISC,,DWP,Allows to determine which earning records are to be excluded or included in calculations for a claimant.
+,,DWP,,,Manage Earnings Threshold,Digital,,,,,,ISC,,DWP,Allows to set and update different earnings thresholds for for a claimant.
+,,DWP,,,Manage Interests,Digital,,,,,,ISC,,DWP,"Allows to set, unset and query an interest for a claimant."
+,,DWP,,,Maintain Interest Details,Digital,,,,,,ISC,,DWP,Allows users to update a citizen's interest record.
+,,DWP,,,Multiple Document Metadata Update,Digital,,,,,,ISC,,DWP,Allows for metadata update for multiple documents.
+,,DWP,,,NHS Charge Exemption,Digital,,,,,,ISC,,DWP,Checks if a citizen is eligible for free prescriptions.
+,,DWP,,,Payment Dates,Digital,,,,,,ISC,,DWP,Payment Dates provides regional calendar information required for banking and in particular when sending payments.
+,,DWP,,,Register External Content,Digital,,,,,,ISC,,DWP,Allows for the registration of external content and its metadata.
+,,DWP,,,Rescan,Digital,,,,,,ISC,,DWP,Allows for the submission of a rescan request for a document.
+,,DWP,,,Retrieve Metadata,Digital,,,,,,ISC,,DWP,Allows to request metadata for a document.
+,,DWP,,,Search,Digital,,,,,,ISC,,DWP,Allows to search for a document in the Document Repository System.
+,,DWP,,,Self Reported Earnings,Digital,,,,,,ISC,,DWP,"Allows to view earnings data, within the supplied date period, for a claimant."
+,,DWP,,,Update Metadata,Digital,,,,,,ISC,,DWP,Allows to update metadata for a document in the Document Repository System.
+,,DWP,,,Update Retention Date,Digital,,,,,,ISC,,DWP,Allows to apply or lift a hold on closed document records in the Document Repository System.
+,,DWP,,,View Earnings,Digital,,,,,,ISC,,DWP,"Allows to view earnings data, within the supplied date period, for a claimant."
