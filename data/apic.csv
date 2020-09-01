@@ -117,41 +117,41 @@
 2020-08-24,2020-08-26,HMRC,,,VAT and EC Sales List Online,,,,,,,,XML API,,
 2020-08-24,2020-08-26,HMRC,,,Push Pull Notifications,,,,,,,,REST API,,
 2020-08-24,2020-08-26,HMRC,,,Automatic Exchange of Information,,,,,,,,XML API,,
-,,DWP,,,Address Lookup,Digital,,,,,,ISC,,DWP,"DWP single, strategic solution for looking up addresses including fuzzy search and UPRN."
-,,DWP,,,Award Details,Digital,,,,,,ISC,,DWP,Details the amount of benefit awarded to a person within a specified period of time.
-,,DWP,,,Bank Wizard,Digital,,,,,,ISC,,DWP,Verifies and validates bank account details.
-,,DWP,,,Calculate Earnings,Digital,,,,,,ISC,,DWP,Carries out calculation for claimants DWP has an active earning interest for.
-,,DWP,,,Calculate Earnings by Payday,Digital,,,,,,ISC,,DWP,Allows to determine which earning records are to be excluded or included in calculations for a claimant.
-,,DWP,,,Citizen Address ,Digital,,,,,,ISC,,DWP,Details all current (and optionally historic) address linked to a person.
-,,DWP,,,Citizen Claims,Digital,,,,,,ISC,,DWP,"Provides a list of claims (and where relevant, which components) a person is entitled to."
-,,DWP,,,Close Records,Digital,,,,,,ISC,,DWP,Allows for the closure of document records.
-,,DWP,,,Contact Details Verification,Digital,,,,,,ISC,,DWP,Verifies if there is a match between the supplied details and DWP records.
-,,DWP,,,Copy Document References,Digital,,,,,,ISC,,DWP,Allows for the copying of documents to a target benefit area.
-,,DWP,,,Document Citizen Claims,Digital,,,,,,ISC,,DWP,Document information related to a Citizen's claim.
-,,DWP,,,Document Upload,Digital,,,,,,ISC,,DWP,Allows for the upload of a document and its metadata.
-,,DWP,,,FINDr Matching Service,Digital,,,,,,ISC,,DWP,Identifies the correct service identifier for a given set of biographic data.
-,,DWP,,,Get Case Status,Digital,,,,,,ISC,,DWP,Retrieves a range of case details relating to a claimant record.
-,,DWP,,,Get Citizen Income Information API,Digital,,,,,,ISC,,DWP,Retrieves current and historical information regarding a Citizens income.
-,,DWP,,,Get Communications,Digital,,,,,,ISC,,DWP,Retrieves communication list with a customer about his/her PIP.
-,,DWP,,,Get Determination Decision,Digital,,,,,,ISC,,DWP,Retrieves decision details for all cases related to a PIP claim.
-,,DWP,,,Get Entitlement,Digital,,,,,,ISC,,DWP,Retrieves the benefit award details related to a PIP claim.
-,,DWP,,,Get Interest Details,Digital,,,,,,ISC,,DWP,Allows users to update a citizen's interest record.
-,,DWP,,,Get Medical Details,Digital,,,,,,ISC,,DWP,Retrieves a range of medical details for a person.
-,,DWP,,,Get Payment Details,Digital,,,,,,ISC,,DWP,Retrieves  payment details related to a claimant record.
-,,DWP,,,Get Personal Details,Digital,,,,,,ISC,,DWP,Retrieves a range of personal details for a person.
-,,DWP,,,Get Tasks,Digital,,,,,,ISC,,DWP,Retrieves all tasks listed against a claimant's record.
-,,DWP,,,Include Exclude Earnings,Digital,,,,,,ISC,,DWP,Allows to determine which earning records are to be excluded or included in calculations for a claimant.
-,,DWP,,,Manage Earnings Threshold,Digital,,,,,,ISC,,DWP,Allows to set and update different earnings thresholds for for a claimant.
-,,DWP,,,Manage Interests,Digital,,,,,,ISC,,DWP,"Allows to set, unset and query an interest for a claimant."
-,,DWP,,,Maintain Interest Details,Digital,,,,,,ISC,,DWP,Allows users to update a citizen's interest record.
-,,DWP,,,Multiple Document Metadata Update,Digital,,,,,,ISC,,DWP,Allows for metadata update for multiple documents.
-,,DWP,,,NHS Charge Exemption,Digital,,,,,,ISC,,DWP,Checks if a citizen is eligible for free prescriptions.
-,,DWP,,,Payment Dates,Digital,,,,,,ISC,,DWP,Payment Dates provides regional calendar information required for banking and in particular when sending payments.
-,,DWP,,,Register External Content,Digital,,,,,,ISC,,DWP,Allows for the registration of external content and its metadata.
-,,DWP,,,Rescan,Digital,,,,,,ISC,,DWP,Allows for the submission of a rescan request for a document.
-,,DWP,,,Retrieve Metadata,Digital,,,,,,ISC,,DWP,Allows to request metadata for a document.
-,,DWP,,,Search,Digital,,,,,,ISC,,DWP,Allows to search for a document in the Document Repository System.
-,,DWP,,,Self Reported Earnings,Digital,,,,,,ISC,,DWP,"Allows to view earnings data, within the supplied date period, for a claimant."
-,,DWP,,,Update Metadata,Digital,,,,,,ISC,,DWP,Allows to update metadata for a document in the Document Repository System.
-,,DWP,,,Update Retention Date,Digital,,,,,,ISC,,DWP,Allows to apply or lift a hold on closed document records in the Document Repository System.
-,,DWP,,,View Earnings,Digital,,,,,,ISC,,DWP,"Allows to view earnings data, within the supplied date period, for a claimant."
+2020-08-28,2020-09-01,DWP,,,Address Lookup,Digital,,,,,,ISC,,DWP,"DWP single, strategic solution for looking up addresses including fuzzy search and UPRN."
+2020-08-28,2020-09-01,DWP,,,Award Details,Digital,,,,,,ISC,,DWP,Details the amount of benefit awarded to a person within a specified period of time.
+2020-08-28,2020-09-01,DWP,,,Bank Wizard,Digital,,,,,,ISC,,DWP,Verifies and validates bank account details.
+2020-08-28,2020-09-01,DWP,,,Calculate Earnings,Digital,,,,,,ISC,,DWP,Carries out calculation for claimants DWP has an active earning interest for.
+2020-08-28,2020-09-01,DWP,,,Calculate Earnings by Payday,Digital,,,,,,ISC,,DWP,Allows to determine which earning records are to be excluded or included in calculations for a claimant.
+2020-08-28,2020-09-01,DWP,,,Citizen Address ,Digital,,,,,,ISC,,DWP,Details all current (and optionally historic) address linked to a person.
+2020-08-28,2020-09-01,DWP,,,Citizen Claims,Digital,,,,,,ISC,,DWP,"Provides a list of claims (and where relevant, which components) a person is entitled to."
+2020-08-28,2020-09-01,DWP,,,Close Records,Digital,,,,,,ISC,,DWP,Allows for the closure of document records.
+2020-08-28,2020-09-01,DWP,,,Contact Details Verification,Digital,,,,,,ISC,,DWP,Verifies if there is a match between the supplied details and DWP records.
+2020-08-28,2020-09-01,DWP,,,Copy Document References,Digital,,,,,,ISC,,DWP,Allows for the copying of documents to a target benefit area.
+2020-08-28,2020-09-01,DWP,,,Document Citizen Claims,Digital,,,,,,ISC,,DWP,Document information related to a Citizen's claim.
+2020-08-28,2020-09-01,DWP,,,Document Upload,Digital,,,,,,ISC,,DWP,Allows for the upload of a document and its metadata.
+2020-08-28,2020-09-01,DWP,,,FINDr Matching Service,Digital,,,,,,ISC,,DWP,Identifies the correct service identifier for a given set of biographic data.
+2020-08-28,2020-09-01,DWP,,,Get Case Status,Digital,,,,,,ISC,,DWP,Retrieves a range of case details relating to a claimant record.
+2020-08-28,2020-09-01,DWP,,,Get Citizen Income Information API,Digital,,,,,,ISC,,DWP,Retrieves current and historical information regarding a Citizens income.
+2020-08-28,2020-09-01,DWP,,,Get Communications,Digital,,,,,,ISC,,DWP,Retrieves communication list with a customer about his/her PIP.
+2020-08-28,2020-09-01,DWP,,,Get Determination Decision,Digital,,,,,,ISC,,DWP,Retrieves decision details for all cases related to a PIP claim.
+2020-08-28,2020-09-01,DWP,,,Get Entitlement,Digital,,,,,,ISC,,DWP,Retrieves the benefit award details related to a PIP claim.
+2020-08-28,2020-09-01,DWP,,,Get Interest Details,Digital,,,,,,ISC,,DWP,Allows users to update a citizen's interest record.
+2020-08-28,2020-09-01,DWP,,,Get Medical Details,Digital,,,,,,ISC,,DWP,Retrieves a range of medical details for a person.
+2020-08-28,2020-09-01,DWP,,,Get Payment Details,Digital,,,,,,ISC,,DWP,Retrieves  payment details related to a claimant record.
+2020-08-28,2020-09-01,DWP,,,Get Personal Details,Digital,,,,,,ISC,,DWP,Retrieves a range of personal details for a person.
+2020-08-28,2020-09-01,DWP,,,Get Tasks,Digital,,,,,,ISC,,DWP,Retrieves all tasks listed against a claimant's record.
+2020-08-28,2020-09-01,DWP,,,Include Exclude Earnings,Digital,,,,,,ISC,,DWP,Allows to determine which earning records are to be excluded or included in calculations for a claimant.
+2020-08-28,2020-09-01,DWP,,,Manage Earnings Threshold,Digital,,,,,,ISC,,DWP,Allows to set and update different earnings thresholds for for a claimant.
+2020-08-28,2020-09-01,DWP,,,Manage Interests,Digital,,,,,,ISC,,DWP,"Allows to set, unset and query an interest for a claimant."
+2020-08-28,2020-09-01,DWP,,,Maintain Interest Details,Digital,,,,,,ISC,,DWP,Allows users to update a citizen's interest record.
+2020-08-28,2020-09-01,DWP,,,Multiple Document Metadata Update,Digital,,,,,,ISC,,DWP,Allows for metadata update for multiple documents.
+2020-08-28,2020-09-01,DWP,,,NHS Charge Exemption,Digital,,,,,,ISC,,DWP,Checks if a citizen is eligible for free prescriptions.
+2020-08-28,2020-09-01,DWP,,,Payment Dates,Digital,,,,,,ISC,,DWP,Payment Dates provides regional calendar information required for banking and in particular when sending payments.
+2020-08-28,2020-09-01,DWP,,,Register External Content,Digital,,,,,,ISC,,DWP,Allows for the registration of external content and its metadata.
+2020-08-28,2020-09-01,DWP,,,Rescan,Digital,,,,,,ISC,,DWP,Allows for the submission of a rescan request for a document.
+2020-08-28,2020-09-01,DWP,,,Retrieve Metadata,Digital,,,,,,ISC,,DWP,Allows to request metadata for a document.
+2020-08-28,2020-09-01,DWP,,,Search,Digital,,,,,,ISC,,DWP,Allows to search for a document in the Document Repository System.
+2020-08-28,2020-09-01,DWP,,,Self Reported Earnings,Digital,,,,,,ISC,,DWP,"Allows to view earnings data, within the supplied date period, for a claimant."
+2020-08-28,2020-09-01,DWP,,,Update Metadata,Digital,,,,,,ISC,,DWP,Allows to update metadata for a document in the Document Repository System.
+2020-08-28,2020-09-01,DWP,,,Update Retention Date,Digital,,,,,,ISC,,DWP,Allows to apply or lift a hold on closed document records in the Document Repository System.
+2020-08-28,2020-09-01,DWP,,,View Earnings,Digital,,,,,,ISC,,DWP,"Allows to view earnings data, within the supplied date period, for a claimant."
