@@ -1,0 +1,42 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "operational.csv",
+  "schema:name": "Metadata for the Web APIs in the catalogue",
+  "schema:maintainer": "API Standards team <api-standards-request@digital.cabinet-office.gov.uk>",
+  "schema:description": "The metadata that allows to operate the catalogue.",
+  "tableSchema": {
+    "primaryKey": "about",
+    "foreignKeys": [{
+      "columnReference": "about",
+      "reference": {
+        "resource": "catalogue.csv",
+        "columnReference": "url"
+      }
+    }],
+    "columns": [
+      {
+        "titles": "about",
+        "name": "about",
+        "schema:description": "The Web API the record is for",
+        "propertyUrl": "schema:identifier",
+        "datatype": "schema:url",
+        "required": true
+      },
+      {
+        "titles": "dateCreated",
+        "name": "dateCreated",
+        "schema:description": "The date the Web API was added to the catalogue",
+        "propertyUrl": "schema:startDate",
+        "datatype": "date",
+        "required": true
+      },
+      {
+        "titles": "dateModified",
+        "name": "dateModified",
+        "schema:description": "The date the Web API was changed in the catalogue",
+        "propertyUrl": "schema:endDate",
+        "datatype": "date"
+      }
+    ]
+  }
+}
