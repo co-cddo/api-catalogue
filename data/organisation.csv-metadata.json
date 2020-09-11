@@ -1,0 +1,44 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "organisation.csv",
+  "schema:name": "UK government organisations",
+  "schema:maintainer": "API Standards team <api-standards-request@digital.cabinet-office.gov.uk>",
+  "schema:description": "The list of organisation is for internal use only. Once we have a canonical source for all organisations relevant to the API Catalogue, this list will change.",
+  "tableSchema": {
+    "primaryKey": "id",
+    "columns": [
+      {
+        "titles": "id",
+        "name": "id",
+        "schema:description": "The unique identifier for the organisation",
+        "propertyUrl": "schema:identifier",
+        "datatype": "string",
+        "required": true
+      },
+      {
+        "titles": "name",
+        "name": "name",
+        "schema:description": "The name of the organisation",
+        "propertyUrl": "schema:name",
+        "datatype": "string",
+        "required": true
+      },
+      {
+        "titles": "alternateName",
+        "name": "alternateName",
+        "schema:description": "The name or acronym the organisation is commonly referred as",
+        "propertyUrl": "alternateName",
+        "datatype": "string",
+        "required": true
+      },
+      {
+        "titles": "url",
+        "name": "url",
+        "schema:description": "The canonical URL for the organisation",
+        "propertyUrl": "url",
+        "datatype": "schema:URL",
+        "required": false
+      }
+    ]
+  }
+}

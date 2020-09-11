@@ -8,6 +8,10 @@ service_name: API Catalogue
 service_link: https://alphagov.github.io/api-catalogue
 phase: Alpha
 
+# Links to show in the footer
+footer_links:
+  Technical Documentation Accessibility: /accessibility.html
+
 # Links to show on right-hand-side of header
 header_links:
 
