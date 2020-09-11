@@ -1,0 +1,106 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "catalogue.csv",
+  "schema:name": "UK government APIs",
+  "schema:maintainer": "API Standards team <api-standards-request@digital.cabinet-office.gov.uk>",
+  "schema:description": "This API catalogue is for central government and local government APIs.\n\nIf you're working on an API that publishes open data or connects government with other organisations, industry or consumers, we’d like to invite you to publish details of it in this catalogue. You can publish details of your API by submitting a [GitHub Issue](https://github.com/alphagov/api-catalogue/issues).\n\nCollecting a list of government APIs will help us understand:\n\n* what APIs are published\n* where API development is taking place\n* whether APIs are suitable for reuse",
+  "tableSchema": {
+    "primaryKey": "url",
+    "foreignKeys": [{
+      "columnReference": "provider",
+      "reference": {
+        "resource": "organisations.csv",
+        "columnReference": "identifier"
+      }
+    }],
+    "columns": [
+      {
+        "titles": "url",
+        "name": "url",
+        "schema:description": "The base URL that uniquely identifies the web API",
+        "propertyUrl": "schema:url",
+        "datatype": "schema:URL",
+        "required": true
+      },
+      {
+        "titles": "name",
+        "name": "name",
+        "schema:description": "The name of the web API",
+        "propertyUrl": "schema:name",
+        "datatype": "string",
+        "required": true
+      },
+      {
+        "titles": "description",
+        "name": "description",
+        "schema:description": "The description of the web API",
+        "propertyUrl": "schema:description",
+        "datatype": "string",
+        "required": true
+      },
+      {
+        "titles": "documentation",
+        "name": "documentation",
+        "schema:description": "The URL to the web API documentation",
+        "propertyUrl": "schema:documentation",
+        "datatype": "schema:URL",
+        "required": true
+      },
+      {
+        "titles": "license",
+        "name": "license",
+        "schema:description": "The licence users of the API have to comply with",
+        "propertyUrl": "schema:license",
+        "datatype": "schema:URL",
+        "required": true
+      },
+      {
+        "titles": "maintainer",
+        "name": "maintainer",
+        "schema:description": "The contact point for the web API maintainers",
+        "propertyUrl": "schema:maintainer",
+        "datatype": {
+          "schema:name": "Compact Contact Point",
+          "schema:description": "A compact contact point requires a name and an email: 'Team ABC <abc-team@foo.gov.uk>'",
+          "base": "string",
+          "format": "[^\s]+\s+<[^<>\s]+>"
+        },
+        "required": true
+      },
+      {
+        "titles": "provider",
+        "name": "provider",
+        "schema:description": "The organisation that operates the web API",
+        "propertyUrl": "schema:provider",
+        "datatype": {
+          "base": "string",
+          "format": "[a-z0-9-]+"
+        },
+        "required": true
+      },
+      {
+        "titles": "areaServed",
+        "name": "areaServed",
+        "schema:description": "The geographical coverage for the web API",
+        "propertyUrl": "schema:areaServed",
+        "separator": ",",
+        "datatype":  "string"
+      },
+      {
+        "titles": "startDate",
+        "name": "startDate",
+        "schema:description": "The date the web API started to operate",
+        "propertyUrl": "schema:startDate",
+        "datatype": "date",
+        "required": true
+      },
+      {
+        "titles": "endDate",
+        "name": "endDate",
+        "schema:description": "The date the web API was deprecated",
+        "propertyUrl": "schema:endDate",
+        "datatype": "date"
+      }
+    ]
+  }
+}
