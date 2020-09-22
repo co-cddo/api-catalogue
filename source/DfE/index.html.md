@@ -1,6 +1,6 @@
 ---
 title: Department for Education
-weight: 20
+weight: 40
 ---
 
 # Department for Education APIs

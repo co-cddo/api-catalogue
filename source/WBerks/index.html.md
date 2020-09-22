@@ -1,6 +1,6 @@
 ---
 title: West Berkshire Council
-weight: 170
+weight: 340
 ---
 
 # West Berkshire Council APIs
