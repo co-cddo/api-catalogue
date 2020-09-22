@@ -7,9 +7,10 @@ csv << ["dateAdded", "dateUpdated",  "uuid"]
 end
 
 CSV.open("catalogue.csv", "wb") do |csv|
-csv << ["uuid", "url", "name", "description", "documentation", "license", "maintainer", "provider", "areaServed", "startDate", "endDate", "organisation"]
+csv << ["id", "url", "name", "description", "documentation", "license", "maintainer", "provider", "areaServed", "startDate", "endDate", "organisation"]
 end
 
+#this assumes a temporary csv file - apic.csv - including all records and dates
 CSV.foreach('apic.csv', headers:true).with_index(10) do |row|  #load csv file by row, include headers
 
 #generate uuid
