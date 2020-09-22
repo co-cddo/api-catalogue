@@ -3,7 +3,7 @@ title: OS Maps API
 weight: 10
 ---
 
-# OS: OS Maps API
+# OS Maps API
 
 ## Endpoint URL:
  - [https://api.os.uk/maps/raster/v1/wmts, https://osdatahub.os.uk/plans](https://api.os.uk/maps/raster/v1/wmts, https://osdatahub.os.uk/plans)

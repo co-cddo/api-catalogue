@@ -3,7 +3,7 @@ title: Food Hygiene Ratings Scheme (FHRS)
 weight: 10
 ---
 
-# FSA: Food Hygiene Ratings Scheme (FHRS)
+# Food Hygiene Ratings Scheme (FHRS)
 
 ## Endpoint URL:
  - [https://api.ratings.food.gov.uk/](https://api.ratings.food.gov.uk/)

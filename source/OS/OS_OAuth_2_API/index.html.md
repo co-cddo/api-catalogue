@@ -3,7 +3,7 @@ title: OS OAuth 2 API
 weight: 10
 ---
 
-# OS: OS OAuth 2 API
+# OS OAuth 2 API
 
 ## Endpoint URL:
  - [https://api.os.uk/oauth2/token/v1](https://api.os.uk/oauth2/token/v1)

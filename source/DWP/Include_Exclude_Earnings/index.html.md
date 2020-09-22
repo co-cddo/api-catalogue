@@ -3,7 +3,7 @@ title: Include Exclude Earnings
 weight: 10
 ---
 
-# DWP: Include Exclude Earnings
+# Include Exclude Earnings
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

@@ -3,7 +3,7 @@ title: National Events Management System
 weight: 10
 ---
 
-# NHS: National Events Management System
+# National Events Management System
 
 ## Documentation URL:
  - [https://developer.nhs.uk/apis/ems-beta/](https://developer.nhs.uk/apis/ems-beta/)

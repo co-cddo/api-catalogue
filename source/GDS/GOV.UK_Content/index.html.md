@@ -3,7 +3,7 @@ title: GOV.UK Content
 weight: 10
 ---
 
-# GDS: GOV.UK Content
+# GOV.UK Content
 
 ## Endpoint URL:
  - [https://www.gov.uk/api/content](https://www.gov.uk/api/content)

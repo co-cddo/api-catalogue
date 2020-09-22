@@ -3,7 +3,7 @@ title: Statistics
 weight: 10
 ---
 
-# ONS: Statistics
+# Statistics
 
 ## Endpoint URL:
  - [https://api.beta.ons.gov.uk/v1](https://api.beta.ons.gov.uk/v1)

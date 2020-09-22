@@ -3,7 +3,7 @@ title: Business Income Source Summary (MTD)
 weight: 10
 ---
 
-# HMRC: Business Income Source Summary (MTD)
+# Business Income Source Summary (MTD)
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

@@ -3,7 +3,7 @@ title: GeoReport
 weight: 10
 ---
 
-# WBerks: GeoReport
+# GeoReport
 
 ## Endpoint URL:
  - [https://www.westberks.gov.uk/webservices/open311.asmx](https://www.westberks.gov.uk/webservices/open311.asmx)

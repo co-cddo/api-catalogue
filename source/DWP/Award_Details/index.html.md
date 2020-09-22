@@ -3,7 +3,7 @@ title: Award Details
 weight: 10
 ---
 
-# DWP: Award Details
+# Award Details
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

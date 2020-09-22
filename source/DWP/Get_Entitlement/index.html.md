@@ -3,7 +3,7 @@ title: Get Entitlement
 weight: 10
 ---
 
-# DWP: Get Entitlement
+# Get Entitlement
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

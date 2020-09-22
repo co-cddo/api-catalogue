@@ -3,7 +3,7 @@ title: Messaging Exchange for Social care and Health (MESH)
 weight: 10
 ---
 
-# NHS: Messaging Exchange for Social care and Health (MESH)
+# Messaging Exchange for Social care and Health (MESH)
 
 ## Documentation URL:
  - [https://meshapi.docs.apiary.io/#](https://meshapi.docs.apiary.io/#)

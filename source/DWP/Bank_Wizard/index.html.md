@@ -3,7 +3,7 @@ title: Bank Wizard
 weight: 10
 ---
 
-# DWP: Bank Wizard
+# Bank Wizard
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

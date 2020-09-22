@@ -3,7 +3,7 @@ title: Data.gov.uk
 weight: 10
 ---
 
-# GDS: Data.gov.uk
+# Data.gov.uk
 
 ## Endpoint URL:
  - [https://data.gov.uk/api/action/](https://data.gov.uk/api/action/)

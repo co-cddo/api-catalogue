@@ -3,7 +3,7 @@ title: Addresses
 weight: 10
 ---
 
-# Hackney: Addresses
+# Addresses
 
 ## Endpoint URL:
  - [https://ndws9fa08d.execute-api.eu-west-2.amazonaws.com/production/api/v1/addresses/](https://ndws9fa08d.execute-api.eu-west-2.amazonaws.com/production/api/v1/addresses/)

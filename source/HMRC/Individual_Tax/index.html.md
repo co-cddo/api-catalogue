@@ -3,7 +3,7 @@ title: Individual Tax
 weight: 10
 ---
 
-# HMRC: Individual Tax
+# Individual Tax
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

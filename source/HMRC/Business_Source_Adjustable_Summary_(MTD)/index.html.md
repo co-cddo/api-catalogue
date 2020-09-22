@@ -3,7 +3,7 @@ title: Business Source Adjustable Summary (MTD)
 weight: 10
 ---
 
-# HMRC: Business Source Adjustable Summary (MTD)
+# Business Source Adjustable Summary (MTD)
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

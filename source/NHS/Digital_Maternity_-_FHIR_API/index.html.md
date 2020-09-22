@@ -3,7 +3,7 @@ title: Digital Maternity - FHIR API
 weight: 10
 ---
 
-# NHS: Digital Maternity - FHIR API
+# Digital Maternity - FHIR API
 
 ## Documentation URL:
  - [https://developer.nhs.uk/apis/digital-maternity-1-0-0/](https://developer.nhs.uk/apis/digital-maternity-1-0-0/)

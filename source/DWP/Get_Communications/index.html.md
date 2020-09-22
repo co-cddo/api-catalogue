@@ -3,7 +3,7 @@ title: Get Communications
 weight: 10
 ---
 
-# DWP: Get Communications
+# Get Communications
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

@@ -10,7 +10,7 @@ hide_in_navigation: true
 
 |Total APIs:|Departments Represented:|
 |:---|:---|
-|162|17|
+|161|17|
 
 <div style="height:1px;font-size:1px;">&nbsp;</div>
 
@@ -19,7 +19,7 @@ hide_in_navigation: true
 |National Health Service|39|2020-08-25|2020-08-25|[NHS](/NHS/)|
 |Department of Work and Pensions|38|2020-08-28|2020-09-01|[DWP](/DWP/)|
 |HM Revenue & Customs|30|2020-09-02|2020-09-14|[HMRC](/HMRC/)|
-|Government Digital Service|12|2020-01-08|2020-08-24|[GDS](/GDS/)|
+|Government Digital Service|11|2020-01-08|2020-08-24|[GDS](/GDS/)|
 |UK Hydrographic Office|10|2020-09-18|2020-09-18|[UKHO](/UKHO/)|
 |Environment Agency|9|2020-01-08|2020-08-26|[EA](/EA/)|
 |Ordnance Survey|8|2020-08-24|2020-08-24|[OS](/OS/)|

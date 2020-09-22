@@ -3,7 +3,7 @@ title: Territorial Sea Limits and Boundaries - Discovery
 weight: 10
 ---
 
-# UKHO: Territorial Sea Limits and Boundaries - Discovery
+# Territorial Sea Limits and Boundaries - Discovery
 
 ## Endpoint URL:
  - [https://admiraltyapi.portal.azure-api.net/products/uk-territorial-sea-limits](https://admiraltyapi.portal.azure-api.net/products/uk-territorial-sea-limits)

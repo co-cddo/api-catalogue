@@ -3,7 +3,7 @@ title: Interest Restrictition Return (IRR)
 weight: 10
 ---
 
-# HMRC: Interest Restrictition Return (IRR)
+# Interest Restrictition Return (IRR)
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

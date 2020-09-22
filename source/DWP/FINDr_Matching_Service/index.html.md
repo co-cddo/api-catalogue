@@ -3,7 +3,7 @@ title: FINDr Matching Service
 weight: 10
 ---
 
-# DWP: FINDr Matching Service
+# FINDr Matching Service
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

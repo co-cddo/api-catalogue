@@ -3,7 +3,7 @@ title: Retrieve Metadata
 weight: 10
 ---
 
-# DWP: Retrieve Metadata
+# Retrieve Metadata
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

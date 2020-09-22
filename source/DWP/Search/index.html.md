@@ -3,7 +3,7 @@ title: Search
 weight: 10
 ---
 
-# DWP: Search
+# Search
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

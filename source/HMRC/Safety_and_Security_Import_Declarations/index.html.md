@@ -3,7 +3,7 @@ title: Safety and Security Import Declarations
 weight: 10
 ---
 
-# HMRC: Safety and Security Import Declarations
+# Safety and Security Import Declarations
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

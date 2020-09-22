@@ -3,7 +3,7 @@ title: Safety and Security Import Outcomes
 weight: 10
 ---
 
-# HMRC: Safety and Security Import Outcomes
+# Safety and Security Import Outcomes
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

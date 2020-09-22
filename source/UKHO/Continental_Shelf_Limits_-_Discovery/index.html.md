@@ -3,7 +3,7 @@ title: Continental Shelf Limits - Discovery
 weight: 10
 ---
 
-# UKHO: Continental Shelf Limits - Discovery
+# Continental Shelf Limits - Discovery
 
 ## Endpoint URL:
  - [https://admiraltyapi.portal.azure-api.net/products/uk-continental-shelf-limits](https://admiraltyapi.portal.azure-api.net/products/uk-continental-shelf-limits)

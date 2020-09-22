@@ -3,7 +3,7 @@ title: Contact Details Verification
 weight: 10
 ---
 
-# DWP: Contact Details Verification
+# Contact Details Verification
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

@@ -3,7 +3,7 @@ title: Tide Gauge
 weight: 10
 ---
 
-# EA: Tide Gauge
+# Tide Gauge
 
 ## Endpoint URL:
  - [http://environment.data.gov.uk/flood-monitoring/id/stations?type=TideGauge](http://environment.data.gov.uk/flood-monitoring/id/stations?type=TideGauge)

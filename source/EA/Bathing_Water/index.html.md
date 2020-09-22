@@ -3,7 +3,7 @@ title: Bathing Water
 weight: 10
 ---
 
-# EA: Bathing Water
+# Bathing Water
 
 ## Endpoint URL:
  - [https://environment.data.gov.uk/bwq/index.html](https://environment.data.gov.uk/bwq/index.html)

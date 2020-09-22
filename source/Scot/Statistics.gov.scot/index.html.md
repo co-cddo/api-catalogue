@@ -3,7 +3,7 @@ title: Statistics.gov.scot
 weight: 10
 ---
 
-# Scot: Statistics.gov.scot
+# Statistics.gov.scot
 
 ## Endpoint URL:
  - [https://statistics.gov.scot/sparql](https://statistics.gov.scot/sparql)

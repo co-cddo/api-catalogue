@@ -3,7 +3,7 @@ title: Individual Income
 weight: 10
 ---
 
-# HMRC: Individual Income
+# Individual Income
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

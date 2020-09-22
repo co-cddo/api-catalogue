@@ -3,7 +3,7 @@ title: Personal Demographics Service - HL7 V3 API
 weight: 10
 ---
 
-# NHS: Personal Demographics Service - HL7 V3 API
+# Personal Demographics Service - HL7 V3 API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-hl7-v3](https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-hl7-v3)

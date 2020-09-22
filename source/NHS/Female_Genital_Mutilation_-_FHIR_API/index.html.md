@@ -3,7 +3,7 @@ title: Female Genital Mutilation - FHIR API
 weight: 10
 ---
 
-# NHS: Female Genital Mutilation - FHIR API
+# Female Genital Mutilation - FHIR API
 
 ## Documentation URL:
  - [https://developer.nhs.uk/apis/fgm-v2.1/](https://developer.nhs.uk/apis/fgm-v2.1/)

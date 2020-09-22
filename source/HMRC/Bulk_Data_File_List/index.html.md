@@ -3,7 +3,7 @@ title: Bulk Data File List
 weight: 10
 ---
 
-# HMRC: Bulk Data File List
+# Bulk Data File List
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

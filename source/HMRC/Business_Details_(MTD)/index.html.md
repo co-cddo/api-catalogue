@@ -3,7 +3,7 @@ title: Business Details (MTD)
 weight: 10
 ---
 
-# HMRC: Business Details (MTD)
+# Business Details (MTD)
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

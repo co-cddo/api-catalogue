@@ -3,7 +3,7 @@ title: OS Linked Identifiers API
 weight: 10
 ---
 
-# OS: OS Linked Identifiers API
+# OS Linked Identifiers API
 
 ## Endpoint URL:
  - [https://api.os.uk/search/links/v1, https://osdatahub.os.uk/plans](https://api.os.uk/search/links/v1, https://osdatahub.os.uk/plans)

@@ -3,7 +3,7 @@ title: Customs Inventory Linking Exports
 weight: 10
 ---
 
-# HMRC: Customs Inventory Linking Exports
+# Customs Inventory Linking Exports
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

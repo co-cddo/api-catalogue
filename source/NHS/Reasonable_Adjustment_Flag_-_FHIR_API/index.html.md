@@ -3,7 +3,7 @@ title: Reasonable Adjustment Flag - FHIR API
 weight: 10
 ---
 
-# NHS: Reasonable Adjustment Flag - FHIR API
+# Reasonable Adjustment Flag - FHIR API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/developer/api-catalogue/reasonable-adjustments-fhir](https://digital.nhs.uk/developer/api-catalogue/reasonable-adjustments-fhir)

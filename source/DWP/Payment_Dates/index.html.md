@@ -3,7 +3,7 @@ title: Payment Dates
 weight: 10
 ---
 
-# DWP: Payment Dates
+# Payment Dates
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

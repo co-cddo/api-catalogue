@@ -3,7 +3,7 @@ title: Individual Calculations (MTD)
 weight: 10
 ---
 
-# HMRC: Individual Calculations (MTD)
+# Individual Calculations (MTD)
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

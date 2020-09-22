@@ -3,7 +3,7 @@ title: GOV.UK Search
 weight: 10
 ---
 
-# GDS: GOV.UK Search
+# GOV.UK Search
 
 ## Endpoint URL:
  - [https://www.gov.uk/api/search.json](https://www.gov.uk/api/search.json)

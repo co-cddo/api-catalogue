@@ -3,7 +3,7 @@ title: Get Personal Details
 weight: 10
 ---
 
-# DWP: Get Personal Details
+# Get Personal Details
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

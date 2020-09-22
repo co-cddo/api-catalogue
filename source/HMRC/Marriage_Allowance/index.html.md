@@ -3,7 +3,7 @@ title: Marriage Allowance
 weight: 10
 ---
 
-# HMRC: Marriage Allowance
+# Marriage Allowance
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

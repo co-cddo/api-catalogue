@@ -3,7 +3,7 @@ title: OS Places API
 weight: 10
 ---
 
-# OS: OS Places API
+# OS Places API
 
 ## Endpoint URL:
  - [https://developer.ordnancesurvey.co.uk/os-places-api](https://developer.ordnancesurvey.co.uk/os-places-api)

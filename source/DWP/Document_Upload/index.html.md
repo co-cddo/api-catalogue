@@ -3,7 +3,7 @@ title: Document Upload
 weight: 10
 ---
 
-# DWP: Document Upload
+# Document Upload
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

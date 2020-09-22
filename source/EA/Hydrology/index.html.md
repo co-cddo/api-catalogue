@@ -3,7 +3,7 @@ title: Hydrology
 weight: 10
 ---
 
-# EA: Hydrology
+# Hydrology
 
 ## Endpoint URL:
  - [https://environment.data.gov.uk/hydrology/landing](https://environment.data.gov.uk/hydrology/landing)
