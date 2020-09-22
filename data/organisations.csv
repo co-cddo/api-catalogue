@@ -1,4 +1,4 @@
-﻿id,organisation,alternateName,url
+id,organisation,alternateName,url
 CH,Companies House,,https://www.gov.uk/government/organisations/companies-house
 DfE,Department for Education,,https://www.gov.uk/government/organisations/department-for-education
 DWP,Department of Work and Pensions,,https://www.gov.uk/government/organisations/department-for-work-pensions
@@ -14,3 +14,4 @@ OS,Ordnance Survey,,https://www.ordnancesurvey.co.uk/
 Scot,Scottish Government,,https://www.gov.scot/
 UKHO,UK Hydrographic Office,,https://www.admiralty.co.uk
 Wberks,West Berkshire Council,,https://www.westberks.gov.uk/
+LG,Local Governament Association,,https://www.local.gov.uk/
