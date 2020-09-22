@@ -34,6 +34,6 @@ csv << [ "#{uuid}", "#{dateadded}", "#{dateupdated}"]
 end
 
 CSV.open("catalogue.csv", "a+") do |csv|
-csv << ["#{uuid}", "#{row['url']}", "#{row['name']}", "#{row['description']}", "#{row['documentation']}", "#{row['license']}", "#{row['maintainer']}", "#{row['provider']}", "#{row['areaServed']}", "#{row['startDate']}", "#{row['endDate']}", "#{row['organisation']}"]
+csv << ["#{uuid}", "#{row['url']}", "#{row['name']}", "#{row['description']}", "#{row['documentation']}", "#{row['license']}", "#{row['maintainer']}", "#{row['provider']}", "#{row['areaServed']}", "#{row['startDate']}", "#{row['endDate']}"]
 end
 end
