@@ -1,16 +1,16 @@
-﻿organisation,abbrev
-Companies House,CH
-Department for Education,DfE
-Department of Work and Pensions,DWP
-Driver and Vehicle Licensing Agency,DVLA
-Environment Agency,EA
-Food Standards Agency,FSA
-Government Digital Service,GDS
-HM Revenue & Customs,HMRC
-London Borough of Hackney,Hackney
-National Health Service,NHS
-Office of National Statistics,ONS
-Ordnance Survey,OS
-Scottish Government,Scot
-UK Hydrographic Office,UKHO
-West Berkshire Council,Wberks
+﻿id,organisation,alternateName,url
+CH,Companies House,,https://www.gov.uk/government/organisations/companies-house
+DfE,Department for Education,,https://www.gov.uk/government/organisations/department-for-education
+DWP,Department of Work and Pensions,,https://www.gov.uk/government/organisations/department-for-work-pensions
+DVLA,Driver and Vehicle Licensing Agency,,https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency
+EA,Environment Agency,,https://www.gov.uk/government/organisations/environment-agency
+FSA,Food Standards Agency,,https://www.food.gov.uk/
+GDS,Government Digital Service,,https://www.gov.uk/government/organisations/government-digital-service
+HMRC,HM Revenue & Customs,,https://www.gov.uk/government/organisations/hm-revenue-customs
+Hackney,London Borough of Hackney,,https://hackney.gov.uk/
+NHS,National Health Service,,https://www.nhs.uk/
+ONS,Office of National Statistics,,https://www.ons.gov.uk/
+OS,Ordnance Survey,,https://www.ordnancesurvey.co.uk/
+Scot,Scottish Government,,https://www.gov.scot/
+UKHO,UK Hydrographic Office,,https://www.admiralty.co.uk
+Wberks,West Berkshire Council,,https://www.westberks.gov.uk/

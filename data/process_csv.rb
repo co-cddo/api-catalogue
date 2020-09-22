@@ -3,11 +3,11 @@ require 'FileUtils'
 require 'securerandom'
 
 CSV.open("operational.csv", "wb") do |csv|
-csv << ["dateAdded", "dateUpdated",  "uuid"]
+csv << ["about", "dateCreated", "dateModified"]
 end
 
 CSV.open("catalogue.csv", "wb") do |csv|
-csv << ["id", "url", "name", "description", "documentation", "license", "maintainer", "provider", "areaServed", "startDate", "endDate", "organisation"]
+csv << ["id", "url", "name", "description", "documentation", "license", "maintainer", "provider", "areaServed", "startDate", "endDate"]
 end
 
 #this assumes a temporary csv file - apic.csv - including all records and dates
@@ -30,7 +30,7 @@ if !dateupdated
 end
 
 CSV.open("operational.csv", "a+") do |csv|
-csv << ["#{dateadded}", "#{dateupdated}",  "#{uuid}"]
+csv << [ "#{uuid}", "#{dateadded}", "#{dateupdated}"]
 end
 
 CSV.open("catalogue.csv", "a+") do |csv|
