@@ -30,6 +30,6 @@ hide_in_navigation: true
 |Office of National Statistics|2|2020-01-08|2020-08-24|[ONS](/ONS/)|
 |Department for International Trade|1|2020-09-05|2020-09-05|[DfIT](/DfIT/)|
 |London Borough of Hackney|1|2020-01-08|2020-08-24|[Hackney](/Hackney/)|
-|London Borough of Hackney|1|2020-01-08|2020-08-24|[LG](/LG/)|
+|Local Government Association|1|2020-01-08|2020-08-24|[LG](/LG/)|
 |Scottish Government|1|2020-01-08|2020-08-26|[Scot](/Scot/)|
 |West Berkshire Council|1|2020-01-08|2020-08-24|[WBerks](/WBerks/)|

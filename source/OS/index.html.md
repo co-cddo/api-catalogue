@@ -1,6 +1,6 @@
 ---
 title: Ordnance Survey
-weight: 130
+weight: 140
 ---
 
 # Ordnance Survey APIs
