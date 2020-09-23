@@ -1,3 +1,7 @@
+# Script to take a temporary file (apic.csv) and split it into the two CSV files necessary to generate the catalogue.
+# It generates a new uuid to link the 'operational' csv, which holds dateCreated and dateModified, to the 'catalogue' csv
+# and then matches 'provider' against the 'organisation' csv to use the provider UUID from that file.
+
 require 'csv'
 require 'FileUtils'
 require 'securerandom'
@@ -11,7 +15,7 @@ csv << ["id", "url", "name", "description", "documentation", "license", "maintai
 end
 
 #this assumes a temporary csv file - apic.csv - including all records and dates
-CSV.foreach('apic.csv', headers:true).with_index(10) do |row|  #load csv file by row, include headers
+CSV.foreach('drafts/apic.csv', headers:true).with_index(10) do |row|  #load csv file by row, include headers
 
 #generate uuid
 uuid = SecureRandom.uuid
