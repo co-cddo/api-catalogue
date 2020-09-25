@@ -14,6 +14,9 @@ gem 'govuk_tech_docs'
 # For helping with deployment
 gem 'middleman-gh-pages'
 
+# For data attributes
+gem 'activemodel'
+
 group :test do
   gem 'rspec'
 end
