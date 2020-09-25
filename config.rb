@@ -13,7 +13,7 @@ ApiCatalogue.from_csv(csv_path).organisations_apis.each do |organisation, apis|
   proxy(
     "/#{organisation.slug}/index.html",
     "organisation_index.html",
-    locals: { organisation: organisation },
+    locals: { organisation: organisation, apis: apis },
     data: { title: organisation.name },
     ignore: true,
   )

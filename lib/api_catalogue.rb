@@ -10,8 +10,10 @@ class ApiCatalogue
       .foreach(csv_path, headers: true, header_converters: [header_converter])
       .map { |row| Api.new(row.to_hash) }
       .group_by(&:organisation)
-      .map { |organisation, apis| [Organisation.new(name: organisation, alternate_name: apis.first&.provider), apis] }
-      .to_h
+      .each_with_object({}) do |(organisation, apis), result|
+        organisation = Organisation.new(name: organisation, alternate_name: apis.first&.provider)
+        result[organisation] = apis.sort_by(&:name)
+      end
 
     new(data)
   end
