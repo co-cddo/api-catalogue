@@ -1,1 +1,9 @@
 <h1 id="<%= organisation.name.parameterize %>"><%= organisation.name %></h1>
+
+<p>The API catalogue contains the following <%= apis.count %> <%= organisation.name %> (<%= organisation.alternate_name %>) <%= 'API'.pluralize(apis.count) %>:</p>
+
+<ul>
+  <% apis.each do |api| %>
+    <li><%= link_to api.name, "/#{organisation.slug}/#{api.slug}/index.html" %></li>
+  <% end %>
+</ul>
