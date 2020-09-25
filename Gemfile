@@ -13,3 +13,7 @@ gem 'govuk_tech_docs'
 
 # For helping with deployment
 gem 'middleman-gh-pages'
+
+group :test do
+  gem 'rspec'
+end

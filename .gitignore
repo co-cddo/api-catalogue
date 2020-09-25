@@ -18,3 +18,5 @@
 .DS_Store
 
 Staticfile.auth
+
+spec/examples.txt
