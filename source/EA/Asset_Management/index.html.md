@@ -3,7 +3,7 @@ title: Asset Management
 weight: 10
 ---
 
-# EA: Asset Management
+# Asset Management
 
 ## Endpoint URL:
  - [http://environment.data.gov.uk/asset-management](http://environment.data.gov.uk/asset-management)

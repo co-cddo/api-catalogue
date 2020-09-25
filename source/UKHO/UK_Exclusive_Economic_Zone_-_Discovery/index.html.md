@@ -3,7 +3,7 @@ title: UK Exclusive Economic Zone - Discovery
 weight: 10
 ---
 
-# UKHO: UK Exclusive Economic Zone - Discovery
+# UK Exclusive Economic Zone - Discovery
 
 ## Endpoint URL:
  - [https://admiraltyapi.portal.azure-api.net/products/uk-eez](https://admiraltyapi.portal.azure-api.net/products/uk-eez)

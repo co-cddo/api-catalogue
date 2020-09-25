@@ -3,7 +3,7 @@ title: Directory of Services
 weight: 10
 ---
 
-# NHS: Directory of Services
+# Directory of Services
 
 ## Documentation URL:
  - [https://developer.nhs.uk/apis/dos-api/](https://developer.nhs.uk/apis/dos-api/)

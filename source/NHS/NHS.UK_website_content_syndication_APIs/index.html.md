@@ -3,7 +3,7 @@ title: NHS.UK website content syndication APIs
 weight: 10
 ---
 
-# NHS: NHS.UK website content syndication APIs
+# NHS.UK website content syndication APIs
 
 ## Documentation URL:
  - [https://developer.api.nhs.uk/documentation/content-api](https://developer.api.nhs.uk/documentation/content-api)

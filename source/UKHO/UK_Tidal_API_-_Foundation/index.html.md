@@ -3,7 +3,7 @@ title: UK Tidal API - Foundation
 weight: 10
 ---
 
-# UKHO: UK Tidal API - Foundation
+# UK Tidal API - Foundation
 
 ## Endpoint URL:
  - [https://admiraltyapi.portal.azure-api.net/products/uk-tidal-api-foundation](https://admiraltyapi.portal.azure-api.net/products/uk-tidal-api-foundation)

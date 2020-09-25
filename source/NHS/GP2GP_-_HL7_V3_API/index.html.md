@@ -3,7 +3,7 @@ title: GP2GP - HL7 V3 API
 weight: 10
 ---
 
-# NHS: GP2GP - HL7 V3 API
+# GP2GP - HL7 V3 API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/developer/api-catalogue/gp2gp](https://digital.nhs.uk/developer/api-catalogue/gp2gp)

@@ -3,7 +3,7 @@ title: e-Referral Service - FHIR API
 weight: 10
 ---
 
-# NHS: e-Referral Service - FHIR API
+# e-Referral Service - FHIR API
 
 ## Documentation URL:
  - [https://developer.nhs.uk/apis/e-Referrals/index.html](https://developer.nhs.uk/apis/e-Referrals/index.html)

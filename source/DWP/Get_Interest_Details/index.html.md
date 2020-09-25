@@ -3,7 +3,7 @@ title: Get Interest Details
 weight: 10
 ---
 
-# DWP: Get Interest Details
+# Get Interest Details
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

@@ -3,7 +3,7 @@ title: Self Reported Earnings
 weight: 10
 ---
 
-# DWP: Self Reported Earnings
+# Self Reported Earnings
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

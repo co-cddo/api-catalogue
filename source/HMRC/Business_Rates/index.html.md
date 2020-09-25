@@ -3,7 +3,7 @@ title: Business Rates
 weight: 10
 ---
 
-# HMRC: Business Rates
+# Business Rates
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

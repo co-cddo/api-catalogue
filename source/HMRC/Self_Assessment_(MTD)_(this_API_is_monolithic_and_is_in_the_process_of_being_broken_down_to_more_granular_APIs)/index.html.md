@@ -3,7 +3,7 @@ title: Self Assessment (MTD) (this API is monolithic and is in the process of be
 weight: 10
 ---
 
-# HMRC: Self Assessment (MTD) (this API is monolithic and is in the process of being broken down to more granular APIs)
+# Self Assessment (MTD) (this API is monolithic and is in the process of being broken down to more granular APIs)
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

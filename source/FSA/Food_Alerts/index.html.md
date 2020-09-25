@@ -3,7 +3,7 @@ title: Food Alerts
 weight: 10
 ---
 
-# FSA: Food Alerts
+# Food Alerts
 
 ## Endpoint URL:
  - [https://data.food.gov.uk/food-alerts](https://data.food.gov.uk/food-alerts)

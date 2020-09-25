@@ -3,7 +3,7 @@ title: Digital Child Health - FHIR API
 weight: 10
 ---
 
-# NHS: Digital Child Health - FHIR API
+# Digital Child Health - FHIR API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/services/fhir-apis/guidance-for-developers/digital-child-health-specification-versions](https://digital.nhs.uk/services/fhir-apis/guidance-for-developers/digital-child-health-specification-versions)

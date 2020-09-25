@@ -3,7 +3,7 @@ title: National Population Failsafe Management - FHIR API
 weight: 10
 ---
 
-# NHS: National Population Failsafe Management - FHIR API
+# National Population Failsafe Management - FHIR API
 
 ## Documentation URL:
  - [https://developer.nhs.uk/apis/npfm-beta/](https://developer.nhs.uk/apis/npfm-beta/)

@@ -3,7 +3,7 @@ title: CIS Deductions (MTD)
 weight: 10
 ---
 
-# HMRC: CIS Deductions (MTD)
+# CIS Deductions (MTD)
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

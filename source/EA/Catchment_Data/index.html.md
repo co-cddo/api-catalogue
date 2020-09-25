@@ -3,7 +3,7 @@ title: Catchment Data
 weight: 10
 ---
 
-# EA: Catchment Data
+# Catchment Data
 
 ## Endpoint URL:
  - [https://environment.data.gov.uk/catchment-planning/](https://environment.data.gov.uk/catchment-planning/)

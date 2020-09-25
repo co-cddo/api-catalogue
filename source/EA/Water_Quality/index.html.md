@@ -3,7 +3,7 @@ title: Water Quality
 weight: 10
 ---
 
-# EA: Water Quality
+# Water Quality
 
 ## Endpoint URL:
  - [https://environment.data.gov.uk/water-quality/view/landing](https://environment.data.gov.uk/water-quality/view/landing)

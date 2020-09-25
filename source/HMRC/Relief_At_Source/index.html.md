@@ -3,7 +3,7 @@ title: Relief at Source
 weight: 10
 ---
 
-# HMRC: Relief at Source
+# Relief at Source
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

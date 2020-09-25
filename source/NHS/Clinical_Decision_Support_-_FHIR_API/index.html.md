@@ -3,7 +3,7 @@ title: Clinical Decision Support - FHIR API
 weight: 10
 ---
 
-# NHS: Clinical Decision Support - FHIR API
+# Clinical Decision Support - FHIR API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support](https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support)

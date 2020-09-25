@@ -3,7 +3,7 @@ title: OS Features API
 weight: 10
 ---
 
-# OS: OS Features API
+# OS Features API
 
 ## Endpoint URL:
  - [https://api.os.uk/features/v1/wfs, https://osdatahub.os.uk/plans](https://api.os.uk/features/v1/wfs, https://osdatahub.os.uk/plans)

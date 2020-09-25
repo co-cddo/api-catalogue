@@ -3,7 +3,7 @@ title: GOV.UK World locations
 weight: 10
 ---
 
-# GDS: GOV.UK World locations
+# GOV.UK World locations
 
 ## Endpoint URL:
  - [https://www.gov.uk/api/world-locations](https://www.gov.uk/api/world-locations)

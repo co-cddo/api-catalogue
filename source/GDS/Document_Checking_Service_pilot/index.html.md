@@ -3,7 +3,7 @@ title: Document Checking Service pilot
 weight: 10
 ---
 
-# GDS: Document Checking Service pilot
+# Document Checking Service pilot
 
 ## Endpoint URL:
  - [https://<DCS-PRODUCTION-URI>/checks/passport](https://<DCS-PRODUCTION-URI>/checks/passport)

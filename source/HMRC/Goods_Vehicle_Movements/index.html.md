@@ -3,7 +3,7 @@ title: Goods Vehicle Movements
 weight: 10
 ---
 
-# HMRC: Goods Vehicle Movements
+# Goods Vehicle Movements
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

@@ -3,7 +3,7 @@ title: Manage Interests
 weight: 10
 ---
 
-# DWP: Manage Interests
+# Manage Interests
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

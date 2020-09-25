@@ -3,7 +3,7 @@ title: Open electronic Public Register (ePR)
 weight: 10
 ---
 
-# EA: Open electronic Public Register (ePR)
+# Open electronic Public Register (ePR)
 
 ## Endpoint URL:
  - [https://environment.data.gov.uk/public-register/view/index](https://environment.data.gov.uk/public-register/view/index)

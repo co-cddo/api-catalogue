@@ -1,9 +1,9 @@
 ---
 title: APIs in the UK government
-weight: 10
+weight: 1
 ---
 
-# UK government APIs
+# UK Government APIs
 
 This API catalogue is for central government and local government APIs.
 

@@ -3,7 +3,7 @@ title: Obligations (MTD)
 weight: 10
 ---
 
-# HMRC: Obligations (MTD)
+# Obligations (MTD)
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

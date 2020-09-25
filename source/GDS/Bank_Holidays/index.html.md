@@ -3,7 +3,7 @@ title: Bank Holidays
 weight: 10
 ---
 
-# GDS: Bank Holidays
+# Bank Holidays
 
 ## Endpoint URL:
  - [https://www.gov.uk/bank-holidays.json](https://www.gov.uk/bank-holidays.json)

@@ -3,7 +3,7 @@ title: Companies House
 weight: 10
 ---
 
-# CH: Companies House
+# Companies House
 
 ## Endpoint URL:
  - [https://api.companieshouse.gov.uk/](https://api.companieshouse.gov.uk/)

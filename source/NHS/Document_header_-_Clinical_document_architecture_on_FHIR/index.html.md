@@ -3,7 +3,7 @@ title: Document header - Clinical document architecture on FHIR
 weight: 10
 ---
 
-# NHS: Document header - Clinical document architecture on FHIR
+# Document header - Clinical document architecture on FHIR
 
 ## Documentation URL:
  - [https://data.developer.nhs.uk/fhir/cda-on-fhir-document-header-v1-draft-b/Chapter.1.About/index.html](https://data.developer.nhs.uk/fhir/cda-on-fhir-document-header-v1-draft-b/Chapter.1.About/index.html)

@@ -3,7 +3,7 @@ title: GOV.UK Notify
 weight: 10
 ---
 
-# GDS: GOV.UK Notify
+# GOV.UK Notify
 
 ## Endpoint URL:
  - [https://api.notifications.service.gov.uk/](https://api.notifications.service.gov.uk/)

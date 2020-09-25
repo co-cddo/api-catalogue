@@ -3,7 +3,7 @@ title: AVCS Online Discovery API
 weight: 10
 ---
 
-# UKHO: AVCS Online Discovery API
+# AVCS Online Discovery API
 
 ## Endpoint URL:
  - [https://admiraltyapi.portal.azure-api.net/products/avcs-online-discovery-api](https://admiraltyapi.portal.azure-api.net/products/avcs-online-discovery-api)

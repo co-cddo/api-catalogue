@@ -3,7 +3,7 @@ title: Child Protection Information Sharing - HL7 V3 API
 weight: 10
 ---
 
-# NHS: Child Protection Information Sharing - HL7 V3 API
+# Child Protection Information Sharing - HL7 V3 API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/services/child-protection-information-sharing-project/cp-is-domain-message-specification](https://digital.nhs.uk/services/child-protection-information-sharing-project/cp-is-domain-message-specification)

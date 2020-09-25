@@ -3,7 +3,7 @@ title: GOV.UK Pay
 weight: 10
 ---
 
-# GDS: GOV.UK Pay
+# GOV.UK Pay
 
 ## Endpoint URL:
  - [https://publicapi.payments.service.gov.uk/](https://publicapi.payments.service.gov.uk/)

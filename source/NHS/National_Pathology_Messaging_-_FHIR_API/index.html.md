@@ -3,7 +3,7 @@ title: National Pathology Messaging - FHIR API
 weight: 10
 ---
 
-# NHS: National Pathology Messaging - FHIR API
+# National Pathology Messaging - FHIR API
 
 ## Documentation URL:
  - [https://developer.nhs.uk/apis/itk3nationalpathology-1-1-0/](https://developer.nhs.uk/apis/itk3nationalpathology-1-1-0/)

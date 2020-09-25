@@ -3,7 +3,7 @@ title: Lifetime ISA
 weight: 10
 ---
 
-# HMRC: Lifetime ISA
+# Lifetime ISA
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

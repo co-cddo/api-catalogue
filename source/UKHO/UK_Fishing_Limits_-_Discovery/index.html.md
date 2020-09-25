@@ -3,7 +3,7 @@ title: UK Fishing Limits - Discovery
 weight: 10
 ---
 
-# UKHO: UK Fishing Limits - Discovery
+# UK Fishing Limits - Discovery
 
 ## Endpoint URL:
  - [https://admiraltyapi.portal.azure-api.net/products/uk-fishing-limits](https://admiraltyapi.portal.azure-api.net/products/uk-fishing-limits)

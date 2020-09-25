@@ -3,7 +3,7 @@ title: National Insurance
 weight: 10
 ---
 
-# HMRC: National Insurance
+# National Insurance
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

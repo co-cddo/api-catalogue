@@ -3,7 +3,7 @@ title: Open Geography portal
 weight: 10
 ---
 
-# ONS: Open Geography portal
+# Open Geography portal
 
 ## Endpoint URL:
  - [https://ons-inspire.esriuk.com/arcgis/rest/services/](https://ons-inspire.esriuk.com/arcgis/rest/services/)

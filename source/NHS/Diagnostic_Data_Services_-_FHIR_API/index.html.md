@@ -3,7 +3,7 @@ title: Diagnostic Data Services - FHIR API
 weight: 10
 ---
 
-# NHS: Diagnostic Data Services - FHIR API
+# Diagnostic Data Services - FHIR API
 
 ## Documentation URL:
  - [https://data.developer.nhs.uk/fhir/dds-draft-b/DDS-Version-1-0-Draft-B/Chapter.1.About/index.html](https://data.developer.nhs.uk/fhir/dds-draft-b/DDS-Version-1-0-Draft-B/Chapter.1.About/index.html)

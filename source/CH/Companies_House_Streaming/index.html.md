@@ -3,7 +3,7 @@ title: Companies House Streaming
 weight: 10
 ---
 
-# CH: Companies House Streaming
+# Companies House Streaming
 
 ## Endpoint URL:
  - [https://stream.companieshouse.gov.uk/](https://stream.companieshouse.gov.uk/)

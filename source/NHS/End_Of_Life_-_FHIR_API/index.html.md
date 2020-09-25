@@ -3,7 +3,7 @@ title: End Of Life - FHIR API
 weight: 10
 ---
 
-# NHS: End Of Life - FHIR API
+# End Of Life - FHIR API
 
 ## Documentation URL:
  - [https://developer.nhs.uk/apis/eol-alpha/](https://developer.nhs.uk/apis/eol-alpha/)

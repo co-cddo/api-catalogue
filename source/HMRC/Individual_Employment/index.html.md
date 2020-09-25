@@ -3,7 +3,7 @@ title: Individual Employment
 weight: 10
 ---
 
-# HMRC: Individual Employment
+# Individual Employment
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 
