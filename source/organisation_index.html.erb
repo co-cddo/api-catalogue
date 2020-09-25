@@ -4,6 +4,6 @@
 
 <ul>
   <% apis.each do |api| %>
-    <li><%= link_to api.name, "/#{organisation.slug}/#{api.slug}/index.html" %></li>
+    <li><%= link_to api.name, api_path(organisation: organisation, api: api) %></li>
   <% end %>
 </ul>
