@@ -1,0 +1,47 @@
+---
+title: API Catalogue Contents
+weight: 1000
+hide_in_navigation: true
+---
+
+<h2>API Catalogue Contents</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Total APIs:</th>
+      <th>Departments Represented:</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td><%= dashboard_stats.total_apis %></td>
+      <td><%= dashboard_stats.total_organisations %></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Department:</th>
+      <th>Number of APIs:</th>
+      <th>First Added:</th>
+      <th>Last Update:</th>
+      <th>Link:</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% dashboard_stats.by_organisation.each do |stats| %>
+      <tr>
+        <td><%= stats.organisation.name %></td>
+        <td><%= stats.api_count %></td>
+        <td><%= stats.first_added&.to_formatted_s(:iso8601) %></td>
+        <td><%= stats.last_updated&.to_formatted_s(:iso8601) %></td>
+        <td><%= link_to(stats.organisation.alternate_name, organisation_path(stats.organisation)) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
