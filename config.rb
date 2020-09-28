@@ -1,5 +1,6 @@
 require 'govuk_tech_docs'
 require 'lib/api_catalogue'
+require 'lib/dashboard_stats'
 require 'lib/url_helpers'
 
 GovukTechDocs.configure(self)
@@ -11,7 +12,9 @@ set :relative_links, true
 helpers UrlHelpers
 
 csv_path = File.expand_path("data/inputs/apic.csv", __dir__)
-ApiCatalogue.from_csv(csv_path).organisations_apis.each do |organisation, apis|
+api_catalogue = ApiCatalogue.from_csv(csv_path)
+
+api_catalogue.organisations_apis.each do |organisation, apis|
   proxy(
     UrlHelpers.organisation_path(organisation),
     "organisation_index.html",
@@ -30,3 +33,10 @@ ApiCatalogue.from_csv(csv_path).organisations_apis.each do |organisation, apis|
     )
   end
 end
+
+proxy(
+  "/dashboard/index.html",
+  "dashboard.html",
+  locals: { dashboard_stats: DashboardStats.new(api_catalogue) },
+  ignore: true,
+)

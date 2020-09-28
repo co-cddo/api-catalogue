@@ -18,12 +18,10 @@ class ApiCatalogue
     new(data)
   end
 
-  def initialize(data)
-    @data = data
-  end
+  attr_reader :organisations_apis
 
-  def organisations_apis
-    data.each
+  def initialize(organisations_apis)
+    @organisations_apis = organisations_apis
   end
 
   private
