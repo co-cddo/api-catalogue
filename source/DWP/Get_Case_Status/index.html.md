@@ -3,7 +3,7 @@ title: Get Case Status
 weight: 10
 ---
 
-# DWP: Get Case Status
+# Get Case Status
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

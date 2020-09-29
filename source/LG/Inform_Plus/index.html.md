@@ -3,7 +3,7 @@ title: Inform Plus
 weight: 10
 ---
 
-# LG: Inform Plus
+# Inform Plus
 
 ## Endpoint URL:
  - [https://webservices.esd.org.uk/](https://webservices.esd.org.uk/)

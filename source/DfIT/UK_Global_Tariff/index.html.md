@@ -3,7 +3,7 @@ title: UK Global Tariff
 weight: 10
 ---
 
-# DfIT: UK Global Tariff
+# UK Global Tariff
 
 ## Endpoint URL:
  - [https://www.check-future-uk-trade-tariffs.service.gov.uk/](https://www.check-future-uk-trade-tariffs.service.gov.uk/)

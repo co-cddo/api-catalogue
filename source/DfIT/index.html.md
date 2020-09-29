@@ -1,6 +1,6 @@
 ---
 title: Department for International Trade
-weight: 30
+weight: 60
 ---
 
 # Department for International Trade APIs

@@ -3,7 +3,7 @@ title: NHS Charge Exemption
 weight: 10
 ---
 
-# DWP: NHS Charge Exemption
+# NHS Charge Exemption
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

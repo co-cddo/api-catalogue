@@ -1,6 +1,6 @@
 ---
 title: Companies House
-weight: 10
+weight: 20
 ---
 
 # Companies House APIs

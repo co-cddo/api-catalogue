@@ -3,7 +3,7 @@ title: Common Transit Convention Traders
 weight: 10
 ---
 
-# HMRC: Common Transit Convention Traders
+# Common Transit Convention Traders
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

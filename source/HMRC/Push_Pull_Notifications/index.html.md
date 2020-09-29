@@ -3,7 +3,7 @@ title: Push Pull Notifications
 weight: 10
 ---
 
-# HMRC: Push Pull Notifications
+# Push Pull Notifications
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

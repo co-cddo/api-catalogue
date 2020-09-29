@@ -3,7 +3,7 @@ title: UK Tidal API - Discovery
 weight: 10
 ---
 
-# UKHO: UK Tidal API - Discovery
+# UK Tidal API - Discovery
 
 ## Endpoint URL:
  - [https://admiraltyapi.portal.azure-api.net/products/uk-tidal-api](https://admiraltyapi.portal.azure-api.net/products/uk-tidal-api)

@@ -1,11 +1,11 @@
 ---
 title: Government Digital Service
-weight: 80
+weight: 160
 ---
 
 # Government Digital Service APIs
 
-The API catalogue contains the following 12 Government Digital Service (GDS) APIs:
+The API catalogue contains the following 11 Government Digital Service (GDS) APIs:
 
 - [Bank Holidays](Bank_Holidays/)
 - [Data.gov.uk](Data.gov.uk/)

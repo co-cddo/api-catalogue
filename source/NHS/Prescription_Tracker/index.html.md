@@ -3,7 +3,7 @@ title: Prescription Tracker
 weight: 10
 ---
 
-# NHS: Prescription Tracker
+# Prescription Tracker
 
 ## Documentation URL:
  - [https://developer.nhs.uk/apis/eps-tracker/](https://developer.nhs.uk/apis/eps-tracker/)

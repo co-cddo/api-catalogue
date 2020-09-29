@@ -3,7 +3,7 @@ title: Individual Losses (MTD)
 weight: 10
 ---
 
-# HMRC: Individual Losses (MTD)
+# Individual Losses (MTD)
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

@@ -3,7 +3,7 @@ title: Personal Demographics Service - SMSP API
 weight: 10
 ---
 
-# NHS: Personal Demographics Service - SMSP API
+# Personal Demographics Service - SMSP API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/services/spine/spine-mini-service-provider-for-personal-demographics-service](https://digital.nhs.uk/services/spine/spine-mini-service-provider-for-personal-demographics-service)

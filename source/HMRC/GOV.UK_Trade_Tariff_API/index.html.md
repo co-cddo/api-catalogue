@@ -3,7 +3,7 @@ title: GOV.UK Trade Tariff API
 weight: 10
 ---
 
-# HMRC: GOV.UK Trade Tariff API
+# GOV.UK Trade Tariff API
 
 ## Endpoint URL:
  - [https://www.trade-tariff.service.gov.uk/api/v2](https://www.trade-tariff.service.gov.uk/api/v2)

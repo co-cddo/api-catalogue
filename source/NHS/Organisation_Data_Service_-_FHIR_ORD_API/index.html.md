@@ -3,7 +3,7 @@ title: Organisation Data Service - FHIR_ORD API
 weight: 10
 ---
 
-# NHS: Organisation Data Service - FHIR_ORD API
+# Organisation Data Service - FHIR_ORD API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/services/organisation-data-service/guidance-for-developers](https://digital.nhs.uk/services/organisation-data-service/guidance-for-developers)

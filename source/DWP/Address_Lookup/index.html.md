@@ -3,7 +3,7 @@ title: Address Lookup
 weight: 10
 ---
 
-# DWP: Address Lookup
+# Address Lookup
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

@@ -3,7 +3,7 @@ title: VAT (MTD)
 weight: 10
 ---
 
-# HMRC: VAT (MTD)
+# VAT (MTD)
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

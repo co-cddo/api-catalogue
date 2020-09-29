@@ -3,7 +3,7 @@ title: GOV.UK Organisations
 weight: 10
 ---
 
-# GDS: GOV.UK Organisations
+# GOV.UK Organisations
 
 ## Endpoint URL:
  - [https://www.gov.uk/api/organisations](https://www.gov.uk/api/organisations)

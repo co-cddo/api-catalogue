@@ -3,7 +3,7 @@ title: National Health Application and Infrastructure Services - NHAIS GP Links 
 weight: 10
 ---
 
-# NHS: National Health Application and Infrastructure Services - NHAIS GP Links API
+# National Health Application and Infrastructure Services - NHAIS GP Links API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/developer/api-catalogue/nhais-gp-links](https://digital.nhs.uk/developer/api-catalogue/nhais-gp-links)

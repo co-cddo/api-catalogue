@@ -3,7 +3,7 @@ title: Ambulance Analytics API
 weight: 10
 ---
 
-# NHS: Ambulance Analytics API
+# Ambulance Analytics API
 
 ## Endpoint URL:
  - [https://api.service.nhs.uk/ambulance-analytics](https://api.service.nhs.uk/ambulance-analytics)

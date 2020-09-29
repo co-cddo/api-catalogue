@@ -3,7 +3,7 @@ title: NHS Booking - FHIR API
 weight: 10
 ---
 
-# NHS: NHS Booking - FHIR API
+# NHS Booking - FHIR API
 
 ## Documentation URL:
  - [https://developer.nhs.uk/scheduling-specification-versions/](https://developer.nhs.uk/scheduling-specification-versions/)

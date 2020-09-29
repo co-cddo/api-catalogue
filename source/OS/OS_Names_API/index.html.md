@@ -3,7 +3,7 @@ title: OS Names API
 weight: 10
 ---
 
-# OS: OS Names API
+# OS Names API
 
 ## Endpoint URL:
  - [https://api.os.uk/search/names/v1, https://osdatahub.os.uk/plans](https://api.os.uk/search/names/v1, https://osdatahub.os.uk/plans)

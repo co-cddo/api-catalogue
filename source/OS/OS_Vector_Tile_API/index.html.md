@@ -3,7 +3,7 @@ title: OS Vector Tile API
 weight: 10
 ---
 
-# OS: OS Vector Tile API
+# OS Vector Tile API
 
 ## Endpoint URL:
  - [https://api.os.uk/maps/vector/v1/vts, https://osdatahub.os.uk/plans](https://api.os.uk/maps/vector/v1/vts, https://osdatahub.os.uk/plans)

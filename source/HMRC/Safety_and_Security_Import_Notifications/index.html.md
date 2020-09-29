@@ -3,7 +3,7 @@ title: Safety and Security Import Notifications
 weight: 10
 ---
 
-# HMRC: Safety and Security Import Notifications
+# Safety and Security Import Notifications
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

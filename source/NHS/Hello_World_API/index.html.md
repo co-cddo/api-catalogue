@@ -3,7 +3,7 @@ title: Hello World API
 weight: 10
 ---
 
-# NHS: Hello World API
+# Hello World API
 
 ## Documentation URL:
  - [https://portal.developer.nhs.uk/docs/hello-world-prod/1/overview](https://portal.developer.nhs.uk/docs/hello-world-prod/1/overview)

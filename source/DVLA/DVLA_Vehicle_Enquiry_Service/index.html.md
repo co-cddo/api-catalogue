@@ -3,7 +3,7 @@ title: DVLA Vehicle Enquiry Service
 weight: 10
 ---
 
-# DVLA: DVLA Vehicle Enquiry Service
+# DVLA Vehicle Enquiry Service
 
 ## Endpoint URL:
  - [https://driver-vehicle-licensing.api.gov.uk/vehicle-enquiry](https://driver-vehicle-licensing.api.gov.uk/vehicle-enquiry)

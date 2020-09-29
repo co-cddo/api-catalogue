@@ -1,6 +1,6 @@
 ---
 title: UK Hydrographic Office
-weight: 160
+weight: 320
 ---
 
 # UK Hydrographic Office APIs

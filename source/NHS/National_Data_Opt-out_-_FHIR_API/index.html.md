@@ -3,7 +3,7 @@ title: National Data Opt-out - FHIR API
 weight: 10
 ---
 
-# NHS: National Data Opt-out - FHIR API
+# National Data Opt-out - FHIR API
 
 ## Documentation URL:
  - [https://developer.nhs.uk/apis/optout/](https://developer.nhs.uk/apis/optout/)

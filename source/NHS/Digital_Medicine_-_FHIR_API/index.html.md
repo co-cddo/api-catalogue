@@ -3,7 +3,7 @@ title: Digital Medicine - FHIR API
 weight: 10
 ---
 
-# NHS: Digital Medicine - FHIR API
+# Digital Medicine - FHIR API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/services/fhir-apis/guidance-for-developers/digital-medicine-specification](https://digital.nhs.uk/services/fhir-apis/guidance-for-developers/digital-medicine-specification)

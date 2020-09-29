@@ -3,7 +3,7 @@ title: Self Assessment Accounts (MTD)
 weight: 10
 ---
 
-# HMRC: Self Assessment Accounts (MTD)
+# Self Assessment Accounts (MTD)
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

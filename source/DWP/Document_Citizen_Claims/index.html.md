@@ -3,7 +3,7 @@ title: Document Citizen Claims
 weight: 10
 ---
 
-# DWP: Document Citizen Claims
+# Document Citizen Claims
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

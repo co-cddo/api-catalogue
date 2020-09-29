@@ -3,7 +3,7 @@ title: Get into Teaching API
 weight: 10
 ---
 
-# DfE: Get into Teaching API
+# Get into Teaching API
 
 ## Documentation URL:
  - [https://github.com/DFE-Digital/get-into-teaching-api](https://github.com/DFE-Digital/get-into-teaching-api)

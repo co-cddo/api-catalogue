@@ -3,7 +3,7 @@ title: UK Port Limits - Discovery
 weight: 10
 ---
 
-# UKHO: UK Port Limits - Discovery
+# UK Port Limits - Discovery
 
 ## Endpoint URL:
  - [https://admiraltyapi.portal.azure-api.net/products/uk-port-limits](https://admiraltyapi.portal.azure-api.net/products/uk-port-limits)

@@ -3,7 +3,7 @@ title: Maintain Interest Details
 weight: 10
 ---
 
-# DWP: Maintain Interest Details
+# Maintain Interest Details
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

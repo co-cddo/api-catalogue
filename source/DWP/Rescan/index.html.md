@@ -3,7 +3,7 @@ title: Rescan
 weight: 10
 ---
 
-# DWP: Rescan
+# Rescan
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

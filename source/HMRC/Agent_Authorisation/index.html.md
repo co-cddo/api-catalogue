@@ -3,7 +3,7 @@ title: Agent Authorisation
 weight: 10
 ---
 
-# HMRC: Agent Authorisation
+# Agent Authorisation
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

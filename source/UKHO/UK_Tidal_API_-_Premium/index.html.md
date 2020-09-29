@@ -3,7 +3,7 @@ title: UK Tidal API - Premium
 weight: 10
 ---
 
-# UKHO: UK Tidal API - Premium
+# UK Tidal API - Premium
 
 ## Endpoint URL:
  - [https://admiraltyapi.portal.azure-api.net/products/uk-tidal-api-premium](https://admiraltyapi.portal.azure-api.net/products/uk-tidal-api-premium)

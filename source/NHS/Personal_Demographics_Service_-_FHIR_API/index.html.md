@@ -3,7 +3,7 @@ title: Personal Demographics Service - FHIR API
 weight: 10
 ---
 
-# NHS: Personal Demographics Service - FHIR API
+# Personal Demographics Service - FHIR API
 
 ## Documentation URL:
  - [https://portal.developer.nhs.uk/docs/personal-demographics-int/1/overview](https://portal.developer.nhs.uk/docs/personal-demographics-int/1/overview)

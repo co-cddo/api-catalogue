@@ -3,7 +3,7 @@ title: Assessment Discharge and Withdrawal - FHIR API
 weight: 10
 ---
 
-# NHS: Assessment Discharge and Withdrawal - FHIR API
+# Assessment Discharge and Withdrawal - FHIR API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/services/transfer-of-care-initiative/assessment-discharge-and-withdrawal---developer-resource](https://digital.nhs.uk/services/transfer-of-care-initiative/assessment-discharge-and-withdrawal---developer-resource)

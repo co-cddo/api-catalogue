@@ -3,7 +3,7 @@ title: Copy Document References
 weight: 10
 ---
 
-# DWP: Copy Document References
+# Copy Document References
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

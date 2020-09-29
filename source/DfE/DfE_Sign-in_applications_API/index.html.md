@@ -3,7 +3,7 @@ title: DfE Sign-in applications API
 weight: 10
 ---
 
-# DfE: DfE Sign-in applications API
+# DfE Sign-in applications API
 
 ## Documentation URL:
  - [https://github.com/DFE-Digital/login.dfe.applications](https://github.com/DFE-Digital/login.dfe.applications)

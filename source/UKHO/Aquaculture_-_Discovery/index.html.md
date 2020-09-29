@@ -3,7 +3,7 @@ title: Aquaculture - Discovery
 weight: 10
 ---
 
-# UKHO: Aquaculture - Discovery
+# Aquaculture - Discovery
 
 ## Endpoint URL:
  - [https://admiraltyapi.portal.azure-api.net/products/uk-aquaculture](https://admiraltyapi.portal.azure-api.net/products/uk-aquaculture)

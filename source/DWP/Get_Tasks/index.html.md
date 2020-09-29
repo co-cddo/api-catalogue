@@ -3,7 +3,7 @@ title: Get Tasks
 weight: 10
 ---
 
-# DWP: Get Tasks
+# Get Tasks
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

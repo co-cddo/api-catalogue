@@ -3,7 +3,7 @@ title: DVLA Authentication
 weight: 10
 ---
 
-# DVLA: DVLA Authentication
+# DVLA Authentication
 
 ## Endpoint URL:
  - [https://driver-vehicle-licensing.api.gov.uk/thirdparty-access](https://driver-vehicle-licensing.api.gov.uk/thirdparty-access)

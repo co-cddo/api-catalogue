@@ -3,7 +3,7 @@ title: Get Citizen Income Information API
 weight: 10
 ---
 
-# DWP: Get Citizen Income Information API
+# Get Citizen Income Information API
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

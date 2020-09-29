@@ -3,7 +3,7 @@ title: Electronic Prescription Service - FHIR API
 weight: 10
 ---
 
-# NHS: Electronic Prescription Service - FHIR API
+# Electronic Prescription Service - FHIR API
 
 ## Documentation URL:
  - [https://portal.developer.nhs.uk/docs/electronic-prescription-service-api-int/1/overview](https://portal.developer.nhs.uk/docs/electronic-prescription-service-api-int/1/overview)

@@ -3,7 +3,7 @@ title: Rainfall
 weight: 10
 ---
 
-# EA: Rainfall
+# Rainfall
 
 ## Endpoint URL:
  - [http://environment.data.gov.uk/flood-monitoring/id/stations?parameter=rainfall](http://environment.data.gov.uk/flood-monitoring/id/stations?parameter=rainfall)

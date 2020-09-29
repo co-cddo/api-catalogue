@@ -3,7 +3,7 @@ title: Electronic Prescribing and Medicines Administration - FHIR API
 weight: 10
 ---
 
-# NHS: Electronic Prescribing and Medicines Administration - FHIR API
+# Electronic Prescribing and Medicines Administration - FHIR API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/developer/api-catalogue/epma/epma-api](https://digital.nhs.uk/developer/api-catalogue/epma/epma-api)

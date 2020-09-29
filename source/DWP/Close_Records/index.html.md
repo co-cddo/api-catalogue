@@ -3,7 +3,7 @@ title: Close Records
 weight: 10
 ---
 
-# DWP: Close Records
+# Close Records
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

@@ -3,7 +3,7 @@ title: Calculate Earnings by Payday
 weight: 10
 ---
 
-# DWP: Calculate Earnings by Payday
+# Calculate Earnings by Payday
 
 ## Contact:
  - [integration.technologyplatforms@dwp.gsi.gov.uk](mailto:integration.technologyplatforms@dwp.gsi.gov.uk)

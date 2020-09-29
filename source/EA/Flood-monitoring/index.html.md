@@ -3,7 +3,7 @@ title: Flood-monitoring
 weight: 10
 ---
 
-# EA: Flood-monitoring
+# Flood-monitoring
 
 ## Endpoint URL:
  - [http://environment.data.gov.uk/flood-monitoring/id/floods](http://environment.data.gov.uk/flood-monitoring/id/floods)

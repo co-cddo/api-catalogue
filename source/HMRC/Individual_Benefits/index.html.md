@@ -3,7 +3,7 @@ title: Individual Benefits
 weight: 10
 ---
 
-# HMRC: Individual Benefits
+# Individual Benefits
 
 ## Endpoint URL:
  - [Sandbox - https://test-api.service.hmrc.gov.uk 

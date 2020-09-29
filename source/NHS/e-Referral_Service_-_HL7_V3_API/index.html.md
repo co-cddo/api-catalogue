@@ -3,7 +3,7 @@ title: e-Referral Service - HL7 V3 API
 weight: 10
 ---
 
-# NHS: e-Referral Service - HL7 V3 API
+# e-Referral Service - HL7 V3 API
 
 ## Documentation URL:
  - [e-Referral Service - HL7 V3 API](e-Referral Service - HL7 V3 API)

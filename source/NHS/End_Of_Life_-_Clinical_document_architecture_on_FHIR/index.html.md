@@ -3,7 +3,7 @@ title: End Of Life - Clinical document architecture on FHIR
 weight: 10
 ---
 
-# NHS: End Of Life - Clinical document architecture on FHIR
+# End Of Life - Clinical document architecture on FHIR
 
 ## Documentation URL:
  - [https://data.developer.nhs.uk/fhir/cda-on-fhir-eol-v1-draft-b/Chapter.1.About/index.html](https://data.developer.nhs.uk/fhir/cda-on-fhir-eol-v1-draft-b/Chapter.1.About/index.html)

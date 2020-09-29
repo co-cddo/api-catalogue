@@ -3,7 +3,7 @@ title: OS Download API
 weight: 10
 ---
 
-# OS: OS Download API
+# OS Download API
 
 ## Endpoint URL:
  - [https://api.os.uk/downloads/v1](https://api.os.uk/downloads/v1)

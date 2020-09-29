@@ -3,7 +3,7 @@ title: Legitimate Relationship Service - HL7 V3 API
 weight: 10
 ---
 
-# NHS: Legitimate Relationship Service - HL7 V3 API
+# Legitimate Relationship Service - HL7 V3 API
 
 ## Documentation URL:
  - [https://digital.nhs.uk/developer/api-catalogue/legitimate-relationship-service-hl7-v3](https://digital.nhs.uk/developer/api-catalogue/legitimate-relationship-service-hl7-v3)

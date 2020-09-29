@@ -3,7 +3,7 @@ title: National Record Locator - FHIR API
 weight: 10
 ---
 
-# NHS: National Record Locator - FHIR API
+# National Record Locator - FHIR API
 
 ## Documentation URL:
  - [https://developer.nhs.uk/apis/nrl/](https://developer.nhs.uk/apis/nrl/)
