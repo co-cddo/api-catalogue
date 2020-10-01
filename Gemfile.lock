@@ -1,6 +1,7 @@
 GIT
-  remote: https://github.com/shippedcode/tech-docs-gem.git
-  revision: 2d3e9d72e14d02686a4a6dc7146c6592410b7442
+  remote: https://github.com/alphagov/tech-docs-gem.git
+  revision: 28855c05cabb311f311be8e12039151789c7dc29
+  branch: http-prefix-support
   specs:
     govuk_tech_docs (2.1.0)
       activesupport
