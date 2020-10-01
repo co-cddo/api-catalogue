@@ -9,7 +9,7 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Include the tech docs gem
-gem 'govuk_tech_docs', git: 'https://github.com/shippedcode/tech-docs-gem.git'
+gem 'govuk_tech_docs', git: 'https://github.com/alphagov/tech-docs-gem.git', branch: 'http-prefix-support'
 
 # For helping with deployment
 gem 'middleman-gh-pages'
