@@ -1,18 +1,37 @@
-on: [push, pull_request]
+---
+on:
+  pull_request:
+  push:
+    branches-ignore:
+      - gh-pages
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - uses: ruby/setup-ruby@v1
-      - uses: actions/cache@v1
         with:
-          path: tmp/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-      - run: |
-          bundle config path tmp/bundle
-          bundle install --jobs 4 --retry 3
-      - run: bundle exec rake build
+          bundler-cache: true
+
+      - name: Test
+        run: bundle exec rspec
+
+      - name: Build
+        run: bundle exec rake build
+
+      # Checkout stripped-down gh-pages branch to a subdirectory, for publishing
+      - name: Checkout gh-pages branch
+        if: ${{ github.ref == 'refs/heads/master' }}
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: tmp/publish
+
+      - name: Publish
+        if: ${{ github.ref == 'refs/heads/master' }}
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "github-actions"
+          bundle exec rake publish CLONED_GH_PAGES_DIR="tmp/publish"
