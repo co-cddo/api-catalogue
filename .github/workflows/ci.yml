@@ -1,18 +1,27 @@
-on: [push, pull_request]
+---
+on:
+  pull_request:
+  push:
+    branches-ignore:
+      - gh-pages
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - uses: ruby/setup-ruby@v1
-      - uses: actions/cache@v1
         with:
-          path: tmp/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-      - run: |
-          bundle config path tmp/bundle
-          bundle install --jobs 4 --retry 3
-      - run: bundle exec rake build
+          bundler-cache: true
+
+      - name: Test
+        run: bundle exec rspec
+
+      - name: Build only
+        if: ${{ github.ref != 'refs/heads/master' }}
+        run: bundle exec rake build
+
+      - name: Build and publish
+        if: ${{ github.ref == 'refs/heads/master' }}
+        run: bundle exec rake publish BUILD_DIR=build/api-catalogue
