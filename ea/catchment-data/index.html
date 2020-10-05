@@ -1,0 +1,1035 @@
+<!doctype html>
+<html lang="en" class="govuk-template no-js">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <title>Catchment Data - API Catalogue</title>
+
+    <link href="/api-catalogue/stylesheets/manifest.css" rel="stylesheet" />
+
+    <link rel="canonical" href="https://alphagov.github.io/api-catalogue/api-catalogue/ea/catchment-data/">
+
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:domain" content="alphagov.github.io" />
+      <meta name="twitter:image" content="https://alphagov.github.io/api-catalogue/images/govuk-large.png" />
+      <meta name="twitter:title" content="Catchment Data - API Catalogue" />
+      <meta name="twitter:url" content="https://alphagov.github.io/api-catalogue/api-catalogue/ea/catchment-data/" />
+
+      <meta property="og:image" content="https://alphagov.github.io/api-catalogue/images/govuk-large.png" />
+      <meta property="og:site_name" content="API Catalogue" />
+      <meta property="og:title" content="Catchment Data" />
+      <meta property="og:type" content="object" />
+      <meta property="og:url" content="https://alphagov.github.io/api-catalogue/api-catalogue/ea/catchment-data/" />
+
+    
+  </head>
+
+  <body class="govuk-template__body">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    <div class="app-pane">
+      <div class="app-pane__header toc-open-disabled">
+        <a href="#content" class="govuk-skip-link">Skip to main content</a>
+
+        <header class="govuk-header app-header" role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-header__container--full-width">
+    <div class="govuk-header__logo">
+      <a href="https://alphagov.github.io/api-catalogue" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__product-name">
+          API Catalogue
+        </span>
+      </a>
+        <strong class="govuk-tag">Alpha</strong>
+    </div>
+  </div>
+</header>
+
+      </div>
+
+        <div id="toc-heading" class="toc-show fixedsticky">
+          <a href="#toc" class="toc-show__label js-toc-show" aria-controls="toc">
+            Table of contents <span class="toc-show__icon"></span>
+          </a>
+        </div>
+
+      <div class="app-pane__body" data-module="in-page-navigation">
+          <div class="app-pane__toc">
+            <div class="toc" data-module="table-of-contents">
+              <div class="search" data-module="search" data-search-index-path="/api-catalogue/search.json">
+  <form action="https://www.google.co.uk/search" method="get" role="search">
+    <input type="hidden" name="as_sitesearch" value="https://alphagov.github.io/api-catalogue"/>
+    <label class="govuk-label search__label" for="search">
+      Search (via Google)
+    </label>
+    <input class="govuk-input govuk-!-margin-bottom-4" id="search" name="q" type="text" aria-controls="search-results" placeholder="Search">
+  </form>
+  <div id="search-results" class="search-results" aria-hidden="true" role="dialog" aria-labelledby="search-results-title">
+    <div class="search-results__inner">
+      <button class="search-results__close">Close<span class="search-results__close-label"> search results</span></button>
+      <h2 id="search-results-title" class="search-results__title" aria-live="polite">Results</h2>
+      <div class="search-results__content"></div>
+    </div>
+  </div>
+</div>
+
+              <a href="#" class="toc__close js-toc-close" aria-controls="toc" aria-label="Hide table of contents"></a>
+              <nav id="toc" class="js-toc-list toc__list" aria-labelledby="toc-heading" data-module="collapsible-navigation">
+                      <ul>
+  <li>
+    <a href="/api-catalogue/#uk-government-apis"><span>UK Government APIs</span></a>
+  </li>
+</ul>
+<ul><li><a href="/api-catalogue/ch/"><span>Companies House</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/ch/companies-house/#companies-house"><span>Companies House</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ch/companies-house-streaming/#companies-house-streaming"><span>Companies House Streaming</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/dfe/"><span>Department for Education</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/dfe/dfe-sign-in-applications-api/#dfe-sign-in-applications-api"><span>DfE Sign-in applications API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dfe/get-into-teaching-api/#get-into-teaching-api"><span>Get into Teaching API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dfe/teacher-training-api/#teacher-training-api"><span>Teacher Training API</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/dfit/"><span>Department for International Trade</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/dfit/uk-global-tariff/#uk-global-tariff"><span>UK Global Tariff</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/dwp/"><span>Department of Work and Pensions</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/address-lookup/#address-lookup"><span>Address Lookup</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/award-details/#award-details"><span>Award Details</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/bank-wizard/#bank-wizard"><span>Bank Wizard</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/calculate-earnings/#calculate-earnings"><span>Calculate Earnings</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/calculate-earnings-by-payday/#calculate-earnings-by-payday"><span>Calculate Earnings by Payday</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/citizen-address/#citizen-address"><span>Citizen Address</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/citizen-claims/#citizen-claims"><span>Citizen Claims</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/close-records/#close-records"><span>Close Records</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/contact-details-verification/#contact-details-verification"><span>Contact Details Verification</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/copy-document-references/#copy-document-references"><span>Copy Document References</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/document-citizen-claims/#document-citizen-claims"><span>Document Citizen Claims</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/document-upload/#document-upload"><span>Document Upload</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/findr-matching-service/#findr-matching-service"><span>FINDr Matching Service</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/get-case-status/#get-case-status"><span>Get Case Status</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/get-citizen-income-information-api/#get-citizen-income-information-api"><span>Get Citizen Income Information API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/get-communications/#get-communications"><span>Get Communications</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/get-determination-decision/#get-determination-decision"><span>Get Determination Decision</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/get-entitlement/#get-entitlement"><span>Get Entitlement</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/get-interest-details/#get-interest-details"><span>Get Interest Details</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/get-medical-details/#get-medical-details"><span>Get Medical Details</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/get-payment-details/#get-payment-details"><span>Get Payment Details</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/get-personal-details/#get-personal-details"><span>Get Personal Details</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/get-tasks/#get-tasks"><span>Get Tasks</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/include-exclude-earnings/#include-exclude-earnings"><span>Include Exclude Earnings</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/maintain-interest-details/#maintain-interest-details"><span>Maintain Interest Details</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/manage-earnings-threshold/#manage-earnings-threshold"><span>Manage Earnings Threshold</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/manage-interests/#manage-interests"><span>Manage Interests</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/multiple-document-metadata-update/#multiple-document-metadata-update"><span>Multiple Document Metadata Update</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/nhs-charge-exemption/#nhs-charge-exemption"><span>NHS Charge Exemption</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/payment-dates/#payment-dates"><span>Payment Dates</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/register-external-content/#register-external-content"><span>Register External Content</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/rescan/#rescan"><span>Rescan</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/retrieve-metadata/#retrieve-metadata"><span>Retrieve Metadata</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/search/#search"><span>Search</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/self-reported-earnings/#self-reported-earnings"><span>Self Reported Earnings</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/update-metadata/#update-metadata"><span>Update Metadata</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/update-retention-date/#update-retention-date"><span>Update Retention Date</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dwp/view-earnings/#view-earnings"><span>View Earnings</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/dvla/"><span>Driver and Vehicle Licensing Agency</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/dvla/dvla-authentication/#dvla-authentication"><span>DVLA Authentication</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/dvla/dvla-vehicle-enquiry-service/#dvla-vehicle-enquiry-service"><span>DVLA Vehicle Enquiry Service</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/ea/"><span>Environment Agency</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/ea/asset-management/#asset-management"><span>Asset Management</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ea/bathing-water/#bathing-water"><span>Bathing Water</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ea/catchment-data/#catchment-data"><span>Catchment Data</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ea/flood-monitoring/#flood-monitoring"><span>Flood-monitoring</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ea/hydrology/#hydrology"><span>Hydrology</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ea/open-electronic-public-register-epr/#open-electronic-public-register-epr"><span>Open electronic Public Register (ePR)</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ea/rainfall/#rainfall"><span>Rainfall</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ea/tide-gauge/#tide-gauge"><span>Tide Gauge</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ea/water-quality/#water-quality"><span>Water Quality</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/fsa/"><span>Food Standards Agency</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/fsa/food-alerts/#food-alerts"><span>Food Alerts</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/fsa/food-hygiene-ratings-scheme-fhrs/#food-hygiene-ratings-scheme-fhrs"><span>Food Hygiene Ratings Scheme (FHRS)</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/gds/"><span>Government Digital Service</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/gds/bank-holidays/#bank-holidays"><span>Bank Holidays</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/gds/data-gov-uk/#data-gov-uk"><span>Data.gov.uk</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/gds/document-checking-service-pilot/#document-checking-service-pilot"><span>Document Checking Service pilot</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/gds/gov-uk-content/#gov-uk-content"><span>GOV.UK Content</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/gds/gov-uk-governments/#gov-uk-governments"><span>GOV.UK Governments</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/gds/gov-uk-notify/#gov-uk-notify"><span>GOV.UK Notify</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/gds/gov-uk-organisations/#gov-uk-organisations"><span>GOV.UK Organisations</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/gds/gov-uk-paas/#gov-uk-paas"><span>GOV.UK PaaS</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/gds/gov-uk-paas/#gov-uk-paas"><span>GOV.UK PaaS</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/gds/gov-uk-pay/#gov-uk-pay"><span>GOV.UK Pay</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/gds/gov-uk-search/#gov-uk-search"><span>GOV.UK Search</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/gds/gov-uk-world-locations/#gov-uk-world-locations"><span>GOV.UK World locations</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/hmrc/"><span>HM Revenue & Customs</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/agent-authorisation/#agent-authorisation"><span>Agent Authorisation</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/bulk-data-file-list/#bulk-data-file-list"><span>Bulk Data File List</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/business-details-mtd/#business-details-mtd"><span>Business Details (MTD)</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/business-income-source-summary-mtd/#business-income-source-summary-mtd"><span>Business Income Source Summary (MTD)</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/business-rates/#business-rates"><span>Business Rates</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/business-source-adjustable-summary-mtd/#business-source-adjustable-summary-mtd"><span>Business Source Adjustable Summary (MTD)</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/cis-deductions-mtd/#cis-deductions-mtd"><span>CIS Deductions (MTD)</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/common-transit-convention-traders/#common-transit-convention-traders"><span>Common Transit Convention Traders</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/customs-inventory-linking-exports/#customs-inventory-linking-exports"><span>Customs Inventory Linking Exports</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/gov-uk-trade-tariff-api/#gov-uk-trade-tariff-api"><span>GOV.UK Trade Tariff API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/goods-vehicle-movements/#goods-vehicle-movements"><span>Goods Vehicle Movements</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/individual-benefits/#individual-benefits"><span>Individual Benefits</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/individual-calculations-mtd/#individual-calculations-mtd"><span>Individual Calculations (MTD)</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/individual-employment/#individual-employment"><span>Individual Employment</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/individual-income/#individual-income"><span>Individual Income</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/individual-losses-mtd/#individual-losses-mtd"><span>Individual Losses (MTD)</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/individual-tax/#individual-tax"><span>Individual Tax</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/interest-restrictition-return-irr/#interest-restrictition-return-irr"><span>Interest Restrictition Return (IRR)</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/lifetime-isa/#lifetime-isa"><span>Lifetime ISA</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/marriage-allowance/#marriage-allowance"><span>Marriage Allowance</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/national-insurance/#national-insurance"><span>National Insurance</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/obligations-mtd/#obligations-mtd"><span>Obligations (MTD)</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/push-pull-notifications/#push-pull-notifications"><span>Push Pull Notifications</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/relief-at-source/#relief-at-source"><span>Relief at Source</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/safety-and-security-import-declarations/#safety-and-security-import-declarations"><span>Safety and Security Import Declarations</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/safety-and-security-import-notifications/#safety-and-security-import-notifications"><span>Safety and Security Import Notifications</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/safety-and-security-import-outcomes/#safety-and-security-import-outcomes"><span>Safety and Security Import Outcomes</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/self-assessment-mtd-this-api-is-monolithic-and-is-in-the-process-of-being-broken-down-to-more-granular-apis/#self-assessment-mtd-this-api-is-monolithic-and-is-in-the-process-of-being-broken-down-to-more-granular-apis"><span>Self Assessment (MTD) (this API is monolithic and is in the process of being broken down to more granular APIs)</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/self-assessment-accounts-mtd/#self-assessment-accounts-mtd"><span>Self Assessment Accounts (MTD)</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/hmrc/vat-mtd/#vat-mtd"><span>VAT (MTD)</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/lga/"><span>Local Government Association</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/lga/inform-plus/#inform-plus"><span>Inform Plus</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/hackney/"><span>London Borough of Hackney</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/hackney/addresses/#addresses"><span>Addresses</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/nhs/"><span>National Health Service</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/ambulance-analytics-api/#ambulance-analytics-api"><span>Ambulance Analytics API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/assessment-discharge-and-withdrawal-fhir-api/#assessment-discharge-and-withdrawal-fhir-api"><span>Assessment Discharge and Withdrawal - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/child-protection-information-sharing-hl7-v3-api/#child-protection-information-sharing-hl7-v3-api"><span>Child Protection Information Sharing - HL7 V3 API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/clinical-decision-support-fhir-api/#clinical-decision-support-fhir-api"><span>Clinical Decision Support - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/diagnostic-data-services-fhir-api/#diagnostic-data-services-fhir-api"><span>Diagnostic Data Services - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/diagnostic-image-reporting/#diagnostic-image-reporting"><span>Diagnostic Image Reporting</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/digital-child-health-fhir-api/#digital-child-health-fhir-api"><span>Digital Child Health - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/digital-maternity-fhir-api/#digital-maternity-fhir-api"><span>Digital Maternity - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/digital-medicine-fhir-api/#digital-medicine-fhir-api"><span>Digital Medicine - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/directory-of-services/#directory-of-services"><span>Directory of Services</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/document-header-clinical-document-architecture-on-fhir/#document-header-clinical-document-architecture-on-fhir"><span>Document header - Clinical document architecture on FHIR</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/electronic-prescribing-and-medicines-administration-fhir-api/#electronic-prescribing-and-medicines-administration-fhir-api"><span>Electronic Prescribing and Medicines Administration - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/electronic-prescription-service-fhir-api/#electronic-prescription-service-fhir-api"><span>Electronic Prescription Service - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/end-of-life-clinical-document-architecture-on-fhir/#end-of-life-clinical-document-architecture-on-fhir"><span>End Of Life - Clinical document architecture on FHIR</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/end-of-life-fhir-api/#end-of-life-fhir-api"><span>End Of Life - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/female-genital-mutilation-fhir-api/#female-genital-mutilation-fhir-api"><span>Female Genital Mutilation - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/gp-connect-fhir-api/#gp-connect-fhir-api"><span>GP connect - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/gp2gp-hl7-v3-api/#gp2gp-hl7-v3-api"><span>GP2GP - HL7 V3 API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/hello-world-api/#hello-world-api"><span>Hello World API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/legitimate-relationship-service-hl7-v3-api/#legitimate-relationship-service-hl7-v3-api"><span>Legitimate Relationship Service - HL7 V3 API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/messaging-exchange-for-social-care-and-health-mesh/#messaging-exchange-for-social-care-and-health-mesh"><span>Messaging Exchange for Social care and Health (MESH)</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/nhs-111-hl7-v3-api/#nhs-111-hl7-v3-api"><span>NHS 111 HL7 V3 API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/nhs-booking-fhir-api/#nhs-booking-fhir-api"><span>NHS Booking - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/nhs-uk-website-content-syndication-apis/#nhs-uk-website-content-syndication-apis"><span>NHS.UK website content syndication APIs</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/national-data-opt-out-fhir-api/#national-data-opt-out-fhir-api"><span>National Data Opt-out - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/national-events-management-system/#national-events-management-system"><span>National Events Management System</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/national-health-application-and-infrastructure-services-nhais-gp-links-api/#national-health-application-and-infrastructure-services-nhais-gp-links-api"><span>National Health Application and Infrastructure Services - NHAIS GP Links API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/national-pathology-messaging-fhir-api/#national-pathology-messaging-fhir-api"><span>National Pathology Messaging - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/national-population-failsafe-management-fhir-api/#national-population-failsafe-management-fhir-api"><span>National Population Failsafe Management - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/national-record-locator-fhir-api/#national-record-locator-fhir-api"><span>National Record Locator - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/organisation-data-service-fhir_ord-api/#organisation-data-service-fhir_ord-api"><span>Organisation Data Service - FHIR_ORD API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/outpatients-hl7-v3-api/#outpatients-hl7-v3-api"><span>Outpatients - HL7 V3 API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/personal-demographics-service-fhir-api/#personal-demographics-service-fhir-api"><span>Personal Demographics Service - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/personal-demographics-service-hl7-v3-api/#personal-demographics-service-hl7-v3-api"><span>Personal Demographics Service - HL7 V3 API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/personal-demographics-service-smsp-api/#personal-demographics-service-smsp-api"><span>Personal Demographics Service - SMSP API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/prescription-tracker/#prescription-tracker"><span>Prescription Tracker</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/reasonable-adjustment-flag-fhir-api/#reasonable-adjustment-flag-fhir-api"><span>Reasonable Adjustment Flag - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/spine-directory-service-fhir-api/#spine-directory-service-fhir-api"><span>Spine Directory Service - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/spine-directory-service-ldap-api/#spine-directory-service-ldap-api"><span>Spine Directory Service - LDAP API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/summary-care-record-fhir-api/#summary-care-record-fhir-api"><span>Summary Care Record - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/summary-care-record-hl7-v3-api/#summary-care-record-hl7-v3-api"><span>Summary Care Record - HL7 V3 API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/transfer-of-care-fhir-api/#transfer-of-care-fhir-api"><span>Transfer of Care - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/urgent-emergency-care-appointment-booking/#urgent-emergency-care-appointment-booking"><span>Urgent & Emergency Care Appointment Booking</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/e-referral-service-fhir-api/#e-referral-service-fhir-api"><span>e-Referral Service - FHIR API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/nhs/e-referral-service-hl7-v3-api/#e-referral-service-hl7-v3-api"><span>e-Referral Service - HL7 V3 API</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/ons/"><span>Office of National Statistics</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/ons/open-geography-portal/#open-geography-portal"><span>Open Geography portal</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ons/statistics/#statistics"><span>Statistics</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/os/"><span>Ordnance Survey</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/os/os-download-api/#os-download-api"><span>OS Download API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/os/os-features-api/#os-features-api"><span>OS Features API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/os/os-linked-identifiers-api/#os-linked-identifiers-api"><span>OS Linked Identifiers API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/os/os-maps-api/#os-maps-api"><span>OS Maps API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/os/os-names-api/#os-names-api"><span>OS Names API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/os/os-oauth-2-api/#os-oauth-2-api"><span>OS OAuth 2 API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/os/os-places-api/#os-places-api"><span>OS Places API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/os/os-vector-tile-api/#os-vector-tile-api"><span>OS Vector Tile API</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/scot/"><span>Scottish Government</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/scot/statistics-gov-scot/#statistics-gov-scot"><span>Statistics.gov.scot</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/ukho/"><span>UK Hydrographic Office</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/ukho/avcs-online-discovery-api/#avcs-online-discovery-api"><span>AVCS Online Discovery API</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ukho/aquaculture-discovery/#aquaculture-discovery"><span>Aquaculture - Discovery</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ukho/continental-shelf-limits-discovery/#continental-shelf-limits-discovery"><span>Continental Shelf Limits - Discovery</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ukho/territorial-sea-limits-and-boundaries-discovery/#territorial-sea-limits-and-boundaries-discovery"><span>Territorial Sea Limits and Boundaries - Discovery</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ukho/uk-exclusive-economic-zone-discovery/#uk-exclusive-economic-zone-discovery"><span>UK Exclusive Economic Zone - Discovery</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ukho/uk-fishing-limits-discovery/#uk-fishing-limits-discovery"><span>UK Fishing Limits - Discovery</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ukho/uk-port-limits-discovery/#uk-port-limits-discovery"><span>UK Port Limits - Discovery</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ukho/uk-tidal-api-discovery/#uk-tidal-api-discovery"><span>UK Tidal API - Discovery</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ukho/uk-tidal-api-foundation/#uk-tidal-api-foundation"><span>UK Tidal API - Foundation</span></a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/api-catalogue/ukho/uk-tidal-api-premium/#uk-tidal-api-premium"><span>UK Tidal API - Premium</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/wberks/"><span>West Berkshire Council</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/wberks/georeport/#georeport"><span>GeoReport</span></a>
+  </li>
+</ul>
+</li></ul><ul><li><a href="/api-catalogue/wmca/"><span>West Midlands Combined Authority</span></a>
+<ul>
+  <li>
+    <a href="/api-catalogue/wmca/transport-for-west-midlands-api/#transport-for-west-midlands-api"><span>Transport for West Midlands API</span></a>
+  </li>
+</ul>
+</li></ul>
+
+              </nav>
+            </div>
+          </div>
+
+        <div class="app-pane__content toc-open-disabled">
+          <main id="content" class="technical-documentation" data-module="anchored-headings">
+            <h1 id="catchment-data">Catchment Data</h1>
+
+  <h2>Endpoint URL:</h2>
+  <ul>
+    <li><a href="https://environment.data.gov.uk/catchment-planning/">https://environment.data.gov.uk/catchment-planning/</a></li>
+  </ul>
+
+  <h2>Documentation URL:</h2>
+  <ul>
+    <li><a href="https://environment.data.gov.uk/catchment-planning/ui/reference">https://environment.data.gov.uk/catchment-planning/ui/reference</a></li>
+  </ul>
+
+
+  <h2>Description:</h2>
+  The Catchment Data Explorer (CDE) helps you explore and download information about the water environment. It supports and builds upon the data in the river basin management plans. The Catchment Data API complements this by providing selective programmatic access to the data. \n\n Please visit the [Defra Data Services Forum](https:&#x2F;&#x2F;support.environment.data.gov.uk&#x2F;hc&#x2F;en-gb) to let us know about any issues or to ask questions.
+
+
+
+
+
+            
+          </main>
+
+          <aside>
+              <ul class="contribution-banner">
+                <li><a href="https://github.com/alphagov/api-catalogue/blob/master/source/api_details.html.erb">View source</a></li>
+                <li><a href="https://github.com/alphagov/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'Catchment%20Data'&amp;body=Problem%20with%20'Catchment%20Data'%20(https://alphagov.github.io/api-catalogue/api-catalogue/ea/catchment-data/)">Report problem</a></li>
+                <li><a href="https://github.com/alphagov/api-catalogue">GitHub Repo</a></li>
+              </ul>
+          </aside>
+
+          <footer class="govuk-footer app-footer" role="contentinfo">
+  <div class="govuk-footer__meta">
+    <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+
+        <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="/api-catalogue/accessibility.html">Technical Documentation Accessibility</a>
+            </li>
+        </ul>
+
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        class="govuk-footer__licence-logo"
+        xmlns="http://www.w3.org/2000/svg"
+        viewbox="0 0 483.2 195.7"
+        height="17"
+        width="41"
+      >
+        <path
+          fill="currentColor"
+          d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+        />
+      </svg>
+      <span class="govuk-footer__licence-description">
+        All content is available under the
+        <a
+          class="govuk-footer__link"
+          href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+          rel="license"
+        >Open Government Licence v3.0</a>, except where otherwise stated
+      </span>
+    </div>
+    <div class="govuk-footer__meta-item">
+      <a
+        class="govuk-footer__link govuk-footer__copyright-logo"
+        href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+      >© Crown copyright</a>
+    </div>
+  </div>
+</footer>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="/api-catalogue/javascripts/application.js"></script>
+  </body>
+</html>
