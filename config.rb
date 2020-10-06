@@ -5,6 +5,8 @@ require 'lib/url_helpers'
 
 GovukTechDocs.configure(self)
 
+set(:layout, :api_catalogue)
+
 # Without prefix for 'middleman serve'
 set(:govuk_assets_path, "/assets/govuk/assets/")
 
