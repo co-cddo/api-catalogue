@@ -13,6 +13,10 @@ Collecting a list of government APIs will help us understand:
 If you have any questions, please contact:
 api-standards-request@digital.cabinet-office.gov.uk
 
+## Working on the API Catalogue
+
+- [Getting started](./docs/getting_started.md)
+
 ## Licence
 
 Unless stated otherwise, the codebase is released under [the MIT licence](./LICENSE).
