@@ -33,10 +33,10 @@ RSpec.describe ApiCatalogue do
   describe "ordering" do
     it "sorts organisations and APIs from A-Z" do
       apis = [
-        instance_double(Api, organisation: "B", name: "B2", provider: nil),
-        instance_double(Api, organisation: "B", name: "B1", provider: nil),
-        instance_double(Api, organisation: "A", name: "A2", provider: nil),
-        instance_double(Api, organisation: "A", name: "A1", provider: nil),
+        build(:api, organisation: "B", name: "B2"),
+        build(:api, organisation: "B", name: "B1"),
+        build(:api, organisation: "A", name: "A2"),
+        build(:api, organisation: "A", name: "A1"),
       ]
 
       api_catalogue = described_class.new(apis)
