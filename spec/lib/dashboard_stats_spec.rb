@@ -23,16 +23,16 @@ RSpec.describe DashboardStats do
   describe "#last_updated" do
     let(:apis) do
       [
-        instance_double(Api, organisation: "A", name: "A1", date_updated: Date.new(2020, 1, 1), date_added: Date.new(2016, 1, 1), provider: nil),
-        instance_double(Api, organisation: "A", name: "A2", date_updated: Date.new(2019, 1, 1), date_added: Date.new(2016, 1, 1), provider: nil),
-        instance_double(Api, organisation: "B", name: "B1", date_updated: Date.new(2018, 1, 1), date_added: Date.new(2016, 1, 1), provider: nil),
-        instance_double(Api, organisation: "C", name: "C1", date_updated: Date.new(2017, 1, 1), date_added: Date.new(2016, 1, 1), provider: nil),
+        build(:api, organisation: "A", date_updated: "2020-1-1"),
+        build(:api, organisation: "A", date_updated: "2019-1-1"),
+        build(:api, organisation: "B", date_updated: "2018-1-1"),
+        build(:api, organisation: "C", date_updated: "2017-1-1"),
       ]
     end
 
     let(:api_catalogue) { ApiCatalogue.new(apis) }
 
-    it "matches the most recently updated API" do
+    it "matches the most recently updated API, across all organisations" do
       expect(subject.last_updated).to eq Date.new(2020, 1, 1)
     end
   end

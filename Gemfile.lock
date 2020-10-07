@@ -66,6 +66,8 @@ GEM
     erubis (2.7.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
+    factory_bot (6.1.0)
+      activesupport (>= 5.0.0)
     fast_blank (1.0.0)
     fastimage (2.2.0)
     ffi (1.13.1)
@@ -200,6 +202,7 @@ PLATFORMS
 
 DEPENDENCIES
   activemodel
+  factory_bot
   govuk_tech_docs!
   rake
   rspec
