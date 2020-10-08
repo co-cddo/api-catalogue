@@ -16,6 +16,7 @@ api-standards-request@digital.cabinet-office.gov.uk
 ## Working on the API Catalogue
 
 - [Getting started](./docs/getting_started.md)
+- [Deployment workflow](./docs/deployment.md)
 
 ## Licence
 

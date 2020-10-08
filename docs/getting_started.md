@@ -48,10 +48,12 @@ messages to help with finding the problem.
 ## Publishing
 
 [Create a pull request][pull-request] to make changes to the site. When the pull
-request is merged it'll be published automatically.
+request is merged it'll be published automatically. See the
+[deployment documentation][deployment] for further details.
 
 [middleman]: https://middlemanapp.com/
 [tech-docs-template]: https://github.com/alphagov/tech-docs-template
 [setup-rbenv]: https://github.com/rbenv/rbenv#installation
 [ruby-version]: ../.ruby-version
 [pull-request]: https://gds-way.cloudapps.digital/standards/pull-requests.html
+[deployment]: ./deployment.md
