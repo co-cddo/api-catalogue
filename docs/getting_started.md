@@ -7,8 +7,8 @@ The API catalogue is a [Middleman site][middleman] which uses the
 such as the Table of Contents.
 
 Pages describing the APIs are generated dynamically from a CSV file located in
-the `data` directory. Content for other pages is based on Markdown files located
-in the `source` directory.
+the `data/inputs` directory. Content for other pages is based on Markdown files
+located in the `source` directory.
 
 ## Before you start
 
