@@ -1,3 +1,11 @@
+require "rspec/core/rake_task"
+require "rubocop/rake_task"
+
+RSpec::Core::RakeTask.new(:spec)
+RuboCop::RakeTask.new
+
+task default: ["spec", "rubocop:auto_correct"]
+
 desc "Build site"
 task :build do
   sh "bundle exec middleman build --clean --bail"
