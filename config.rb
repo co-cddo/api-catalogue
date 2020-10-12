@@ -1,7 +1,7 @@
-require 'govuk_tech_docs'
-require 'lib/api_catalogue'
-require 'lib/dashboard_stats'
-require 'lib/url_helpers'
+require "govuk_tech_docs"
+require "lib/api_catalogue"
+require "lib/dashboard_stats"
+require "lib/url_helpers"
 
 GovukTechDocs.configure(self)
 

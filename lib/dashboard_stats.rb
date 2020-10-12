@@ -22,10 +22,10 @@ class DashboardStats
   end
 
   def by_organisation
-    @_by_organsation ||= calculate_stats_by_organisation
+    @by_organisation ||= calculate_stats_by_organisation
   end
 
-  private
+private
 
   attr_reader :api_catalogue
 
