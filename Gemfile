@@ -20,3 +20,7 @@ group :test do
   gem 'rspec'
   gem 'factory_bot'
 end
+
+group :development do
+  gem 'rubocop-govuk'
+end

@@ -1,0 +1,8 @@
+inherit_gem:
+  rubocop-govuk:
+    - config/default.yml
+    - config/rspec.yml
+
+inherit_mode:
+  merge:
+    - Exclude
