@@ -18,6 +18,9 @@ jobs:
       - name: Test
         run: bundle exec rspec
 
+      - name: Lint
+        run: bundle exec rubocop --parallel
+
       - name: Build
         run: bundle exec rake build
 
