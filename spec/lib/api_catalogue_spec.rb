@@ -43,7 +43,7 @@ RSpec.describe ApiCatalogue do
       first_org, first_org_apis = api_catalogue.organisations_apis.first
 
       expect(first_org.name).to eq "A"
-      expect(first_org_apis.map(&:name)).to eq ["A1", "A2"]
+      expect(first_org_apis.map(&:name)).to eq %w[A1 A2]
     end
   end
 end
