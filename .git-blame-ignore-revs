@@ -1,0 +1,4 @@
+# Usage: git blame --ignore-revs-file .git-blame-ignore-revs <file>
+
+# Initial Rubocop autocorrect
+c2f7f38dcde3e9d1ef6a70f6847293ba4baff390
