@@ -32,6 +32,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    ast (2.4.1)
     autoprefixer-rails (9.8.6.5)
       execjs
     backports (3.18.2)
@@ -152,6 +153,8 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.19.2)
+    parser (2.7.2.0)
+      ast (~> 2.4.1)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -159,11 +162,13 @@ GEM
     rack (2.2.3)
     rack-livereload (0.3.17)
       rack
+    rainbow (3.0.0)
     rake (13.0.0)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redcarpet (3.5.0)
+    regexp_parser (1.8.2)
     rexml (3.2.4)
     rouge (3.23.0)
     rspec (3.9.0)
@@ -179,8 +184,33 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
+    rubocop (0.87.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.1.1)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.7)
+      rexml
+      rubocop-ast (>= 0.1.0, < 1.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    rubocop-ast (0.7.1)
+      parser (>= 2.7.1.5)
+    rubocop-govuk (3.17.0)
+      rubocop (= 0.87.1)
+      rubocop-rails (= 2.6.0)
+      rubocop-rake (= 0.5.1)
+      rubocop-rspec (= 1.42.0)
+    rubocop-rails (2.6.0)
+      activesupport (>= 4.2.0)
+      rack (>= 1.1)
+      rubocop (>= 0.82.0)
+    rubocop-rake (0.5.1)
+      rubocop
+    rubocop-rspec (1.42.0)
+      rubocop (>= 0.87.0)
     ruby-enum (0.8.0)
       i18n
+    ruby-progressbar (1.10.1)
     sass (3.4.25)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -196,6 +226,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
+    unicode-display_width (1.7.0)
 
 PLATFORMS
   ruby
@@ -206,6 +237,7 @@ DEPENDENCIES
   govuk_tech_docs!
   rake
   rspec
+  rubocop-govuk
   tzinfo-data
   wdm (~> 0.1.0)
 
