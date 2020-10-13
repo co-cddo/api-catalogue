@@ -50,7 +50,21 @@ api_catalogue.organisations_apis.each.with_index(initial_org_weight) do |(organi
       ignore: true,
     )
   end
+
+  proxy(
+    "/api/organisations/#{organisation.slug}/apis.json",
+    "organisation_apis.json",
+    locals: { apis: apis },
+    ignore: true,
+  )
 end
+
+proxy(
+  "/api/organisations.json",
+  "organisation_list.json",
+  locals: { organisations: api_catalogue.organisations_apis.keys },
+  ignore: true,
+)
 
 proxy(
   "/dashboard/index.html",

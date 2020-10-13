@@ -1,0 +1,10 @@
+<%= {
+  data: organisations.map do |organisation|
+    {
+      name: organisation.name,
+      links: {
+        apis: "/api/organisations/#{organisation.slug}/apis.json"
+      }
+    }
+  end
+}.to_json %>

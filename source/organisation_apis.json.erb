@@ -1,0 +1,9 @@
+<%= {
+  data: apis.map do |api|
+    {
+      url: api.url,
+      name: api.name,
+      documentation: api.documentation,
+    }
+  end
+}.to_json %>
