@@ -11,7 +11,7 @@ Collecting a list of government APIs will help us understand:
 * whether APIs are suitable for reuse
 
 If you have any questions, please contact:
-api-standards-request@digital.cabinet-office.gov.uk
+api-catalogue@digital.cabinet-office.gov.uk
 
 ## Working on the API Catalogue
 
