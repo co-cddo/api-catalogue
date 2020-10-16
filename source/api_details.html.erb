@@ -23,7 +23,7 @@
 
 <% if api.description.present? %>
   <h2>Description:</h2>
-  <%= escape_html(api.description) %>
+  <%= render_markdown(unescape_newlines(api.description)) %>
 <% end %>
 
 <% if api.license.present? %>
