@@ -6,14 +6,14 @@
 /*! Copyright (c) 2011 by Margaret Calvert & Henrik Kubel. All rights reserved. The font has been customised for exclusive use on gov.uk. This cut is not commercially available. */
 @font-face {
   font-family: "GDS Transport";
-  src: url("/api-catalogue/assets/govuk/assets/fonts/light-94a07e06a1-v2.woff2") format("woff2"), url("/api-catalogue/assets/govuk/assets/fonts/light-f591b13f7d-v2.woff") format("woff");
+  src: url("/assets/govuk/assets/fonts/light-94a07e06a1-v2.woff2") format("woff2"), url("/assets/govuk/assets/fonts/light-f591b13f7d-v2.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: fallback; }
 
 @font-face {
   font-family: "GDS Transport";
-  src: url("/api-catalogue/assets/govuk/assets/fonts/bold-b542beb274-v2.woff2") format("woff2"), url("/api-catalogue/assets/govuk/assets/fonts/bold-affa96571d-v2.woff") format("woff");
+  src: url("/assets/govuk/assets/fonts/bold-b542beb274-v2.woff2") format("woff2"), url("/assets/govuk/assets/fonts/bold-affa96571d-v2.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: fallback; }
@@ -803,7 +803,7 @@
   display: inline-block;
   min-width: 125px;
   padding-top: 112px;
-  background-image: url("/api-catalogue/assets/govuk/assets/images/govuk-crest.png");
+  background-image: url("/assets/govuk/assets/images/govuk-crest.png");
   background-repeat: no-repeat;
   background-position: 50% 0%;
   background-size: 125px 102px;
@@ -812,7 +812,7 @@
   white-space: nowrap; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .govuk-footer__copyright-logo {
-      background-image: url("/api-catalogue/assets/govuk/assets/images/govuk-crest-2x.png"); } }
+      background-image: url("/assets/govuk/assets/images/govuk-crest-2x.png"); } }
 .govuk-footer__inline-list {
   margin-top: 0;
   margin-bottom: 15px;
@@ -2532,12 +2532,12 @@
     display: none;
     text-decoration: none;
     text-indent: -9999em;
-    background-image: url(/api-catalogue/images/anchored-heading-icon.png);
+    background-image: url(/images/anchored-heading-icon.png);
     background-repeat: no-repeat;
     background-position: center center; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
       .anchored-heading__icon {
-        background-image: url(/api-catalogue/images/anchored-heading-icon-2x.png);
+        background-image: url(/images/anchored-heading-icon-2x.png);
         background-size: 23px 14px; } }
     @media (min-width: 40.0625em) {
       .anchored-heading__icon {
@@ -2736,7 +2736,7 @@ html.has-search-results-open {
         left: -9px;
         width: 10px;
         height: 20px;
-        background: no-repeat url(/api-catalogue/images/search-result-caret.svg) center right;
+        background: no-repeat url(/images/search-result-caret.svg) center right;
         background-size: contain; } }
 .search-results__title {
   font-family: "GDS Transport", Arial, sans-serif;
@@ -2805,11 +2805,11 @@ html.has-search-results-open {
     padding-left: 8px;
     height: 18px;
     width: 18px;
-    background: no-repeat url(/api-catalogue/images/govuk-icn-close.png) center right;
+    background: no-repeat url(/images/govuk-icn-close.png) center right;
     background-size: contain; }
     @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
       .search-results__close::after {
-        background-image: url(/api-catalogue/images/govuk-icn-close@2x.png); } }
+        background-image: url(/images/govuk-icn-close@2x.png); } }
 .search-results__close-label {
   position: absolute;
   left: -9999em;
@@ -3185,12 +3185,12 @@ html.has-search-results-open {
         width: 20px;
         height: 20px;
         float: right;
-        background-image: url(/api-catalogue/images/govuk-icn-numbered-list.png);
+        background-image: url(/images/govuk-icn-numbered-list.png);
         background-repeat: no-repeat;
         background-position: left center; } }
       @media only screen and (max-width: 40.0525em) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 40.0525em) and (min-device-pixel-ratio: 2), only screen and (max-width: 40.0525em) and (min-resolution: 192dpi), only screen and (max-width: 40.0525em) and (min-resolution: 2dppx) {
         .js .toc-show__icon {
-          background-image: url(/api-catalogue/images/govuk-icn-numbered-list@2x.png);
+          background-image: url(/images/govuk-icn-numbered-list@2x.png);
           background-size: 20px 20px; } }
 @media screen and (max-width: 40.0525em) {
     .js .toc__list {
@@ -3205,12 +3205,12 @@ html.has-search-results-open {
       width: 20px;
       height: 20px;
       cursor: pointer;
-      background-image: url(/api-catalogue/images/govuk-icn-close.png);
+      background-image: url(/images/govuk-icn-close.png);
       background-repeat: no-repeat;
       background-position: left center; } }
     @media only screen and (max-width: 40.0525em) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 40.0525em) and (min-device-pixel-ratio: 2), only screen and (max-width: 40.0525em) and (min-resolution: 192dpi), only screen and (max-width: 40.0525em) and (min-resolution: 2dppx) {
       .js .toc__close {
-        background-image: url(/api-catalogue/images/govuk-icn-close@2x.png);
+        background-image: url(/images/govuk-icn-close@2x.png);
         background-size: 20px 20px; } }
 @media screen and (max-width: 40.0525em) {
       .js .toc__close:focus {
