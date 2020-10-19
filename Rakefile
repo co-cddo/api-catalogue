@@ -24,7 +24,7 @@ task :publish do
     tmp_dir
   end
 
-  sh("rsync -a --delete --exclude .git build/ #{publish_dir}")
+  sh("rsync -a --delete --exclude .git --exclude CNAME build/ #{publish_dir}")
   sh("git -C #{publish_dir} add --all")
   sh("git -C #{publish_dir} commit -m 'Publish #{rev}'") do |ok, _|
     if ok
