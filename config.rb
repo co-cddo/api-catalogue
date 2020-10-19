@@ -7,16 +7,6 @@ GovukTechDocs.configure(self)
 
 set(:layout, :api_catalogue)
 
-# Without prefix for 'middleman serve'
-set(:govuk_assets_path, "/assets/govuk/assets/")
-
-# Add '/api-catalogue/' for 'middleman build', for Github Pages compatibility
-configure :build do
-  set(:build_dir, "build/api-catalogue")
-  set(:http_prefix, "/api-catalogue/")
-  set(:govuk_assets_path, "/api-catalogue/assets/govuk/assets/")
-end
-
 helpers UrlHelpers
 
 csv_path = File.expand_path("data/inputs/apic.csv", __dir__)
