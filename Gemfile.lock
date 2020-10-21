@@ -23,9 +23,9 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (5.2.4.3)
-      activesupport (= 5.2.4.3)
-    activesupport (5.2.4.3)
+    activemodel (5.2.4.4)
+      activesupport (= 5.2.4.4)
+    activesupport (5.2.4.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -57,7 +57,7 @@ GEM
       sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
-    concurrent-ruby (1.1.6)
+    concurrent-ruby (1.1.7)
     contracts (0.13.0)
     diff-lcs (1.4.4)
     dotenv (2.7.6)
@@ -140,7 +140,7 @@ GEM
       middleman-core (>= 3.2)
       rouge (~> 3.2)
     mini_portile2 (2.4.0)
-    minitest (5.14.1)
+    minitest (5.14.2)
     multi_json (1.15.0)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
