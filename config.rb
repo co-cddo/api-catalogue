@@ -9,8 +9,9 @@ set(:layout, :api_catalogue)
 
 helpers UrlHelpers
 
-csv_path = File.expand_path("data/inputs/apic.csv", __dir__)
-api_catalogue = ApiCatalogue.from_csv(csv_path)
+catalogue_csv = File.expand_path("data/catalogue.csv", __dir__)
+organisation_csv = File.expand_path("data/organisation.csv", __dir__)
+api_catalogue = ApiCatalogue.from_csv(catalogue_csv: catalogue_csv, organisation_csv: organisation_csv)
 
 # Order organisations from A-Z in the Table of Contents,
 # leaving a buffer from 0-999 for static content to be given priority

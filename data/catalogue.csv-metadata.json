@@ -10,7 +10,7 @@
       "columnReference": "provider",
       "reference": {
         "resource": "organisations.csv",
-        "columnReference": "identifier"
+        "columnReference": "id"
       }
     }],
     "columns": [

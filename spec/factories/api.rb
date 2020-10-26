@@ -8,7 +8,6 @@ FactoryBot.define do
     end
 
     name { "API-#{api_number}" }
-    organisation { "Department of APIs" }
     url { "https://api-#{api_number}.example.com" }
 
     date_added { 1.year.ago.to_date }

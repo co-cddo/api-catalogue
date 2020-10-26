@@ -16,7 +16,6 @@ class Api
   attribute :area_served, :string
   attribute :start_date, :date
   attribute :end_date, :date
-  attribute :organisation, :string
 
   def slug
     name.parameterize
