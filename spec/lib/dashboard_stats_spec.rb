@@ -4,8 +4,9 @@ require "dashboard_stats"
 RSpec.describe DashboardStats do
   subject(:stats) { described_class.new(api_catalogue) }
 
-  let(:csv_path) { File.expand_path("../../data/inputs/apic.csv", __dir__) }
-  let(:api_catalogue) { ApiCatalogue.from_csv(csv_path) }
+  let(:catalogue_csv) { File.expand_path("../../data/catalogue.csv", __dir__) }
+  let(:organisation_csv) { File.expand_path("../../data/organisation.csv", __dir__) }
+  let(:api_catalogue) { ApiCatalogue.from_csv(catalogue_csv: catalogue_csv, organisation_csv: organisation_csv) }
 
   describe "#total_apis" do
     it "sums the APIs across each organisation" do
@@ -23,14 +24,22 @@ RSpec.describe DashboardStats do
   describe "#last_updated" do
     let(:apis) do
       [
-        build(:api, organisation: "A", date_updated: "2020-1-1"),
-        build(:api, organisation: "A", date_updated: "2019-1-1"),
-        build(:api, organisation: "B", date_updated: "2018-1-1"),
-        build(:api, organisation: "C", date_updated: "2017-1-1"),
+        build(:api, provider: "A", date_updated: "2020-1-1"),
+        build(:api, provider: "A", date_updated: "2019-1-1"),
+        build(:api, provider: "B", date_updated: "2018-1-1"),
+        build(:api, provider: "C", date_updated: "2017-1-1"),
       ]
     end
 
-    let(:api_catalogue) { ApiCatalogue.new(apis) }
+    let(:organisations) do
+      [
+        build(:organisation, id: "A"),
+        build(:organisation, id: "B"),
+        build(:organisation, id: "C"),
+      ]
+    end
+
+    let(:api_catalogue) { ApiCatalogue.new(apis: apis, organisations: organisations) }
 
     it "matches the most recently updated API, across all organisations" do
       expect(stats.last_updated).to eq Date.new(2020, 1, 1)
