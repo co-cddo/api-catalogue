@@ -19,10 +19,12 @@ class ApiCatalogue
 private
 
   def group_by_organisation(apis:, organisations:)
-    provider_apis = apis.sort_by(&:name).group_by(&:provider)
+    apis_by_provider = apis.sort_by(&:name).group_by(&:provider)
 
-    organisations.sort_by(&:name).map { |organisation|
-      [organisation, provider_apis.fetch(organisation.id, [])]
-    }.to_h
+    organisations
+      .sort_by(&:name)
+      .each_with_object({}) do |organisation, result|
+        result[organisation] = apis_by_provider.fetch(organisation.id, [])
+      end
   end
 end
