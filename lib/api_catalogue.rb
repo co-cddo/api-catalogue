@@ -1,18 +1,11 @@
-require "csv"
 require_relative "api"
 require_relative "organisation"
+require_relative "csv_source"
 
 class ApiCatalogue
   def self.from_csv(catalogue_csv:, organisation_csv:)
-    header_converter = ->(header) { header.underscore.to_sym }
-
-    apis = CSV
-      .foreach(catalogue_csv, headers: true, header_converters: [header_converter])
-      .map { |row| Api.new(row.to_hash) }
-
-    organisations = CSV
-      .foreach(organisation_csv, headers: true, header_converters: [header_converter])
-      .map { |row| Organisation.new(row.to_hash) }
+    apis = CsvSource.load(catalogue_csv) { |attributes| Api.new(attributes) }
+    organisations = CsvSource.load(organisation_csv) { |attributes| Organisation.new(attributes) }
 
     new(apis: apis, organisations: organisations)
   end
