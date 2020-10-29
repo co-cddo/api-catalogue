@@ -17,7 +17,7 @@ weight: 2
   <tbody>
     <% overview.entries.each do |entry| %>
       <tr>
-        <td><%= entry.name %></td>
+        <td><%= link_to(entry.name, entry.url) %></td>
         <td><%= entry.department %></td>
         <td><%= render_markdown(unescape_newlines(entry.license)) if entry.license.present? %></td>
       </tr>
