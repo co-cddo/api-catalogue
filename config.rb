@@ -1,4 +1,5 @@
 require "govuk_tech_docs"
+require "lib/api_catalogue_overview"
 require "lib/api_catalogue"
 require "lib/dashboard_stats"
 require "lib/url_helpers"
@@ -47,5 +48,12 @@ proxy(
   "/dashboard/index.html",
   "dashboard.html",
   locals: { dashboard_stats: DashboardStats.new(api_catalogue) },
+  ignore: true,
+)
+
+proxy(
+  "/overview/index.html",
+  "overview.html",
+  locals: { overview: ApiCatalogueOverview.new(api_catalogue) },
   ignore: true,
 )
