@@ -5,10 +5,10 @@ weight: 2
 
 <h1 id="api-catalogue-overview">Overview</h1>
 
-<table>
+<table class="js-table-sort">
   <thead>
     <tr>
-      <th class="govuk-!-width-one-third">Name</th>
+      <th class="govuk-!-width-one-third" data-sort-default>Name</th>
       <th class="govuk-!-width-one-third">Department</th>
       <th class="govuk-!-width-one-third">License</th>
     </tr>
@@ -31,3 +31,5 @@ weight: 2
     max-width: none;
   }
 </style>
+
+<%= javascript_include_tag("tablesort.js", defer: true, async: true) %>
