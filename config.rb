@@ -52,8 +52,8 @@ proxy(
 )
 
 proxy(
-  "/overview/index.html",
-  "overview.html",
+  "/index/index.html",
+  "overview_index.html",
   locals: { overview: ApiCatalogueOverview.new(api_catalogue) },
   ignore: true,
 )
