@@ -1,25 +1,3 @@
-GIT
-  remote: https://github.com/alphagov/tech-docs-gem.git
-  revision: 28855c05cabb311f311be8e12039151789c7dc29
-  branch: http-prefix-support
-  specs:
-    govuk_tech_docs (2.1.0)
-      activesupport
-      chronic (~> 0.10.2)
-      middleman (~> 4.0)
-      middleman-autoprefixer (~> 2.10.0)
-      middleman-compass (>= 4.0.0)
-      middleman-livereload
-      middleman-search-gds
-      middleman-sprockets (~> 4.0.0)
-      middleman-syntax (~> 3.2.0)
-      nokogiri
-      openapi3_parser (~> 0.5.0)
-      pry
-      redcarpet (~> 3.5.0)
-      sass
-      sprockets (~> 4.0.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -234,11 +212,25 @@ PLATFORMS
 
 DEPENDENCIES
   activemodel
+  activesupport
+  chronic (~> 0.10.2)
   factory_bot
-  govuk_tech_docs!
+  middleman (~> 4.0)
+  middleman-autoprefixer (~> 2.10.0)
+  middleman-compass (>= 4.0.0)
+  middleman-livereload
+  middleman-search-gds
+  middleman-sprockets (~> 4.0.0)
+  middleman-syntax (~> 3.2.0)
+  nokogiri
+  openapi3_parser (~> 0.5.0)
+  pry
   rake
+  redcarpet (~> 3.5.0)
   rspec
   rubocop-govuk
+  sass
+  sprockets (~> 4.0.0)
   tzinfo-data
   wdm (~> 0.1.0)
 
