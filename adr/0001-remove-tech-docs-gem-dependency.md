@@ -1,7 +1,7 @@
 ---
 creation_date: 2020-11-05
 decision_date: null
-status: proposed
+status: approved
 ---
 
 # Remove the Tech Docs Gem Dependency
