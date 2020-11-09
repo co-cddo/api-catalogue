@@ -22,3 +22,5 @@ Staticfile.auth
 spec/examples.txt
 
 /tmp
+
+node_modules
