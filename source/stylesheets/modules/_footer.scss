@@ -1,0 +1,9 @@
+.app-footer {
+  padding-left: govuk-spacing(3);
+  padding-right: govuk-spacing(3);
+
+  @include govuk-media-query($from: tablet) {
+    padding-left: govuk-spacing(6);
+    padding-right: govuk-spacing(6);
+  }
+}

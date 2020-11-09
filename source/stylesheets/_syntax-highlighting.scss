@@ -1,0 +1,196 @@
+.highlight {
+
+  /* Map Rouge / Pygments Tokens to work with 'Base 16' themes */
+
+  background: $code-00;
+  color: $code-05;
+
+  /**
+   * Comments
+   */
+  
+  .c,       /* Comment */
+  .cm,      /* Comment.Multiline */
+  .cp,      /* Comment.Preproc */
+  .c1,      /* Comment.Single */
+  .cs {     /* Comment.Special */
+    color: $code-03;
+  }
+  
+  /**
+   * Keywords
+   */
+
+  .k,       /* Keyword */
+  .kc,      /* Keyword.Constant */
+  .kd,      /* Keyword.Declaration */
+  .kp,      /* Keyword.Pseudo */
+  .kr {     /* Keyword.Reserved */
+    color: $code-0E;
+  }
+
+  .kn {     /* Keyword.Namespace */
+    color: $code-0C;
+  }
+
+  .kt {     /* Keyword.Type */
+    color: $code-0A;
+  } 
+
+  /**
+   * Operators
+   */
+
+  .o,       /* Operator */
+  .ow {     /* Operator.Word */
+    color: $code-0C
+  }
+
+  /**
+   * Names
+   */
+
+  .n,       /* Name */
+  .nb,      /* Name.Builtin */
+  .bp,      /* Name.Builtin.Pseudo */
+  .ni,      /* Name.Entity */
+  .nl,      /* Name.Label */
+  .py {     /* Name.Property */
+    // Default styling
+  }
+  
+  .nc,      /* Name.Class */
+  .nn {     /* Name.Namespace */
+    color: $code-0A;
+  }
+
+  .na,      /* Name.Attribute */
+  .nf {     /* Name.Function */
+    color: $code-0D;
+  }
+
+  .nv,      /* Name.Variable */
+  .no,      /* Name.Constant */
+  .vc,      /* Name.Variable.Class */
+  .vg,      /* Name.Variable.Global */
+  .vi {     /* Name.Variable.Instance */
+    color: $code-08;
+  }
+  
+  .nd {     /* Name.Decorator */
+    color: $code-0C;
+  }
+  
+  .nt,      /* Name.Tag */  
+  .nx {     /* Name.Other */
+    color: $code-09;
+  }
+
+  .ne {     /* Name.Exception */
+    color: $code-0F;
+  }
+  
+  /**
+   * Literals
+   */
+  
+  .l  {     /* Literal */
+    color: $code-09;
+  }
+
+  .ld {     /* Literal.Date */
+    color: $code-0B;
+  }
+  
+  .m,       /* Literal.Number */
+  .mf,      /* Literal.Number.Float */
+  .mh,      /* Literal.Number.Hex */
+  .mi,      /* Literal.Number.Integer */
+  .il,      /* Literal.Number.Integer.Long */
+  .mo {     /* Literal.Number.Oct */
+    color: $code-09;
+  }
+  
+  .s,       /* Literal.String */
+  .sb,      /* Literal.String.Backtick */
+  .s2,      /* Literal.String.Double */
+  .sh {     /* Literal.String.Heredoc */
+    color: $code-0B;
+  }
+  
+  .sx,      /* Literal.String.Other */
+  .sr,      /* Literal.String.Regex */
+  .s1,      /* Literal.String.Single */
+  .ss {     /* Literal.String.Symbol */
+    color: $code-0B;
+  }
+
+  .se,      /* Literal.String.Escape */
+  .si {     /* Literal.String.Interpol */
+    color: $code-09;
+  }
+
+  .sd {     /* Literal.String.Doc */
+    color: $code-03
+  }
+  
+  .sc {     /* Literal.String.Char */
+    // Default styling
+  }
+  
+  /**
+   * Diffs
+   */
+
+  .gi {     /* Generic.Inserted */
+    background-color: $code-insert-bg;
+  }
+
+  .gd {     /* Generic.Deleted */
+    background-color: $code-delete-bg;
+  }
+  
+  /**
+   * Misc
+   */
+  
+  .p {      /* Punctuation */
+    // Default styling
+  }
+
+  .w {      /* Text.Whitespace */
+    // Default styling
+  }
+
+  .hll {    /* Highlight */
+    background-color: $code-02;
+  }
+
+  .err,     /* Error */
+  .gr,      /* Generic.Error */
+  .gt {     /* Generic.Traceback */
+    color: $code-0F;
+  }
+  
+  .gs {     /* Generic.Strong */
+    font-weight: bold;
+  }
+
+  .ge {     /* Generic.Emph */
+    font-style: italic;
+  }
+  
+  .gh {     /* Generic.Heading */
+    font-weight: bold;
+  }
+
+  .gu {     /* Generic.Subheading */
+    color: $code-0A;
+    font-weight: bold;
+  }
+  
+  .gp {     /* Generic.Prompt */
+    color: $code-03;
+    font-weight: bold
+  }
+}

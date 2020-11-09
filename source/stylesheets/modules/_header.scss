@@ -1,0 +1,16 @@
+.app-header {
+  // Adjust the padding on the header container so that it matches the custom sidebar.
+  .govuk-header__container--full-width {
+    @include govuk-responsive-padding(6, "left");
+    @include govuk-responsive-padding(6, "right");
+  }
+  // Give the product name in the header more space so it does not wrap early on smaller screens.
+  @include govuk-media-query($from: desktop) {
+    .govuk-header__logo {
+      width: 45%;
+    }
+    .govuk-header__content {
+      width: 55%;
+    }
+  }
+}
