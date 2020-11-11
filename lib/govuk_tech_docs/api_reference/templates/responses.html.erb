@@ -1,0 +1,33 @@
+<% if responses.any? %>
+<h4 id="<%= id %>">Responses</h4>
+<table>
+<thead>
+<tr><th>Status</th><th>Description</th><th>Schema</th></tr>
+</thead>
+<tbody>
+<% responses.each do |key,response| %>
+<tr>
+<td><%= key %></td>
+<td>
+<%= markdown(response.description) %>
+<% if response.content['application/json']
+if response.content['application/json']["example"]
+  request_body = json_prettyprint(response.content['application/json']["example"])
+else
+  request_body = json_output(response.content['application/json'].schema)
+end
+end %>
+<% if !request_body.blank? %>
+<pre><code><%= request_body %></code></pre>
+<% end %>
+</td>
+<td>
+<%= if response.content['application/json']
+  get_schema_link(response.content['application/json'].schema)
+end %>
+</td>
+</tr>
+<% end %>
+</tbody>
+</table>
+<% end %>

@@ -1,0 +1,19 @@
+<h1 id="<%=  info.title.parameterize %>"><%= info.title %> v<%= info.version %></h1>
+<%= markdown(info.description) %>
+
+<% unless servers.empty? %>
+  <h2 id="servers">Servers</h2>
+  <div id="server-list">
+    <% servers.each do |server| %>
+    <% if server.description %>
+    <p><strong><%= server.description %></strong></p>
+    <% end %>
+    <a href="<%= server.url %>"><%= server.url %></a>
+  <% end %>
+  </div>
+<% end %>
+
+<%= paths %>
+
+<h2 id="schemas">Schemas</h2>
+<%= schemas %>
