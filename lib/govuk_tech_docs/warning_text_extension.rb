@@ -6,15 +6,15 @@ module GovukTechDocs
 
     helpers do
       def warning_text(text)
-        <<~EOS
-        <div class="govuk-warning-text">
-          <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
-          <strong class="govuk-warning-text__text">
-            <span class="govuk-warning-text__assistive">Warning</span>
-            #{text}
-          </strong>
-        </div>
-        EOS
+        <<~HTML
+          <div class="govuk-warning-text">
+            <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+            <strong class="govuk-warning-text__text">
+              <span class="govuk-warning-text__assistive">Warning</span>
+              #{text}
+            </strong>
+          </div>
+        HTML
       end
     end
   end

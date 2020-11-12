@@ -37,14 +37,14 @@ files.watch :source, path: File.expand_path("source", __dir__)
 
 set :markdown_engine, :redcarpet
 set :markdown,
-            renderer: GovukTechDocs::TechDocsHTMLRenderer.new(
-              with_toc_data: true,
-              api: true,
-              context: self,
-            ),
-            fenced_code_blocks: true,
-            tables: true,
-            no_intra_emphasis: true
+    renderer: GovukTechDocs::TechDocsHTMLRenderer.new(
+      with_toc_data: true,
+      api: true,
+      context: self,
+    ),
+    fenced_code_blocks: true,
+    tables: true,
+    no_intra_emphasis: true
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -82,7 +82,7 @@ helpers do
     [
       page_path == "/" && current_page.path == "index.html",
       ("/" + current_page.path) == page_path,
-      current_page.data.parent != nil && current_page.data.parent.to_s == page_path,
+      !current_page.data.parent.nil? && current_page.data.parent.to_s == page_path,
     ].any?
   end
 end
@@ -104,9 +104,9 @@ if config[:tech_docs][:enable_search]
     search.resources = [""]
 
     search.fields = {
-      title:   { boost: 100, store: true, required: true },
+      title: { boost: 100, store: true, required: true },
       content: { boost: 50, store: true },
-      url:     { index: false, store: true },
+      url: { index: false, store: true },
     }
 
     search.pipeline_remove = %w[stopWordFilter]

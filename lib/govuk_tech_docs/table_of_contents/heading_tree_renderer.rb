@@ -20,7 +20,7 @@ module GovukTechDocs
         output = ""
 
         if tree.heading
-          output += indentation + %{<a href="#{tree.heading.href}"><span>#{tree.heading.title}</span></a>\n}
+          output += indentation + %(<a href="#{tree.heading.href}"><span>#{tree.heading.title}</span></a>\n)
         end
 
         if tree.children.any? && level < @max_level

@@ -1,6 +1,6 @@
 module GovukTechDocs
   class Redirects
-    LEADING_SLASH = %r[\A\/].freeze
+    LEADING_SLASH = %r{\A\/}.freeze
 
     def initialize(context)
       @context = context
