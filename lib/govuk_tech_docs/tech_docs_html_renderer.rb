@@ -10,10 +10,6 @@ module GovukTechDocs
       super
     end
 
-    def paragraph(text)
-      @app.api("<p>#{text.strip}</p>\n")
-    end
-
     def header(text, level)
       anchor = UniqueIdentifierGenerator.instance.create(text, level)
       %(<h#{level} id="#{anchor}">#{text}</h#{level}>)

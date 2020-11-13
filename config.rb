@@ -24,7 +24,6 @@ require "lib/govuk_tech_docs/pages"
 require "lib/govuk_tech_docs/tech_docs_html_renderer"
 require "lib/govuk_tech_docs/unique_identifier_extension"
 require "lib/govuk_tech_docs/unique_identifier_generator"
-require "lib/govuk_tech_docs/api_reference/api_reference_extension"
 
 activate :sprockets
 
@@ -58,7 +57,6 @@ end
 config_file = ENV.fetch("CONFIG_FILE", "config/tech-docs.yml")
 config[:tech_docs] = YAML.load_file(config_file).with_indifferent_access
 activate :unique_identifier
-activate :api_reference
 
 helpers do
   include GovukTechDocs::TableOfContents::Helpers
