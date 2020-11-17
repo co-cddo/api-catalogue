@@ -104,8 +104,6 @@ if config[:tech_docs][:enable_search]
 end
 ### Config from tech-docs-gem: end ###
 
-set(:layout, :api_catalogue)
-
 helpers UrlHelpers
 
 catalogue_csv = File.expand_path("data/catalogue.csv", __dir__)
