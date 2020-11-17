@@ -14,9 +14,6 @@ footer_links:
 # Links to show on right-hand-side of header
 header_links:
 
-# Enables search functionality. This indexes pages only and is not recommended for single-page sites.
-enable_search: true
-
 # Enable multipage navigation in the sidebar
 multipage_nav: true
 
