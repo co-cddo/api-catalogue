@@ -8,7 +8,6 @@ require "middleman"
 require "middleman-autoprefixer"
 require "middleman-sprockets"
 require "middleman-livereload"
-require "middleman-syntax"
 require "middleman-search"
 
 require "nokogiri"
@@ -25,8 +24,6 @@ require "lib/govuk_tech_docs/unique_identifier_generator"
 activate :sprockets
 
 sprockets.append_path File.expand_path("node_modules/govuk-frontend/", __dir__)
-
-activate :syntax
 
 files.watch :source, path: File.expand_path("source", __dir__)
 
