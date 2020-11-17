@@ -18,7 +18,6 @@ require "lib/govuk_tech_docs/redirects"
 require "lib/govuk_tech_docs/table_of_contents/helpers"
 require "lib/govuk_tech_docs/contribution_banner"
 require "lib/govuk_tech_docs/meta_tags"
-require "lib/govuk_tech_docs/pages"
 require "lib/govuk_tech_docs/tech_docs_html_renderer"
 require "lib/govuk_tech_docs/unique_identifier_extension"
 require "lib/govuk_tech_docs/unique_identifier_generator"
@@ -35,7 +34,6 @@ set :markdown_engine, :redcarpet
 set :markdown,
     renderer: GovukTechDocs::TechDocsHTMLRenderer.new(
       with_toc_data: true,
-      api: true,
       context: self,
     ),
     fenced_code_blocks: true,
