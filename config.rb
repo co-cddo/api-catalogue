@@ -13,7 +13,6 @@ require "middleman-search"
 require "nokogiri"
 require "active_support/all"
 
-require "lib/govuk_tech_docs/redirects"
 require "lib/govuk_tech_docs/table_of_contents/helpers"
 require "lib/govuk_tech_docs/contribution_banner"
 require "lib/govuk_tech_docs/meta_tags"
@@ -75,14 +74,6 @@ end
 page "/*.xml", layout: false
 page "/*.json", layout: false
 page "/*.txt", layout: false
-
-ready do
-  redirects = GovukTechDocs::Redirects.new(self).redirects
-
-  redirects.each do |from, to|
-    redirect from, to
-  end
-end
 
 if config[:tech_docs][:enable_search]
   activate :search do |search|
