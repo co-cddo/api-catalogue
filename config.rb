@@ -12,14 +12,12 @@ require "middleman-syntax"
 require "middleman-search"
 
 require "nokogiri"
-require "chronic"
 require "active_support/all"
 
 require "lib/govuk_tech_docs/redirects"
 require "lib/govuk_tech_docs/table_of_contents/helpers"
 require "lib/govuk_tech_docs/contribution_banner"
 require "lib/govuk_tech_docs/meta_tags"
-require "lib/govuk_tech_docs/page_review"
 require "lib/govuk_tech_docs/pages"
 require "lib/govuk_tech_docs/tech_docs_html_renderer"
 require "lib/govuk_tech_docs/unique_identifier_extension"
@@ -64,10 +62,6 @@ helpers do
 
   def meta_tags
     @meta_tags ||= GovukTechDocs::MetaTags.new(config, current_page)
-  end
-
-  def current_page_review
-    @current_page_review ||= GovukTechDocs::PageReview.new(current_page, config)
   end
 
   def format_date(date)

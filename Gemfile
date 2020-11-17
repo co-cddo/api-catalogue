@@ -24,7 +24,6 @@ end
 
 # From tech-docs-gem - to be revised
 gem "activesupport"
-gem "chronic", "~> 0.10.2"
 gem "middleman", "~> 4.0"
 gem "middleman-autoprefixer", "~> 2.10.0"
 gem "middleman-compass", ">= 4.0.0"
