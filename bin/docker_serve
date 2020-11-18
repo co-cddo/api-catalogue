@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+host_port=${PORT:-4567}
+
+docker build -t alphagov/api-catalogue:latest .
+docker run --publish "$host_port:4567" alphagov/api-catalogue:latest
