@@ -15,13 +15,25 @@ located in the `source` directory.
 - [Setup rbenv][setup-rbenv] and install the Ruby version specified in [`.ruby-version`][ruby-version]
 - [Setup Node][setup-node]
 
-## Setup
+## Local setup
 
 1. Clone the git repository: `git clone git@github.com:alphagov/api-catalogue.git`
 1. Navigate to the project directory: `cd api-catalogue`
 1. Install gems: `bundle install`
 1. Install JavaScript dependencies: `npm install`
 1. Run the test suite to verify your setup: `bundle exec rspec`
+
+## Docker setup
+
+If you have Docker available on your machine, and would prefer not to setup the
+project dependencies locally, you can run:
+
+```
+bin/docker_serve
+```
+
+By default this will build and serve the site on host port 4567. You can
+navigate to `http://localhost:4567` to view the site.
 
 ## Preview your changes locally
 
