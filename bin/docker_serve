@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# Builds the Docker image, and serves the site on localhost:4567
+
+# Usage:
+# bin/docker_serve
+# PORT=8080 bin/docker_serve
+
 set -euo pipefail
 
 host_port=${PORT:-4567}
