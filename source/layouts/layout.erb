@@ -1,0 +1,18 @@
+<%
+wrap_layout :core do
+  html = yield
+
+  content_for(:toc_module, "in-page-navigation")
+
+  content_for :sidebar do
+    if config[:tech_docs][:multipage_nav] %>
+      <%= multi_page_table_of_contents(sitemap.resources, current_page, config, html) %>
+    <% else %>
+      <%= single_page_table_of_contents(html, max_level: config[:tech_docs][:max_toc_heading_level]) %>
+    <% end %>
+  <%
+  end
+
+  html
+end
+%>

@@ -1,0 +1,54 @@
+.anchored-heading {
+  $icon-width: 23px;
+  $icon-height: 14px;
+  $icon-spacing: 3px;
+
+  position: relative;
+
+  &__icon {
+    position: absolute;
+    width: $icon-width;
+    left: -($icon-width + ($icon-spacing * 2));
+    padding: 0 $icon-spacing;
+    margin-top: -1px;
+
+    opacity: 0;
+    display: none;
+
+    text-decoration: none;
+    text-indent: -9999em;
+
+    background-image: image-url('/images/anchored-heading-icon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    @include govuk-device-pixel-ratio {
+      background-image: image-url('/images/anchored-heading-icon-2x.png');
+      background-size: $icon-width $icon-height;
+    }
+
+    @include govuk-media-query(tablet) {
+      display: block;
+    }
+
+    &:before {
+      // zero width space character so that the link behaves like it has text,
+      // has height, sits on the baseline, etc.
+      content: "\200b";
+    }
+  }
+
+  &:hover &__icon {
+    @include govuk-media-query(tablet) {
+      opacity: 1;
+    }
+  }
+
+  &__icon:focus {
+    @include govuk-media-query(tablet) {
+      opacity: 1;
+      outline-width: 1px;
+      padding: 0 ($icon-spacing - 1);
+    }
+  }
+}

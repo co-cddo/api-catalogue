@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" class="govuk-template no-js">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <title><%= meta_tags.browser_title %></title>
+
+    <%= stylesheet_link_tag :manifest %>
+
+    <link rel="canonical" href="<%= meta_tags.canonical_url %>">
+
+    <% meta_tags.tags.each do |name, content| %>
+      <%= tag :meta, name: name, content: content %>
+    <% end %>
+
+    <% meta_tags.opengraph_tags.each do |property, content| %>
+      <%= tag :meta, property: property, content: content %>
+    <% end %>
+
+    <%= yield_content :head %>
+  </head>
+
+  <body class="govuk-template__body">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    <div class="app-pane">
+      <div class="app-pane__header toc-open-disabled">
+        <a href="#content" class="govuk-skip-link">Skip to main content</a>
+
+        <%= partial 'layouts/header' %>
+      </div>
+
+      <% if content_for? :sidebar %>
+        <div id="toc-heading" class="toc-show fixedsticky">
+          <a href="#toc" class="toc-show__label js-toc-show" aria-controls="toc">
+            Table of contents <span class="toc-show__icon"></span>
+          </a>
+        </div>
+      <% end %>
+
+      <div class="app-pane__body"<%= " data-module=\"#{yield_content(:toc_module)}\"" if content_for? :toc_module %>>
+        <% if content_for? :sidebar %>
+          <div class="app-pane__toc">
+            <div class="toc" data-module="table-of-contents">
+              <%= partial "layouts/search" %>
+              <a href="#" class="toc__close js-toc-close" aria-controls="toc" aria-label="Hide table of contents"></a>
+              <nav id="toc" class="js-toc-list toc__list" aria-labelledby="toc-heading"<%= " data-module=\"collapsible-navigation\"" if config[:tech_docs][:collapsible_nav] %>>
+                <%= yield_content :sidebar %>
+              </nav>
+            </div>
+          </div>
+        <% end %>
+
+        <div class="app-pane__content toc-open-disabled">
+          <main id="content" class="technical-documentation" data-module="anchored-headings">
+            <%= yield %>
+          </main>
+
+          <aside>
+            <% if config[:tech_docs][:show_contribution_banner] %>
+              <ul class="contribution-banner">
+                <li><%= link_to "View source", source_urls.view_source_url %></li>
+                <li><%= link_to "Report problem", source_urls.report_issue_url %></li>
+                <li><%= link_to "GitHub Repo", source_urls.repo_url %></li>
+              </ul>
+            <% end %>
+          </aside>
+
+          <%= partial "layouts/footer" %>
+        </div>
+      </div>
+    </div>
+
+    <script async defer data-domain="api.gov.uk" src="https://plausible.io/js/plausible.js"></script>
+    <%= javascript_include_tag :application %>
+  </body>
+</html>

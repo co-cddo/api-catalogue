@@ -12,13 +12,15 @@ located in the `source` directory.
 
 ## Before you start
 
-[Setup rbenv][setup-rbenv] and install the Ruby version specified in [`.ruby-version`][ruby-version]
+- [Setup rbenv][setup-rbenv] and install the Ruby version specified in [`.ruby-version`][ruby-version]
+- [Setup Node][setup-node]
 
 ## Setup
 
 1. Clone the git repository: `git clone git@github.com:alphagov/api-catalogue.git`
 1. Navigate to the project directory: `cd api-catalogue`
 1. Install gems: `bundle install`
+1. Install JavaScript dependencies: `npm install`
 1. Run the test suite to verify your setup: `bundle exec rspec`
 
 ## Preview your changes locally
@@ -54,6 +56,7 @@ request is merged it'll be published automatically. See the
 [middleman]: https://middlemanapp.com/
 [tech-docs-template]: https://github.com/alphagov/tech-docs-template
 [setup-rbenv]: https://github.com/rbenv/rbenv#installation
+[setup-node]: https://nodejs.org/en/download/
 [ruby-version]: ../.ruby-version
 [pull-request]: https://gds-way.cloudapps.digital/standards/pull-requests.html
 [deployment]: ./deployment.md

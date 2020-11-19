@@ -1,0 +1,56 @@
+// Collapsible JS component styling, made for the navigation tree.
+// These classes are added in table-of-contents.js.
+// They should not be applied without the JS.
+
+.collapsible {
+  position: relative;
+}
+.collapsible__body {
+  display: none;
+  .collapsible.is-open & {
+    display: block
+  }
+}
+
+.collapsible__heading,
+.toc__list > ul > li > a:link.collapsible__heading {
+  margin-right: 30px;
+}
+
+.collapsible__toggle {
+  position: absolute;
+  top: 0;
+  right: -25px;
+  width: 50px;
+  height: 40px;
+  overflow: hidden;
+  text-indent: -999em;
+  border: 0;
+  background: 0;
+  color: inherit;
+  padding: 0;
+
+  &:focus {
+    @include govuk-focused-text;
+  }
+}
+
+.collapsible__toggle-icon {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  &::after {
+    content: '';
+    display: block;
+    border: 2px solid govuk-colour("black");
+    border-width: 2px 2px 0 0;
+    transform: rotate(135deg);
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+  }
+  .collapsible.is-open &::after {
+    transform: rotate(315deg);
+    margin-top: 18px;
+  }
+}

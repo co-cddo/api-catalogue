@@ -1,0 +1,224 @@
+.technical-documentation {
+  @include govuk-font($size: 19, $line-height: 1.4);
+  // Required for IE11 to render <main> correctly
+  display: block;
+  margin: govuk-spacing(3);
+  max-width: 40em;
+
+  color:  $govuk-text-colour;
+
+  @include govuk-media-query(tablet) {
+    margin: 0 govuk-spacing(6) govuk-spacing(6);
+  }
+
+  .has-search-results-open & {
+    visibility: hidden;
+  }
+
+  > h1 {
+    @extend %govuk-heading-xl;
+
+    &:first-of-type {
+      padding-top: govuk-spacing(6);
+    }
+  }
+
+  > h2 {
+    @extend %govuk-heading-l;
+    padding-top: govuk-spacing(6);
+    margin-top: govuk-spacing(3);
+  }
+
+  > h3 {
+    @extend %govuk-heading-m;
+  }
+
+  > h4 {
+    @extend %govuk-heading-s;
+  }
+
+  > p {
+    @extend %govuk-body-m;
+  }
+
+  > strong,
+  > b {
+    @include govuk-typography-weight-bold;
+  }
+
+  > ul,
+  > ol {
+    @extend %govuk-list;
+  }
+
+  > ol {
+    @extend %govuk-list--number;
+  }
+
+  > ul {
+    @extend %govuk-list--bullet;
+  }
+
+  a {
+    @extend %govuk-link;
+  }
+
+  > a {
+    @extend %govuk-body-m;
+  }
+
+  hr {
+    @extend %govuk-section-break;
+    @extend %govuk-section-break--visible;
+    @extend %govuk-section-break--xl;
+  }
+
+  table {
+    @include govuk-responsive-margin(6, "bottom");
+  }
+
+  pre + h2 {
+    padding-top: govuk-spacing(4);
+  }
+
+  pre + h3,
+  pre + h4 {
+    padding-top: govuk-spacing(2);
+  }
+
+  img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  ol + p, ul + p, .table-container + p {
+    margin-top: ceil(govuk-spacing(6) * (16 / 19));
+
+    @include govuk-media-query(tablet) {
+      margin-top: govuk-spacing(6);
+    }
+  }
+
+  blockquote {
+    @include govuk-font($size: 19);
+    background: govuk-colour("light-grey");
+    padding: govuk-spacing(3);
+    margin: govuk-spacing(3);
+    border-left: govuk-spacing(2) solid govuk-colour("mid-grey");
+  }
+
+  // http://code.iamkate.com/html-and-css/fixing-browsers-broken-monospace-font-handling/
+  pre,
+  code {
+    // Restores the normal text size in Mozilla Firefox, Google Chrome, and Safari; this unusual style rule should also be used anywhere where you would otherwise set the font-family property to ‘monospace’.
+    font-family: monospace, monospace;
+    // Restores the normal text size in Internet Explorer and Opera.
+    font-size: 1em;
+  }
+
+  pre {
+    background: scale-color(govuk-colour("light-grey"), $lightness:50%);
+    padding: 15px;
+    overflow: auto;
+    position: relative;
+    border: 1px solid #bfc1c3;
+  }
+
+  pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+  }
+
+  code {
+    background: #f5f5f5;
+    padding: 3px govuk-spacing(1);
+    border-radius: 1px;
+
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    // Match the line-height outside of tables
+    line-height: 1.4;
+    color: #a71d5d;
+
+    @include govuk-media-query(tablet) {
+      font-size: 16px;
+      font-size: 1rem;
+    }
+
+    // Handle long strings (URLs, long variable names, etc) by allowing them
+    // to break anywhere if required.
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+  }
+
+  // Support monospace headings for e.g. listing API endpoints
+  h1, h2, h3, h4, h5, h6 {
+    code {
+      font-size: inherit;
+      color: $govuk-text-colour;
+      background: none;
+      padding: 0;
+    }
+  }
+
+  // Ensure that if a code element is wrapped with a link that it renders correctly.
+  a code {
+    color: inherit;
+  }
+
+  a:focus code {
+    background: inherit;
+    color: inherit;
+  }
+
+  .table-container {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+
+    margin-top: govuk-spacing(3);
+  }
+
+  table {
+    width: 100%;
+
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  th, td {
+    padding: govuk-spacing(2) govuk-spacing(4) govuk-spacing(2) 0;
+
+    background-color: transparent;
+    border-bottom: 1px solid $govuk-border-colour;
+    border-width: 0 0 1px 0;
+
+    @include govuk-font($size: 16);
+    vertical-align: top;
+    text-align: left;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  td {
+    p, ul, ol {
+      margin: 0;
+    }
+    p+p, p+ul, p+ol,
+    ul+p, ul+ol,
+    ol+p {
+      margin-top: govuk-spacing(2);
+    }
+  }
+}

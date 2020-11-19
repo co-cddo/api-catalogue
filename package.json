@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "api-catalogue",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard"
+  },
+  "dependencies": {
+    "govuk-frontend": "^3.6.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "before",
+      "after",
+      "beforeEach",
+      "afterEach",
+      "it",
+      "assert",
+      "expect",
+      "GOVUK",
+      "lunr",
+      "$",
+      "jQuery",
+      "_",
+      "Modernizr",
+      "history",
+      "ga",
+      "GOVUKFrontend"
+    ],
+    "ignore": [
+      "lib/assets/javascripts/_vendor/**"
+    ]
+  }
+}

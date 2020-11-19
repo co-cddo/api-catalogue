@@ -1,0 +1,63 @@
+@include govuk-media-query(tablet, $media-type: screen) {
+  $toc-width: 330px;
+
+  .flexbox, .flexboxtweener {
+
+    body {
+      overflow: hidden;
+    }
+
+    .app-pane {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      height: 100vh;
+    }
+
+    .app-pane__header {
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 auto;
+
+      > * {
+        flex: 1 0 auto;
+      }
+    }
+
+    .app-pane__body {
+      display: flex;
+      flex: 1 1 100%;
+      min-height: 0;
+      position: relative;
+
+      > * {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: none;
+      }
+    }
+
+    .app-pane__toc {
+      flex: 0 0 auto;
+      width: $toc-width;
+      border-right: 1px solid $govuk-border-colour;
+    }
+
+    .app-pane__content {
+      flex: 1 1 auto;
+    }
+  }
+
+  .no-flexbox.no-flexboxtweener,
+  .no-js {
+    .app-pane__toc {
+      float: left;
+      width: $toc-width;
+    }
+
+    .app-pane__content {
+      margin-left: $toc-width;
+    }
+  }
+}
+
