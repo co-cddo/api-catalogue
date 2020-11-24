@@ -10,10 +10,8 @@ require "middleman-sprockets"
 require "middleman-livereload"
 require "middleman-search"
 
-require "nokogiri"
 require "active_support/all"
 
-require "lib/govuk_tech_docs/table_of_contents/helpers"
 require "lib/govuk_tech_docs/contribution_banner"
 require "lib/govuk_tech_docs/meta_tags"
 require "lib/govuk_tech_docs/tech_docs_html_renderer"
@@ -51,7 +49,6 @@ config[:tech_docs] = YAML.load_file(config_file).with_indifferent_access
 activate :unique_identifier
 
 helpers do
-  include GovukTechDocs::TableOfContents::Helpers
   include GovukTechDocs::ContributionBanner
 
   def meta_tags

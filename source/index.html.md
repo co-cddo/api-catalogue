@@ -1,5 +1,5 @@
 ---
-title: APIs in the UK government
+title: UK Government APIs
 weight: 1
 ---
 
