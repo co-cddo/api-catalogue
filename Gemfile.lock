@@ -209,7 +209,6 @@ DEPENDENCIES
   middleman-livereload
   middleman-search-gds
   middleman-sprockets (~> 4.0.0)
-  nokogiri
   pry
   rake
   redcarpet (~> 3.5.0)
