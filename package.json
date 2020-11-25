@@ -6,7 +6,8 @@
     "lint": "standard"
   },
   "dependencies": {
-    "govuk-frontend": "^3.6.0"
+    "govuk-frontend": "^3.6.0",
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "standard": "^14.3.0"
