@@ -7,7 +7,8 @@
   },
   "dependencies": {
     "govuk-frontend": "^3.6.0",
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.20",
+    "mark.js": "^8.11.1"
   },
   "devDependencies": {
     "standard": "^14.3.0"

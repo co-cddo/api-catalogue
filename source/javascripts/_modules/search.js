@@ -1,5 +1,6 @@
 //= require lunr.min
-//= require _vendor/jquery.mark.js
+//= require mark.js/dist/jquery.mark.js
+
 (function ($, Modules) {
   'use strict'
 
