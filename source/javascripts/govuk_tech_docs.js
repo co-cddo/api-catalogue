@@ -1,4 +1,4 @@
-//= require _vendor/jquery
+//= require jquery
 //= require _vendor/modernizr
 //= require _vendor/fixedsticky
 //= require lodash
