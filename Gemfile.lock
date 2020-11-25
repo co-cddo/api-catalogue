@@ -204,18 +204,18 @@ DEPENDENCIES
   activesupport
   factory_bot
   middleman (~> 4.0)
-  middleman-autoprefixer (~> 2.10.0)
-  middleman-compass (>= 4.0.0)
+  middleman-autoprefixer
+  middleman-compass
   middleman-livereload
   middleman-search-gds
   middleman-sprockets
   pry
   rake
-  redcarpet (~> 3.5.0)
+  redcarpet
   rspec
   rubocop-govuk
   sass
-  sprockets (~> 4.0.0)
+  sprockets
   tzinfo-data
   wdm (~> 0.1.0)
 
