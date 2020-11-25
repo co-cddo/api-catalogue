@@ -46,7 +46,7 @@
             <div class="toc" data-module="table-of-contents">
               <%= partial "layouts/search" %>
               <a href="#" class="toc__close js-toc-close" aria-controls="toc" aria-label="Hide table of contents"></a>
-              <nav id="toc" class="js-toc-list toc__list" aria-labelledby="toc-heading"<%= " data-module=\"collapsible-navigation\"" if config[:tech_docs][:collapsible_nav] %>>
+              <nav id="toc" class="js-toc-list toc__list" aria-labelledby="toc-heading" data-module="collapsible-navigation">
                 <%= yield_content :sidebar %>
               </nav>
             </div>
