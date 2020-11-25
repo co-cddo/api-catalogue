@@ -1,3 +1,3 @@
-//= require vendor/tablesort.min.js
+//= require tablesort
 
 new Tablesort(document.querySelector('.js-table-sort'));
