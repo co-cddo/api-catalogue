@@ -3,7 +3,7 @@
 //= require _vendor/fixedsticky
 //= require _vendor/lodash
 //= require _start-modules
-//= require govuk/all.js
+//= require govuk-frontend/govuk/all.js
 
 $(function () {
   $('.fixedsticky').fixedsticky()

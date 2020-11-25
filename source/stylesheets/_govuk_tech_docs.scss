@@ -1,23 +1,23 @@
-$govuk-assets-path: "/assets/govuk/assets/" !default;
+$govuk-assets-path: "/assets/govuk-frontend/govuk/assets/" !default;
 
 // Include only the bits of GOV.UK Frontend we need
-@import "govuk/settings/all";
-@import "govuk/tools/all";
-@import "govuk/helpers/all";
+@import "govuk-frontend/govuk/settings/all";
+@import "govuk-frontend/govuk/tools/all";
+@import "govuk-frontend/govuk/helpers/all";
 
-@import "govuk/core/all";
-@import "govuk/objects/all";
+@import "govuk-frontend/govuk/core/all";
+@import "govuk-frontend/govuk/objects/all";
 
-@import "govuk/components/footer/footer";
-@import "govuk/components/header/header";
-@import "govuk/components/inset-text/inset-text";
-@import "govuk/components/input/input";
-@import "govuk/components/tag/tag";
-@import "govuk/components/skip-link/skip-link";
-@import "govuk/components/warning-text/warning-text";
+@import "govuk-frontend/govuk/components/footer/footer";
+@import "govuk-frontend/govuk/components/header/header";
+@import "govuk-frontend/govuk/components/inset-text/inset-text";
+@import "govuk-frontend/govuk/components/input/input";
+@import "govuk-frontend/govuk/components/tag/tag";
+@import "govuk-frontend/govuk/components/skip-link/skip-link";
+@import "govuk-frontend/govuk/components/warning-text/warning-text";
 
-@import "govuk/utilities/all";
-@import "govuk/overrides/all";
+@import "govuk-frontend/govuk/utilities/all";
+@import "govuk-frontend/govuk/overrides/all";
 
 @import "core";
 @import "vendor/fixedsticky";

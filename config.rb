@@ -20,7 +20,7 @@ require "lib/govuk_tech_docs/unique_identifier_generator"
 
 activate :sprockets
 
-sprockets.append_path File.expand_path("node_modules/govuk-frontend/", __dir__)
+sprockets.append_path File.expand_path("node_modules", __dir__)
 
 files.watch :source, path: File.expand_path("source", __dir__)
 
