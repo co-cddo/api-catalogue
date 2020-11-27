@@ -4,9 +4,13 @@
 
 The API catalogue is built with [Middleman][middleman], a static-site generator.
 
-Pages describing the APIs are generated dynamically from a CSV file located in
-the `data/inputs` directory. Content for other pages is based on Markdown files
-located in the `source` directory.
+Pages describing the APIs are dynamically generated from the following CSV files:
+
+- `data/organisation.csv` details the Organisations / Departments
+- `data/catalogue.csv` details the APIs
+
+Content for other pages is based on Markdown files located in the `source`
+directory.
 
 ## Before you start
 
