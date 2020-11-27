@@ -2,9 +2,7 @@
 
 ## About this project
 
-The API catalogue is a [Middleman site][middleman] which uses the
-[Tech Docs Template][tech-docs-template] to provide the layout and functionality
-such as the Table of Contents.
+The API catalogue is built with [Middleman][middleman], a static-site generator.
 
 Pages describing the APIs are generated dynamically from a CSV file located in
 the `data/inputs` directory. Content for other pages is based on Markdown files
@@ -66,7 +64,6 @@ request is merged it'll be published automatically. See the
 [deployment documentation][deployment] for further details.
 
 [middleman]: https://middlemanapp.com/
-[tech-docs-template]: https://github.com/alphagov/tech-docs-template
 [setup-rbenv]: https://github.com/rbenv/rbenv#installation
 [setup-node]: https://nodejs.org/en/download/
 [ruby-version]: ../.ruby-version
