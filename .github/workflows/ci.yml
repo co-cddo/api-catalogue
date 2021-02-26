@@ -46,14 +46,14 @@ jobs:
 
       # Checkout stripped-down gh-pages branch to a subdirectory, for publishing
       - name: Checkout gh-pages branch
-        if: ${{ github.ref == 'refs/heads/master' }}
+        if: ${{ github.ref == 'refs/heads/main' }}
         uses: actions/checkout@v2
         with:
           ref: gh-pages
           path: tmp/publish
 
       - name: Publish
-        if: ${{ github.ref == 'refs/heads/master' }}
+        if: ${{ github.ref == 'refs/heads/main' }}
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
