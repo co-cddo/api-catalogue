@@ -5,23 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <title>UK Global Tariff - API Catalogue</title>
+    <title>UK Global Tariff (measures on declarable commodities) - API Catalogue</title>
 
     <link href="/stylesheets/manifest.css" rel="stylesheet" />
 
-    <link rel="canonical" href="https://www.api.gov.uk/dfit/uk-global-tariff/">
+    <link rel="canonical" href="https://www.api.gov.uk/dfit/uk-global-tariff-measures-on-declarable-commodities/">
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:domain" content="www.api.gov.uk" />
       <meta name="twitter:image" content="https://www.api.gov.uk/images/govuk-large.png" />
-      <meta name="twitter:title" content="UK Global Tariff - API Catalogue" />
-      <meta name="twitter:url" content="https://www.api.gov.uk/dfit/uk-global-tariff/" />
+      <meta name="twitter:title" content="UK Global Tariff (measures on declarable commodities) - API Catalogue" />
+      <meta name="twitter:url" content="https://www.api.gov.uk/dfit/uk-global-tariff-measures-on-declarable-commodities/" />
 
       <meta property="og:image" content="https://www.api.gov.uk/images/govuk-large.png" />
       <meta property="og:site_name" content="API Catalogue" />
-      <meta property="og:title" content="UK Global Tariff" />
+      <meta property="og:title" content="UK Global Tariff (measures on declarable commodities)" />
       <meta property="og:type" content="object" />
-      <meta property="og:url" content="https://www.api.gov.uk/dfit/uk-global-tariff/" />
+      <meta property="og:url" content="https://www.api.gov.uk/dfit/uk-global-tariff-measures-on-declarable-commodities/" />
 
     
   </head>
@@ -153,7 +153,13 @@
     <a href="/dfit/"><span>Department for International Trade</span></a>
     <ul>
   <li>
-    <a href="/dfit/uk-global-tariff/"><span>UK Global Tariff</span></a>
+    <a href="/dfit/uk-global-tariff-measures-as-defined/"><span>UK Global Tariff (measures as defined)</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/dfit/uk-global-tariff-measures-on-declarable-commodities/"><span>UK Global Tariff (measures on declarable commodities)</span></a>
     
   </li>
 </ul>
@@ -1397,35 +1403,35 @@
 
         <div class="app-pane__content toc-open-disabled">
           <main id="content" class="technical-documentation" data-module="anchored-headings">
-            <h1 id="uk-global-tariff">UK Global Tariff</h1>
+            <h1 id="uk-global-tariff-measures-on-declarable-commodities">UK Global Tariff (measures on declarable commodities)</h1>
 
   <h2>Endpoint URL:</h2>
   <ul>
-    <li><a href="https://www.check-future-uk-trade-tariffs.service.gov.uk/">https://www.check-future-uk-trade-tariffs.service.gov.uk/</a></li>
+    <li><a href="https://data.api.trade.gov.uk/v1/datasets/uk-tariff-2021-01-01/versions/latest/tables/measures-on-declarable-commodities/data?format=csv&amp;download">https://data.api.trade.gov.uk/v1/datasets/uk-tariff-2021-01-01/versions/latest/tables/measures-on-declarable-commodities/data?format=csv&download</a></li>
   </ul>
 
   <h2>Documentation URL:</h2>
   <ul>
-    <li><a href="https://data.gov.uk/dataset/19890572-14b6-4d37-8a6d-6a5ec3b457fe/tariffs-to-trade-with-the-uk-from-1-january-2021">https://data.gov.uk/dataset/19890572-14b6-4d37-8a6d-6a5ec3b457fe/tariffs-to-trade-with-the-uk-from-1-january-2021</a></li>
+    <li><a href="https://data.api.trade.gov.uk/v1/datasets/uk-tariff-2021-01-01/versions/latest/metadata?format=html">https://data.api.trade.gov.uk/v1/datasets/uk-tariff-2021-01-01/versions/latest/metadata?format=html</a></li>
   </ul>
 
 
   <h2>Description:</h2>
-  <p>The UK Global Tariff (UKGT) is the UK&#39;s first independent tariff policy which will replace the current Common External Tariff (CET) which applies until 31 December 2020. This tariff will enter into force on 1 January 2021. The UKGT will apply to all goods imported into the UK, unless an exception applies (such as a relief or tariff suspension), the goods come from countries that are part of the Generalised Scheme of Preferences, or the country importing from has a trade agreement with the UK. It only shows the tariffs that will be applied to goods at the border when they’re imported into the UK. It does not cover other import duties (such as VAT), the precise details of trade remedies measures, or other restrictions on imports, such as anti-dumping, countervailing or safeguards. For more information, see <a href="https://www.gov.uk/guidance/uk-tariffs-from-1-january-2021">https://www.gov.uk/guidance/uk-tariffs-from-1-january-2021</a>. 
-This API lists how the tariff will change in the UKGT compared to the CET, split out by commodity code as specified to 8 or 10 digits by the 2020 Combined Nomenclature (CN). It includes a description for each code based on that standard. For each code, it includes the current duty expression under the CET and the new duty expression under the UKGT, with an additional field categorising the change (as &#39;no change&#39;, &#39;currency conversion&#39;, &#39;simplified&#39;, &#39;reduced&#39; or &#39;liberalised&#39;). The dataset also indicates where commodities are subject to a trade remedy, anti-dumping measure or suspension, or include an Autonomous Tariff Quota. Please see the guidance page for information on these terms and how the duty will change in these cases.</p>
+  <p>The UK Global Tariff (UKGT) is the UK&#39;s first independent tariff policy which replaced the EU Common External Tariff (CET) which applied until 31 December 2020. This tariff entered into force on 1 January 2021. The UKGT applies to all goods imported into the UK. It lists preferential measures where the UK has entered into a new trade agreement or arrangement with a third country or territory. For other countries and territories, it shows the UK&#39;s Most Favoured Nation (MFN) tariffs. The dataset does not include other import duties (such as VAT) and details of quota volumes.</p>
 
-<p>You can use this data when you need to make a calculation against the new third country duties that will apply in the UK from 1 January 2021, or to understand the difference between the new duty and the existing EU third country duty. You cannot use this data to calculate the total cost of a future import because it does not include rates that apply for preferential tariffs, quotas, trade remedies, suspensions or other measures. You also cannot use this data to understand the commodity code hierarchy, because not all codes are present and some descriptions have been modified to make sense out of context and are not legally binding.</p>
+<p>This table (one of two available) is an expanded table showing the measures that apply to all declarable commodity codes. These are 10-digit codes which are at the lowest level in the commodity code hierarchy (i.e. they do not have any commodity codes below them in the hierarchy) and are therefore at the most granular classification for that product. Any code in this table is usable on declarations at the rates specified.</p>
 
-<p>API calls can be made using a GET request to &#39;<a href="https://check-future-uk-trade-tariffs.service.gov.uk/api/global-uk-tariff%7Bformat%7D">https://check-future-uk-trade-tariffs.service.gov.uk/api/global-uk-tariff{format}</a>&#39; where <strong>format</strong> is:
-- blank for JSON format
-- &#39;.csv&#39; for Comma Separated Variables format
-- &#39;.xlsx&#39; for Excel Spreadsheet format</p>
+<p>Every effort has been made to ensure the tariff information in this dataset is correct. However, engagement with businesses has indicated that early access is required and we have prioritised making the data available now while we carry out further quality assurance checks. The tariffs in this dataset are a representation of future events and as such are subject to change.</p>
 
-<p>The API accepts the following optional URL query parameters:
-- &#39;q&#39; accepts a string, and will filter the results for commodities where any field contains that string. Separate words can appear anywhere, so that a search for &#39;salmon trout&#39; will only return commodities containing both &#39;salmon&#39; and &#39;trout&#39; without them having to be next to each other, or even in the same field.
-Example: &#39;<a href="https://www.check-future-uk-trade-tariffs.service.gov.uk/api/global-uk-tariff?q=0301+trout">https://www.check-future-uk-trade-tariffs.service.gov.uk/api/global-uk-tariff?q=0301+trout</a>&#39;</p>
+<p>You can use this data when you need to make a calculation against the new duties that apply in the UK. You cannot use this data to calculate the total cost of an import because it does not include VAT. You also cannot use this data to understand the commodity code hierarchy because not all codes are present.</p>
+
+<p>Parameters can be specified to the API to filter the returned results. See the metadata at the above link for more information on how to access the API and how to use the filters.</p>
 
 
+  <h2>License:</h2>
+  <ul>
+    <li>https:&#x2F;&#x2F;www.nationalarchives.gov.uk&#x2F;doc&#x2F;open-government-licence&#x2F;version&#x2F;3&#x2F;</li>
+  </ul>
 
 
 
@@ -1435,7 +1441,7 @@ Example: &#39;<a href="https://www.check-future-uk-trade-tariffs.service.gov.uk/
           <aside>
               <ul class="contribution-banner">
                 <li><a href="https://github.com/alphagov/api-catalogue/blob/master/source/api_details.html.erb">View source</a></li>
-                <li><a href="https://github.com/alphagov/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'UK%20Global%20Tariff'&amp;body=Problem%20with%20'UK%20Global%20Tariff'%20(https://www.api.gov.uk/dfit/uk-global-tariff/)">Report problem</a></li>
+                <li><a href="https://github.com/alphagov/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'UK%20Global%20Tariff%20(measures%20on%20declarable%20commodities)'&amp;body=Problem%20with%20'UK%20Global%20Tariff%20(measures%20on%20declarable%20commodities)'%20(https://www.api.gov.uk/dfit/uk-global-tariff-measures-on-declarable-commodities/)">Report problem</a></li>
                 <li><a href="https://github.com/alphagov/api-catalogue">GitHub Repo</a></li>
               </ul>
           </aside>
