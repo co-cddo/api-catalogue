@@ -927,7 +927,19 @@
     <a href="/nhs/"><span>National Health Service</span></a>
     <ul>
   <li>
+    <a href="/nhs/alerts-hl7-v3-api/"><span>Alerts HL7 V3 API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/nhs/ambulance-analytics-api/"><span>Ambulance Analytics API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nhs/ambulance-messaging-hl7-v3-api/"><span>Ambulance Messaging HL7 V3 API</span></a>
     
   </li>
 </ul>
@@ -946,6 +958,12 @@
 <ul>
   <li>
     <a href="/nhs/clinical-decision-support-fhir-api/"><span>Clinical Decision Support - FHIR API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nhs/cyber-alerts-rest-api/"><span>Cyber Alerts REST API</span></a>
     
   </li>
 </ul>
@@ -1435,17 +1453,35 @@
           <main id="content" class="technical-documentation" data-module="anchored-headings">
             <h1 id="clinical-decision-support-fhir-api">Clinical Decision Support - FHIR API</h1>
 
+  <h2>Endpoint URL:</h2>
+  <ul>
+    <li><a href="https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support-standards">https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support-standards</a></li>
+  </ul>
 
   <h2>Documentation URL:</h2>
   <ul>
-    <li><a href="https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support">https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support</a></li>
+    <li><a href="https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support-standards">https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support-standards</a></li>
   </ul>
 
 
   <h2>Description:</h2>
-  <p>This API specification defines standards for interactions between Urgent and Emergency Care (UEC) systems.
-In particular, it defines interactions between Encounter Management Systems (EMS) and a Clinical Decision Support Systems (CDSS).
-This is an API specification only - there is no national service associated with it, although we do provide a reference server for testing.</p>
+  <p>Use these <a href="https://digital.nhs.uk/developer/guides-and-documentation/introduction-to-apis#api-standards">API standards</a> to support the triage and onward referral of patients who are interacting with Urgent and Emergency Care services such as NHS 111.</p>
+
+<p>These API standards support:</p>
+
+<ul>
+<li><p>self-triage by the patient</p></li>
+<li><p>triage by non-clinical staff, such as call handlers</p></li>
+<li><p>triage by clinicians</p></li>
+</ul>
+
+<p>They support the following interactions:</p>
+
+<ul>
+<li><p>triage through a series of questions and responses to determine the correct outcome or onward referral for the patient</p></li>
+<li><p>directory look-up to identify services that can meet the need or outcome identified for the patient - onward referral of the patient to the appropriate healthcare service along with an encounter report that contains structured triage and other information</p></li>
+<li><p>Before you begin any development work using these API standards, <a href="https://digital.nhs.uk/developer/help-and-support">contact us</a> to discuss your best options. </p></li>
+</ul>
 
 
 

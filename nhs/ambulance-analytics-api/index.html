@@ -927,7 +927,19 @@
     <a href="/nhs/"><span>National Health Service</span></a>
     <ul>
   <li>
+    <a href="/nhs/alerts-hl7-v3-api/"><span>Alerts HL7 V3 API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/nhs/ambulance-analytics-api/"><span>Ambulance Analytics API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nhs/ambulance-messaging-hl7-v3-api/"><span>Ambulance Messaging HL7 V3 API</span></a>
     
   </li>
 </ul>
@@ -946,6 +958,12 @@
 <ul>
   <li>
     <a href="/nhs/clinical-decision-support-fhir-api/"><span>Clinical Decision Support - FHIR API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nhs/cyber-alerts-rest-api/"><span>Cyber Alerts REST API</span></a>
     
   </li>
 </ul>
@@ -1437,19 +1455,34 @@
 
   <h2>Endpoint URL:</h2>
   <ul>
-    <li><a href="https://api.service.nhs.uk/ambulance-analytics">https://api.service.nhs.uk/ambulance-analytics</a></li>
+    <li><a href="https://digital.nhs.uk/developer/api-catalogue/ambulance-analytics-fhir">https://digital.nhs.uk/developer/api-catalogue/ambulance-analytics-fhir</a></li>
   </ul>
 
   <h2>Documentation URL:</h2>
   <ul>
-    <li><a href="https://internal-portal.developer.nhs.uk/docs/ambulance-analytics-ref/1/overview">https://internal-portal.developer.nhs.uk/docs/ambulance-analytics-ref/1/overview</a></li>
+    <li><a href="https://digital.nhs.uk/developer/api-catalogue/ambulance-analytics-fhir">https://digital.nhs.uk/developer/api-catalogue/ambulance-analytics-fhir</a></li>
   </ul>
 
 
   <h2>Description:</h2>
-  <p>The Ambulance Analytics API allows the submission of ambulance call centre data to be stored by the Data Processing Service (DPS) for analysis and review by NHS England and the ambulance trusts. You can: post ambulance response records individually or in batches. You cannot: read any of the records stored in DPS</p>
+  <p>Use this API to submit ambulance data to our Data Processing Service (DPS) so that it can be made available for analysis and review by NHS England and ambulance trusts.</p>
+
+<p>Ambulance analytics data is information relating to emergency calls (999, 111 and others), received at an Emergency Operations Centre (EOC) and processed into a Computer Aided Despatch (CAD) system, including:
+ - call details
+ - response details - including response times and episode outcome times
+ - patient contact details - including patient demographics, patient response details, patient information, injury information, patient assessment, medication, observations, diagnoses, conveying outcome, safeguarding and public health information</p>
+
+<p>You can:
+ - post ambulance analytics data individually or in batches</p>
+
+<p>You cannot:
+ - read any of the records stored in DPS</p>
 
 
+  <h2>License:</h2>
+  <ul>
+    <li>This API can only be used where there is a legal basis to do so. Make sure you have a valid use case before you go too far with your development. You must do this before you can go live.</li>
+  </ul>
 
 
 
