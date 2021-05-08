@@ -20,7 +20,7 @@ api-catalogue@digital.cabinet-office.gov.uk
 
 ## Licence
 
-Unless stated otherwise, the codebase is released under [the MIT licence](./LICENSE).
+Unless stated otherwise, the codebase is released under the [MIT licence](./LICENSE).
 
 The data is [© Crown
 copyright](http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/)
