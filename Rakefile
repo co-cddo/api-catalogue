@@ -25,6 +25,8 @@ task :publish do
   end
 
   sh("rsync -a --delete --exclude .git --exclude CNAME build/ #{publish_dir}")
+  # Copy a redirect file from helpers folder to deal with the gh-p push
+  sh("cp -r helpers/redirects #{publish_dir}")
   sh("git -C #{publish_dir} add --all")
   sh("git -C #{publish_dir} commit -m 'Publish #{rev}'") do |ok, _|
     if ok
