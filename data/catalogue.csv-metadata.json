@@ -63,7 +63,7 @@
           "schema:name": "Compact Contact Point",
           "schema:description": "A compact contact point requires a name and an email: 'Team ABC <abc-team@foo.gov.uk>'",
           "base": "string",
-          "format": "[^\s]+\s+<[^<>\s]+>"
+          "format": "[^\\s]+\\s+<[^<>\\s]+>"
         },
         "required": true
       },
