@@ -21,7 +21,7 @@ and helps users across government find and access inter-departmental data exchan
 
 # Getting in touch
 
-The API Catalogue is a central part of the Data Standards Authority's API Programme, which aims to improve how APIs are produced, managed and used across government. For more information, or to ask to be added to the Government API & Data Exchange community, please contact: <api-programme@digital.cabinet-office.gov.uk>.
+The API Catalogue is a central part of the [Data Standards Authority's](https://www.gov.uk/government/groups/data-standards-authority) API Programme, which aims to improve how APIs are produced, managed and used across government. For more information, or to ask to be added to the Government API & Data Exchange community, please contact: <api-programme@digital.cabinet-office.gov.uk>.
 
 If you have any questions about the catalogue, or how to add your APIs to it, please contact: <api-catalogue@digital.cabinet-office.gov.uk>.
 
