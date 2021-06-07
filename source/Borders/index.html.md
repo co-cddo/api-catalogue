@@ -11,4 +11,5 @@ The API Catalogue currently contains the following APIs in this category:
 
 | Department | Name | Description |
 | --- | --- | --- |
-| HMRC | [Goods Vehicle Movements](hmrc/goods-vehicle-movements/) | This API provides resources related to the Goods Vehicle Movement Service. |
+| HMRC | [Goods Vehicle Movements](/hmrc/goods-vehicle-movements/) | This API provides resources related to the Goods Vehicle Movement Service. |
+
