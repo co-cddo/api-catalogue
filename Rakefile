@@ -28,8 +28,8 @@ task :publish do
   # Copy redirect files from helpers folder to deal with the gh-p push
   sh("cp -a helpers/redirects/sc.html #{publish_dir}")
   sh("cp -a helpers/redirects/sc #{publish_dir}")
-  sh("cp -a helpers/redirects/border.html #{publish_dir}")
-  sh("cp -a helpers/redirects/border #{publish_dir}")
+  sh("cp -a helpers/redirects/border.html #{publish_dir}/Border.html")
+  sh("cp -a helpers/redirects/border #{publish_dir}/Border")
   sh("cp -a helpers/redirects/apim.html #{publish_dir}")
   sh("cp -a helpers/redirects/apim #{publish_dir}")
   sh("cp -a helpers/redirects/graphql.html #{publish_dir}")
