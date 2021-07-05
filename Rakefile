@@ -26,16 +26,16 @@ task :publish do
 
   sh("rsync -a --delete --exclude .git --exclude CNAME build/ #{publish_dir}")
   # Copy redirect files from helpers folder to deal with the gh-p push
-  sh("cp -a helpers/redirects/sc.html #{publish_dir}")
-  sh("cp -a helpers/redirects/sc #{publish_dir}")
-  sh("cp -a helpers/redirects/border.html #{publish_dir}")
-  sh("cp -a helpers/redirects/border #{publish_dir}")
-  sh("cp -a helpers/redirects/apim.html #{publish_dir}")
-  sh("cp -a helpers/redirects/apim #{publish_dir}")
-  sh("cp -a helpers/redirects/graphql.html #{publish_dir}")
-  sh("cp -a helpers/redirects/graphql #{publish_dir}")
-  sh("git -C #{publish_dir} add --all")
-  sh("git -C #{publish_dir} commit -m 'Publish #{rev}'") do |ok, _|
+  sh("cp -a helpers/redirects/ #{publish_dir}")
+#   sh("cp -a helpers/redirects/sc #{publish_dir}")
+#   sh("cp -a helpers/redirects/border.html #{publish_dir}")
+#   sh("cp -a helpers/redirects/border #{publish_dir}")
+#   sh("cp -a helpers/redirects/apim.html #{publish_dir}")
+#   sh("cp -a helpers/redirects/apim #{publish_dir}")
+#   sh("cp -a helpers/redirects/graphql.html #{publish_dir}")
+#   sh("cp -a helpers/redirects/graphql #{publish_dir}")
+#   sh("git -C #{publish_dir} add --all")
+#   sh("git -C #{publish_dir} commit -m 'Publish #{rev}'") do |ok, _|
     if ok
       sh("git -C #{publish_dir} push")
     else
