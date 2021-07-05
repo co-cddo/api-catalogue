@@ -42,4 +42,4 @@ task :publish do
       puts "Nothing to commit, skipping push"
     end
   end
-end
+# end
