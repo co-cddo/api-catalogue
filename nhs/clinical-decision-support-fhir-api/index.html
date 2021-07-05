@@ -90,6 +90,24 @@
 </ul>
 <ul>
   <li>
+    <a href="/Borders/"><span>Borders</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/bcc/"><span>Buckinghamshire Council</span></a>
+    <ul>
+  <li>
+    <a href="/bcc/services/"><span>Services</span></a>
+    
+  </li>
+</ul>
+
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/ch/"><span>Companies House</span></a>
     <ul>
   <li>
@@ -138,10 +156,10 @@
 </ul>
 <ul>
   <li>
-    <a href="/dfit/"><span>Department for International Trade</span></a>
+    <a href="/defra/"><span>Department for Environment, Food and Rural Affairs</span></a>
     <ul>
   <li>
-    <a href="/dfit/uk-global-tariff/"><span>UK Global Tariff</span></a>
+    <a href="/defra/uk-air-sensor-observation-service/"><span>UK-AIR Sensor Observation Service</span></a>
     
   </li>
 </ul>
@@ -150,7 +168,31 @@
 </ul>
 <ul>
   <li>
-    <a href="/dwp/"><span>Department of Work and Pensions</span></a>
+    <a href="/dit/"><span>Department for International Trade</span></a>
+    <ul>
+  <li>
+    <a href="/dit/check-barriers-to-trading-and-investing-abroad/"><span>Check barriers to trading and investing abroad</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/dit/uk-global-tariff-measures-as-defined/"><span>UK Global Tariff (measures as defined)</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/dit/uk-global-tariff-measures-on-declarable-commodities/"><span>UK Global Tariff (measures on declarable commodities)</span></a>
+    
+  </li>
+</ul>
+
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/dwp/"><span>Department for Work and Pensions</span></a>
     <ul>
   <li>
     <a href="/dwp/address-lookup/"><span>Address Lookup</span></a>
@@ -744,6 +786,18 @@
 </ul>
 <ul>
   <li>
+    <a href="/is/"><span>Insolvency Service</span></a>
+    <ul>
+  <li>
+    <a href="/is/debt-respite-scheme-breathing-space/"><span>Debt Respite Scheme (Breathing Space)</span></a>
+    
+  </li>
+</ul>
+
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/lga/"><span>Local Government Association</span></a>
     <ul>
   <li>
@@ -879,7 +933,19 @@
     <a href="/nhs/"><span>National Health Service</span></a>
     <ul>
   <li>
+    <a href="/nhs/alerts-hl7-v3-api/"><span>Alerts HL7 V3 API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/nhs/ambulance-analytics-api/"><span>Ambulance Analytics API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nhs/ambulance-messaging-hl7-v3-api/"><span>Ambulance Messaging HL7 V3 API</span></a>
     
   </li>
 </ul>
@@ -903,13 +969,19 @@
 </ul>
 <ul>
   <li>
-    <a href="/nhs/diagnostic-data-services-fhir-api/"><span>Diagnostic Data Services - FHIR API</span></a>
+    <a href="/nhs/cyber-alerts-rest-api/"><span>Cyber Alerts REST API</span></a>
     
   </li>
 </ul>
 <ul>
   <li>
-    <a href="/nhs/diagnostic-image-reporting/"><span>Diagnostic Image Reporting</span></a>
+    <a href="/nhs/data-registers-service-rest-api/"><span>Data Registers Service REST API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nhs/demographics-batch-service-api/"><span>Demographics Batch Service API</span></a>
     
   </li>
 </ul>
@@ -1387,17 +1459,35 @@
           <main id="content" class="technical-documentation" data-module="anchored-headings">
             <h1 id="clinical-decision-support-fhir-api">Clinical Decision Support - FHIR API</h1>
 
+  <h2>Endpoint URL:</h2>
+  <ul>
+    <li><a href="https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support-standards">https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support-standards</a></li>
+  </ul>
 
   <h2>Documentation URL:</h2>
   <ul>
-    <li><a href="https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support">https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support</a></li>
+    <li><a href="https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support-standards">https://digital.nhs.uk/developer/api-catalogue/clinical-decision-support-standards</a></li>
   </ul>
 
 
   <h2>Description:</h2>
-  <p>This API specification defines standards for interactions between Urgent and Emergency Care (UEC) systems.
-In particular, it defines interactions between Encounter Management Systems (EMS) and a Clinical Decision Support Systems (CDSS).
-This is an API specification only - there is no national service associated with it, although we do provide a reference server for testing.</p>
+  <p>Use these <a href="https://digital.nhs.uk/developer/guides-and-documentation/introduction-to-apis#api-standards">API standards</a> to support the triage and onward referral of patients who are interacting with Urgent and Emergency Care services such as NHS 111.</p>
+
+<p>These API standards support:</p>
+
+<ul>
+<li><p>self-triage by the patient</p></li>
+<li><p>triage by non-clinical staff, such as call handlers</p></li>
+<li><p>triage by clinicians</p></li>
+</ul>
+
+<p>They support the following interactions:</p>
+
+<ul>
+<li><p>triage through a series of questions and responses to determine the correct outcome or onward referral for the patient</p></li>
+<li><p>directory look-up to identify services that can meet the need or outcome identified for the patient - onward referral of the patient to the appropriate healthcare service along with an encounter report that contains structured triage and other information</p></li>
+<li><p>Before you begin any development work using these API standards, <a href="https://digital.nhs.uk/developer/help-and-support">contact us</a> to discuss your best options. </p></li>
+</ul>
 
 
 
