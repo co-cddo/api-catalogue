@@ -11,7 +11,6 @@ The API Catalogue currently contains the following APIs in this category:
 
 | Department | Name | Description |
 | --- | --- | --- |
-| HMRC | [Agent Authorisation](/hmrc/agent-authorisation/) | This API allows tax agents to request authorisation to act on a client's behalf for a specific Making Tax Digital (MTD) tax service and have the option to cancel the authorisation request. |
 | HMRC | [Bulk Data File List](/hmrc/bulk-data-file-list/) | The API lists the bulk data files available to download for a specific information type. For each file in list there will be a URL to download the file. |
 | HMRC | [Common Transit Convention Traders](/hmrc/common-transit-convention-traders/) | This API will allow you to send departure and arrival movement notifications to the New Computerised Transit System (NCTS). It will also let you retrieve messages sent from the offices of departure and destination. |
 | HMRC | [Customs Inventory Linking Exports](/hmrc/customs-inventory-linking-exports/) | This API enables the functionality to support the Inventory Linking Export process. Inventory Linking controls and monitors cargo moving through temporary storage facilities, and allows the movement/transition through frontiers. |
