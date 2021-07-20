@@ -1,11 +1,11 @@
 ---
-title: UK government APIs
+title: API Catalogue
 weight: 1
 ---
 
-# UK government APIs
+# UK public sector APIs
 
-This API catalogue is for central and local government APIs.
+This catalogue is for APIs published by public sector organisations in the UK.
 
 If you're working on an API that publishes open data or connects government with users from other organisations or wider industry, we’d like to invite you to publish details of it in this catalogue. You can publish details of your API by [creating an issue in the API Catalogue GitHub repo](https://github.com/alphagov/api-catalogue/issues).
 
