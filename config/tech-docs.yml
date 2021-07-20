@@ -9,7 +9,7 @@ phase: Alpha
 
 # Links to show in the footer
 footer_links:
-  Technical Documentation Accessibility: /accessibility.html
+  Accessibility: /accessibility.html
 
 # Links to show on right-hand-side of header
 header_links:
