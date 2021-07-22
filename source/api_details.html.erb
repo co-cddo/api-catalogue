@@ -1,19 +1,57 @@
-<h1 id="<%= api.name.parameterize %>"><%= api.name %></h1>
+<h1 id="<%= api.name.parameterize %>">
+  <% if api.name.include? "API" %>
+    <%= api.name %>
+  <% else %>
+    <%= api.name + " API" %>  
+  <% end %>
+</h1>
+
+<% if api.description.present? %>
+  <%= render_markdown(unescape_newlines(api.description)) %>
+<% end %>
 
 <% if api.url.present? %>
-  <h2>Endpoint</h2>
   <p>
-    <code>
-      <%= api.url %>
-    </code>
+    The API endpoint is <code><%= api.url %></code>.
   </p>
 <% end %>
 
 <% if api.documentation.present? %>
-  <h2>Documentation</h2>
   <p>
-    <%= link_to(api.name + " documentation", api.documentation) %>
+  <% if api.name.include? "API" %>
+    Read the <%= link_to(api.name + " documentation", api.documentation) %>.
+  <% else %>
+    Read the <%= link_to(api.name + " API documentation", api.documentation) %>.
+  <% end %>
   </p>
+<% end %>
+
+<% if api.area_served.present? or api.start_date.present? or api.end_date.present? %>
+  <p>
+    This API:
+    <ul>
+  
+    <% if api.area_served.present? %>
+      <li>
+        covers <%= escape_html(api.area_served) %>
+      </li>
+    <% end %>
+
+    <% if api.start_date.present? %>
+      <li>
+        went live on <%= api.start_date.to_formatted_s(:rfc822) %>
+      </li>
+    <% end %>
+
+    <% if api.end_date.present? %>
+      <li>
+        closed on <%= api.end_date.to_formatted_s(:rfc822) %>
+      </li>
+    <% end %>
+
+    </ul>
+  </p>  
+  
 <% end %>
 
 <% if api.maintainer.present? %>
@@ -23,11 +61,6 @@
   </p>
 <% end %>
 
-<% if api.description.present? %>
-  <h2>Description</h2>
-  <%= render_markdown(unescape_newlines(api.description)) %>
-<% end %>
-
 <% if api.license.present? %>
   <h2>Licence</h2>
   <p>
@@ -35,23 +68,4 @@
   </p>
 <% end %>
 
-<% if api.area_served.present? %>
-  <h2>Geographic area</h2>
-  <p>
-    <%= escape_html(api.area_served) %>
-  </p>
-<% end %>
-
-<% if api.start_date.present? %>
-  <h2>Start date</h2>
-  <p>
-    <%= api.start_date.to_formatted_s(:rfc822) %>
-  </p>
-<% end %>
-
-<% if api.end_date.present? %>
-  <h2>Expiry date</h2>
-  <p>
-    <%= api.end_date.to_formatted_s(:rfc822) %>
-  </p>
-<% end %>
+</ul>
