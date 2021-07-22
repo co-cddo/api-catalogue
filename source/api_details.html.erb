@@ -29,7 +29,9 @@
 <% if api.area_served.present? or api.start_date.present? or api.end_date.present? %>
   <p>
     This API:
-    <ul>
+  </p>
+  
+  <ul>
   
     <% if api.area_served.present? %>
       <li>
@@ -49,8 +51,7 @@
       </li>
     <% end %>
 
-    </ul>
-  </p>  
+  </ul>
   
 <% end %>
 
