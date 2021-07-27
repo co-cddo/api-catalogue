@@ -771,7 +771,7 @@
 </ul>
 <ul>
   <li>
-    <a href="/hmrc/self-assessment-mtd-this-api-is-monolithic-and-is-in-the-process-of-being-broken-down-to-more-granular-apis/"><span>Self Assessment (MTD) (this API is monolithic and is in the process of being broken down to more granular APIs)</span></a>
+    <a href="/hmrc/self-assessment-mtd/"><span>Self Assessment (MTD)</span></a>
     
   </li>
 </ul>
@@ -1485,28 +1485,37 @@
 
 
   <h2>Description</h2>
-  <p>Use this API to access the Electronic Prescription Service (EPS) <a href="https://digital.nhs.uk/services/electronic-prescription-service">https://digital.nhs.uk/services/electronic-prescription-service</a> - the national service used to send electronic prescriptions from GP surgeries to pharmacies.
-You can:
-    prepare a secondary care (outpatient) prescription for signing
-    create a secondary care (outpatient) prescription
-    evaluate prescription signing client implementations
-You cannot currently use this API to:
-    prepare a primary care prescription for signing
-    create a primary care prescription
-    prepare a secondary care (other than outpatient) prescription for signing
-    create a secondary care (other than outpatient) prescription
-    prepare a tertiary care prescription for signing
-    create a tertiary care prescription
-    cancel a prescription
-    check the status of a prescription
-    release a prescription for dispensing
-    claim for a dispensed prescription
-    Track prescriptions or check a prescriptions status
-Currently, this API can only be accessed by healthcare professionals, authenticated with an NHS smartcard or equivalent.
-Please use the following values for courseOfTherapyType depending on the submitted prescription type:
-    acute =&gt; acute
-    repeat =&gt; continuous
-    repeat-dispensing =&gt; continuous-repeat-dispensing</p>
+  <p>Use this API to access the <a href="https://digital.nhs.uk/services/electronic-prescription-service">Electronic Prescription Service (EPS)</a> - the national service used to send electronic prescriptions from GP surgeries to pharmacies.</p>
+
+<p>You can:</p>
+
+<ul>
+<li>prepare a secondary care (outpatient) prescription for signing</li>
+<li>create a secondary care (outpatient) prescription</li>
+<li>evaluate prescription signing client implementations</li>
+<li>You cannot currently use this API to:</li>
+<li>prepare a primary care prescription for signing</li>
+<li>create a primary care prescription</li>
+<li>prepare a secondary care (other than outpatient) prescription for signing</li>
+<li> create a secondary care (other than outpatient) prescription</li>
+<li>prepare a tertiary care prescription for signing</li>
+<li>create a tertiary care prescription</li>
+<li>cancel a prescription</li>
+<li>check the status of a prescription</li>
+<li>release a prescription for dispensing</li>
+<li>claim for a dispensed prescription</li>
+<li>Track prescriptions or check a prescriptions status</li>
+</ul>
+
+<p>Currently, this API can only be accessed by healthcare professionals, authenticated with an NHS smartcard or equivalent.</p>
+
+<p>Please use the following values for <code>courseOfTherapyType</code> depending on the submitted prescription type:</p>
+
+<ul>
+<li>acute =&gt; acute</li>
+<li>repeat =&gt; continuous</li>
+<li>repeat-dispensing =&gt; continuous-repeat-dispensing</li>
+</ul>
 
 
 
