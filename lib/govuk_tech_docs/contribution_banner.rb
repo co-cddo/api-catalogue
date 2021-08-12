@@ -33,7 +33,7 @@ module GovukTechDocs
     end
 
     def repo_branch
-      config[:tech_docs][:github_branch] || "master"
+      config[:tech_docs][:github_branch] || "main"
     end
 
   private

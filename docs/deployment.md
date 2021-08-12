@@ -1,7 +1,7 @@
 # Deployment
 
 The site is hosted on [GitHub pages][github-pages]. When a pull request is
-merged into `master` a new version of the site is deployed automatically using
+merged into `main` a new version of the site is deployed automatically using
 [GitHub actions][github-actions].
 
 ## Publishing from your computer
