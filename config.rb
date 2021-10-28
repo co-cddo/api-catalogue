@@ -48,6 +48,10 @@ config_file = ENV.fetch("CONFIG_FILE", "config/tech-docs.yml")
 config[:tech_docs] = YAML.load_file(config_file).with_indifferent_access
 activate :unique_identifier
 
+redirect "security.txt/index.html", to: "https://vdp.cabinetoffice.gov.uk/.well-known/security.txt"
+redirect ".well-known/security.txt/index.html", to: "https://vdp.cabinetoffice.gov.uk/.well-known/security.txt"
+import_file File.expand_path("_config.yml", config[:source]), "/_config.yml"
+
 helpers do
   include GovukTechDocs::ContributionBanner
 
