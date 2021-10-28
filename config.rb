@@ -48,6 +48,9 @@ config_file = ENV.fetch("CONFIG_FILE", "config/tech-docs.yml")
 config[:tech_docs] = YAML.load_file(config_file).with_indifferent_access
 activate :unique_identifier
 
+redirect 'security.txt/index.html', to: 'https://vdp.cabinetoffice.gov.uk/.well-known/security.txt'
+redirect '.well-known/security.txt/index.html', to: 'https://vdp.cabinetoffice.gov.uk/.well-known/security.txt'
+
 helpers do
   include GovukTechDocs::ContributionBanner
 
@@ -136,3 +139,4 @@ proxy(
   locals: { overview: ApiCatalogueOverview.new(api_catalogue) },
   ignore: true,
 )
+
