@@ -42,6 +42,6 @@ Optional - the acronym of the department or organisation. For example: 'GDS'.
 **Provider URL:**
 Optional - the canonical URL of the website of the department or organisation. For example: 'https://www.gov.uk/government/organisations/government-digital-service'.
 
-If you have multiple APIs to add, you can use a CSV template with these fields which is available at: https://raw.githubusercontent.com/alphagov/api-catalogue/master/data/apic-csvtemplate.csv
+If you have multiple APIs to add, you can use a CSV template with these fields which is available at: https://raw.githubusercontent.com/alphagov/api-catalogue/HEAD/data/apic-csvtemplate.csv
 
 Optionally, if you have more information you want to share with the API Catalogue community, please add it below.
