@@ -1,0 +1,29 @@
+---
+title: Recommended Reading (Archive)
+weight: 1
+---
+# Recommended Reading (Archive)
+
+In the [UK Government API and Data Exchange Community Slack Community](https://ukgovtapidx.slack.com/) there are a number of interesting links that our community shares and discusses in the [`#links` channel](https://ukgovtapidx.slack.com/archives/C01JZTF1VU4).
+
+This page is an archive to provide a handy way of looking back at the resources we've shared, but doesn't include any additional context or discussion. We'd recommend joining the community, which can be done by either [emailing us](mailto:api-programme@digital.cabinet-office.gov.uk) for an invite, or letting us know in the [`#apis` channel in the X-Government Slack](https://ukgovernmentdigital.slack.com/archives/C41GC5UAY).
+
+You can also subscribe to this page's <a rel="alternate" href="/resources/links/feed.xml">RSS Feed</a>.
+
+<% links.by_date.reverse_each do |i, links| %>
+# <%= i.strftime('%d %B %Y') %>
+
+<ul>
+  <% links.each do |link| %>
+    <li>
+      <%
+          tracking_url = append_querystring(link.url, {
+            utm_source: "api.gov.uk",
+            utm_medium: "direct",
+          })
+        %>
+      <a href="<%= tracking_url %>"><%= link.title %></a>
+    </li>
+  <% end %>
+</ul>
+<% end %>

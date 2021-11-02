@@ -37,3 +37,5 @@ gem "middleman-sprockets"
 gem "redcarpet"
 gem "sass"
 gem "sprockets"
+
+gem "builder", "~> 3.0"
