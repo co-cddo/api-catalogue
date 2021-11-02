@@ -137,7 +137,6 @@
   background-color: #f3f2f1;
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
   text-size-adjust: 100%; }
   @media screen {
     .govuk-template {
@@ -2920,7 +2919,6 @@ html.has-search-results-open {
         display: none; }
     .js .toc-show {
       display: block;
-      position: -webkit-sticky;
       position: sticky;
       top: 0;
       box-sizing: border-box;
@@ -2976,7 +2974,6 @@ html.has-search-results-open {
       margin-right: 40px; }
     .js .toc__close {
       display: block;
-      position: -webkit-sticky;
       position: sticky;
       right: 0;
       top: 0;
@@ -3081,7 +3078,6 @@ html.has-search-results-open {
     margin-top: 18px; }
 
 .fixedsticky {
-  position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
