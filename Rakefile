@@ -4,7 +4,25 @@ require "rubocop/rake_task"
 RSpec::Core::RakeTask.new(:spec)
 RuboCop::RakeTask.new
 
-task default: ["spec", "rubocop:auto_correct"]
+desc "Validate all files match their respective schemas"
+task schema: ["schema:links"]
+
+namespace :schema do
+  desc "Validate links are well-formed"
+  task :links do
+    require_relative "lib/links"
+    links_csv = File.expand_path("data/links.csv", __dir__)
+    links = Links.from_csv(links_csv)
+
+    invalid_links = links.all_links.reject(&:valid?)
+    unless invalid_links.empty?
+      invalid_attributes = invalid_links.map(&:attributes)
+      raise "Not all of the links were well-formed according to their schema: #{invalid_attributes.join("\n- ")}"
+    end
+  end
+end
+
+task default: ["spec", "rubocop:auto_correct", "schema"]
 
 desc "Build site"
 task :build do

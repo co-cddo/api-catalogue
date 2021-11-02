@@ -2,6 +2,7 @@ require "lib/api_catalogue_overview"
 require "lib/api_catalogue"
 require "lib/dashboard_stats"
 require "lib/url_helpers"
+require "lib/links"
 
 ### Config from tech-docs-gem: start ###
 require "middleman"
@@ -69,6 +70,11 @@ helpers do
       ("/#{current_page.path}") == page_path,
       !current_page.data.parent.nil? && current_page.data.parent.to_s == page_path,
     ].any?
+  end
+
+  def links
+    links_csv = File.expand_path("data/links.csv", __dir__)
+    Links.from_csv(links_csv)
   end
 end
 
