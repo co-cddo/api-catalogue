@@ -19,6 +19,8 @@ The API catalogue also helps users across government find and access inter-depar
 
 All of the APIs and data sources published in the catalogue have their own licensing and access restrictions. Check the documentation for each individual API for more details.
 
+**Note**: An API appearing on this catalogue does not mean it will be publicly accessible, nor is it a requirement. This is a public-facing site to allow us to document and discover APIs that are available and in use.
+
 ## Get in touch
 
 The API Catalogue is a central part of the [Data Standards Authority's](https://www.gov.uk/government/groups/data-standards-authority) API programme, which aims to improve how APIs are produced, managed and used across government. For more information, or to ask to be added to the government API & Data Exchange community, email <api-programme@digital.cabinet-office.gov.uk>.
