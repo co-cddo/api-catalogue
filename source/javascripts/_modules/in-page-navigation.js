@@ -2,10 +2,10 @@
   'use strict'
 
   Modules.InPageNavigation = function InPageNavigation () {
-    var $tocPane
-    var $contentPane
-    var $tocItems
-    var $targets
+    let $tocPane
+    let $contentPane
+    let $tocItems
+    let $targets
 
     this.start = function start ($element) {
       $tocPane = $element.find('.app-pane__toc')
@@ -41,7 +41,7 @@
     }
 
     function handleInitialLoadEvent () {
-      var fragment = fragmentForTargetElement()
+      let fragment = fragmentForTargetElement()
 
       if (!fragment) {
         fragment = fragmentForFirstElementInView()
@@ -72,7 +72,7 @@
     function highlightActiveItemInToc (fragment) {
       // Navigation items for single page navigation don't necessarily include the path name, but
       // navigation items for multipage navigation items do include it. This checks for either case.
-      var $activeTocItem = $tocItems.filter(
+      let $activeTocItem = $tocItems.filter(
         '[href="' + window.location.pathname + fragment + '"],[href="' + fragment + '"]'
       )
       // Navigation items with children don't contain fragments in their url
@@ -88,11 +88,11 @@
     }
 
     function scrollTocToActiveItem ($activeTocItem) {
-      var paneHeight = $tocPane.height()
-      var linkTop = $activeTocItem.position().top
-      var linkBottom = linkTop + $activeTocItem.outerHeight()
+      const paneHeight = $tocPane.height()
+      const linkTop = $activeTocItem.position().top
+      const linkBottom = linkTop + $activeTocItem.outerHeight()
 
-      var offset = null
+      let offset = null
 
       if (linkTop < 0) {
         offset = linkTop
@@ -102,7 +102,7 @@
         return
       }
 
-      var newScrollTop = $tocPane.scrollTop() + offset
+      const newScrollTop = $tocPane.scrollTop() + offset
 
       $tocPane.scrollTop(newScrollTop)
     }
@@ -112,14 +112,14 @@
     }
 
     function fragmentForFirstElementInView () {
-      var result = null
+      let result = null
 
       $($targets.get().reverse()).each(function checkIfInView (index) {
         if (result) {
           return
         }
 
-        var $this = $(this)
+        const $this = $(this)
 
         if (Math.floor($this.position().top) <= 0) {
           result = $this

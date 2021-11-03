@@ -2,13 +2,13 @@
   'use strict'
 
   Modules.TableOfContents = function () {
-    var $html = $('html')
+    const $html = $('html')
 
-    var $toc
-    var $tocList
+    let $toc
+    let $tocList
 
-    var $openLink
-    var $closeLink
+    let $openLink
+    let $closeLink
 
     this.start = function ($element) {
       $toc = $element
@@ -31,7 +31,7 @@
       $(window).on('resize.toc', updateAriaAttributes)
 
       $(document).on('keydown.toc', function (event) {
-        var ESC_KEY = 27
+        const ESC_KEY = 27
 
         if (event.keyCode === ESC_KEY) {
           closeNavigation()
@@ -47,10 +47,10 @@
       //
       // http://blog.christoffer.me/six-things-i-learnt-about-ios-safaris-rubber-band-scrolling/
       $toc.on('touchstart.toc', function () {
-        var $this = $(this)
-        var top = $this.scrollTop()
-        var totalScroll = $this.prop('scrollHeight')
-        var currentScroll = top + $this.prop('offsetHeight')
+        const $this = $(this)
+        const top = $this.scrollTop()
+        const totalScroll = $this.prop('scrollHeight')
+        const currentScroll = top + $this.prop('offsetHeight')
 
         if (top === 0) {
           $this.scrollTop(1)
@@ -85,7 +85,7 @@
     }
 
     function updateAriaAttributes () {
-      var tocIsVisible = $toc.is(':visible')
+      const tocIsVisible = $toc.is(':visible')
 
       $($openLink).add($closeLink)
         .attr('aria-expanded', tocIsVisible ? 'true' : 'false')

@@ -5,9 +5,9 @@
 
   GOVUK.modules = {
     find: function (container) {
-      var modules
-      var moduleSelector = '[data-module]'
-      var component = container || $('body')
+      let modules
+      const moduleSelector = '[data-module]'
+      const component = container || $('body')
 
       modules = component.find(moduleSelector)
 
@@ -20,13 +20,13 @@
     },
 
     start: function (container) {
-      var modules = this.find(container)
+      const modules = this.find(container)
 
-      for (var i = 0, l = modules.length; i < l; i++) {
+      for (let i = 0, l = modules.length; i < l; i++) {
         var module
-        var element = $(modules[i])
-        var type = camelCaseAndCapitalise(element.data('module'))
-        var started = element.data('module-started')
+        const element = $(modules[i])
+        const type = camelCaseAndCapitalise(element.data('module'))
+        const started = element.data('module-started')
 
         if (typeof GOVUK.Modules[type] === 'function' && !started) {
           module = new GOVUK.Modules[type]()

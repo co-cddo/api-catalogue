@@ -5,20 +5,20 @@
   'use strict'
 
   Modules.Search = function Search () {
-    var s = this
-    var $html = $('html')
-    var $searchForm
-    var $searchLabel
-    var $searchInput
-    var $searchResults
-    var $searchResultsTitle
-    var $searchResultsWrapper
-    var $searchResultsClose
-    var results
-    var query
-    var queryTimer
-    var maxSearchEntries = 20
-    var searchIndexPath
+    const s = this
+    const $html = $('html')
+    let $searchForm
+    let $searchLabel
+    let $searchInput
+    let $searchResults
+    let $searchResultsTitle
+    let $searchResultsWrapper
+    let $searchResultsClose
+    let results
+    let query
+    let queryTimer
+    const maxSearchEntries = 20
+    let searchIndexPath
 
     this.start = function start ($element) {
       $searchForm = $element.find('form')
@@ -83,7 +83,7 @@
       // Attach analytics events to search result clicks
       if (window.ga) {
         $searchResults.on('click', '.search-result__title a', function () {
-          var href = $(this).attr('href')
+          const href = $(this).attr('href')
           ga('send', {
             hitType: 'event',
             eventCategory: 'Search result',
@@ -105,7 +105,7 @@
     }
 
     function getResults (query) {
-      var results = []
+      const results = []
       s.lunrIndex.search(query).forEach(function (item, index) {
         if (index < maxSearchEntries) {
           results.push(s.lunrData.docs[item.ref])
@@ -131,14 +131,14 @@
     }
 
     function renderResults (query) {
-      var output = ''
+      let output = ''
       if (results.length === 0) {
         output += '<p>Nothing found</p>'
       }
       output += '<ul>'
-      for (var index in results) {
-        var result = results[index]
-        var content = s.processContent(result.content, query)
+      for (const index in results) {
+        const result = results[index]
+        const content = s.processContent(result.content, query)
         output += '<li class="search-result">'
         output += '<h3 class="search-result__title">'
         output += '<a href="' + result.url + '">'
@@ -156,22 +156,22 @@
     }
 
     this.processContent = function processContent (content, query) {
-      var output
+      let output
       content = '<div>' + content + '</div>'
       content = $(content).mark(query)
 
       // Split content by sentence.
-      var sentences = content.html().replace(/(\.+|:|!|\?|\r|\n)("*|'*|\)*|}*|]*)/gm, '|').split('|')
+      const sentences = content.html().replace(/(\.+|:|!|\?|\r|\n)("*|'*|\)*|}*|]*)/gm, '|').split('|')
 
       // Select the first five sentences that contain a <mark>
-      var selectedSentences = []
-      for (var i = 0; i < sentences.length; i++) {
+      const selectedSentences = []
+      for (let i = 0; i < sentences.length; i++) {
         if (selectedSentences.length === 5) {
           break
         }
 
-        var sentence = sentences[i].trim()
-        var containsMark = sentence.includes('mark>')
+        const sentence = sentences[i].trim()
+        const containsMark = sentence.includes('mark>')
         if (containsMark && (selectedSentences.indexOf(sentence) === -1)) {
           selectedSentences.push(sentence)
         }
@@ -185,7 +185,7 @@
     // Default text is to display the number of search results
     function updateTitle (text) {
       if (typeof text === 'undefined') {
-        var count = results.length
+        const count = results.length
         var resultsText = count + ' results'
       }
       $searchResultsTitle.text(text || resultsText)
@@ -207,7 +207,7 @@
       if (query === '') {
         return
       }
-      var stripped = window.stripPIIFromString(query)
+      const stripped = window.stripPIIFromString(query)
       ga('send', {
         hitType: 'event',
         eventCategory: 'Search query',

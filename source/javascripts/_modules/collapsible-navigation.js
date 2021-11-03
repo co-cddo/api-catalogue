@@ -2,9 +2,9 @@
   'use strict'
 
   Modules.CollapsibleNavigation = function () {
-    var $contentPane
-    var $nav
-    var $topLevelItems
+    let $contentPane
+    let $nav
+    let $topLevelItems
 
     this.start = function ($element) {
       $contentPane = $('.app-pane__content')
@@ -18,10 +18,10 @@
     }
 
     function collapsibleHeadings () {
-      for (var i = $topLevelItems.length - 1; i >= 0; i--) {
-        var $topLevelItem = $($topLevelItems[i])
-        var $heading = $topLevelItem.find('> a')
-        var $listing = $topLevelItem.find('> ul')
+      for (let i = $topLevelItems.length - 1; i >= 0; i--) {
+        const $topLevelItem = $($topLevelItems[i])
+        const $heading = $topLevelItem.find('> a')
+        const $listing = $topLevelItem.find('> ul')
         var id = 'toc-' + $heading.text().toLowerCase().replace(/\s+/g, '-')
         // Only add collapsible functionality if there are children.
         if ($listing.length === 0) {
@@ -30,7 +30,7 @@
         $topLevelItem.addClass('collapsible')
         var arrayOfIds = []
         $listing.each(function (i) {
-          var uniqueId = id + '-' + i
+          const uniqueId = id + '-' + i
           arrayOfIds.push(uniqueId)
           $(this).addClass('collapsible__body')
             .attr('id', uniqueId)
@@ -40,17 +40,17 @@
           .after('<button class="collapsible__toggle" aria-controls="' + arrayOfIds.join(' ') + '"><span class="collapsible__toggle-label">Expand ' + $heading.text() + '</span><span class="collapsible__toggle-icon" aria-hidden="true"></button>')
         $topLevelItem.on('click', '.collapsible__toggle', function (e) {
           e.preventDefault()
-          var $parent = $(this).parent()
+          const $parent = $(this).parent()
           toggleHeading($parent)
         })
       }
     }
 
     function toggleHeading ($topLevelItem) {
-      var isOpen = $topLevelItem.hasClass('is-open')
-      var $heading = $topLevelItem.find('> a')
-      var $body = $topLevelItem.find('.collapsible__body')
-      var $toggleLabel = $topLevelItem.find('.collapsible__toggle-label')
+      const isOpen = $topLevelItem.hasClass('is-open')
+      const $heading = $topLevelItem.find('> a')
+      const $body = $topLevelItem.find('.collapsible__body')
+      const $toggleLabel = $topLevelItem.find('.collapsible__toggle-label')
 
       $topLevelItem.toggleClass('is-open', !isOpen)
       $body.attr('aria-expanded', isOpen ? 'false' : 'true')
@@ -58,24 +58,24 @@
     }
 
     function openActiveHeading () {
-      var $activeElement
-      var currentPath = window.location.pathname
-      var isActiveTrail = '[href*="' + currentPath + '"]'
+      let $activeElement
+      const currentPath = window.location.pathname
+      let isActiveTrail = '[href*="' + currentPath + '"]'
       // Add an exception for the root page, as every href includes /
       if (currentPath === '/') {
         isActiveTrail = '[href="' + currentPath + window.location.hash + '"]'
       }
-      for (var i = $topLevelItems.length - 1; i >= 0; i--) {
-        var $element = $($topLevelItems[i])
-        var $heading = $element.find('> a')
+      for (let i = $topLevelItems.length - 1; i >= 0; i--) {
+        const $element = $($topLevelItems[i])
+        const $heading = $element.find('> a')
         // Check if this item href matches
         if ($heading.is(isActiveTrail)) {
           $activeElement = $element
           break
         }
         // Otherwise check the children
-        var $children = $element.find('li > a')
-        var $matchingChildren = $children.filter(isActiveTrail)
+        const $children = $element.find('li > a')
+        const $matchingChildren = $children.filter(isActiveTrail)
         if ($matchingChildren.length) {
           $activeElement = $element
           break
