@@ -6,4 +6,4 @@ weight: 1
 
 Implementers and integrators with the UK Government APIs may also want to look at the following resources:
 
-- [Recommended Reading (Archive)](/resources/links/)
+- [API community links](/resources/links/)
