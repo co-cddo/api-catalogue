@@ -21,7 +21,7 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
     DOC
     xml.entry do
       xml.title link.title
-      xml.link "rel" => "alternate", "href" => link.url
+      xml.link "rel" => "alternate", "href" => tracking_url
       xml.id link.url
       xml.published link.date_added.to_time.iso8601
       xml.content content, "type" => "html"
