@@ -73,6 +73,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: site
+          path: build
 
       # Checkout stripped-down gh-pages branch to a subdirectory, for publishing
       - name: Checkout gh-pages branch
