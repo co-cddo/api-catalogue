@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v2
 
@@ -47,16 +49,37 @@ jobs:
       - name: Build
         run: bundle exec rake build
 
+      - name: Upload built site
+        uses: actions/upload-artifact@v2
+        with:
+          name: site
+          path: build
+          retention-days: 1
+
+  publish:
+    runs-on: ubuntu-latest
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: build
+    permissions:
+      contents: write
+    steps:
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Download built site
+        uses: actions/download-artifact@v2
+        with:
+          name: site
+
       # Checkout stripped-down gh-pages branch to a subdirectory, for publishing
       - name: Checkout gh-pages branch
-        if: ${{ github.ref == 'refs/heads/main' }}
         uses: actions/checkout@v2
         with:
           ref: gh-pages
           path: tmp/publish
 
       - name: Publish
-        if: ${{ github.ref == 'refs/heads/main' }}
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
