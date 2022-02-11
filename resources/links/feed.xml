@@ -2225,7 +2225,7 @@
 </content>
   </entry>
   <entry>
-    <title>API Reviews: Scaling up API Governance ￼</title>
+    <title>API Reviews: Scaling up API Governance</title>
     <link rel="alternate" href="https://www.youtube.com/watch?v=T73VGfWpO4o&amp;utm_source=api.gov.uk&amp;utm_medium=rss"/>
     <id>https://www.youtube.com/watch?v=T73VGfWpO4o</id>
     <published>2022-02-04T00:00:00+00:00</published>
@@ -2254,6 +2254,62 @@
     <id>https://www.infoq.com/presentations/starling-bank/</id>
     <published>2022-02-07T00:00:00+00:00</published>
     <content type="html">    &lt;a href="https://www.infoq.com/presentations/starling-bank/?utm_source=api.gov.uk&amp;utm_medium=rss"&gt;https://www.infoq.com/presentations/starling-bank/&lt;/a&gt; was shared in the &lt;a href="https://ukgovtapidx.slack.com/"&gt;UK Government API and Data Exchange Community Slack&lt;/a&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Trends in the API Industry</title>
+    <link rel="alternate" href="https://devops.com/trends-in-the-api-industry/?utm_source=api.gov.uk&amp;utm_medium=rss"/>
+    <id>https://devops.com/trends-in-the-api-industry/</id>
+    <published>2022-02-11T00:00:00+00:00</published>
+    <content type="html">    &lt;a href="https://devops.com/trends-in-the-api-industry/?utm_source=api.gov.uk&amp;utm_medium=rss"&gt;https://devops.com/trends-in-the-api-industry/&lt;/a&gt; was shared in the &lt;a href="https://ukgovtapidx.slack.com/"&gt;UK Government API and Data Exchange Community Slack&lt;/a&gt;
+</content>
+  </entry>
+  <entry>
+    <title>API Governance fundamentals for building API Products that scale</title>
+    <link rel="alternate" href="https://onesprintatatime.com/driving-meaningful-customer-impact-with-api-governance?utm_source=api.gov.uk&amp;utm_medium=rss"/>
+    <id>https://onesprintatatime.com/driving-meaningful-customer-impact-with-api-governance</id>
+    <published>2022-02-11T00:00:00+00:00</published>
+    <content type="html">    &lt;a href="https://onesprintatatime.com/driving-meaningful-customer-impact-with-api-governance?utm_source=api.gov.uk&amp;utm_medium=rss"&gt;https://onesprintatatime.com/driving-meaningful-customer-impact-with-api-governance&lt;/a&gt; was shared in the &lt;a href="https://ukgovtapidx.slack.com/"&gt;UK Government API and Data Exchange Community Slack&lt;/a&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The Anatomy of a GraphQL Request</title>
+    <link rel="alternate" href="https://www.the-guild.dev/blog/the-anatomy-of-a-graphql-request?utm_source=api.gov.uk&amp;utm_medium=rss"/>
+    <id>https://www.the-guild.dev/blog/the-anatomy-of-a-graphql-request</id>
+    <published>2022-02-11T00:00:00+00:00</published>
+    <content type="html">    &lt;a href="https://www.the-guild.dev/blog/the-anatomy-of-a-graphql-request?utm_source=api.gov.uk&amp;utm_medium=rss"&gt;https://www.the-guild.dev/blog/the-anatomy-of-a-graphql-request&lt;/a&gt; was shared in the &lt;a href="https://ukgovtapidx.slack.com/"&gt;UK Government API and Data Exchange Community Slack&lt;/a&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Authorization Patterns in GraphQL</title>
+    <link rel="alternate" href="https://www.osohq.com/post/graphql-authorization?utm_source=api.gov.uk&amp;utm_medium=rss"/>
+    <id>https://www.osohq.com/post/graphql-authorization</id>
+    <published>2022-02-11T00:00:00+00:00</published>
+    <content type="html">    &lt;a href="https://www.osohq.com/post/graphql-authorization?utm_source=api.gov.uk&amp;utm_medium=rss"&gt;https://www.osohq.com/post/graphql-authorization&lt;/a&gt; was shared in the &lt;a href="https://ukgovtapidx.slack.com/"&gt;UK Government API and Data Exchange Community Slack&lt;/a&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Creating an API-First Culture and Company, Part 1 - The New Stack</title>
+    <link rel="alternate" href="https://thenewstack.io/creating-an-api-first-culture-and-company-part-1/?utm_source=api.gov.uk&amp;utm_medium=rss"/>
+    <id>https://thenewstack.io/creating-an-api-first-culture-and-company-part-1/</id>
+    <published>2022-02-11T00:00:00+00:00</published>
+    <content type="html">    &lt;a href="https://thenewstack.io/creating-an-api-first-culture-and-company-part-1/?utm_source=api.gov.uk&amp;utm_medium=rss"&gt;https://thenewstack.io/creating-an-api-first-culture-and-company-part-1/&lt;/a&gt; was shared in the &lt;a href="https://ukgovtapidx.slack.com/"&gt;UK Government API and Data Exchange Community Slack&lt;/a&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Request bodies in GET requests</title>
+    <link rel="alternate" href="https://evertpot.com/get-request-bodies/?utm_source=api.gov.uk&amp;utm_medium=rss"/>
+    <id>https://evertpot.com/get-request-bodies/</id>
+    <published>2022-02-11T00:00:00+00:00</published>
+    <content type="html">    &lt;a href="https://evertpot.com/get-request-bodies/?utm_source=api.gov.uk&amp;utm_medium=rss"&gt;https://evertpot.com/get-request-bodies/&lt;/a&gt; was shared in the &lt;a href="https://ukgovtapidx.slack.com/"&gt;UK Government API and Data Exchange Community Slack&lt;/a&gt;
+</content>
+  </entry>
+  <entry>
+    <title>What should come first when designing an API?</title>
+    <link rel="alternate" href="https://apihandyman.io/what-should-come-first-when-designing-an-api/?utm_source=api.gov.uk&amp;utm_medium=rss"/>
+    <id>https://apihandyman.io/what-should-come-first-when-designing-an-api/</id>
+    <published>2022-02-11T00:00:00+00:00</published>
+    <content type="html">    &lt;a href="https://apihandyman.io/what-should-come-first-when-designing-an-api/?utm_source=api.gov.uk&amp;utm_medium=rss"&gt;https://apihandyman.io/what-should-come-first-when-designing-an-api/&lt;/a&gt; was shared in the &lt;a href="https://ukgovtapidx.slack.com/"&gt;UK Government API and Data Exchange Community Slack&lt;/a&gt;
 </content>
   </entry>
 </feed>
