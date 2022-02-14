@@ -4,12 +4,13 @@ on:
   push:
     branches-ignore:
       - gh-pages
+        
+permissions:
+  contents: read
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
       - uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
 
