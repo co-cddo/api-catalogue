@@ -5,23 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <title>Bank Holidays - API Catalogue</title>
+    <title>UK Trade Quotas - API Catalogue</title>
 
     <link href="/stylesheets/manifest.css" rel="stylesheet" />
 
-    <link rel="canonical" href="https://www.api.gov.uk/gds/bank-holidays/">
+    <link rel="canonical" href="https://www.api.gov.uk/dit/uk-trade-quotas/">
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:domain" content="www.api.gov.uk" />
       <meta name="twitter:image" content="https://www.api.gov.uk/images/govuk-large.png" />
-      <meta name="twitter:title" content="Bank Holidays - API Catalogue" />
-      <meta name="twitter:url" content="https://www.api.gov.uk/gds/bank-holidays/" />
+      <meta name="twitter:title" content="UK Trade Quotas - API Catalogue" />
+      <meta name="twitter:url" content="https://www.api.gov.uk/dit/uk-trade-quotas/" />
 
       <meta property="og:image" content="https://www.api.gov.uk/images/govuk-large.png" />
       <meta property="og:site_name" content="API Catalogue" />
-      <meta property="og:title" content="Bank Holidays" />
+      <meta property="og:title" content="UK Trade Quotas" />
       <meta property="og:type" content="object" />
-      <meta property="og:url" content="https://www.api.gov.uk/gds/bank-holidays/" />
+      <meta property="og:url" content="https://www.api.gov.uk/dit/uk-trade-quotas/" />
 
     
   </head>
@@ -1529,25 +1529,35 @@
 
         <div class="app-pane__content toc-open-disabled">
           <main id="content" class="technical-documentation" data-module="anchored-headings">
-            <h1 id="bank-holidays">Bank Holidays</h1>
+            <h1 id="uk-trade-quotas">UK Trade Quotas</h1>
 
   <h2>Endpoint</h2>
   <p>
     <code>
-      https://www.gov.uk/bank-holidays.json
+      https://data.api.trade.gov.uk/v1/datasets/uk-trade-quotas/versions/v1.0.22/reports/quotas-including-current-volumes/data?format=csv&download
     </code>
   </p>
 
   <h2>Documentation</h2>
   <p>
-    <a href="https://github.com/alphagov/calendars/blob/master/README.md">Bank Holidays documentation</a>
+    <a href="https://data.api.trade.gov.uk/v1/datasets/uk-trade-quotas/versions/v1.0.22/metadata?format=html">UK Trade Quotas documentation</a>
   </p>
 
 
   <h2>Description</h2>
-  <p>The Bank Holidays API provides access to data about when bank holidays are in England and Wales, Scotland and Northern Ireland.</p>
+  <p>This dataset shows the quotas available in the UK Tariff along with their current or final balances, updated daily. </p>
+
+<p>You can use this data to analyse quota applicability and utilisation in bulk, and to understand trends in quota application and usage over time. </p>
+
+<p>Please see the full UK Trade Quotas summary for detailed information on what this dataset contains and what it can be used for. </p>
+
+<p>Parameters can be specified to the API to filter the returned results. See the metadata at the documentation link for more information on how to access the API and how to use the filters.</p>
 
 
+  <h2>Licence</h2>
+  <p>
+    https:&#x2F;&#x2F;www.nationalarchives.gov.uk&#x2F;doc&#x2F;open-government-licence&#x2F;version&#x2F;3&#x2F;
+  </p>
 
 
 
@@ -1557,7 +1567,7 @@
           <aside>
               <ul class="contribution-banner">
                 <li><a href="https://github.com/alphagov/api-catalogue/blob/main/source/api_details.html.erb">View source</a></li>
-                <li><a href="https://github.com/alphagov/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'Bank%20Holidays'&amp;body=Problem%20with%20'Bank%20Holidays'%20(https://www.api.gov.uk/gds/bank-holidays/)">Report problem</a></li>
+                <li><a href="https://github.com/alphagov/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'UK%20Trade%20Quotas'&amp;body=Problem%20with%20'UK%20Trade%20Quotas'%20(https://www.api.gov.uk/dit/uk-trade-quotas/)">Report problem</a></li>
                 <li><a href="https://github.com/alphagov/api-catalogue">GitHub Repo</a></li>
               </ul>
           </aside>
