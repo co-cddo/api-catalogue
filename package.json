@@ -13,7 +13,7 @@
     "tablesort": "^5.2.1"
   },
   "devDependencies": {
-    "standard": "^14.3.0"
+    "standard": "^16.0.4"
   },
   "standard": {
     "globals": [
