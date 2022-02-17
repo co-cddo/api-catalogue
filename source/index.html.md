@@ -7,7 +7,7 @@ weight: 1
 
 This catalogue is for APIs published by public sector organisations in the UK.
 
-If you're working on an API that publishes open data or connects government with users from other organisations or wider industry, we’d like to invite you to publish details of it in this catalogue. You can publish details of your API by [creating an issue in the API Catalogue GitHub repo](https://github.com/alphagov/api-catalogue/issues).
+If you're working on an API that publishes open data or connects government with users from other organisations or wider industry, we’d like to invite you to publish details of it in this catalogue. You can publish details of your API by [creating an issue in the API Catalogue GitHub repo](https://github.com/co-cddo/api-catalogue/issues/new/choose).
 
 Collecting a list of government APIs helps us understand:
 
