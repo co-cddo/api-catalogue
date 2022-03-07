@@ -1,4 +1,5 @@
 require "api_catalogue"
+require "webmock/rspec"
 
 RSpec.describe ApiCatalogue do
   describe "::from_csv" do
@@ -31,6 +32,98 @@ RSpec.describe ApiCatalogue do
         description: be_present,
         url: "https://api.notifications.service.gov.uk/",
       )
+    end
+  end
+
+  describe "::from_url" do
+    it "returns an empty catalogue if a 406 error is raised" do
+      stub_request(:get, "http://localhost/subpath/apis")
+        .to_return(status: 406)
+
+      api_catalogue = described_class.from_url("http://localhost/subpath")
+
+      expect(api_catalogue.organisations_apis.size).to be 0
+    end
+
+    it "returns an empty catalogue if a 404 error is raised" do
+      stub_request(:get, "http://localhost/subpath/apis")
+        .to_return(status: 404)
+
+      api_catalogue = described_class.from_url("http://localhost/subpath")
+
+      expect(api_catalogue.organisations_apis.size).to be 0
+    end
+  end
+
+  describe "::from_urls" do
+    let(:registry_entries_csv) { File.expand_path("../../data/registry_entries.csv", __dir__) }
+
+    before do
+      apis_response = {
+        "api-version": "api.gov.uk/v1alpha",
+        apis: [
+          "api-version": "api.gov.uk/v1alpha",
+          data: {
+            name: "test API",
+            description: "test description",
+            url: "www.foo.bar",
+            "documentation-url": "www.docs.foo.bar",
+            organisation: "Test Org",
+          },
+        ],
+      }
+
+      stub_request(:get, "https://federated-api-model-spring-boot-sandbox.london.cloudapps.digital/apis")
+        .with(headers: { "correlation-id" => /[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-4[a-fA-F0-9]{3}-[89abAB][a-fA-F0-9]{3}-[a-fA-F0-9]{12}/, "accept" => "application/vnd.uk.gov.api.v1alpha+json" })
+        .to_return(status: 200, body: apis_response.to_json)
+    end
+
+    it "parses the CSV source" do
+      api_catalogue = described_class.from_urls(registry_entries_csv)
+
+      expect(api_catalogue.organisations_apis.size).to be > 0
+    end
+  end
+
+  describe "::merge" do
+    api_one = Api.new name: "Test Api One", provider: "Test Org One"
+    apis_one = [api_one]
+    org_one = Organisation.new id: "Test Org One"
+    orgs_one = [org_one]
+    catalogue_one = described_class.new(apis: apis_one, organisations: orgs_one)
+
+    api_two = Api.new name: "Test Api Two", provider: "Test Org Two"
+    apis_two = [api_two]
+    org_two = Organisation.new id: "Test Org Two"
+    orgs_two = [org_two]
+    catalogue_two = described_class.new(apis: apis_two, organisations: orgs_two)
+
+    it "merges two catalogues together" do
+      merged_catalogue = described_class.merge([catalogue_one, catalogue_two])
+
+      test_orgs = merged_catalogue.organisations_apis.select { |orgs, _| orgs }
+
+      expect(test_orgs.size).to be 2
+
+      test_apis = merged_catalogue.organisations_apis.select { |_, apis| apis }
+
+      expect(test_apis.size).to be 2
+    end
+
+    it "does not add duplicate APIs" do
+      merged_catalogue = described_class.merge([catalogue_one, catalogue_one])
+
+      test_apis = merged_catalogue.organisations_apis.select { |_, apis| apis }
+
+      expect(test_apis.size).to be 1
+    end
+
+    it "does not add duplicate organisations" do
+      merged_catalogue = described_class.merge([catalogue_one, catalogue_one])
+
+      test_orgs = merged_catalogue.organisations_apis.select { |orgs, _| orgs }
+
+      expect(test_orgs.size).to be 1
     end
   end
 

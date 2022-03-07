@@ -36,6 +36,8 @@ GEM
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.1.9)
     contracts (0.13.0)
+    crack (0.4.5)
+      rexml
     diff-lcs (1.4.4)
     dotenv (2.7.6)
     em-websocket (0.5.2)
@@ -54,6 +56,7 @@ GEM
       tilt
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
+    hashdiff (1.0.1)
     hashie (3.6.0)
     http_parser.rb (0.6.0)
     i18n (1.6.0)
@@ -203,6 +206,10 @@ GEM
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.1.0)
+    webmock (3.14.0)
+      addressable (>= 2.8.0)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
     webrick (1.7.0)
     zeitwerk (2.5.1)
 
@@ -229,6 +236,7 @@ DEPENDENCIES
   sprockets
   tzinfo-data
   wdm (~> 0.1.0)
+  webmock
 
 BUNDLED WITH
-   1.17.2
+   2.3.8

@@ -101,7 +101,10 @@ helpers UrlHelpers
 
 catalogue_csv = File.expand_path("data/catalogue.csv", __dir__)
 organisation_csv = File.expand_path("data/organisation.csv", __dir__)
-api_catalogue = ApiCatalogue.from_csv(catalogue_csv: catalogue_csv, organisation_csv: organisation_csv)
+static = ApiCatalogue.from_csv(catalogue_csv: catalogue_csv, organisation_csv: organisation_csv)
+registry_entries_csv = File.expand_path("data/registry_entries.csv", __dir__)
+registry_entries = ApiCatalogue.from_urls(registry_entries_csv)
+api_catalogue = ApiCatalogue.merge([static, registry_entries])
 
 # Order organisations from A-Z in the Table of Contents,
 # leaving a buffer from 0-999 for static content to be given priority

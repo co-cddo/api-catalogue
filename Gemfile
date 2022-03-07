@@ -16,6 +16,7 @@ gem "activemodel"
 group :test do
   gem "factory_bot"
   gem "rspec"
+  gem "webmock"
 end
 
 group :development do
