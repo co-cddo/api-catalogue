@@ -40,3 +40,4 @@ gem "sass"
 gem "sprockets"
 
 gem "builder", "~> 3.0"
+gem "html-proofer"
