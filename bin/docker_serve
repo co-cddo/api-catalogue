@@ -10,5 +10,5 @@ set -euo pipefail
 
 host_port=${PORT:-4567}
 
-docker build -t alphagov/api-catalogue:latest .
-docker run --publish "$host_port:4567" alphagov/api-catalogue:latest
+docker build -t co-cddo/api-catalogue:latest .
+docker run --publish "$host_port:4567" co-cddo/api-catalogue:latest

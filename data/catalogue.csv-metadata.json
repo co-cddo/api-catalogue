@@ -3,7 +3,7 @@
   "url": "catalogue.csv",
   "schema:name": "UK government APIs",
   "schema:maintainer": "API Standards team <api-standards-request@digital.cabinet-office.gov.uk>",
-  "schema:description": "This API catalogue is for central government and local government APIs.\n\nIf you're working on an API that publishes open data or connects government with other organisations, industry or consumers, we’d like to invite you to publish details of it in this catalogue. You can publish details of your API by submitting a [GitHub Issue](https://github.com/alphagov/api-catalogue/issues).\n\nCollecting a list of government APIs will help us understand:\n\n* what APIs are published\n* where API development is taking place\n* whether APIs are suitable for reuse",
+  "schema:description": "This API catalogue is for central government and local government APIs.\n\nIf you're working on an API that publishes open data or connects government with other organisations, industry or consumers, we’d like to invite you to publish details of it in this catalogue. You can publish details of your API by submitting a [GitHub Issue](https://github.com/co-cddo/api-catalogue/issues).\n\nCollecting a list of government APIs will help us understand:\n\n* what APIs are published\n* where API development is taking place\n* whether APIs are suitable for reuse",
   "tableSchema": {
     "primaryKey": "url",
     "foreignKeys": [{
