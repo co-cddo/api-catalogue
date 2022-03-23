@@ -19,7 +19,7 @@ directory.
 
 ## Local setup
 
-1. Clone the git repository: `git clone git@github.com:alphagov/api-catalogue.git`
+1. Clone the git repository: `git clone git@github.com:co-cddo/api-catalogue.git`
 1. Navigate to the project directory: `cd api-catalogue`
 1. Install gems: `bundle install`
 1. Install JavaScript dependencies: `npm install`

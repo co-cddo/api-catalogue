@@ -18,4 +18,4 @@ header_links:
 prevent_indexing: false
 
 show_contribution_banner: true
-github_repo: alphagov/api-catalogue
+github_repo: co-cddo/api-catalogue
