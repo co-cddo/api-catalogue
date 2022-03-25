@@ -17,10 +17,6 @@ class DashboardStats
     api_catalogue.organisations_apis.count
   end
 
-  def last_updated
-    by_organisation.max_by(&:last_updated)&.last_updated
-  end
-
   def by_organisation
     @by_organisation ||= calculate_stats_by_organisation
   end
