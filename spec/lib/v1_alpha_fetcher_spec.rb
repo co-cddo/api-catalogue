@@ -115,6 +115,13 @@ RSpec.describe V1AlphaFetcher do
 
         expect(organisation.alternate_name).to eq "cddo"
       end
+
+      it "doesn't remove the word 'and' from the full name after creating the contracted version" do
+        name = "Central Digital and Data Office"
+        organisation = v1_alpha_fetcher.create_organisation(name)
+
+        expect(organisation.name).to eq "Central Digital and Data Office"
+      end
     end
   end
 end
