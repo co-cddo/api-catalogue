@@ -43,8 +43,7 @@ class V1AlphaFetcher < Fetcher
   def create_organisation(name)
     id = create_organisation_id(name)
     alternate_name = if name.match(/\s/)
-                       name.slice! "and "
-                       name.split(/[ \-]/).map(&:first).join.downcase
+                       name.gsub("and", "").split(/[ \-]/).map(&:first).join.downcase
                      else
                        name
                      end
