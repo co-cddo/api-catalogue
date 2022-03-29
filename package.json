@@ -6,7 +6,7 @@
     "lint": "standard"
   },
   "dependencies": {
-    "govuk-frontend": "^3.6.0",
+    "govuk-frontend": "^4.0.1",
     "jquery": "^3",
     "lodash": "^4.17.21",
     "mark.js": "^8.11.1",

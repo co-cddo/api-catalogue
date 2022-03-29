@@ -40,19 +40,5 @@
         <strong class="govuk-tag"><%= config[:tech_docs][:phase] %></strong>
       <% end %>
     </div>
-    <% if config[:tech_docs][:header_links] %>
-    <div class="govuk-header__content">
-      <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
-      <nav>
-        <ul id="navigation" class="govuk-header__navigation govuk-header__navigation--end" aria-label="Top Level Navigation">
-          <% config[:tech_docs][:header_links].each do |title, path| %>
-            <li class="govuk-header__navigation-item<% if active_page(path) %> govuk-header__navigation-item--active<% end %>">
-              <a class="govuk-header__link" href="<%= url_for path %>"><%= title %></a>
-            </li>
-          <% end %>
-        </ul>
-      </nav>
-    </div>
-    <% end %>
   </div>
 </header>
