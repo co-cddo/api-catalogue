@@ -1,11 +1,14 @@
 <h1 id="<%= api.name.parameterize %>"><%= api.name %></h1>
 
-<% if api.url.present? %>
-  <h2>Endpoint</h2>
+<% if api.description.present? %>
+  <h2>Overview</h2>
+  <%= render_markdown(unescape_newlines(api.description)) %>
+<% end %>
+
+<% if api.license.present? %>
+  <h2>Usage licence</h2>
   <p>
-    <code>
-      <%= api.url %>
-    </code>
+    <%= escape_html(api.license) %>
   </p>
 <% end %>
 
@@ -16,22 +19,19 @@
   </p>
 <% end %>
 
+<% if api.url.present? %>
+  <h2>Endpoint</h2>
+  <p>
+    <code>
+      <%= api.url %>
+    </code>
+  </p>
+<% end %>
+
 <% if api.maintainer.present? %>
   <h2>Contact</h2>
   <p>
     <%= escape_html(api.maintainer) %>
-  </p>
-<% end %>
-
-<% if api.description.present? %>
-  <h2>Description</h2>
-  <%= render_markdown(unescape_newlines(api.description)) %>
-<% end %>
-
-<% if api.license.present? %>
-  <h2>Licence</h2>
-  <p>
-    <%= escape_html(api.license) %>
   </p>
 <% end %>
 
