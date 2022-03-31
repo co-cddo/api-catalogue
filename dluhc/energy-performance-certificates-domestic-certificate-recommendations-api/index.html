@@ -1543,11 +1543,13 @@
           <main id="content" class="technical-documentation" data-module="anchored-headings">
             <h1 id="energy-performance-certificates-domestic-certificate-recommendations-api">Energy Performance Certificates - Domestic Certificate Recommendations API</h1>
 
-  <h2>Endpoint</h2>
+  <h2>Overview</h2>
+  <p>Retrieves full details of recommendations made for a particular Energy Performance Certificate. If the property has no recommendations a <code>HTTP 404 not found</code> status code will be returned. Note that this API route does not recognise the <code>application/zip</code> mime type. Recommendations are keyed on the certificate&#39;s lmk-key, which can be obtained from the certificate&#39;s <code>lmk-key</code> field.</p>
+
+
+  <h2>Usage licence</h2>
   <p>
-    <code>
-      https://epc.opendatacommunities.org/api/v1/domestic/recommendations/:lmk-key
-    </code>
+    https:&#x2F;&#x2F;epc.opendatacommunities.org&#x2F;docs&#x2F;copyright
   </p>
 
   <h2>Documentation</h2>
@@ -1555,18 +1557,16 @@
     <a href="https://epc.opendatacommunities.org/docs/api/domestic#domestic-recommendations">Energy Performance Certificates - Domestic Certificate Recommendations API documentation</a>
   </p>
 
+  <h2>Endpoint</h2>
+  <p>
+    <code>
+      https://epc.opendatacommunities.org/api/v1/domestic/recommendations/:lmk-key
+    </code>
+  </p>
+
   <h2>Contact</h2>
   <p>
     odc@comunities.gov.uk
-  </p>
-
-  <h2>Description</h2>
-  <p>Retrieves full details of recommendations made for a particular Energy Performance Certificate. If the property has no recommendations a <code>HTTP 404 not found</code> status code will be returned. Note that this API route does not recognise the <code>application/zip</code> mime type. Recommendations are keyed on the certificate&#39;s lmk-key, which can be obtained from the certificate&#39;s <code>lmk-key</code> field.</p>
-
-
-  <h2>Licence</h2>
-  <p>
-    https:&#x2F;&#x2F;epc.opendatacommunities.org&#x2F;docs&#x2F;copyright
   </p>
 
   <h2>Geographic area</h2>
