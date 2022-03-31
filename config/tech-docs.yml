@@ -11,9 +11,6 @@ phase: Alpha
 footer_links:
   Accessibility: /accessibility.html
 
-# Links to show on right-hand-side of header
-header_links:
-
 # Prevent robots from indexing (e.g. whilst in development)
 prevent_indexing: false
 
