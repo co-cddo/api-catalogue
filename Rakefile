@@ -62,3 +62,9 @@ task :publish do
     end
   end
 end
+
+desc "Validate the built site is well-formed, according to HTML Proofer"
+task :htmlproofer do
+  require "html-proofer"
+  HTMLProofer.check_directory("build/", disable_external: true, url_ignore: %w[#]).run
+end
