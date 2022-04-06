@@ -221,4 +221,13 @@
       margin-top: govuk-spacing(2);
     }
   }
+
+  .api-summary {
+    border: 1px solid #b1b4b6;
+    padding: 10px 8px;
+  }
+
+  .apis-list {
+    @extend %govuk-list;
+  }
 }
