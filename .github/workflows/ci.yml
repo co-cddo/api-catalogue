@@ -51,7 +51,7 @@ jobs:
         run: bundle exec rake build
 
       - name: Upload built site
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535
         with:
           name: site
           path: build
