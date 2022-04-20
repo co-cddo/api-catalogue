@@ -1,6 +1,7 @@
 ---
 title: Resources
 weight: 1
+hide_in_navigation: true
 ---
 # Supporting Resources
 
