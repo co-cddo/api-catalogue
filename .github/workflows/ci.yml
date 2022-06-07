@@ -23,7 +23,7 @@ jobs:
           node-version: '16'
 
       - name: Cache node modules
-        uses: actions/cache@30f413bfed0a2bc738fdfd409e5a9e96b24545fd
+        uses: actions/cache@c3f1317a9e7b1ef106c153ac8c0f00fed3ddbc0d
         env:
           cache-name: cache-node-modules
         with:
