@@ -73,7 +73,7 @@ RSpec.describe ApiCatalogue do
         ],
       }
 
-      stub_request(:get, "https://federated-api-model-spring-boot-sandbox.london.cloudapps.digital/apis")
+      stub_request(:get, %r{/apis})
         .with(headers: { "correlation-id" => /[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-4[a-fA-F0-9]{3}-[89abAB][a-fA-F0-9]{3}-[a-fA-F0-9]{12}/, "accept" => "application/vnd.uk.gov.api.v1alpha+json" })
         .to_return(status: 200, body: apis_response.to_json)
     end
