@@ -3,6 +3,7 @@ require "lib/api_catalogue"
 require "lib/dashboard_stats"
 require "lib/url_helpers"
 require "lib/links"
+require "lib/provider"
 
 ### Config from tech-docs-gem: start ###
 require "middleman"
@@ -105,6 +106,8 @@ static = ApiCatalogue.from_csv(catalogue_csv: catalogue_csv, organisation_csv: o
 registry_entries_csv = File.expand_path("data/registry_entries.csv", __dir__)
 registry_entries = ApiCatalogue.from_urls(registry_entries_csv)
 api_catalogue = ApiCatalogue.merge([static, registry_entries])
+bulk_metadata_response = V1AlphaProvider.retrieve_all([registry_entries])
+File.write("source/apis", bulk_metadata_response)
 
 # Order organisations from A-Z in the Table of Contents,
 # leaving a buffer from 0-999 for static content to be given priority
@@ -149,3 +152,9 @@ proxy(
   locals: { overview: ApiCatalogueOverview.new(api_catalogue) },
   ignore: true,
 )
+
+after_build do |builder|
+  apis = File.join(config[:source], "apis")
+  builder.thor.source_paths << File.dirname(__FILE__)
+  builder.thor.remove_file(apis)
+end
