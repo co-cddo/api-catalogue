@@ -24,3 +24,5 @@ spec/examples.txt
 /tmp
 
 node_modules
+
+source/apis
