@@ -1,31 +1,27 @@
-[
-  {
-    "api-version": "api.gov.uk/v1alpha"
-  },
-  {
-    "apis": [
-      {
-        "api-version": "api.gov.uk/v1alpha",
-        "data": {
-          "name": "Test API One",
-          "description": "First test API",
-          "url": "example1.com",
-          "contact": "test@example1.com",
-          "organisation": null,
-          "documentation-url": "example1.com/docs"
-        }
-      },
-      {
-        "api-version": "api.gov.uk/v1alpha",
-        "data": {
-          "name": "Test API Two",
-          "description": "Second test API",
-          "url": "example2.com",
-          "contact": "test@example2.com",
-          "organisation": null,
-          "documentation-url": "example2.com/docs"
-        }
+{
+  "api-version": "api.gov.uk/v1alpha",
+  "apis": [
+    {
+      "api-version": "api.gov.uk/v1alpha",
+      "data": {
+        "name": "Test API One",
+        "description": "First test API",
+        "url": "example1.com",
+        "contact": "test@example1.com",
+        "organisation": "Test Org One",
+        "documentation-url": "example1.com/docs"
       }
-    ]
-  }
-]
+    },
+    {
+      "api-version": "api.gov.uk/v1alpha",
+      "data": {
+        "name": "Test API Two",
+        "description": "Second test API",
+        "url": "example2.com",
+        "contact": "test@example2.com",
+        "organisation": "Test Org One",
+        "documentation-url": "example2.com/docs"
+      }
+    }
+  ]
+}
