@@ -20,8 +20,6 @@ class V1AlphaProvider
         end
       end
     end
-    version = { "api-version": "api.gov.uk/v1alpha" }
-    apis = { "apis": all_apis }
-    [version, apis].to_json
+    { "api-version" => "api.gov.uk/v1alpha", "apis" => all_apis }.to_json
   end
 end
