@@ -60,7 +60,7 @@ GEM
       concurrent-ruby (~> 1.0)
     hashdiff (1.0.1)
     hashie (3.6.0)
-    html-proofer (4.0.1)
+    html-proofer (4.4.0)
       addressable (~> 2.3)
       mercenary (~> 0.3)
       nokogiri (~> 1.13)
@@ -133,7 +133,7 @@ GEM
     mini_portile2 (2.8.0)
     minitest (5.15.0)
     multi_json (1.15.0)
-    nokogiri (1.13.6)
+    nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     padrino-helpers (0.15.1)
@@ -226,7 +226,7 @@ GEM
       hashdiff (>= 0.4.0, < 2.0.0)
     webrick (1.7.0)
     yell (2.2.2)
-    zeitwerk (2.5.4)
+    zeitwerk (2.6.0)
 
 PLATFORMS
   ruby
