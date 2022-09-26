@@ -23,12 +23,12 @@ RSpec.describe DashboardStats do
 
   describe "#by_organisation" do
     it "provides stats per organisation" do
-      nhs_stats = stats.by_organisation.detect do |org_stats|
-        org_stats.organisation.name.casecmp?("National Health Service")
+      dwp_stats = stats.by_organisation.detect do |org_stats|
+        org_stats.organisation.name.casecmp?("Department for Work and Pensions")
       end
 
-      expect(nhs_stats).to have_attributes(
-        organisation: have_attributes(name: "National Health Service"),
+      expect(dwp_stats).to have_attributes(
+        organisation: have_attributes(name: "Department for Work and Pensions"),
         api_count: (a_value > 30),
         first_added: be_a(Date),
         last_updated: be_a(Date),
