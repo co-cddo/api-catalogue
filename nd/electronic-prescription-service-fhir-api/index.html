@@ -702,6 +702,18 @@
 </ul>
 <ul>
   <li>
+    <a href="/hmlr/"><span>HM Land Registry</span></a>
+    <ul>
+  <li>
+    <a href="/hmlr/application-enquiry/"><span>Application Enquiry</span></a>
+    
+  </li>
+</ul>
+
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/hmrc/"><span>HM Revenue & Customs</span></a>
     <ul>
   <li>
@@ -1694,29 +1706,15 @@
             <h1 id="electronic-prescription-service-fhir-api">Electronic Prescription Service - FHIR API</h1>
 
   <h2>Overview</h2>
-  <p>.codeinline.example {word-wrap: anywhere;} Use this API to access the Electronic Prescription Service (EPS) - the national service used to send electronic prescription messages between prescribers and community dispensers. As a prescriber You can: </p>
+  <p>.codeinline.example {word-wrap: anywhere;} Use this API to access the Electronic Prescription Service (EPS). EPS is the national service used to send electronic prescription messages between prescribers and community dispensers. Prescribers in primary and secondary care can: </p>
 
-<p>create a primary care prescription</p>
+<p>create a prescription</p>
 
-<p>cancel a primary care prescription</p>
+<p>encode data so the prescription is ready to sign</p>
 
-<p>create a secondary care (outpatient) prescription</p>
+<p>cancel a prescription</p>
 
-<p>cancel a secondary care (outpatient) prescription</p>
-
-<p>create a secondary care (homecare) prescription</p>
-
-<p>cancel a secondary care (homecare) prescription</p>
-
-<p>view a prescription&#39;s summary information</p>
-
-<p>You cannot currently use this API to: </p>
-
-<p>create a tertiary care (homecare) prescription</p>
-
-<p>cancel a tertiary care (homecare) prescription</p>
-
-<p>As a dispenser You can: </p>
+<p>Creating and cancelling a prescription are both done by the prescriber. Encoding data so the prescription is ready to sign is done by the prescribing system. Dispensers can: </p>
 
 <p>download an individual prescription from EPS</p>
 
@@ -1731,8 +1729,6 @@
 <p>withdraw a dispense notification from EPS</p>
 
 <p>submit a dispense claim</p>
-
-<p>view a prescription&#39;s summary information</p>
 
 <p>You cannot currently use this API to: </p>
 
