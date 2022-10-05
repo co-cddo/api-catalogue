@@ -1712,25 +1712,57 @@
             <h1 id="gp-registrations-management-information-api">GP Registrations Management Information API</h1>
 
   <h2>Overview</h2>
-  <p>Use this API to send real-time GP registrations metrics to NHS for service monitoring of patient EHR transfers between GP Practices. This API replaces the weekly submission of GP2GP information sent to us via a MESH mailbox, as required by GP2GP V2.2b. You can send us Management Information for registrations regardless of the transfer protocol used (GP2GP or GP Connect). Using the API, you can send us information about the following: </p>
+  <p>Use this API to send real-time management information about GP registrations to us at NHS Digital. </p>
 
-<p>when a requesting practice completes a registration</p>
+<p>You can send us Management Information using the Pre-transfer API.</p>
 
-<p>the compatibility of that registration with an electronic transfer</p>
+<p>If your practice uses the GP2GP protocol you can send us Management Information using the GP2GP API.</p>
+
+<p>If your practice uses the GP Connect protocol you can send us Management Information using the GP Connect API.</p>
+
+<p>Pre-transfer Before a patient record transfer is in progress you can send us information about the following type of events: </p>
+
+<p>when the requesting practice starts the GP2GP registration - the first message initiated as part of the GP2GP or GP Connect protocol</p>
+
+<p>when a patient is being registered and a practice searches for and selects the patient from PDS</p>
+
+<p>when the SDS lookup is performed to identify whether the previous practice is GP2GP or GP Connect compatible</p>
+
+<p>when PDS has been updated with the new practice information</p>
+
+<p>GP2GP Using this protocol you can send us information about the following type of events: </p>
+
+<p>when the sending practice generates the electronic health record</p>
 
 <p>when the requesting practice requests an EHR</p>
 
 <p>when the sending practice sends an EHR</p>
 
-<p>when the requesting practice received attachments/documents</p>
+<p>when the requesting practice validates an EHR</p>
 
-<p>when the requesting practice is ready for the user to integrate the transfer</p>
+<p>when the requesting practice integrates an EHR</p>
 
-<p>when the requesting practice has integrated the EHR received</p>
+<p>when an error occurs</p>
 
-<p>when an error, or negative acknowledgement occurs</p>
+<p>This API replaces the weekly submission of GP2GP information sent to us via a MESH mailbox, as required by GP2GP V2.2b. GP Connect Using this protocol you can send us information about the following type of events: </p>
 
-<p>degrades</p>
+<p>when the request is sent to migrate the structured record</p>
+
+<p>when the response has been received from migrating the structured record</p>
+
+<p>when a request is sent to migrate a document</p>
+
+<p>when a response has been received from migrating a document</p>
+
+<p>when the EHR is ready to integrate</p>
+
+<p>when the EHR has been integrated</p>
+
+<p>when an error occurs</p>
+
+<p>Other This section contains events that don&#39;t use the GP2GP or GP Connect protocols: </p>
+
+<p>when an internal transfer of an EHR has been completed between two GP practices using the same software supplier system</p>
 
 <p>You cannot: </p>
 
