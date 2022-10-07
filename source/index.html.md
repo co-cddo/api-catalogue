@@ -25,6 +25,6 @@ All of the APIs and data sources published in the catalogue have their own licen
 
 The API Catalogue is a central part of the [Data Standards Authority's](https://www.gov.uk/government/groups/data-standards-authority) API programme, which aims to improve how APIs are produced, managed and used across government. For more information, or to ask to be added to the government API & Data Exchange community, email <api-programme@digital.cabinet-office.gov.uk>.
 
-If you have any questions about the catalogue, or how to add your APIs to it, email <api-catalogue@digital.cabinet-office.gov.uk>.
+If you have any questions about the catalogue, or how to add your APIs to it, email <api-catalogue@digital.cabinet-office.gov.uk>. We aim to respond to queries as soon as possible, but please be aware we don't have visibility of other government APIs that are not in the catalogue. You may get a faster response for queries like that from the relevant department.
 
 If you are looking to set up an api.gov.uk domain for your API, email <api-domain-request@digital.cabinet-office.gov.uk>.
