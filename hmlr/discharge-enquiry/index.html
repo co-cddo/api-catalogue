@@ -5,23 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <title>Hydrology - API Catalogue</title>
+    <title>Discharge Enquiry - API Catalogue</title>
 
     <link href="/stylesheets/manifest.css" rel="stylesheet" />
 
-    <link rel="canonical" href="https://www.api.gov.uk/ea/hydrology/">
+    <link rel="canonical" href="https://www.api.gov.uk/hmlr/discharge-enquiry/">
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:domain" content="www.api.gov.uk" />
       <meta name="twitter:image" content="https://www.api.gov.uk/images/govuk-large.png" />
-      <meta name="twitter:title" content="Hydrology - API Catalogue" />
-      <meta name="twitter:url" content="https://www.api.gov.uk/ea/hydrology/" />
+      <meta name="twitter:title" content="Discharge Enquiry - API Catalogue" />
+      <meta name="twitter:url" content="https://www.api.gov.uk/hmlr/discharge-enquiry/" />
 
       <meta property="og:image" content="https://www.api.gov.uk/images/govuk-large.png" />
       <meta property="og:site_name" content="API Catalogue" />
-      <meta property="og:title" content="Hydrology" />
+      <meta property="og:title" content="Discharge Enquiry" />
       <meta property="og:type" content="object" />
-      <meta property="og:url" content="https://www.api.gov.uk/ea/hydrology/" />
+      <meta property="og:url" content="https://www.api.gov.uk/hmlr/discharge-enquiry/" />
 
     
   </head>
@@ -1715,31 +1715,37 @@
 
         <div class="app-pane__content toc-open-disabled">
           <main id="content" class="technical-documentation" data-module="anchored-headings">
-            <h1 id="hydrology">Hydrology</h1>
+            <h1 id="discharge-enquiry">Discharge Enquiry</h1>
 
   <h2>Overview</h2>
-  <p>The Hydrology API provides access to historic water flow information. It complements the near real-time data provided under <code>/flood-monitoring</code> in that it provides access to a long term archive of quality checked and qualified data. </p>
+  <p>Use this service to check if any charges have been removed in the previous 30 days. </p>
 
-<p>The API and data model for the <code>/hydrology</code> API differs slightly from that under <code>/flood-monitoring</code> due to intrinsic differences (for example presence of quality flags on each reading for qualified data), modelling changes (for example adding links to <a href="https://www.w3.org/TR/vocab-ssn/">SOSA/SSN</a> terms) and technology differences. </p>
+<p>Poll Request Service URL for production environment: <a href="https://businessgateway.landregistry.gov.uk/b2b/BGSoapEngine/DischargeActivityV1_0PollRequestWebService?wsdl">https://businessgateway.landregistry.gov.uk/b2b/BGSoapEngine/DischargeActivityV1_0PollRequestWebService?wsdl</a> </p>
 
-<p>In addition Environment Agency are moving to using new identifiers for monitoring stations based on GUIDs and the station URIs provided by this API use these new standards. For convenience, the stations shown here provide annotations showing the old <code>stationReference</code> notations (as well as the River Levels on the Internet and WISKI notations) and provide <code>sameAs</code> links to the equivalent <code>/flood-monitoring</code> stations. </p>
+<p>Test environment URL: <a href="https://bgtest.landregistry.gov.uk/b2b/BGStubService/DischargeActivityV1_0WebService?wsdl">https://bgtest.landregistry.gov.uk/b2b/BGStubService/DischargeActivityV1_0WebService?wsdl</a> </p>
 
-<p>Please visit the <a href="https://support.environment.data.gov.uk/hc/en-gb">Defra Data Services Forum</a> to let us know about any issues or to ask questions.</p>
+<p>Poll Request Service URL for test environment: <a href="https://bgtest.landregistry.gov.uk/b2b/BGStubService/DischargeActivityV1_0PollRequestWebService?wsdl">https://bgtest.landregistry.gov.uk/b2b/BGStubService/DischargeActivityV1_0PollRequestWebService?wsdl</a> </p>
+
+<p>Service Guidance: <a href="https://landregistry.github.io/bgtechdoc/services/discharge_activity/">https://landregistry.github.io/bgtechdoc/services/discharge_activity/</a></p>
 
 
 
   <h2>Documentation</h2>
   <p>
-    <a href="https://environment.data.gov.uk/hydrology/doc/reference">Hydrology documentation</a>
+    <a href="https://landregistry.github.io/bgtechdoc/">Discharge Enquiry documentation</a>
   </p>
 
   <h2>Endpoint</h2>
   <p>
     <code>
-      https://environment.data.gov.uk/hydrology/landing
+      https://businessgateway.landregistry.gov.uk/b2b/BGSoapEngine/DischargeActivityV1_0WebService?wsdl
     </code>
   </p>
 
+  <h2>Contact</h2>
+  <p>
+    channelpartners@landregistry.gov.uk
+  </p>
 
 
 
@@ -1748,7 +1754,7 @@
 
           <aside>
               <ul class="contribution-banner">
-                <li><a href="https://github.com/co-cddo/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'Hydrology'&amp;body=Problem%20with%20'Hydrology'%20(https://www.api.gov.uk/ea/hydrology/)">Report a problem with this page's contents</a></li>
+                <li><a href="https://github.com/co-cddo/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'Discharge%20Enquiry'&amp;body=Problem%20with%20'Discharge%20Enquiry'%20(https://www.api.gov.uk/hmlr/discharge-enquiry/)">Report a problem with this page's contents</a></li>
               </ul>
           </aside>
 
