@@ -5,23 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <title>Spine Security Broker API - API Catalogue</title>
+    <title>NHS CIS Authentication (Spine Security Broker) API - API Catalogue</title>
 
     <link href="/stylesheets/manifest.css" rel="stylesheet" />
 
-    <link rel="canonical" href="https://www.api.gov.uk/nd/spine-security-broker-api/">
+    <link rel="canonical" href="https://www.api.gov.uk/nd/nhs-cis-authentication-spine-security-broker-api/">
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:domain" content="www.api.gov.uk" />
       <meta name="twitter:image" content="https://www.api.gov.uk/images/govuk-large.png" />
-      <meta name="twitter:title" content="Spine Security Broker API - API Catalogue" />
-      <meta name="twitter:url" content="https://www.api.gov.uk/nd/spine-security-broker-api/" />
+      <meta name="twitter:title" content="NHS CIS Authentication (Spine Security Broker) API - API Catalogue" />
+      <meta name="twitter:url" content="https://www.api.gov.uk/nd/nhs-cis-authentication-spine-security-broker-api/" />
 
       <meta property="og:image" content="https://www.api.gov.uk/images/govuk-large.png" />
       <meta property="og:site_name" content="API Catalogue" />
-      <meta property="og:title" content="Spine Security Broker API" />
+      <meta property="og:title" content="NHS CIS Authentication (Spine Security Broker) API" />
       <meta property="og:type" content="object" />
-      <meta property="og:url" content="https://www.api.gov.uk/nd/spine-security-broker-api/" />
+      <meta property="og:url" content="https://www.api.gov.uk/nd/nhs-cis-authentication-spine-security-broker-api/" />
 
     
   </head>
@@ -1089,6 +1089,12 @@
 </ul>
 <ul>
   <li>
+    <a href="/nd/directory-of-healthcare-services-service-search-api/"><span>Directory of Healthcare Services (Service Search) API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/nd/directory-of-services-urgent-and-emergency-care-rest-api/"><span>Directory of Services - Urgent and Emergency Care - REST API</span></a>
     
   </li>
@@ -1245,7 +1251,13 @@
 </ul>
 <ul>
   <li>
-    <a href="/nd/nhs-cis2-care-identity-authentication-api/"><span>NHS CIS2 Care Identity Authentication - API</span></a>
+    <a href="/nd/nhs-cis-authentication-spine-security-broker-api/"><span>NHS CIS Authentication (Spine Security Broker) API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/nhs-cis2-care-identity-authentication-api/"><span>NHS CIS2 Care Identity Authentication API</span></a>
     
   </li>
 </ul>
@@ -1383,12 +1395,6 @@
 </ul>
 <ul>
   <li>
-    <a href="/nd/service-search-api/"><span>Service Search API</span></a>
-    
-  </li>
-</ul>
-<ul>
-  <li>
     <a href="/nd/signing-service-api/"><span>Signing Service API</span></a>
     
   </li>
@@ -1402,12 +1408,6 @@
 <ul>
   <li>
     <a href="/nd/spine-directory-service-ldap-api/"><span>Spine Directory Service - LDAP API</span></a>
-    
-  </li>
-</ul>
-<ul>
-  <li>
-    <a href="/nd/spine-security-broker-api/"><span>Spine Security Broker API</span></a>
     
   </li>
 </ul>
@@ -1492,6 +1492,12 @@
 <ul>
   <li>
     <a href="/nd/e-referral-service-hl7-v3-api/"><span>e-Referral Service - HL7 V3 API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/e-referral-service-patient-care-fhir-api/"><span>e-Referral Service Patient Care – FHIR API</span></a>
     
   </li>
 </ul>
@@ -1721,10 +1727,12 @@
 
         <div class="app-pane__content toc-open-disabled">
           <main id="content" class="technical-documentation" data-module="anchored-headings">
-            <h1 id="spine-security-broker-api">Spine Security Broker API</h1>
+            <h1 id="nhs-cis-authentication-spine-security-broker-api">NHS CIS Authentication (Spine Security Broker) API</h1>
 
   <h2>Overview</h2>
-  <p>Use this API to implement single sign-on for healthcare workers using NHS smartcards.</p>
+  <p>Use this API to verify the identity of healthcare workers in England, such as NHS staff. It provides a single sign-on capability across local and national digital services using physical and virtual smartcards.</p>
+
+<p>This API is also known as the Spine Security Broker (SSB), and is part of the NHS Care Identity Service (CIS).</p>
 
 <p>You can:</p>
 
@@ -1734,9 +1742,9 @@
 
 <p>access the Client Signing Interface, which provides client-side digital signing functions for the purposes of Content Commitment. This interface primarily uses cryptographic functions that execute on a user’s smart card.</p>
 
-<p>Users can only be authenticated if they are formally registered to the Spine. This includes creating a user profile, stored in the Spine Directory Service (SDS), containing the user’s roles and other information that the Registration Authority or Service deems necessary to make appropriate data access decisions.</p>
+<p>Users can only be authenticated if they are formally registered on the Spine. This includes creating a user profile, stored in the Spine Directory Service (SDS), containing the user’s roles and other information that the Registration Authority or Service deems necessary to make appropriate data access decisions.</p>
 
-<p>This authentication service is also known as the Care Identity Service (CIS). It makes use of smartcards to provide strong authentication for health care workers to control access to national services. It is being replaced by NHS Care Identity Service 2 (NHS CIS2), which provides additional authentication methods for scenarios where a smartcard might not be preferred or appropriate.</p>
+<p>This authentication service makes use of smartcards to provide strong authentication for health care workers to control access to national services. It is being replaced by NHS Care Identity Service 2 (NHS CIS2), which provides additional authentication methods for scenarios where a smartcard might not be preferred or appropriate.</p>
 
 <p>This API is described fully in the Spine External Interface Specification (EIS). Part 6 has the overview and part 7 the formal API specifications. These are a set of Word documents that provide system developers - architects, designers and builders - with the necessary information to connect to Spine national services. </p>
 
@@ -1744,13 +1752,13 @@
 
   <h2>Documentation</h2>
   <p>
-    <a href="https://digital.nhs.uk/developer/api-catalogue/spine-security-broker">Spine Security Broker API documentation</a>
+    <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-cis-authentication-spine-security-broker">NHS CIS Authentication (Spine Security Broker) API documentation</a>
   </p>
 
   <h2>Endpoint</h2>
   <p>
     <code>
-      https://digital.nhs.uk/developer/api-catalogue/spine-security-broker
+      https://digital.nhs.uk/developer/api-catalogue/nhs-cis-authentication-spine-security-broker
     </code>
   </p>
 
@@ -1766,7 +1774,7 @@
 
           <aside>
               <ul class="contribution-banner">
-                <li><a href="https://github.com/co-cddo/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'Spine%20Security%20Broker%20API'&amp;body=Problem%20with%20'Spine%20Security%20Broker%20API'%20(https://www.api.gov.uk/nd/spine-security-broker-api/)">Report a problem with this page's contents</a></li>
+                <li><a href="https://github.com/co-cddo/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'NHS%20CIS%20Authentication%20(Spine%20Security%20Broker)%20API'&amp;body=Problem%20with%20'NHS%20CIS%20Authentication%20(Spine%20Security%20Broker)%20API'%20(https://www.api.gov.uk/nd/nhs-cis-authentication-spine-security-broker-api/)">Report a problem with this page's contents</a></li>
               </ul>
           </aside>
 
