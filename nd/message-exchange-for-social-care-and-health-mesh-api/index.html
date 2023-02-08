@@ -333,6 +333,24 @@
     <a href="/dwp/"><span>Department for Work and Pensions</span></a>
     <ul>
   <li>
+    <a href="/dwp/address-lookup-location-service/"><span>Address Lookup (Location Service)</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/dwp/alive-check/"><span>Alive Check</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/dwp/bank-validation/"><span>Bank Validation</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/dwp/block-earnings/"><span>Block Earnings</span></a>
     
   </li>
@@ -363,7 +381,13 @@
 </ul>
 <ul>
   <li>
-    <a href="/dwp/citizen-relationships/"><span>Citizen Relationships</span></a>
+    <a href="/dwp/citizen-benefit-relationships/"><span>Citizen Benefit Relationships</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/dwp/citizen-benefits/"><span>Citizen Benefits</span></a>
     
   </li>
 </ul>
@@ -477,6 +501,12 @@
 </ul>
 <ul>
   <li>
+    <a href="/dwp/organisations/"><span>Organisations</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/dwp/pip-service-award-subsitute/"><span>PIP Service Award Subsitute</span></a>
     
   </li>
@@ -484,6 +514,12 @@
 <ul>
   <li>
     <a href="/dwp/pipcs-informational-api/"><span>PIPCS Informational API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/dwp/payment-dates/"><span>Payment Dates</span></a>
     
   </li>
 </ul>
@@ -514,6 +550,12 @@
 <ul>
   <li>
     <a href="/dwp/view-earnings/"><span>View Earnings</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/dwp/citizen-core-biographics/"><span>citizen-core-biographics</span></a>
     
   </li>
 </ul>
@@ -1239,12 +1281,6 @@
 </ul>
 <ul>
   <li>
-    <a href="/nd/legitimate-relationship-service-hl7-v3-api/"><span>Legitimate Relationship Service - HL7 V3 API</span></a>
-    
-  </li>
-</ul>
-<ul>
-  <li>
     <a href="/nd/message-exchange-for-social-care-and-health-mesh-api/"><span>Message Exchange for Social Care and Health (MESH) API</span></a>
     
   </li>
@@ -1294,6 +1330,12 @@
 <ul>
   <li>
     <a href="/nd/national-data-opt-out-fhir-api/"><span>National Data Opt-out - FHIR API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/national-data-opt-out-mesh/"><span>National Data Opt-out - MESH</span></a>
     
   </li>
 </ul>
@@ -1498,6 +1540,12 @@
 <ul>
   <li>
     <a href="/nd/e-referral-service-fhir-api/"><span>e-Referral Service - FHIR API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/e-referral-service-fhir-api-hscn/"><span>e-Referral Service - FHIR API (HSCN)</span></a>
     
   </li>
 </ul>
@@ -1742,7 +1790,7 @@
             <h1 id="message-exchange-for-social-care-and-health-mesh-api">Message Exchange for Social Care and Health (MESH) API</h1>
 
   <h2>Overview</h2>
-  <p>Use this API to securely transfer healthcare data between organisations using the Message Exchange for Social Care and Health (MESH), which is a component of Spine. You interact with MESH via a virtual mailbox, only accessible to your organisation, by making calls to this API from your application. You can: </p>
+  <p>Use this API to securely transfer healthcare data between organisations using the Message Exchange for Social Care and Health (MESH). You interact with MESH via a virtual mailbox, only accessible to your organisation, by making calls to this API from your application. With the API, you can: </p>
 
 <p>check the number of messages in your inbox</p>
 
@@ -1760,15 +1808,17 @@
 
 <p>validate your mailbox every 24 hours to let Spine know it&#39;s still active</p>
 
-<p>Messages must have a: </p>
+<p>This API can only be used where there is a legal basis to do so. The onboarding process for the API is longer than other MESH options. This is because we need to know that the product you’re developing meets our security standards. The length of time it takes to onboard is heavily dependent on the resources your organisation puts into the process in developing your software and completing the application form. Expect the process to take a month or more. Get started You will need: </p>
 
-<p>sender mailbox ID</p>
+<p>a developer account to access the digital onboarding service</p>
 
-<p>receiver mailbox ID</p>
+<p>a MESH mailbox (with a unique ID and password)</p>
 
-<p>workflow ID provided by MESH, that identifies what type of data the message contains, so the receiving organisation knows how to process it. For example, the receiver might process X-ray image data differently from blood test results.</p>
+<p>a client Transport Layer Security (TLS) certificate</p>
 
-<p>You can also interact with MESH via a Java-based MESH client or a web-based MESH User Interface. </p>
+<p>an environment shared secret to include it within the MESH authorization header</p>
+
+<p>We will provide these at different stages of your onboarding process. </p>
 
 
 
