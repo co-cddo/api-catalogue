@@ -5,23 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <title>COVID-19 Medical Exemptions - FHIR API - API Catalogue</title>
+    <title>Radiology MESH - API Catalogue</title>
 
     <link href="/stylesheets/manifest.css" rel="stylesheet" />
 
-    <link rel="canonical" href="https://www.api.gov.uk/nd/covid-19-medical-exemptions-fhir-api/">
+    <link rel="canonical" href="https://www.api.gov.uk/nd/radiology-mesh/">
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:domain" content="www.api.gov.uk" />
       <meta name="twitter:image" content="https://www.api.gov.uk/images/govuk-large.png" />
-      <meta name="twitter:title" content="COVID-19 Medical Exemptions - FHIR API - API Catalogue" />
-      <meta name="twitter:url" content="https://www.api.gov.uk/nd/covid-19-medical-exemptions-fhir-api/" />
+      <meta name="twitter:title" content="Radiology MESH - API Catalogue" />
+      <meta name="twitter:url" content="https://www.api.gov.uk/nd/radiology-mesh/" />
 
       <meta property="og:image" content="https://www.api.gov.uk/images/govuk-large.png" />
       <meta property="og:site_name" content="API Catalogue" />
-      <meta property="og:title" content="COVID-19 Medical Exemptions - FHIR API" />
+      <meta property="og:title" content="Radiology MESH" />
       <meta property="og:type" content="object" />
-      <meta property="og:url" content="https://www.api.gov.uk/nd/covid-19-medical-exemptions-fhir-api/" />
+      <meta property="og:url" content="https://www.api.gov.uk/nd/radiology-mesh/" />
 
     
   </head>
@@ -1101,12 +1101,6 @@
 </ul>
 <ul>
   <li>
-    <a href="/nd/covid-19-medical-exemptions-fhir-api/"><span>COVID-19 Medical Exemptions - FHIR API</span></a>
-    
-  </li>
-</ul>
-<ul>
-  <li>
     <a href="/nd/covid-19-test-results-fhir-api/"><span>COVID-19 Test Results - FHIR API</span></a>
     
   </li>
@@ -1210,6 +1204,30 @@
 <ul>
   <li>
     <a href="/nd/female-genital-mutilation-information-sharing-fhir-api/"><span>Female Genital Mutilation - Information Sharing - FHIR API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/gp-connect-patient-facing-access-record-fhir-api/"><span>GP Connect (Patient Facing) Access Record - FHIR API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/gp-connect-patient-facing-appointment-management-fhir-api/"><span>GP Connect (Patient Facing) Appointment Management - FHIR API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/gp-connect-patient-facing-prescriptions-fhir-api/"><span>GP Connect (Patient Facing) Prescriptions - FHIR API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/gp-connect-patient-facing-user-permissions-api/"><span>GP Connect (Patient Facing) User Permissions API</span></a>
     
   </li>
 </ul>
@@ -1371,6 +1389,12 @@
 </ul>
 <ul>
   <li>
+    <a href="/nd/online-consultation-mesh/"><span>Online Consultation - MESH</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/nd/ophthalmic-payments-api/"><span>Ophthalmic Payments API</span></a>
     
   </li>
@@ -1462,6 +1486,12 @@
 <ul>
   <li>
     <a href="/nd/query-accredited-system-information-soap-api/"><span>Query Accredited System Information - SOAP API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/radiology-mesh/"><span>Radiology MESH</span></a>
     
   </li>
 </ul>
@@ -1823,46 +1853,26 @@
 
         <div class="app-pane__content toc-open-disabled">
           <main id="content" class="technical-documentation" data-module="anchored-headings">
-            <h1 id="covid-19-medical-exemptions-fhir-api">COVID-19 Medical Exemptions - FHIR API</h1>
+            <h1 id="radiology-mesh">Radiology MESH</h1>
 
   <h2>Overview</h2>
-  <p>Use this API to access a patient’s coronavirus (COVID-19) medical exemption status. You can: </p>
+  <p> </p>
 
-<p>get a patient&#39;s COVID-19 medical exemption status, based on their NHS number</p>
+<p>Use this message integration to send radiology messages from a radiology department to a GP system over MESH.  </p>
 
-<p>You get the following data: </p>
-
-<p>current COVID-19 medical exemption status</p>
-
-<p>embedded Patient demographic details, including date of birth.</p>
-
-<p>The patient demographic details might differ from those held in the Personal Demographics Service (PDS).</p>
-
-<p>To get demographic details from PDS, use the Personal Demographics Service FHIR API. Data standards This API uses the FHIR standard, and includes the resources: </p>
-
-<p>Bundle</p>
-
-<p>Patient</p>
-
-<p>QuestionnaireResponse</p>
-
-<p>It references resources: </p>
-
-<p>Questionnaire specifically COVID-19 Vaccination Medical Exemption Questionnaire</p>
-
-<p>Data availability, timing and quality All exemption records are verified to ensure the NHS number is correct before making them available via the API. In most cases this is automatic, and the record is available within 48 hours of the exemption being recorded, sometimes sooner. Where automated NHS number verification fails, we verify the NHS number manually, which can take longer. In a very small number of cases, we are unable to verify the NHS number, and we do not make the medical exemption available at all. </p>
+<p>It uses MESH to send and receive messages. </p>
 
 
 
   <h2>Documentation</h2>
   <p>
-    <a href="https://digital.nhs.uk/developer/api-catalogue/covid-19-medical-exemptions-fhir">COVID-19 Medical Exemptions - FHIR API documentation</a>
+    <a href="https://digital.nhs.uk/developer/api-catalogue/radiology-mesh">Radiology MESH documentation</a>
   </p>
 
   <h2>Endpoint</h2>
   <p>
     <code>
-      https://digital.nhs.uk/developer/api-catalogue/covid-19-medical-exemptions-fhir
+      https://digital.nhs.uk/developer/api-catalogue/radiology-mesh
     </code>
   </p>
 
@@ -1878,7 +1888,7 @@
 
           <aside>
               <ul class="contribution-banner">
-                <li><a href="https://github.com/co-cddo/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'COVID-19%20Medical%20Exemptions%20-%20FHIR%20API'&amp;body=Problem%20with%20'COVID-19%20Medical%20Exemptions%20-%20FHIR%20API'%20(https://www.api.gov.uk/nd/covid-19-medical-exemptions-fhir-api/)">Report a problem with this page's contents</a></li>
+                <li><a href="https://github.com/co-cddo/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'Radiology%20MESH'&amp;body=Problem%20with%20'Radiology%20MESH'%20(https://www.api.gov.uk/nd/radiology-mesh/)">Report a problem with this page's contents</a></li>
               </ul>
           </aside>
 

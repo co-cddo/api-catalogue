@@ -1101,12 +1101,6 @@
 </ul>
 <ul>
   <li>
-    <a href="/nd/covid-19-medical-exemptions-fhir-api/"><span>COVID-19 Medical Exemptions - FHIR API</span></a>
-    
-  </li>
-</ul>
-<ul>
-  <li>
     <a href="/nd/covid-19-test-results-fhir-api/"><span>COVID-19 Test Results - FHIR API</span></a>
     
   </li>
@@ -1210,6 +1204,30 @@
 <ul>
   <li>
     <a href="/nd/female-genital-mutilation-information-sharing-fhir-api/"><span>Female Genital Mutilation - Information Sharing - FHIR API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/gp-connect-patient-facing-access-record-fhir-api/"><span>GP Connect (Patient Facing) Access Record - FHIR API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/gp-connect-patient-facing-appointment-management-fhir-api/"><span>GP Connect (Patient Facing) Appointment Management - FHIR API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/gp-connect-patient-facing-prescriptions-fhir-api/"><span>GP Connect (Patient Facing) Prescriptions - FHIR API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/gp-connect-patient-facing-user-permissions-api/"><span>GP Connect (Patient Facing) User Permissions API</span></a>
     
   </li>
 </ul>
@@ -1371,6 +1389,12 @@
 </ul>
 <ul>
   <li>
+    <a href="/nd/online-consultation-mesh/"><span>Online Consultation - MESH</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/nd/ophthalmic-payments-api/"><span>Ophthalmic Payments API</span></a>
     
   </li>
@@ -1462,6 +1486,12 @@
 <ul>
   <li>
     <a href="/nd/query-accredited-system-information-soap-api/"><span>Query Accredited System Information - SOAP API</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="/nd/radiology-mesh/"><span>Radiology MESH</span></a>
     
   </li>
 </ul>
@@ -1834,7 +1864,7 @@
 
 <p>get bookings for a patient</p>
 
-<p>process a message</p>
+<p>process a message, either a booking or a referral</p>
 
 <p>get message definition</p>
 
@@ -1842,7 +1872,7 @@
 
 <p>get a specific referral</p>
 
-<p>get referral/s for a patient</p>
+<p>get referrals for a patient</p>
 
 <p>get slots</p>
 
@@ -1855,6 +1885,8 @@
 <p>The target backend handles the request and sends a response back to this API.</p>
 
 <p>This API returns the response to your sender application.</p>
+
+<p>In some Applications the target may send a follow up request to indicate the outcome of a request.</p>
 
 <p>For a non-technical overview of how to build software that deals with referrals and bookings, see Building healthcare software - referrals and bookings. </p>
 
