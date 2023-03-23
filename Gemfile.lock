@@ -130,11 +130,9 @@ GEM
     middleman-sprockets (4.1.1)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
-    mini_portile2 (2.8.1)
     minitest (5.15.0)
     multi_json (1.15.0)
-    nokogiri (1.14.2)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
     padrino-helpers (0.15.1)
       i18n (>= 0.6.7, < 2)
@@ -229,7 +227,7 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   activemodel
@@ -255,4 +253,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   2.3.8
+   2.3.26
