@@ -1545,6 +1545,12 @@
 </ul>
 <ul>
   <li>
+    <a href="/nd/transfer-of-care-mesh/"><span>Transfer of Care - MESH</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/nd/transfer-of-care-emergency-care-discharge-fhir/"><span>Transfer of Care Emergency Care Discharge - FHIR</span></a>
     
   </li>
@@ -1856,7 +1862,11 @@
             <h1 id="organisation-data-service-ord-api">Organisation Data Service - ORD API</h1>
 
   <h2>Overview</h2>
-  <p>Use this API to access details of health and social care organisations in England and Wales, such as trusts or GP practices, using our Organisation Data Service (ODS). This ORD compatible API contains the full dataset from ODS, and the ODS FHIR API contains a reduced dataset, most useful for helping with transactions</p>
+  <p>Use this API to access details of health and social care organisations in England and Wales, such as trusts or GP practices, using our Organisation Data Service (ODS). </p>
+
+<p>This ORD-compatible API contains the full dataset from ODS, including information on succession (history) and relationships.</p>
+
+<p>We also have an ODS FHIR API which contains a reduced dataset, most useful for transactions.</p>
 
 <p>You can:</p>
 
@@ -1870,7 +1880,7 @@
 
 <p>get a list of organisations that have been modified since a specific date to synchronise data locally</p>
 
-<p>An ODS code is a unique identification codes for an organisation that interact with any area of the NHS. For more details, see Organisation Data Service: Guidance for developers .</p>
+<p>An ODS code is a unique identification code for an organisation that interacts with any area of the NHS. </p>
 
 <p>This API returns the following full dataset for an organisation, when searched with an ODS code:</p>
 
@@ -1888,7 +1898,7 @@
 
 <p>additional attributes - data items included to support policy and pragmatic change</p>
 
-<p>For an alternative API that returns reduced dataset, see Related APIs below. </p>
+<p>For an alternative API that returns a reduced dataset, use the ODS FHIR API. </p>
 
 
 

@@ -1545,6 +1545,12 @@
 </ul>
 <ul>
   <li>
+    <a href="/nd/transfer-of-care-mesh/"><span>Transfer of Care - MESH</span></a>
+    
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="/nd/transfer-of-care-emergency-care-discharge-fhir/"><span>Transfer of Care Emergency Care Discharge - FHIR</span></a>
     
   </li>
@@ -1856,7 +1862,9 @@
             <h1 id="organisation-data-service-fhir-api">Organisation Data Service - FHIR API</h1>
 
   <h2>Overview</h2>
-  <p>Use this API to access a reduced dataset of health and social care organisations in England and Wales, such as trusts or GP practices, using our Organisation Data Service (ODS). This FHIR API contains a reduced dataset, most useful for helping with transactions, while the ODS ORD API contains the full dataset from ODS.</p>
+  <p>Use this API to access a reduced dataset of health and social care organisations in England and Wales, such as trusts or GP practices, using the Organisation Data Service (ODS).</p>
+
+<p>This FHIR API contains a reduced dataset, most useful for  transactions. To access the full ODS dataset, including data about succession (history) or relationships, use the ODS ORD API.</p>
 
 <p>You can search for information about an organisation using one or more of their:</p>
 
@@ -1874,17 +1882,17 @@
 
 <p>You can also limit the number of results returned, or just request a count of the number of search results.</p>
 
-<p>For more details, see the Introduction to FHIR® ODS Lookup API.</p>
-
 <p>You cannot:</p>
 
-<p>access the full dataset from ODS</p>
+<p>access the full dataset from ODS, specifically no information about succession (history) or relationships</p>
 
-<p>search for an organisation with an address</p>
+<p>search for an organisation using an address</p>
 
-<p>An ODS code is a unique identification codes for an organisation that interact with any area of the NHS. This API returns the following reduced dataset of an organisation, when searched with an ODS code:</p>
+<p>An ODS code is a unique identification code for an organisation that interacts with any area of the NHS. </p>
 
-<p>organisation - ODS code, name, open date, close  date, last change date and status if active or inactive</p>
+<p>This API returns the following reduced dataset of an organisation, when searched with an ODS code:</p>
+
+<p>organisation - ODS code, name, open date, close date, last change date and status if active or inactive</p>
 
 <p>address - house or flat number, line 1, line 2, line 3, town, postcode and country</p>
 
@@ -1892,7 +1900,9 @@
 
 <p>roles - primary and non-primary roles</p>
 
-<p>For an alternative API that returns full dataset, see Related APIs below. </p>
+<p>For more details, see the Introduction to FHIR® ODS Lookup API.</p>
+
+<p>To access the full ODS dataset, use the ODS ORD API. </p>
 
 
 
