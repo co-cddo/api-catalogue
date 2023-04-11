@@ -102,7 +102,7 @@ helpers UrlHelpers
 
 catalogue_csv = File.expand_path("data/catalogue.csv", __dir__)
 organisation_csv = File.expand_path("data/organisation.csv", __dir__)
-static = ApiCatalogue.from_csv(catalogue_csv: catalogue_csv, organisation_csv: organisation_csv)
+static = ApiCatalogue.from_csv(catalogue_csv:, organisation_csv:)
 registry_entries_csv = File.expand_path("data/registry_entries.csv", __dir__)
 registry_entries = ApiCatalogue.from_urls(registry_entries_csv)
 api_catalogue = ApiCatalogue.merge([static, registry_entries])
@@ -117,7 +117,7 @@ api_catalogue.organisations_apis.each.with_index(initial_org_weight) do |(organi
   proxy(
     UrlHelpers.organisation_path(organisation),
     "organisation_index.html",
-    locals: { organisation: organisation, apis: apis },
+    locals: { organisation:, apis: },
     data: {
       title: organisation.name,
       weight: org_weight,
@@ -127,9 +127,9 @@ api_catalogue.organisations_apis.each.with_index(initial_org_weight) do |(organi
 
   apis.each_with_index do |api, api_weight|
     proxy(
-      UrlHelpers.api_path(organisation: organisation, api: api),
+      UrlHelpers.api_path(organisation:, api:),
       "api_details.html",
-      locals: { api: api },
+      locals: { api: },
       data: {
         title: api.name,
         weight: api_weight,

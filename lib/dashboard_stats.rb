@@ -35,7 +35,7 @@ private
 
   def build_organisation_stats(organisation, apis)
     OrganisationStats.new(
-      organisation: organisation,
+      organisation:,
       api_count: apis.count,
       first_added: apis.min_by(&:date_added)&.date_added,
       last_updated: apis.max_by(&:date_updated)&.date_updated,

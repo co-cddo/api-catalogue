@@ -10,7 +10,7 @@ class ApiCatalogue
     apis = CsvSource.load(catalogue_csv) { |attributes| Api.new(attributes) }
     organisations = CsvSource.load(organisation_csv) { |attributes| Organisation.new(attributes) }
 
-    new(apis: apis, organisations: organisations)
+    new(apis:, organisations:)
   end
 
   def self.from_url(url)
@@ -43,7 +43,7 @@ class ApiCatalogue
   attr_reader :organisations_apis
 
   def initialize(apis:, organisations:)
-    @organisations_apis = group_by_organisation(apis: apis, organisations: organisations)
+    @organisations_apis = group_by_organisation(apis:, organisations:)
   end
 
 private
