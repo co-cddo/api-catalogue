@@ -37,17 +37,17 @@ class V1AlphaFetcher < Fetcher
       create_organisation(api["data"]["organisation"])
     end
 
-    ApiCatalogue.new apis: apis, organisations: orgs
+    ApiCatalogue.new apis:, organisations: orgs
   end
 
   def create_organisation(name)
     id = create_organisation_id(name)
     alternate_name = if name.match(/\s/)
-                       name.gsub("and", "").split(/[ \-]/).map(&:first).join.downcase
+                       name.gsub("and", "").split(/[ -]/).map(&:first).join.downcase
                      else
                        name
                      end
-    Organisation.new id: id, name: name, alternate_name: alternate_name
+    Organisation.new id:, name:, alternate_name:
   end
 
   def create_organisation_id(name)
