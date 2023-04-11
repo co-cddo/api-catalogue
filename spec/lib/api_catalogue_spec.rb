@@ -8,8 +8,8 @@ RSpec.describe ApiCatalogue do
 
     it "parses the CSV sources" do
       api_catalogue = described_class.from_csv(
-        catalogue_csv: catalogue_csv,
-        organisation_csv: organisation_csv,
+        catalogue_csv:,
+        organisation_csv:,
       )
 
       expect(api_catalogue.organisations_apis.size).to be > 10
@@ -141,7 +141,7 @@ RSpec.describe ApiCatalogue do
         build(:organisation, id: "A", name: "A-Org"),
       ]
 
-      api_catalogue = described_class.new(apis: apis, organisations: organisations)
+      api_catalogue = described_class.new(apis:, organisations:)
       first_org, first_org_apis = api_catalogue.organisations_apis.first
 
       expect(first_org.name).to eq "A-Org"

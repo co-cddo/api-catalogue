@@ -6,7 +6,7 @@ RSpec.describe DashboardStats do
 
   let(:catalogue_csv) { File.expand_path("../../data/catalogue.csv", __dir__) }
   let(:organisation_csv) { File.expand_path("../../data/organisation.csv", __dir__) }
-  let(:api_catalogue) { ApiCatalogue.from_csv(catalogue_csv: catalogue_csv, organisation_csv: organisation_csv) }
+  let(:api_catalogue) { ApiCatalogue.from_csv(catalogue_csv:, organisation_csv:) }
 
   describe "#total_apis" do
     it "sums the APIs across each organisation" do

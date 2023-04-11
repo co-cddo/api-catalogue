@@ -22,7 +22,7 @@ private
           name: api.name,
           department: organisation.name,
           license: api.license,
-          url: UrlHelpers.api_path(organisation: organisation, api: api),
+          url: UrlHelpers.api_path(organisation:, api:),
         )
       end
     end
