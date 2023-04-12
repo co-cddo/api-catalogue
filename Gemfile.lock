@@ -142,7 +142,7 @@ GEM
       sprockets (>= 3.0)
     minitest (5.18.0)
     multi_json (1.15.0)
-    nokogiri (1.14.2-x86_64-linux)
+    nokogiri (1.14.3-x86_64-linux)
       racc (~> 1.4)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
