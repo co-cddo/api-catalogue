@@ -69,7 +69,7 @@ GEM
     hashdiff (1.0.1)
     hashery (2.1.2)
     hashie (3.6.0)
-    html-proofer (5.0.6)
+    html-proofer (5.0.7)
       addressable (~> 2.3)
       async (~> 2.1)
       nokogiri (~> 1.13)
