@@ -1,3 +1,6 @@
+:root {
+  --govuk-frontend-version: "4.6.0"; }
+
 .technical-documentation a, .govuk-link {
   font-family: "GDS Transport", arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -947,8 +950,6 @@
   list-style: none;
   -moz-column-gap: 30px;
        column-gap: 30px; }
-  .govuk-footer__list .govuk-footer__link:hover {
-    text-decoration-thickness: auto; }
 
 @media (min-width: 48.0625em) {
   .govuk-footer__list--columns-2 {
@@ -1066,7 +1067,7 @@
   .govuk-header__link:hover {
     text-decoration: underline;
     text-decoration-thickness: 3px;
-    text-underline-offset: 0.1em; }
+    text-underline-offset: 0.1578em; }
   .govuk-header__link:focus {
     outline: 3px solid transparent;
     color: #0b0c0c;
@@ -1180,7 +1181,7 @@
   .govuk-header__menu-button:hover {
     -webkit-text-decoration: solid underline 3px;
     text-decoration: solid underline 3px;
-    text-underline-offset: 0.1em; }
+    text-underline-offset: 0.1578em; }
   .govuk-header__menu-button:focus {
     outline: 3px solid transparent;
     color: #0b0c0c;
@@ -1539,6 +1540,11 @@
     outline: 3px solid #ffdd00;
     outline-offset: 0;
     box-shadow: inset 0 0 0 2px; }
+  .govuk-input:disabled {
+    opacity: .5;
+    color: inherit;
+    background-color: transparent;
+    cursor: not-allowed; }
 
 .govuk-input::-webkit-outer-spin-button,
 .govuk-input::-webkit-inner-spin-button {
@@ -1552,6 +1558,21 @@
   border-color: #d4351c; }
   .govuk-input--error:focus {
     border-color: #0b0c0c; }
+
+.govuk-input--extra-letter-spacing {
+  font-family: "GDS Transport", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "tnum" 1;
+  font-weight: 400;
+  letter-spacing: .05em; }
+  @media print {
+    .govuk-input--extra-letter-spacing {
+      font-family: sans-serif; } }
+  @supports (font-variant-numeric: tabular-nums) {
+    .govuk-input--extra-letter-spacing {
+      font-feature-settings: normal;
+      font-variant-numeric: tabular-nums; } }
 
 .govuk-input--width-30 {
   max-width: 29.5em; }
