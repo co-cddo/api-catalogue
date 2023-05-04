@@ -29,7 +29,7 @@ end
 
 # From tech-docs-gem - to be revised
 gem "activesupport"
-gem "middleman", "~> 4.4"
+gem "middleman", "~> 4.5"
 gem "middleman-autoprefixer"
 gem "middleman-compass"
 gem "middleman-livereload"
