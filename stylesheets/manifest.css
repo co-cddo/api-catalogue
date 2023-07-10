@@ -1,5 +1,5 @@
 :root {
-  --govuk-frontend-version: "4.6.0"; }
+  --govuk-frontend-version: "4.7.0"; }
 
 .technical-documentation a, .govuk-link {
   font-family: "GDS Transport", arial, sans-serif;
@@ -771,6 +771,11 @@
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-size-adjust: 100%; }
+  @supports (position: -webkit-sticky) or (position: sticky) {
+    .govuk-template {
+      scroll-padding-top: 60px; }
+      .govuk-template:not(:has(.govuk-exit-this-page)) {
+        scroll-padding-top: 0; } }
   @media screen {
     .govuk-template {
       overflow-y: scroll; } }
@@ -1821,6 +1826,10 @@
   clip-path: inset(50%) !important;
   border: 0 !important;
   white-space: nowrap !important; }
+  .govuk-warning-text__assistive:before {
+    content: "\00a0"; }
+  .govuk-warning-text__assistive:after {
+    content: "\00a0"; }
 
 .govuk-warning-text__icon {
   font-family: "GDS Transport", arial, sans-serif;
@@ -1899,6 +1908,10 @@
   clip-path: inset(50%) !important;
   border: 0 !important;
   white-space: nowrap !important; }
+  .govuk-visually-hidden:before {
+    content: "\00a0"; }
+  .govuk-visually-hidden:after {
+    content: "\00a0"; }
 
 .govuk-visually-hidden-focusable {
   position: absolute !important;
