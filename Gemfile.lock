@@ -172,7 +172,7 @@ GEM
       method_source (~> 1.0)
     public_suffix (5.0.3)
     racc (1.7.1)
-    rack (2.2.7)
+    rack (2.2.8)
     rack-livereload (0.3.17)
       rack
     rainbow (3.1.1)
@@ -235,7 +235,7 @@ GEM
     sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
-    sprockets (4.2.0)
+    sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
     temple (0.10.0)
