@@ -8,7 +8,6 @@ environment-agency,Environment Agency,EA,
 scottish-government,Scottish Government,Scot,
 department-for-education,Department for Education,DfE,
 department-for-work-and-pensions,Department for Work and Pensions,DWP,
-london-borough-of-hackney,London Borough of Hackney,Hackney,
 local-government-association,Local Government Association,LGA,
 west-berkshire-council,West Berkshire Council,WBerks,
 hm-revenue-customs,HM Revenue & Customs,HMRC,
@@ -27,6 +26,6 @@ home-office,Home Office,HO,https://www.gov.uk/government/organisations/home-offi
 department-for-transport,Department for Transport,DfT,https://www.gov.uk/government/organisations/department-for-transport
 the-apprenticeship-service,The Apprenticeship Service,TAS,
 cefas,"Centre for Environment, Fisheries and Aquaculture",Cefas,https://www.cefas.co.uk
-bgs,"British Geological Survey",BGS,https://www.bgs.ac.uk/
-hm-land-registry,"HM Land Registry",HMLR,https://www.gov.uk/government/organisations/land-registry
-scc,"Southampton City Council",SCC,https://www.southampton.gov.uk/
+bgs,British Geological Survey,BGS,https://www.bgs.ac.uk/
+hm-land-registry,HM Land Registry,HMLR,https://www.gov.uk/government/organisations/land-registry
+scc,Southampton City Council,SCC,https://www.southampton.gov.uk/
