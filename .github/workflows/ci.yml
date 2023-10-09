@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac
 
-      - uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939
+      - uses: ruby/setup-ruby@d37167af451eb51448db3354e1057b75c4b268f7
         with:
           bundler-cache: true
 
@@ -63,7 +63,7 @@ jobs:
     steps:
       - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac
 
-      - uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939
+      - uses: ruby/setup-ruby@d37167af451eb51448db3354e1057b75c4b268f7
         with:
           bundler-cache: true
 
@@ -85,7 +85,7 @@ jobs:
     steps:
       - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac
 
-      - uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939
+      - uses: ruby/setup-ruby@d37167af451eb51448db3354e1057b75c4b268f7
         with:
           bundler-cache: true
 
