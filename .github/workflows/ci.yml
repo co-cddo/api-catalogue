@@ -23,7 +23,7 @@ jobs:
           node-version: '16'
 
       - name: Cache node modules
-        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8
+        uses: actions/cache@704facf57e6136b1bc63b828d79edcd491f0ee84
         env:
           cache-name: cache-node-modules
         with:
@@ -51,7 +51,7 @@ jobs:
         run: bundle exec rake build
 
       - name: Upload built site
-        uses: actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce
+        uses: actions/upload-artifact@a8a3f3ad30e3422c9c7b888a15615d19a852ae32
         with:
           name: site
           path: build
