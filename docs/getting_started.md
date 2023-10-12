@@ -79,5 +79,5 @@ request is merged it'll be published automatically. See the
 Note that there is a scorecard action. This relies on a token to access parts of
 the repository. The token expires periodically.
 
-See the [scorecard-action README](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)
+See the [scorecard-action README](https://github.com/ossf/scorecard-action#authentication-with-fine-grained-pat-optional)
 for instructions on updated the token.
