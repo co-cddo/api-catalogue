@@ -717,10 +717,10 @@ gopd@^1.0.1:
   dependencies:
     get-intrinsic "^1.1.3"
 
-govuk-frontend@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/govuk-frontend/-/govuk-frontend-5.2.0.tgz#f8e0bf98b771b8ee1501fd45bbba24a091f3846d"
-  integrity sha512-beD3wztHpkKz6JUpPwnwop1ejb4rTFMPLCutKLCIDmUS4BPpW59ggVUfctsRqHd2Zjw9wxljdRdeIJ8AZFyyTw==
+govuk-frontend@^4.7.0:
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/govuk-frontend/-/govuk-frontend-4.8.0.tgz#df4e56c762e93aae74fed214bb6be08e13783772"
+  integrity sha512-NOmPJxL8IYq1HSNHYKx9XY2LLTxuwb+IFASiGQO4sgJ8K7AG66SlSeqARrcetevV8zOf+i1z+MbJJ2O7//OxAw==
 
 graceful-fs@^4.1.15:
   version "4.2.11"
