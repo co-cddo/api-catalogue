@@ -46,7 +46,7 @@ GEM
       fiber-annotation
       fiber-local
     contracts (0.17)
-    crack (0.4.6)
+    crack (1.0.0)
       bigdecimal
       rexml
     diff-lcs (1.5.1)
@@ -255,7 +255,7 @@ GEM
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.5.0)
-    webmock (3.20.0)
+    webmock (3.23.0)
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
