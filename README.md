@@ -27,3 +27,11 @@ copyright](http://www.nationalarchives.gov.uk/information-management/re-using-pu
 and available under the terms of the [Open Government
 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 licence.
+
+## Data sources
+
+Note that data used to generate the catalogue is mainly held in a local CSV file: data/catalogue.csv.
+
+However, additional data is pulled from https://github.com/co-cddo/api-catalogue-data-source as JSON. For convenience, this additional
+data has been extracted into a local CSV file data/catalogue-from-json-source.csv to make it easier to compare or combine with the data
+in catalogue.csv.
