@@ -1,0 +1,2996 @@
+dateAdded,dateUpdated,url,name,description,documentation,license,maintainer,areaServed,startDate,endDate,provider
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Address Lookup,"DWP single, strategic solution for looking up addresses including fuzzy search and UPRN.",https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Award Details,Details the amount of benefit awarded to a person within a specified period of time.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Bank Wizard,Verifies and validates bank account details.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Calculate Earnings,Carries out calculation for claimants DWP has an active earning interest for.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Calculate Earnings by Payday,Allows to determine which earning records are to be excluded or included in calculations for a claimant.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Citizen Address,Details all current (and optionally historic) address linked to a person.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Citizen Claims,"Provides a list of claims (and where relevant, which components) a person is entitled to.",https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Close Records,Allows for the closure of document records.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Contact Details Verification,Verifies if there is a match between the supplied details and DWP records.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Copy Document References,Allows for the copying of documents to a target benefit area.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Document Citizen Claims,Document information related to a citizen's claim.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Document Upload,Allows for the upload of a document and its metadata.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,FINDr Matching Service,Identifies the correct service identifier for a given set of biographic data.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Get Case Status,Retrieves a range of case details relating to a claimant record.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Get Citizen Income Information API,Retrieves current and historical information regarding a citizen's income.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Get Communications,Retrieves communication list with a customer about their PIP.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Get Determination Decision,Retrieves decision details for all cases related to a PIP claim.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Get Entitlement,Retrieves the benefit award details related to a PIP claim.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Get Interest Details,Allows users to update a citizen's interest record.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Get Medical Details,Retrieves a range of medical details for a person.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Get Payment Details,Retrieves payment details related to a claimant record.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Get Personal Details,Retrieves a range of personal details for a person.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Get Tasks,Retrieves all tasks listed against a claimant's record.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Include Exclude Earnings,Allows to determine which earning records are to be excluded or included in calculations for a claimant.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Maintain Interest Details,Allows users to update a citizen's interest record.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Manage Earnings Threshold,Allows to set and update different earnings thresholds for for a claimant.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Manage Interests,"Allows to set, unset and query an interest for a claimant.",https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Multiple Document Metadata Update,Allows for metadata update for multiple documents.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,NHS Charge Exemption,Checks if a citizen is eligible for free prescriptions.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Payment Dates,Payment Dates provides regional calendar information required for banking and in particular when sending payments.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Register External Content,Allows for the registration of external content and its metadata.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Rescan,Allows for the submission of a rescan request for a document.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Retrieve Metadata,Allows to request metadata for a document.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Search,Allows to search for a document in the Document Repository System.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Self Reported Earnings,"Allows to view earnings data, within the supplied date period, for a claimant.",https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Update Metadata,Allows to update metadata for a document in the Document Repository System.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,Update Retention Date,Allows to apply or lift a hold on closed document records in the Document Repository System.,https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://api.engineering.dwp.gov.uk,View Earnings,"Allows to view earnings data, within the supplied date period, for a claimant.",https://engineering.dwp.gov.uk/apis/docs,,integration.technologyplatforms@dwp.gsi.gov.uk,,,,Department for Work and Pensions
+2024-04-23,2024-04-23,https://data.food.gov.uk/food-alerts,Food Alerts,"The FSA Food Alerts API provides access to current and recent Food Alerts: Allergy Alerts (AA), Product Recall Information Notices (PRIN) and Food Alerts for Action (FAFA). It provides applications with the facility to list alerts matching some filter criterion, and to retrieve a description of an alert.",https://data.food.gov.uk/food-alerts/ui/reference,,data@food.gov.uk,,,,Food Standards Agency
+2024-04-23,2024-04-23,https://api.ratings.food.gov.uk/,Food Hygiene Ratings Scheme (FHRS),"The FHRS API provides free programmatic access to the Food Standards Agency Rating Data for England, Scotland, Wales and Northern Ireland. Developers can leverage FSA data to provide their own services and websites, allowing you to build and develop custom solutions that are consistent with the data being held and displayed by the FSA. As a developer you get access to the same data and the majority of the same functionality that is used to deliver the Food Hygiene Rating Scheme website. Other than calling the available endpoints, there are no registration requirements for developers before they can start using the Food Standards Agency data. No sign-up process, API keys, or login details are required at this time to use the service.",https://api.ratings.food.gov.uk/help,,data@food.gov.uk,,,,Food Standards Agency
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/access-control-service-hl7-v3,Access Control Service HL7 V3 API," 
+
+Use this API to access the Access Control Service (ACS) - which manages consent to share patient information, including their SCR.
+
+GP systems must check consent to share before sharing, for example, a patient's Summary Care Record (SCR).
+
+You can:
+
+
+
+get the access permissions for a patient's documents, including their SCR
+
+set access permissions on a patient's documents, including their SCR
+
+
+
+Note the Summary Care Record - FHIR API also has endpoints enabling you to get and set access permissions, the same as this ACS API.
+
+A healthcare worker must be present and authenticated with an NHS smartcard or a modern alternative to use this API. ",https://digital.nhs.uk/developer/api-catalogue/access-control-service-hl7-v3,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/alerts-hl7-v3,Alerts - HL7 V3 API," 
+
+Use this API to send an alert for the attention of a Privacy Officer - also known as Summary Care Record Governance Person (SGP) in community pharmacies - so they can audit proactively whether access to a patient’s data was appropriate. 
+
+This provides a general alerting mechanism covering, for example, when a user looks up a patient on the Summary Care Record application (SCRa).
+
+A healthcare worker must be present and authenticated with an NHS smartcard or a modern alternative to use this API. ",https://digital.nhs.uk/developer/api-catalogue/alerts-hl7-v3,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/ambulance-data-submission-fhir,Ambulance Data Submission - FHIR API," Use this API to submit ambulance data to our Data Processing Service (DPS) so that it can be made available for analysis and review by NHS England and ambulance trusts. Ambulance data is information relating to emergency calls (999, 111 and others), received at an Emergency Operations Centre (EOC) and processed into a Computer Aided Despatch (CAD) system, including: 
+
+call details
+
+response details - including response times and episode outcome times patient
+
+contact details - including patient demographics, patient response details, patient information, injury information, patient assessment, medication, observations, diagnoses, conveying outcome, safeguarding and public health information
+
+ You can: 
+
+post ambulance data individually or in batches
+
+ You cannot: 
+
+read any of the records stored in DPS
+
+ The API is asynchronous - when you submit data, it acknowledges receipt without validating or processing the data first. To receive error notifications, you need to use MESH. The following diagram illustrates the end-to-end process:  The following describes the end-to-end process: 
+
+The ambulance trust system sends the ambulance data to the Ambulance Data Submission API.
+
+The Ambulance Data Submission (ADS) API forwards the ambulance data to our Data Processing System (DPS).
+
+If there is an error, DPS sends an error notification to MESH.
+
+The ambulance trust system retrieves the error notification from MESH.
+
+An ADS User views the ambulance data in our NHS Digital ADS Dashboards.
+
+The NHS Digital ADS Dashboards get the ambulance data from DPS.
+
+ ",https://digital.nhs.uk/developer/api-catalogue/ambulance-data-submission-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/assessment-discharge-and-withdrawal-fhir,Assessment Discharge and Withdrawal - FHIR," 
+
+ 
+
+
+
+ 
+
+Use this integration to support transfer of care from hospital to social services for patients with care and support needs, as described in the Care Act 2014. It enables the exchange of structured information between hospitals and social care organisations.
+
+You can send:
+
+
+
+hospital assessment notices to inform social services that an assessment of a patient's care and support needs is required
+
+hospital discharge notices to confirm a patient's proposed discharge date
+
+withdrawal notices to withdraw a previous assessment or discharge notice
+
+
+
+You can also send an admissions notice with this integration so a hospital can inform social services that a patient has been admitted.
+
+This is a messaging integration which uses MESH to send and receive messages.
+
+Information Standard SCCI2075 defines the minimum data sets that you must use for Assessment, Discharge and Withdrawal (ADW) notices. For additional message guidance on the implementation and use of ADW FHIR messages and some divergences from this ADW Information Standard, see Assessment Discharge and Withdrawal - FHIR API.
+
+This integration is in production but deprecated. Do not begin any development work using this API. 
+
+",https://digital.nhs.uk/developer/api-catalogue/assessment-discharge-and-withdrawal-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir,Booking and Referral - FHIR API,"  This API forms part of the Booking and Referral Standard (BaRS). This API specification should be used in conjunction with the BaRS implementation guide for your use case.
+
+Use this API to send booking and referral information between NHS service providers. You can: 
+
+get a specific booking
+
+get bookings for a patient
+
+process a message, either a booking or a referral
+
+get message definition
+
+get capability statement
+
+get a specific referral
+
+get referrals for a patient
+
+get slots
+
+ The following describes the end-to-end process: 
+
+Send a request from your sender application to this API, along with a service identifier header.
+
+This API redirects the request to the service associated with the service identifier header.
+
+The target backend handles the request and sends a response back to this API.
+
+This API returns the response to your sender application.
+
+In some Applications the target may send a follow up request to indicate the outcome of a request.
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+For a non-technical overview of how to build software that deals with referrals and bookings, see Building healthcare software - referrals and bookings. 
+
+
+
+ ",https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/bowel-cancer-screening-edifact,Bowel Cancer Screening - EDIFACT," 
+
+ 
+
+
+
+ 
+
+Use this messaging integration to receive bowel cancer screening test results in primary care GP systems from the screening system, specifically faecal occult blood test (FOBT) results.
+
+This integration uses UN/EDIFACT based messages sent over MESH.
+
+Also known as NHS004 messages, these are a simpler version of the NHS003 messages specified in the Pathology EDIFACT v1.003 Standard but with the changes specified in 'Electronic GP Communication Requirements for GPSoC Software Suppliers Draft', under 'Additional guidance' below.
+
+Bowel cancer screening NHS004 messages are almost the same as pathology NHS003 messages except they are much simpler in structure, with a single SNOMED code and 5 result values.
+
+If you are building a system to receive bowel cancer screening test results, you can use our Lab Results adaptor to receive these EDIFACT results via an easy-to-use FHIR-compliant format. 
+
+Before you begin any development work using this integration, contact us to discuss your best options. 
+
+",https://digital.nhs.uk/developer/api-catalogue/bowel-cancer-screening-edifact,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/cervical-screening-edifact,Cervical Screening - EDIFACT," 
+
+ 
+
+
+
+ 
+
+Use this messaging integration to send cervical screening test results from screening laboratories and receive them at the patient's registered GP practice and NHAIS systems. 
+
+You can:
+
+
+
+send and receive cytology test results
+
+send and receive human papillomavirus (HPV) immunisation data
+
+
+
+We also use this integration to send and receive a patient's test results history between NHAIS systems, including between England and Wales: 
+
+ 
+
+
+
+ 
+
+This integration uses MESH to send and receive UN/EDIFACT based messages. 
+
+",https://digital.nhs.uk/developer/api-catalogue/cervical-screening-edifact,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/child-protection-information-sharing-hl7-v3,Child Protection - Information Sharing - HL7 V3 API," 
+
+Use this API to access Child Protection - Information Sharing (CP-IS), the national electronic database of child protection information.
+
+The API can be used by local authorities and unscheduled care providers as follows:  
+
+
+
+Local authorities
+
+As a local authority, you can:
+
+
+
+upload a patient's CP-IS information
+
+receive a notification when the patient's CP-IS information is accessed from an unscheduled care setting
+
+receive a notification of an inactive NHS number
+
+
+
+Local authorities originally used a CP-IS client to transfer CP-IS data from their children’s social care systems to CP-IS via the Spine. This was replaced by the MESH client which all local authorities now use to exchange information with CP-IS - see connections 1 to 4 on the diagram.
+
+Unscheduled care providers
+
+As an unscheduled care provider, you can:
+
+
+
+get a patient's CP-IS information - which automatically triggers a notification to the relevant local authority - see connections 5 and 6 on the diagram
+
+
+
+Scheduled care providers
+
+CP-IS is not currently available for use in scheduled care settings.
+
+Information held in CP-IS
+
+CP-IS holds the following information for each registered patient:
+
+
+
+NHS number
+
+details of their plan - type, start date and end date
+
+details of the 25 most recent CP-IS information accesses from unscheduled care settings in England
+
+the name of the responsible local authority - together with their office hours phone and emergency duty contact numbers
+
+
+
+Identifying patients
+
+All records in CP-IS are held against the patient's NHS number. It is therefore very important to ensure you use the correct NHS number for each patient.
+
+For more details, see CP-IS NHS number matching information.
+
+Using SCRa as an interim measure
+
+We prefer unscheduled care providers to integrate their applications directly with CP-IS using our CP-IS APIs. However, as an interim measure, you can use our Summary Care Record application (SCRa) to access CP-IS information.
+
+Spine Mini Service Provider (SMSP) options
+
+There are also commercially available products which give easier access to CP-IS, known as Spine Mini Service Providers (SMSPs).
+
+These and other conforming software products are listed in our Conformance Catalogue.
+
+If you are interested in becoming a provider of one of these products, see Child Protection - Information Sharing - SMSP API standards. 
+
+",https://digital.nhs.uk/developer/api-catalogue/child-protection-information-sharing-hl7-v3,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/covid-19-test-results-fhir,COVID-19 Test Results - FHIR API," Use this API to access a patient’s coronavirus (COVID-19) test results history. You can: 
+
+get a patient's COVID-19 test history, based on their NHS number with an optional specific date range
+
+ You cannot currently use this API to: 
+
+get details of other types of test
+
+ You get the following data: 
+
+COVID-19 test event details
+
+ Data availability, timing and quality All test records are verified to ensure the NHS number is correct before making them available via the API. In most cases this is automatic, and the record is available within 48 hours of the test event, sometimes sooner. In a very small number of cases, we are unable to verify the NHS number, and we do not make the test record available at all. ",https://digital.nhs.uk/developer/api-catalogue/covid-19-test-results-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/cyber-alerts-rest,Cyber Alerts - REST API," 
+
+Use this API to access a feed of alerts issued by our NHS Digital cyber security centre.
+
+You can:
+
+
+
+get a list of cyber alerts according to certain parameters 
+
+get details of a single cyber alert
+
+choose to get a concise subset or full details of the alerts
+
+ ",https://digital.nhs.uk/developer/api-catalogue/cyber-alerts-rest,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/data-registers-service-rest,Data Registers Service - REST API," 
+
+Use this API to access a wide range of live lists of reference data with our Data Registers Service which includes historic data. Each register is managed by a custodian across a range of organisations. In each case, they represent the approved version of that data. 
+
+Examples of these data registers include:
+
+
+
+organisation codes
+
+postcodes
+
+diagnosis codes
+
+
+
+You can see what data registers are available using our data registers tool.
+
+If you're looking for richer functionality from a data source, such as being able to test data validity, extract a subset or map data across different schemas then take a look at our Terminology Server - FHIR API - the terminology server provides a richer view of the SNOMED data set only. This also conforms to the international FHIR standards for its APIs.
+
+If your use case requires historical, point-in-time snapshots of reference data, they are available either from this API or the TRUD API. ",https://digital.nhs.uk/developer/api-catalogue/data-registers-service-rest,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/demographics-batch-service,Demographics Batch Service," 
+
+Use this batch message integration to submit a file of patient information to the Spine for tracing against the Personal Demographics Service (PDS) for direct care purposes.
+
+The service is provided for organisations that do not want to write their own software - typically NHS trusts or local authorities.
+
+It returns a limited set of PDS data items, as for PDS SMSP.
+
+It requires PDS access approval before you can use it.
+
+You can:
+
+
+
+install a DBS client in a secure location, for example in a server room not a desktop PC
+
+download and complete the DBS End Point Registration form (see interactions below) and submit it to the DBS Implementation Team at [email protected]. You should receive endpoint information within 7 days.
+
+submit a test file to DBS to confirm connectivity over Secure FTP
+
+use the DBS client to submit batch trace requests and receive batch responses to them
+
+
+
+DBS requires a secure network connection. It is an offline service so does not require smartcards. ",https://digital.nhs.uk/developer/api-catalogue/demographics-batch-service,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/digital-child-health-fhir,Digital Child Health - FHIR," 
+
+ 
+
+
+
+ 
+
+Use this integration to share information about a child's health between healthcare workers.
+
+This information is recorded throughout a child's clinical pathway or patient journey about:
+
+
+
+health events
+
+clinical contacts 
+
+
+
+These events or contacts happen either as part of:
+
+
+
+a planned Healthy Child Programme
+
+unplanned GP or Emergency Department visits
+
+
+
+Examples of such events include creating, updating or deleting a record of a:
+
+
+
+blood spot test outcome
+
+newborn hearing test
+
+Newborn and Infant Physical Examination (NIPE) outcome
+
+
+
+This integration uses a publish-subscribe model - the sending system publishes events to National Events Management Service (NEMS), and NEMS forwards the events to all subscribed systems via MESH.
+
+Subscribed systems might be GPs, emergency departments, local authorities or some other care provider. Potentially, patients and carers could also share this information.
+
+For more information see Digital Child Health specification versions.
+
+Before you begin any development work using this integration, contact us to discuss your best options. 
+
+",https://digital.nhs.uk/developer/api-catalogue/digital-child-health-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/digital-medicine-fhir,Digital Medicine - FHIR," 
+
+ 
+
+
+
+ 
+
+Use this integration to notify a patient's registered GP practice about care services delivered at a pharmacy.
+
+You can send notifications about:
+
+
+
+
+
+an immunisation given
+
+
+
+
+
+an emergency medication dispensed without a prescription
+
+
+
+
+
+a minor illness referral consultation
+
+
+
+
+
+This integration uses MESH to send and receive messages.
+
+The following use cases are now retired and you cannot use them:
+
+
+
+
+
+a medication review
+
+
+
+
+
+an appliance use review
+
+
+
+
+
+a New Medicine Service (NMS) appointment
+
+
+
+
+
+For more details, see status. 
+
+",https://digital.nhs.uk/developer/api-catalogue/digital-medicine-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/directory-of-healthcare-services,Directory of Healthcare Services (Service Search) API," 
+
+ Use this API to find information about organisations that provide NHS healthcare services, NHS organisation types, and coronavirus (COVID-19) walk-in sites.
+
+You can:
+
+
+
+
+
+retrieve a list of organisation types, for example, GP practices or hospitals
+
+
+
+
+
+search for NHS organisations that provide healthcare services listed in NHS services near you, for example, Leeds General Infirmary
+
+
+
+
+
+search for coronavirus (COVID-19) walk-in sites
+
+
+
+
+
+This API was previously known as the Service Search API. ",https://digital.nhs.uk/developer/api-catalogue/directory-of-healthcare-services,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/directory-of-services-urgent-and-emergency-care-rest,Directory of Services - Urgent and Emergency Care - REST API," 
+
+Use this API to access Directory of Services (DoS) information on a wide range of health and care services across England. 
+
+You can search for services based on a combination of parameters: 
+
+
+
+the patient’s age, sex, and current location
+
+the patient’s clinical need
+
+
+
+You can also search for services using similar parameters, such as by:
+
+
+
+service type - find matching service type ID, location and optional patient details
+
+clinical term - find matching symptoms, location and optional patient details
+
+ODS code - find active services with a matching ODS code
+
+service ID - find active services with a matching service identifier
+
+
+
+This service is widely used in an Urgent and Emergency Care context.
+
+It is not currently suitable for referrals from services using NHS Pathways outcomes, such as NHS 111 - for this, use the Directory of Services - Urgent and Emergency Care - SOAP API.
+
+You need a valid DoS account to use this API. ",https://digital.nhs.uk/developer/api-catalogue/directory-of-services-urgent-and-emergency-care-rest,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/directory-of-services-soap,Directory of Services - Urgent and Emergency Care - SOAP API," 
+
+Use this API to access Directory of Services (DoS) information on a wide range of health and care services across England. 
+
+You can search for services based on a combination of parameters: 
+
+
+
+find an appropriate list of services for a specific clinical need
+
+get technical endpoint information for a given service, using a service ID or ODS code
+
+obtain capacity information for specified hospitals or wards, using a service ID or ODS code
+
+
+
+This service is widely used in an Urgent and Emergency Care context using NHS Pathways outcomes. For example, NHS 111 use it to find a service in real-time with the capacity to help a patient with given symptoms, within range of a given location.
+
+You need a valid DoS account to use this API. ",https://digital.nhs.uk/developer/api-catalogue/directory-of-services-soap,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-directory-of-services,Electronic Prescription Service Directory of Services API," 
+
+Use this API to access information about dispensing services, including searching for dispensers who can provide services for a patient with a given location and urgency.
+
+You can:
+
+
+
+search for a dispenser by its location and opening hours
+
+search for a specific dispenser that the patient might have named
+
+
+
+The API combines data from both the Directory of Services (DoS) and  Electronic Transmission of Prescriptions (ETP) web services (formerly known as NHS Choices).
+
+It uses DoS for user authentication.
+
+Do not use this API if you are building GP software - instead use Electronic Transmission of Prescriptions (ETP) web services directly, as it provides access to information you'll need, for example, information such as dispensing appliance contractors. ",https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-directory-of-services,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-fhir,Electronic Prescription Service - FHIR API," .codeinline.example {word-wrap: anywhere;} Use this API to access the Electronic Prescription Service (EPS). EPS is the national service used to send electronic prescription messages between prescribers and community dispensers. Prescribers in primary and secondary care can: 
+
+create a prescription
+
+encode data so the prescription is ready to sign
+
+cancel a prescription
+
+ Creating and cancelling a prescription are both done by the prescriber. Encoding data so the prescription is ready to sign is done by the prescribing system. Dispensers can: 
+
+download an individual prescription from EPS
+
+download a batch of prescriptions from EPS
+
+return a prescription to EPS
+
+submit a dispense notification to EPS
+
+withdraw a dispense notification from EPS
+
+submit a dispense claim
+
+ You cannot currently use this API to: 
+
+view a prescription's detailed dispense history
+
+ ",https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-hl7-v3,Electronic Prescription Service - HL7 V3 API," 
+
+Use this API to access the Electronic Prescription Service (EPS). EPS allows a prescriber (such as a GP) to send prescriptions electronically to a dispenser (such as a pharmacy) of the patient's choice. This makes the prescribing and dispensing process more efficient and convenient for patients and staff.
+
+You can do different things, depending on your role.
+
+As a prescriber you can:
+
+
+
+send prescriptions to EPS
+
+cancel prescriptions
+
+
+
+As a dispenser you can:
+
+
+
+receive prescriptions from EPS
+
+confirm a prescription is dispensed
+
+claim for a dispensed prescription
+
+
+
+A healthcare worker must be present and authenticated with an NHS smartcard or a modern alternative to use this API. ",https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-hl7-v3,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/spine-electronic-prescription-service-tracker-rest,Electronic Prescription Service Tracker - REST API," 
+
+Use this API to track a patient’s prescriptions within the Electronic Prescription Service (EPS) using our Electronic Prescription Service Tracker.
+
+You can search for a list of prescriptions that meet your query parameters by providing: 
+
+
+
+patient's NHS number (mandatory)
+
+format (mandatory)
+
+prescription date range (optional)
+
+prescription status (optional)
+
+prescription version (optional)
+
+
+
+Once you find the prescription, or if you already know its details, you can retrieve it by providing:
+
+
+
+prescription ID (mandatory)
+
+format (mandatory)
+
+issue number (optional)
+
+
+
+For more details, see Introduction to Spine EPS Tracker.
+
+This API is only for use when the end user is a healthcare worker, not a patient. You can vote to make it available to patients on our interactive backlog.  ",https://digital.nhs.uk/developer/api-catalogue/spine-electronic-prescription-service-tracker-rest,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/electronic-transmission-of-prescriptions-web-services-soap,Electronic Transmission of Prescriptions Web Services - SOAP API," 
+
+Use this API to get Electronic Prescription Service (EPS) dispenser (and dispensing appliance contractor) information for a patient via NHS UK Web Services.
+
+You can search for dispenser information using:
+
+
+
+a valid ODS code (previously known as NACS code)
+
+their name and service type (community pharmacy or appliance contractor), and whether they are EPS-enabled or not
+
+their name and location and the service type, and whether they are EPS-enabled or not
+
+their postcode and service type, and whether they are EPS-enabled or not
+
+
+
+Use this API if you are building GP software - it provides additional information about dispensing appliance contractors that is not available through Electronic Prescription Service Directory of Services API.
+
+As one of the Directory of Services APIs, this also provides data to the Electronic Prescription Service Directory of Services API.
+
+Before you begin any development work using this API, contact us to discuss your best options. ",https://digital.nhs.uk/developer/api-catalogue/electronic-transmission-of-prescriptions-web-services-soap,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/e-referral-service-fhir,e-Referral Service - FHIR API," Use this API to create paperless referrals from primary to secondary care with the e-Referral Service (e-RS). As a primary care referrer, you can: 
+
+create a new e-referral
+
+search for relevant patient services to create a shortlist
+
+access existing e-referrals
+
+create a triage request for the Referral Assessment Service (RAS)
+
+upload and manage a patient letter or attachments, linking them to a referral
+
+retrieve appointment slots and book appointments
+
+defer a booking to a provider if an appointment slot is unavailable
+
+ As a secondary care provider, you can: 
+
+access referrals as a worklist
+
+retrieve non-clinical information (meta-data) about the referral
+
+retrieve attachments which are linked to a referral or triage (RAS) request
+
+retrieve clinical information which has been provided by a referrer
+
+accept or reject a referral request
+
+retrieve Advice & Guidance (A&G) conversations and send responses
+
+convert Advice & Guidance (A&G) conversations into a referral
+
+ You cannot use this API to: 
+
+get patient details – instead, use the Personal Demographic Service (PDS)
+
+ You can access the following data: 
+
+referral attachments
+
+referral letters
+
+appointment slots
+
+worklists for referral requests
+
+worklists for triage (RAS) requests
+
+worklists for Advice and Guidance (A&G) requests
+
+conversation histories for Advice and Guidance (A&G) requests
+
+ Access modes This API has two access modes: 
+
+
+
+
+
+Access mode
+
+Authentication via
+
+Functions
+
+Availability
+
+
+
+
+
+
+
+
+
+Application-restricted, unattended access
+
+Signed JWT
+
+A004, A005, A006, A007, A024, A025 and A043
+
+In production, beta
+
+
+
+
+
+Healthcare worker, user-restricted access
+
+CIS2
+
+All Endpoints
+
+In production, beta
+
+
+
+
+
+ Application-restricted, unattended access This access mode has been introduced to allow a Partner application which has been registered with us and authenticated via signed JWT to interact with a subset of e-RS FHIR API endpoints in an unattended and read-only fashion.
+
+Application-restricted, unattended access should only be used when authenticating a human user (for example via smartcard) is not possible. Writing changes (such as Create Referral) are not supported via this access mode. Healthcare worker, user-restricted access This access mode allows Partner applications to access e-RS FHIR API endpoints by authenticating users with NHS Care Identity Service 2 (CIS2). This access mode must be used for writing changes (such as Create Referral). ",https://digital.nhs.uk/developer/api-catalogue/e-referral-service-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/e-referral-service-fhir-hscn,e-Referral Service - FHIR API (HSCN)," 
+
+Use this API to create paperless referrals from primary to secondary care.
+
+As a primary care referrer, you can:
+
+
+
+create a new e-referral
+
+search for relevant patient services to create a shortlist
+
+access existing e-referrals
+
+create a triage request for the Referral Assessment Service (RAS)
+
+upload and manage a patient letter or attachments, linking them to a referral
+
+retrieve appointment slots and book appointments
+
+defer a booking to a provider if an appointment slot is unavailable
+
+
+
+As a secondary care provider, you can:
+
+
+
+access referrals as a worklist
+
+retrieve non-clinical information (meta-data) about the referral
+
+retrieve attachments which are linked to a referral or triage (RAS) request
+
+retrieve clinical information which has been provided by a referrer
+
+accept or reject a referral request
+
+retrieve Advice & Guidance (A&G) conversations and send responses
+
+convert Advice & Guidance (A&G) conversations into a referral
+
+
+
+You cannot use this API to:
+
+
+
+get patient details – instead, use the Personal Demographic Service (PDS)
+
+
+
+You can access the following data:
+
+
+
+referral attachments
+
+referral letters
+
+appointment slots
+
+worklists for referral requests
+
+worklists for triage (RAS) requests
+
+worklists for Advice and Guidance (A&G) requests
+
+conversation histories for Advice and Guidance (A&G) requests
+
+
+
+This API is only available over HSCN, and can only be used with CIS, not CIS2.
+
+A healthcare worker must be present and authenticated with an NHS smartcard or a modern alternative to use this API. ",https://digital.nhs.uk/developer/api-catalogue/e-referral-service-fhir-hscn,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/e-referral-service-hl7-v3,e-Referral Service - HL7 V3 API," 
+
+Use this API to manage appointment slots for new or existing Patient Administration Systems, using our HL7 V3 API until there is a FHIR version available.
+
+A healthcare worker must be present and authenticated with an NHS smartcard or a modern alternative to use this API. ",https://digital.nhs.uk/developer/api-catalogue/e-referral-service-hl7-v3,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/e-referral-service-patient-care-fhir,e-Referral Service Patient Care – FHIR API," Use this API to retrieve referrals for a patient from the e-Referral Service (e-RS) and, if applicable, retrieve service information for a referral that has a current appointment booking with a service or is currently deferred to a service. This API is designed to be used by the Patient Care Aggregator. As an integrated system acting on behalf of a patient, you can: 
+
+retrieve a patient's referrals
+
+retrieve information for a single service
+
+ You cannot use this API to: 
+
+get patient personal demographic details – instead, use the Personal Demographic Service (PDS)
+
+ You can access the following data: 
+
+a summary of each active referral
+
+ Access modes This API has one access mode: 
+
+
+
+
+
+Access mode
+
+Authentication via
+
+Functions
+
+Availability
+
+
+
+
+
+
+
+
+
+Patient access
+
+NHS login
+
+Get own details
+
+In production, beta
+
+
+
+
+
+ Patient, user-restricted access This access mode allows integrated systems acting on behalf of a patient to access Patient Care FHIR API endpoints by authenticating users with NHS login. ",https://digital.nhs.uk/developer/api-catalogue/e-referral-service-patient-care-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/female-genital-mutilation-information-sharing-fhir,Female Genital Mutilation - Information Sharing - FHIR API," 
+
+Use this API to share female genital mutilation (FGM) information for children under 18 with relevant NHS professionals across England.
+
+You can:
+
+
+
+query a patient's FGM status
+
+
+
+You cannot currently:
+
+
+
+create an FGM indicator for a patient
+
+delete an FGM indicator for a patient
+
+
+
+This API is only for use when the end user is a healthcare worker, not a patient. 
+
+For more details, see Introduction to the FGM Information Sharing Service. ",https://digital.nhs.uk/developer/api-catalogue/female-genital-mutilation-information-sharing-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/fhir-converter,FHIR Converter API," Use this API to convert resource types MedicationRequest and MedicationStatements from STU3 to FHIR R4 and vice versa. You can: 
+
+post either a MedicationRequest or MedicationStatement
+
+ You cannot: 
+
+convert between any other resource types
+
+ To use this API: 
+
+Send your source payload to this API.
+
+This API converts your source payload to the target version.
+
+You receive the converted payload in the response.
+
+ ",https://digital.nhs.uk/developer/api-catalogue/fhir-converter,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gazetteer-service-soap,Gazetteer Service - SOAP API," 
+
+Use this API to validate and retrieve UK-based postal addresses, for example before updating a patient's details in the Personal Demographics Service.  Also known as the Address Finder, it can validate and transform the address to the Postcode Address File (PAF) standard, as well as search for and return an address list based on your search criteria.
+
+You can:
+
+
+
+get a single search result based on the house number or name and its postcode
+
+get multiple search results based on partial address inputs or wild card searches
+
+do fuzzy searches based on the phonetics of words entered in lines of an address
+
+do intelligent postcode parsing to validate the underlying structure
+
+get the PAF address key for each delivery point
+
+
+
+You cannot use this API to update anyone's address.
+
+Data update frequency
+
+At the moment, we only update the data in Gazetteer annually. We are working on updating it more frequently. If this is an issue for you, contact us.
+
+Licensing
+
+This API uses Royal Mail's Postcode Address File (PAF), which is a licensed product. The licence applies to the end user organisation, not to the software developer.
+
+If the end user organisation is a public sector organisation, such as a GP practice or a hospital trust, they can apply for a Public Sector Licence (PSL), which is free, even if they are using commercial software.
+
+Private end user organisations (for example, non-NHS dentists and some types of GP practice) must obtain a commercial PAF licence.
+
+Public sector end user organisations using the API for revenue-generating purposes (such as treating patients privately) must obtain a commercial PAF licence.
+
+Software developers using the API for testing do not need a licence. ",https://digital.nhs.uk/developer/api-catalogue/gazetteer-service-soap,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/general-practice-extraction-service-mesh,General Practice Extraction Service - MESH," 
+
+ 
+
+
+
+ 
+
+Use this integration to send patient data from General Practice (GP) clinical systems to General Practice Extraction Service (GPES). This data can then be used for planning and research. 
+
+You can:
+
+
+
+receive requests for data
+
+send requested data
+
+
+
+For example, the GPES data for pandemic planning and research is used to support the response to the coronavirus (COVID-19) outbreak. This data is used to analyse healthcare information about patients, for the duration of the coronavirus emergency period.
+
+This integration is an asynchronous messaging integration which uses MESH to send and receive messages. 
+
+",https://digital.nhs.uk/developer/api-catalogue/general-practice-extraction-service-mesh,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gp2gp,GP2GP - HL7 V3," 
+
+Use this integration to transfer patients' electronic health records between old and new practices when they change GPs.
+
+You can:
+
+
+
+include large records and those with many attachments
+
+reduce paper printing when patients leave a practice
+
+integrate (file) the electronic health record for returning patients
+
+log issues easily with easy-to-understand and more informative error messages
+
+monitor in real time the processes to track issues and performance
+
+
+
+For more details, see GP2GP. ",https://digital.nhs.uk/developer/api-catalogue/gp2gp,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gp2gp-management-information-mesh,GP2GP Management Information MESH," 
+
+ 
+
+
+
+ 
+
+Use this integration to provide information to us at NHS Digital on the progress of the patient migration process between GP practices (GP2GP). 
+
+This involves recording patient registration activity in the GP systems at specific stages in the patient migration process.
+
+This integration uses MESH to send and receive messages.
+
+For details, see NPFIT-PC-BLD-0173.01 GP2GP UC 2 Harvest and Prepare Management Information which describes the high level use case for reporting capability required by GP2GP 2.2b. 
+
+",https://digital.nhs.uk/developer/api-catalogue/gp2gp-management-information-mesh,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gp-connect-patient-facing-access-record-fhir,GP Connect (Patient Facing) Access Record - FHIR API,"  Use this API to access structured and coded information from a patient's GP practice record to consume in a patient facing service. The API accesses GP principal supplier systems and provides a consistent interface and data model. You can retrieve patient record data for the following: 
+
+medications
+
+allergies
+
+immunisations
+
+consultations
+
+problems
+
+investigations
+
+attachments
+
+uncategorised data (other clinically coded items that are present in the record)
+
+ You cannot currently use this API to: 
+
+write back to the GP record
+
+ ",https://digital.nhs.uk/developer/api-catalogue/gp-connect-patient-facing-access-record-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gp-connect-patient-facing-appointment-management-fhir,GP Connect (Patient Facing) Appointment Management - FHIR API," 
+
+Use this API to book and manage patient appointments at their GP practice. You can: 
+
+search for free slots
+
+book an appointment
+
+retrieve a patient’s appointments
+
+get details of a single appointment
+
+cancel an appointment
+
+ You cannot: 
+
+amend a patient's appointments beyond cancelling
+
+re-schedule a patient's appointments (this must be done by cancelling and re-booking)
+
+ To use this API, the end user must be a patient who is: 
+
+registered with the GP practice
+
+registered with NHS login to P9 identity verification level
+
+ ",https://digital.nhs.uk/developer/api-catalogue/gp-connect-patient-facing-appointment-management-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gp-connect-patient-facing-prescriptions-fhir,GP Connect (Patient Facing) Prescriptions - FHIR API,"  Use this API to manage a patient's prescriptions as held by their GP practice. You can: 
+
+
+
+request a new instance of a repeat prescription
+
+
+
+
+
+view all of a patients medications, whether acute or repeat, past or present
+
+
+
+
+
+cancel a repeat prescription request
+
+
+
+
+
+check the status of a current prescription request
+
+
+
+
+
+request a new instance of a repeat prescription to a one off nomination pharmacy
+
+
+
+ The end user must be a patient who is: 
+
+
+
+registered with the GP practice
+
+
+
+
+
+registered with NHS login to P9 identity verification level
+
+
+
+ For example: 
+
+a patient can view their own medication, request a new instance of a repeat prescription and cancel that request
+
+ ",https://digital.nhs.uk/developer/api-catalogue/gp-connect-patient-facing-prescriptions-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gp-connect-patient-facing-user-permissions,GP Connect (Patient Facing) User Permissions API,"  Use this API to list and manage the permissions a patient has to their
+
+medical record and a selection of services provided at their GP practice. You can: 
+
+get a patient's permissions
+
+request to update a patient's permissions to a higher level
+
+ You cannot: 
+
+request to update a patient's permissions to a lower level
+
+ To use this API, the end user must be a patient who is: 
+
+registered with the GP practice
+
+registered with NHS login to P9 identity verification level
+
+ This API allows you to manage the permissions for: 
+
+appointments
+
+prescriptions
+
+medical record
+
+ This API is designed to respect the policy changes made in order to
+
+allow patients to access their future medical record entries.
+
+For more details, see
+
+access to patient records through the NHS App. ",https://digital.nhs.uk/developer/api-catalogue/gp-connect-patient-facing-user-permissions,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gp-connect-access-document-fhir,GP Connect Access Document - FHIR API," 
+
+Use this API to retrieve unstructured documents from a patient’s GP practice record. Unstructured documents are usually clinical documents received from various health and care settings and held by a patient's registered GP practice.
+
+You can:
+
+
+
+search for a patient’s documents
+
+retrieve a document
+
+
+
+For example, a district nurse attends a patient at home and views their hospital discharge summary held by their GP practice.
+
+For more details, see the GP Connect specifications for developers.  
+
+
+
+Clinical assurance process
+
+We are here to support you to develop clinically safe systems in line with your responsibility to achieve the relevant DCB0129 or DCB0160 clinical safety standards. 
+
+We host a series of meetings to help you develop clinically safe systems:
+
+
+
+initial meeting
+
+clinical safety process readiness review meeting
+
+clinical evaluation of readiness for deployment meeting
+
+
+
+For more information, see Clinical assurance process details.
+
+
+
+  
+
+",https://digital.nhs.uk/developer/api-catalogue/gp-connect-access-document-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gp-connect-access-record-html-fhir,GP Connect Access Record: HTML - FHIR API," 
+
+Use this API to view a patient's registered GP practice record, with read-only access.
+
+You can:
+
+
+
+view a patient’s primary care record by requesting sections or headings
+
+define a date range to filter larger sections
+
+incorporate these views directly into Electronic Patient Record systems
+
+
+
+For example:
+
+
+
+GP practices can view all of the patient’s primary care records even when they are held on a different GP system
+
+care settings such as NHS111, ambulance and emergency care, primary care networks (PCNs), secondary care, pharmacy, care homes, community and dentistry can view the records held by the patient’s GP practice to better inform any care decisions they make for a patient
+
+
+
+For more details, see the GP Connect specifications for developers.  
+
+
+
+Start your development work within 6 months of use case approval. If you miss this date, a review or new submission of the use case will be required. Changes or additional development will also require a review or new use case submission.  
+
+",https://digital.nhs.uk/developer/api-catalogue/gp-connect-access-record-html-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gp-connect-access-record-structured-fhir,GP Connect Access Record: Structured - FHIR API," 
+
+ 
+
+
+
+ 
+
+Use this API to access structured information from a patient’s registered GP practice record. Structured information is patient data in a coded format that a consuming system can import and process.
+
+The API accesses GP principal supplier systems, provides a consistent interface and data model, and is brokered through Spine. 
+
+You can retrieve data from GP practice records for the following areas:
+
+
+
+medications
+
+allergies
+
+
+
+Data is available for the following clinical areas:
+
+
+
+immunizations
+
+consultations
+
+problems
+
+investigations
+
+outbound referrals
+
+diary entries
+
+uncategorised data (other clinically coded items that are present in the record)
+
+
+
+These clinical areas are still in development; there is enough data to test, but it is subject to change as GP systems suppliers go through the development process.
+
+It does not include:
+
+
+
+extended demographics information - for example, about carers
+
+flags and alerts
+
+templates
+
+test requests
+
+
+
+Common use cases include:
+
+
+
+access GP medications on admission to secondary care, reducing transcription errors
+
+active checking of a patient's prescription in unscheduled care
+
+out-of-hours GP accesses patient's medications, allergies and problems
+
+midwife views patient record before visiting a patient
+
+community cardiac nurse accesses GP record before visiting a patient
+
+
+
+For more details, see the GP Connect Access Record: Structured specification.
+
+You cannot currently use this API to:
+
+
+
+create patient-facing views of a medical record
+
+create reports for secondary use, such as care planning
+
+write back to the GP record
+
+
+
+Retrieving documents
+
+To retrieve documents from a patient’s registered GP practice, use GP Connect Access Document - FHIR API. After you've found the relevant document references within Access Record returns, use GP Connect Access Document to retrieve the documents. All documents can be requested separately.
+
+
+
+ 
+
+ 
+
+
+
+Start your development work within 6 months of use case approval. If you miss this date, a review or new submission of the use case will be required. Changes or additional development will also require a review or new use case submission. For full details of the technical conformance process, see GP Connect Consumer Supplier Test Assurance for achieving Technical Conformance (PDF).
+
+Clinical assurance process
+
+We are here to support you to develop clinically safe systems in line with your responsibility to achieve the relevant DCB0129 or DCB0160 clinical safety standards. 
+
+
+
+We host a series of meetings to help you develop clinically safe systems:
+
+
+
+initial meeting
+
+clinical safety process readiness review meeting
+
+clinical evaluation of readiness for deployment meeting
+
+
+
+For more information, see Clinical assurance process details. 
+
+",https://digital.nhs.uk/developer/api-catalogue/gp-connect-access-record-structured-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gp-connect-appointment-management-fhir,GP Connect Appointment Management - FHIR API," 
+
+Use this API to enable administrative and clinical end users to book and manage patient appointments held in any of the principal GP practice systems.
+
+You can:
+
+
+
+retrieve a patient’s appointments
+
+search for free slots
+
+read an appointment
+
+book an appointment
+
+amend an appointment
+
+cancel an appointment
+
+
+
+For example:
+
+
+
+staff at a GP practice can book, view, amend or cancel appointments on behalf of a patient at another practice
+
+organisations such as NHS 111 call centre, out of hours services, or extended access hubs can book, view, amend or cancel appointments on behalf of a patient at their registered GP practice or federated GP practices
+
+
+
+Note: You need to use this API in conjunction with the GP Connect Foundations FHIR API. With this API you can:
+
+
+
+
+
+get patient details - “Read Patient”
+
+
+
+
+
+search for patient - “Patient Search”
+
+
+
+
+
+get practitioner details - “Read Practitioner”
+
+
+
+
+
+search for practitioner - “Practitioner Search”
+
+
+
+
+
+get organisation details - “Read Organisation”
+
+
+
+
+
+search for organisation - “Organisation Search”
+
+
+
+
+
+get location details - “Read Location”
+
+
+
+
+
+register patient - “Register Patient”
+
+
+
+
+
+For more details, see the GP Connect specifications for developers.  
+
+
+
+Start your development work within 6 months of use case approval. If you miss this date, a review or new submission of the use case will be required. Changes or additional development will also require a review or new use case submission.  
+
+",https://digital.nhs.uk/developer/api-catalogue/gp-connect-appointment-management-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gp-connect-send-document-fhir,GP Connect Send Document - FHIR," 
+
+ 
+
+
+
+ 
+
+Use this integration to send a PDF consultation summary to a registered GP practice - using GP Connect Messaging.
+
+For example, use it to send a document containing a patient's consultation notes to their GP practice when a patient is seen:
+
+
+
+at another GP practice than their own
+
+by an out of hours service
+
+by a district nurse at home
+
+
+
+Each message sent using this integration uses the GP Connect Messaging components, MESH, and ITK3, to deliver the message.
+
+Each message sent is a FHIR Message, defined as a FHIR composition, constructed to meet the ITK3 standard with a specific payload structure.
+
+
+
+
+
+For more details, see the GP Connect specifications for developers. 
+
+",https://digital.nhs.uk/developer/api-catalogue/gp-connect-send-document-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/gp-registrations-management-information,GP Registrations Management Information API," Use this API to send real-time GP registrations metrics to NHS for service monitoring of patient EHR transfers between GP Practices. This API replaces the weekly submission of GP2GP information sent to us via a MESH mailbox, as required by GP2GP V2.2b. You can send us Management Information for registrations regardless of the transfer protocol used (GP2GP or GP Connect). Using the API, you can send us information about the following: 
+
+when a requesting practice completes a registration
+
+the compatibility of that registration with an electronic transfer
+
+when the requesting practice requests an EHR
+
+when the sending practice sends an EHR
+
+when the requesting practice received attachments/documents
+
+when the requesting practice is ready for the user to integrate the transfer
+
+when the requesting practice has integrated the EHR received
+
+when an error, or negative acknowledgement occurs
+
+degrades
+
+ You cannot: 
+
+read any management information data submitted to us
+
+ ",https://digital.nhs.uk/developer/api-catalogue/gp-registrations-management-information,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/health-research-data-catalogue,Health Research Data Catalogue API," Use this API to retrieve metadata information suitable for publication in a health research data catalogue. You can: 
+
+get a list of data sets
+
+get data set details
+
+ You cannot currently use this API to: 
+
+retrieve data sets as a bulk transfer
+
+retrieve data set feeds
+
+ You can get the following metadata information for each data set: 
+
+overarching characteristics such as: publisher, keywords, coverage, provenance, access, format, standards, summary observations and data utility
+
+ The API conforms to the HDR UK Dataset Metadata Schema Standard v2.0.2 created to enable sharing of information with the UK-wide 'federated' health research data catalogue. API scope Current scope is limited to metadata information about national health-related data sets (such as description, size of the population contained within that data set and the legal basis for access) that can help researchers and innovators decide whether a data set could be useful to their research and help them to make further health discoveries. ",https://digital.nhs.uk/developer/api-catalogue/health-research-data-catalogue,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/hello-world,Hello World API," Use this API alongside our  tutorials to teach yourself how to connect to our RESTful APIs.
+
+You can: 
+
+get a response from an open-access endpoint, where the calling application and the end users are not authenticated
+
+get a response from an application-restricted endpoint, where the calling application is authenticated but the end user is not authenticated
+
+get a response from a user-restricted endpoint, where the calling application and the end user are authenticated
+
+ For further details, see the 'Security and authorisation' section below. ",https://digital.nhs.uk/developer/api-catalogue/hello-world,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/immunisation-history-fhir,Immunisation History - FHIR API," Use this API to access a patient’s immunisation history. You can: 
+
+get a patient's coronavirus (COVID-19) immunisation history, based on their NHS number
+
+ You cannot currently use this API to: 
+
+get details of other types of immunisation
+
+ You get the following data: 
+
+immunisation event details
+
+patient demographic details, as captured at the point of immunisation
+
+ The patient demographic details might differ from those held in the Personal Demographics Service (PDS).
+
+To get demographic details from PDS, use the Personal Demographics Service FHIR API. Data availability, timing and quality All immunisation records are verified to ensure the NHS number is correct before making them available via the API. In most cases this is automatic, and the record is available within 48 hours of the immunisation event, sometimes sooner. Where automated NHS number verification fails, we verify the NHS number manually, which can take longer. In a very small number of cases, we are unable to verify the NHS number, and we do not make the immunisation record available at all. ",https://digital.nhs.uk/developer/api-catalogue/immunisation-history-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/message-exchange-for-social-care-and-health-api,Message Exchange for Social Care and Health (MESH) API," You interact with MESH by making calls to this API from your application. With the API, you can: 
+
+check the number of messages in your inbox
+
+send a message, or a larger message as series of chunks
+
+download a message, or a larger message which was sent to you as a series of chunks
+
+acknowledge the successful download of a message, which removes it from your inbox
+
+get the identifiers of messages in your inbox that are ready for download
+
+track the status of messages that you sent from your outbox
+
+look up the mailbox of an organisation you want to send data to
+
+validate your mailbox every 24 hours to let Spine know it's still active
+
+ ",https://digital.nhs.uk/developer/api-catalogue/message-exchange-for-social-care-and-health-api,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/national-data-opt-out-fhir,National Data Opt-out - FHIR API," 
+
+Use this API to capture patients' preferences and control sharing of their data by healthcare organisations for planning and research purposes using National Data Opt-out (NDOP). 
+
+You can:
+
+
+
+create National Data Opt-out preferences for a patient
+
+update the National Data Opt-out preferences for a patient
+
+display transaction history of National Data Opt-out preferences for a patient
+
+
+
+You cannot currently:
+
+
+
+get existing National Data Opt-out preferences for a patient
+
+
+
+Use the Check for National Data Opt-outs Service (POS) to get existing National Data Opt-out preferences for one or more patients. If your use case is not met by the POS service, please contact us. ",https://digital.nhs.uk/developer/api-catalogue/national-data-opt-out-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/national-data-opt-out-service-mesh,National Data Opt-out - MESH," 
+
+ 
+
+
+
+ 
+
+As a GP system, use this integration to:
+
+
+
+submit a list of NHS numbers to the National Data Opt-outs Service
+
+receive a list back with the NHS numbers removed for those patients who have opted out of their data being used
+
+
+
+You can use the Check for National Data Opt-outs Service to get existing National Data Opt-out preferences for one or more patients. If your use case is not met by the National Data Opt-outs Service, contact us.
+
+This integration uses MESH to send and receive messages. 
+
+",https://digital.nhs.uk/developer/api-catalogue/national-data-opt-out-service-mesh,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/national-events-management-service-fhir,National Event Management Service - FHIR API," 
+
+ 
+
+
+
+ 
+
+Use this API to publish and subscribe to patient-centric healthcare event messages with the National Events Management Service (NEMS).  This national service is implemented on the NHS Spine.
+
+As a sending system, you can:
+
+
+
+publish an event message
+
+
+
+As a subscribing system, you can:
+
+
+
+create a subscription
+
+read a subscription 
+
+delete a subscription
+
+
+
+This API uses a publish-subscribe model - the sending system publishes specific range of healthcare event messages to National Events Management Service (NEMS), and NEMS forwards the events to all subscribed systems via MESH.
+
+NEMS authorises a specific list of system suppliers and health and social care organisations to publish information as events.
+
+For more details, see the Introduction to the National Events Management Service. 
+
+",https://digital.nhs.uk/developer/api-catalogue/national-events-management-service-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/nhais-gp-links,National Health Application and Infrastructure Services - NHAIS GP Links," 
+
+ 
+
+
+
+ 
+
+Use this integration to manage GP registrations and other patient data in National Health Application and Infrastructure Services (NHAIS).
+
+You can:
+
+
+
+register a patient at a GP practice
+
+receive a patient deregistration (deduction) notification at the previous GP practice
+
+update patient demographics information, such as address
+
+
+
+This integration uses MESH to send and receive messages. 
+
+This integration forms part of the end-to-end GP registration process. For more details on the end-to-end process, contact us. 
+
+",https://digital.nhs.uk/developer/api-catalogue/nhais-gp-links,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/national-record-locator-fhir,National Record Locator - FHIR API," 
+
+ 
+
+
+
+
+
+Use this API to locate and access patient information shared by other healthcare organisations, to support the direct care of those patients, using the National Record Locator (NRL).
+
+As a ""provider"" or ""producer"" who holds information about patients, you can:
+
+
+
+create a pointer in the NRL to your information
+
+replace your NRL pointer with a newer pointer, superseding the old one
+
+update your NRL pointer status to ""entered in error""
+
+delete your NRL pointer to this information
+
+
+
+As a ""consumer"" who needs access to the patient information being shared by providers, you can:
+
+
+
+search for information by parameters including information ID, patient, information provider, information type,  or number of matching results
+
+retrieve an NRL pointer and access the information
+
+
+
+There is a growing list of health and social care organisations authorised to share records using NRL. 
+
+",https://digital.nhs.uk/developer/api-catalogue/national-record-locator-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/nhs-app,NHS App API," Use this API to engage with users of the NHS App - a simple and secure way for patients registered with a GP surgery in England to access a range of services on their smartphone or tablet. You can: 
+
+send in-app messages to specific users of the NHS App
+
+include keyword replies to in-app messages
+
+include free text replies to in-app messages
+
+send native Apple or Android push notifications to mobile devices registered by specific users of the NHS App
+
+ ",https://digital.nhs.uk/developer/api-catalogue/nhs-app,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/nhs-booking-fhir,NHS Booking - FHIR API," 
+
+Use this API to retrieve available slots and book an appointment for a specific health and care service, for example, from NHS 111 into an Urgent Treatment Centre (UTC). ",https://digital.nhs.uk/developer/api-catalogue/nhs-booking-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/nhs-cis2-care-identity-authentication,NHS CIS2 Care Identity Authentication API," 
+
+Use this API to access NHS Care Identity Service 2 (NHS CIS2) - the national service for verifying the identity of healthcare workers in England, such as NHS staff, when they access national clinical information systems. You can also get basic profile information about these end users.
+
+You can authenticate the healthcare workers using:
+
+
+
+a CIS smartcard - with or without the Credential Management Application
+
+an iPad 
+
+a Windows 10 tablet 
+
+a security key
+
+
+
+For further details, see Ways to authenticate using NHS Care Identity Service 2. ",https://digital.nhs.uk/developer/api-catalogue/nhs-cis2-care-identity-authentication,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/nhs-cis-authentication-spine-security-broker,NHS CIS Authentication (Spine Security Broker) API," 
+
+Use this API to verify the identity of healthcare workers in England, such as NHS staff. It provides a single sign-on capability across local and national digital services using physical and virtual smartcards.
+
+This API is also known as the Spine Security Broker (SSB), and is part of the NHS Care Identity Service (CIS).
+
+You can:
+
+
+
+access the Identity Server which serves up SSO Tokens and manages the sessions for users who have been successfully authenticated
+
+access the Identity Agent on the end user's workstation, which mediates the authentication transaction and serves subsequent user information on demand as part of the application's authorisation process
+
+access the Client Signing Interface, which provides client-side digital signing functions for the purposes of Content Commitment. This interface primarily uses cryptographic functions that execute on a user’s smart card.
+
+
+
+Users can only be authenticated if they are formally registered on the Spine. This includes creating a user profile, stored in the Spine Directory Service (SDS), containing the user’s roles and other information that the Registration Authority or Service deems necessary to make appropriate data access decisions.
+
+This authentication service makes use of smartcards to provide strong authentication for health care workers to control access to national services. It is being replaced by NHS Care Identity Service 2 (NHS CIS2), which provides additional authentication methods for scenarios where a smartcard might not be preferred or appropriate.
+
+This API is described fully in the Spine External Interface Specification (EIS). Part 6 has the overview and part 7 the formal API specifications. These are a set of Word documents that provide system developers - architects, designers and builders - with the necessary information to connect to Spine national services. ",https://digital.nhs.uk/developer/api-catalogue/nhs-cis-authentication-spine-security-broker,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/nhs-login,NHS login API," 
+
+Use this API to enable patients and the public to access multiple digital health and social care services with NHS login, a single re-usable login.
+
+You benefit from:
+
+
+
+using a trusted and secured identity platform
+
+choosing a proper level of end user verification
+
+displaying a brand name the public recognises
+
+meeting the Identity Verification and Authentication Standard (DCB3051)
+
+
+
+For more details, see NHS Login: guidance for partners and developers. ",https://digital.nhs.uk/developer/api-catalogue/nhs-login,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/nhsmail,NHSmail APIs," 
+
+Use these APIs to connect your local, regional or national applications or services to NHSmail.
+
+You can:
+
+
+
+work with email messages, calendar, task and contact information 
+
+access mailboxes
+
+get client configuration data and endpoint URLs from Exchange
+
+
+
+The Microsoft APIs used are:
+
+
+
+Exchange Web Service (EWS) Managed API 2.0  - to work with mailboxes, messages, calendars, tasks and contacts
+
+Exchange Web Service (EWS) API - to work with mailboxes, messages, calendars, tasks and contacts
+
+SOAP Autodiscover  - to get client configuration data and endpoint URLs
+
+
+
+For compatibility with Office 365, use EWS Managed API 2.0 and not the EWS API. ",https://digital.nhs.uk/developer/api-catalogue/nhsmail,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/nhs-syndicated-content,NHS Syndicated Content - REST APIs," 
+
+Use these APIs and widgets to pull a range of content from the NHS.UK website as part of our free syndication programme. 
+
+You can choose from a range of APIs including:
+
+
+
+Common health questions
+
+Coronavirus (COVID-19)
+
+
+
+Health A to Z -  content also available as smaller specific modules
+
+
+
+Live Well
+
+Medicines 
+
+Mental health
+
+NHS services
+
+Pregnancy
+
+Ratings and Reviews
+
+Videos
+
+
+
+You can choose from a range of widgets which give you code you can embed in your web page, including:
+
+
+
+Find services
+
+Health A to Z -  content also available as smaller specific modules
+
+Live Well
+
+Heavy periods self-assessment
+
+Heart age
+
+Your blood pressure
+
+Body Mass Index (BMI) calculator
+
+Your Mind Plan
+
+Personal Quit Plan
+
+
+
+For more details, see NHS Syndicated content. ",https://digital.nhs.uk/developer/api-catalogue/nhs-syndicated-content,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/online-consultation,Online Consultation - MESH," 
+
+ 
+
+
+
+ 
+
+Use this message integration to send an online consultation form from a patient to a registered GP.
+
+This integration uses MESH to send and receive messages. 
+
+",https://digital.nhs.uk/developer/api-catalogue/online-consultation,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/ophthalmic-payments,Ophthalmic Payments API," 
+
+Use this API to submit the General Ophthalmic Service (GOS) payment claims to Primary Care Support England (PCSE). Electronic claims are submitted via Practice Management Systems (PMS) and paper based claims are submitted via a bulk scanning facility, provided by Capita Intelligent Communications (CIC).
+
+Activity data about NHS sight tests, optical vouchers, repairs and replacement are collected via a series of GOS payment claim forms.
+
+
+
+
+
+
+
+GOS1 – Application for an NHS funded sight test
+
+GOS3 – NHS optical vouchers and patient statement
+
+GOS4 – NHS optical repair/replacement vouchers application form
+
+GOS5 – Private sight tests with partial help towards the full costs
+
+GOS6 – Application for a mobile NHS funded sight test
+
+
+
+You can electronically:
+
+
+
+submit GOS1 claims from PMS and bulk scanning facility to PCSE
+
+submit GOS3 claims from PMS and bulk scanning facility to PCSE
+
+submit GOS4 claims from PMS and bulk scanning facility to PCSE
+
+submit GOS5 claims from PMS and bulk scanning facility to PCSE
+
+submit GOS6 claims from PMS and bulk scanning facility to PCSE
+
+submit GOS6 pre-visit notifications from PMS to PCSE
+
+submit and retrieve GOS3 voucher only between PMS and PCSE
+
+submit a status request to PCSE
+
+
+
+You cannot submit:
+
+
+
+
+
+GOS2 claims
+
+
+
+health cost 5 (HC5) refund claims 
+
+pre-registration training (PRT) grant claims
+
+continuing education and training (CET) claims
+
+
+
+A single GOS message can contain multiple claims for payment of a single GOS claim type, i.e. batch submission is allowed. A message cannot contain a mix of different GOS claim types.
+
+
+
+
+
+You can also submit GOS payment claims via PCSE Online. For further information, see Ophthalmic payments. ",https://digital.nhs.uk/developer/api-catalogue/ophthalmic-payments,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/ordnance-survey-places-api,Ordnance Survey Places API," 
+
+Use this API for looking up and validating addresses, typically before updating patient details in the Personal Demographics Service.
+
+You can:
+
+
+
+identify UK addresses
+
+verify the address records you are capturing against authoritative data from Ordnance Survey’s AddressBase® Premium and AddressBase® Premium - Islands
+
+make requests using a full or partial address, a postcode, or a Unique Property Reference Number (UPRN)
+
+find addresses closest to a given point
+
+find all the known addresses within a user-defined area, bounding box or circle
+
+verify an address before updating a patient's details in the Personal Demographics Service
+
+
+
+This API is a third party API recommended for UK government services.
+
+Data update frequency
+
+The address, geometry and UPRN data is available for the UK and Isle of Man.  The address and UPRN data is available for Jersey and Guernsey.
+
+This data is updated every 6 weeks.
+
+Requests
+
+This API has seven types of request in two categories.
+
+Capture and verification category:
+
+
+
+
+
+Find - a free text search for quick use
+
+
+
+
+
+Postcode - a search based on a property’s postcode
+
+
+
+
+
+UPRN - a search that takes a UPRN as the search parameter
+
+
+
+
+
+GeoSearch category:
+
+
+
+
+
+Nearest - finds the closest address to a given point
+
+
+
+
+
+Bounding box - finds all addresses inside a bounding box
+
+
+
+
+
+Radius - finds all addresses that intersect a given circle
+
+
+
+
+
+Polygon - finds all addresses in a polygon or multi-polygon object
+
+
+
+
+
+For more information, see the Technical Specification. ",https://digital.nhs.uk/developer/api-catalogue/ordnance-survey-places-api,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/organisation-data-service-fhir,Organisation Data Service - FHIR API," 
+
+Use this API to access a reduced dataset of health and social care organisations in England and Wales, such as trusts or GP practices, using the Organisation Data Service (ODS).
+
+This FHIR API contains a reduced dataset, most useful for  transactions. To access the full ODS dataset, including data about succession (history) or relationships, use the ODS ORD API.
+
+You can search for information about an organisation using one or more of their:
+
+
+
+ODS code
+
+last updated date
+
+name
+
+active or inactive status
+
+postcode or city
+
+organisation's role or primary role, such as trusts or GP practices
+
+
+
+You can also limit the number of results returned, or just request a count of the number of search results.
+
+You cannot:
+
+
+
+
+
+access the full dataset from ODS, specifically no information about succession (history) or relationships
+
+
+
+search for an organisation using an address
+
+
+
+An ODS code is a unique identification code for an organisation that interacts with any area of the NHS. For a full list of the organisation types available, see CSV downloads.
+
+This API returns the following reduced dataset of an organisation, when searched with an ODS code:
+
+
+
+organisation - ODS code, name, open date, close date, last change date and status if active or inactive
+
+address - house or flat number, line 1, line 2, line 3, town, postcode and country
+
+contacts - email, website, telephone and fax
+
+roles - primary and non-primary roles
+
+
+
+To access the full ODS dataset, use the ODS ORD API. ",https://digital.nhs.uk/developer/api-catalogue/organisation-data-service-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/organisation-data-service-ord,Organisation Data Service - ORD API," 
+
+Use this API to access details of health and social care organisations in England and Wales, such as trusts or GP practices, using our Organisation Data Service (ODS). 
+
+This ORD-compatible API contains the full dataset from ODS, including information on succession (history) and relationships.
+
+We also have an ODS FHIR API which contains a reduced dataset, most useful for transactions.
+
+You can:
+
+
+
+search for organisations
+
+get the organisation details for a given ODS code
+
+get a list of recently modified organisations
+
+get metadata for roles, relationships and record classes
+
+get a list of organisations that have been modified since a specific date to synchronise data locally
+
+
+
+An ODS code is a unique identification code for an organisation that interacts with any area of the NHS. For a full list of the organisation types available, see CSV downloads. 
+
+This API returns the following full dataset for an organisation, when searched with an ODS code:
+
+
+
+organisation - ODS code, name, open date, close  date, last change date and status if active or inactive
+
+address - house or flat number, line 1, line 2, line 3, town, postcode and country
+
+contacts - email, website, telephone and fax
+
+roles - primary and non-primary roles
+
+relationships - legal and operational relationships including history where it was captured by ODS
+
+succession - history of legal succession following reconfiguration or mergers
+
+additional attributes - data items included to support policy and pragmatic change
+
+
+
+For an alternative API that returns a reduced dataset, use the ODS FHIR API. ",https://digital.nhs.uk/developer/api-catalogue/organisation-data-service-ord,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/out-of-hours,Out Of Hours," 
+
+ 
+
+
+
+ 
+
+Use this message integration to send details of an out of hours (OOH) assessment from an out of hours GP system to the patient's registered GP.  
+
+It uses MESH to send and receive messages.
+
+The message payload is actually not that standard, as explained below. 
+
+",https://digital.nhs.uk/developer/api-catalogue/out-of-hours,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/pathology-messaging-edifact,Pathology Messaging - EDIFACT," 
+
+ 
+
+
+
+ 
+
+Use this integration to receive structured pathology test results in GP practices from pathology laboratories.
+
+This integration uses MESH to send and receive UN/EDIFACT based messages. 
+
+For more details, see the Pathology EDIFACT v1.003 Standard.
+
+If you are building a system to receive pathology test results, you can use our Lab Results adaptor to receive these EDIFACT results via an easy-to-use FHIR-compliant format. 
+
+Before you begin any development work using this integration, contact us to discuss your best options. 
+
+",https://digital.nhs.uk/developer/api-catalogue/pathology-messaging-edifact,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/pathology-messaging-fhir,Pathology Messaging - FHIR," 
+
+ 
+
+
+
+ 
+
+Use this integration to share pathology results from a Laboratory Information Management System (LIMS) to the requestor, typically a healthcare worker in NHS primary or secondary care.
+
+Initially it focuses on haematology and clinical biochemistry test reporting - also known as chemical pathology.
+
+This integration uses MESH to send and receive pathology results.
+
+It is intended to replace the current Pathology Messaging - EDIFACT API and supersedes Laboratory HL7 V3 (see the Message Implementation Manual under Domains -> Health and Clinical Management -> Laboratory). 
+
+",https://digital.nhs.uk/developer/api-catalogue/pathology-messaging-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/pathology-messaging-hl7-v3,Pathology Messaging - HL7 V3," 
+
+Use this integration to request laboratory tests and send the results back to the requester, usually the patient's GP or consultant. Results can also be copied to other healthcare providers for information.
+
+One request can lead to several results reports and each report is complete in its own right. If incomplete reports are issued, a final report carries all the reported information, replacing the originals entirely.
+
+This integration is not widely adopted - it is only used as part of the NHS Newborn Blood Spot (NBS) Screening Programme which involves a limited number of pathology laboratories. Pathology Messaging - EDIFACT API supports most of the pathology interactions.
+
+This integration will be superseded by the Pathology Messaging - FHIR API. ",https://digital.nhs.uk/developer/api-catalogue/pathology-messaging-hl7-v3,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/patient-care-aggregator-fhir,Patient Care Aggregator - FHIR API,"  Use this API to get an aggregated list of referrals and bookings for a patient from secondary care providers. The API aggregates details of referrals and bookings from a number of systems. For details, see status and roadmap. We might add other providers in the future. This API is only for use in patient-facing applications, not point-of-care applications. For more details, see Patient access to referrals and bookings via the Patient Care Aggregator. ",https://digital.nhs.uk/developer/api-catalogue/patient-care-aggregator-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/patient-care-aggregator-record-service/patient-care-aggregator-record-service-api,Patient Care Aggregator Record Service API,"  Use this API, as a secondary care provider, to let the Patient Care Aggregator know which patients you have bookings for. The Patient Care Aggregator needs this information in advance so it knows which secondary care providers to ask for a list of bookings when a patient requests the list using the NHS App. As a secondary care provider, you’ll also need to: 
+
+build an API using the Patient Care Aggregator Get Applications API standard that the Patient Care Aggregator can use to get a list of bookings for a patient
+
+build a ‘patient portal’ web application that the patient can access via a hyperlink from the NHS App
+
+ For more details, see Patient access to referrals and bookings via the Patient Care Aggregator. ",https://digital.nhs.uk/developer/api-catalogue/patient-care-aggregator-record-service/patient-care-aggregator-record-service-api,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-fhir,Personal Demographics Service - FHIR API," Use this API to access the Personal Demographics Service (PDS) - the national electronic database of NHS patient details such as name, address, date of birth, related people, registered GP and NHS number. You can: 
+
+search for patients
+
+get patient details
+
+update patient details
+
+verify an NHS number for a patient
+
+ You cannot currently use this API to: 
+
+create a new record for a birth - use PDS HL7 V3 API
+
+receive birth notifications - use PDS HL7 V3 API or PDS Notifications FHIR API
+
+create a record for a new patient - use PDS HL7 V3 API
+
+register a new patient at a GP Practice - use NHAIS GP Links API
+
+receive patient death notifications - use PDS Notifications FHIR API
+
+receive notifications about a patient's change of address - use PDS Notifications FHIR API
+
+receive notifications about a patient's change of GP - use PDS Notifications FHIR API
+
+receive notifications about any PDS record change - use PDS Notifications FHIR API
+
+ You can read and update the following data: 
+
+NHS number (read only)
+
+name
+
+gender
+
+addresses and contact details
+
+birth information
+
+death information
+
+registered GP
+
+nominated pharmacy
+
+dispensing doctor pharmacy
+
+medical appliance supplier pharmacy
+
+related people, such as next of kin (read only - update coming soon)
+
+ Patients included in PDS Regardless of nationality, or where they live now, PDS includes all patients who have ever been registered with a GP practice, or treated by a health or care organisation (even as a visitor or migrant) in England, Wales, the Isle of Man, or in a UK Defence Medical Services unit anywhere in the world. All patients in PDS have an NHS number which is unique. The 10-digit NHS number is used in England, Wales, the Isle of Man, Scotland and Northern Ireland, but not the Channel Islands. Scotland and Northern Ireland have their own distinct number ranges. Access modes This API has three access modes: 
+
+
+
+
+
+Access mode
+
+Functions
+
+Availability
+
+
+
+
+
+
+
+
+
+Application-restricted access
+
+Search for a patient (single result).Get patient details.
+
+Available in production (stable)
+
+
+
+
+
+Healthcare worker access
+
+Search for patients (multiple results).Get patient details.Update patient details.
+
+Available in production (beta)
+
+
+
+
+
+Patient access
+
+Get own details.Update own details (limited).
+
+Available in production (beta)
+
+
+
+
+
+ For further details about the access modes for this API, see Security and authorisation below. ",https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-hl7-v3,Personal Demographics Service - HL7 V3 API," 
+
+Use this API to access the Personal Demographics Service (PDS), the national electronic database of NHS patient details such as name, address, date of birth, related people, registered GP and NHS number.
+
+You can:
+
+
+
+search for patients
+
+check that you have the correct NHS number for a patient
+
+get patient details
+
+create a new record for a birth
+
+receive birth notifications - although another option is PDS Notifications FHIR API
+
+create a record for a new patient (except for GPs - see below)
+
+
+
+You should not use this API to create a new record when registering a new patient at a GP Practice. Instead, use National Health Application and Infrastructure Services (NHAIS).
+
+You can retrieve current and historical demographic information for a patient including:
+
+
+
+NHS number
+
+name
+
+gender
+
+birth information
+
+address
+
+contact details
+
+registered GP
+
+preferred pharmacy
+
+consent information
+
+related people, such as next of kin
+
+death information
+
+
+
+Spine Mini Service Provider (SMSP) options
+
+There are also commercially available products which give easier access to PDS, known as Spine Mini Service Providers (SMSPs).
+
+These and other conforming software products are listed in our Conformance Catalogue.
+
+If you are interested in becoming a provider of one of these products, see Personal Demographics Service - SMSP API standards.
+
+A healthcare worker must be present and authenticated with an NHS smartcard or a modern alternative to use this API. ",https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-hl7-v3,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/personal-demographic-service-mesh,Personal Demographics Service MESH," 
+
+ 
+
+
+
+Use this message integration to search the Personal Demographics Service (PDS) for patient details, using the MESH UI.
+
+The PDS MESH service - formerly known as Master Patient Trace (MPT) - is provided for organisations that do not want to write their own software - typically NHS trusts or local authorities.
+
+It is not intended for software integration - use the PDS FHIR API instead.
+
+It is a batch message integration.  It does not expect an immediate response from PDS.
+
+It requires PDS access approval and a MESH mailbox set up before you can use it.
+
+You can:
+
+
+
+create a file containing a trace request
+
+send the trace request to PDS
+
+check for replies and download the response
+
+
+
+For how to use PDS MESH, see Using the PDS MESH service with the MESH user interface. 
+
+",https://digital.nhs.uk/developer/api-catalogue/personal-demographic-service-mesh,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-notifications-fhir,Personal Demographics Service Notifications - FHIR," 
+
+ 
+
+
+
+ 
+
+Use this integration to receive notifications about changes to a patient's demographic details, including:
+
+
+
+birth notifications - although another option is PDS HL7 V3 API
+
+death notifications
+
+change of address
+
+change of GP
+
+any record change (beta) - to notify subscribers to synchronise their local PDS patient database
+
+
+
+We share information about these events with healthcare workers in other organisations such as GPs, Emergency Departments and Local Authorities.
+
+This integration uses a publish-subscribe model - the sending system publishes events to National Events Management Service (NEMS), and NEMS forwards the events to all subscribed systems via Message Exchange for Social Care and Health (MESH).
+
+For example, when we update Personal Demographics Service (PDS) with a birth, PDS sends a birth notification event containing information about the birth to NEMS. NEMS then sends the event to all healthcare workers who have subscribed to receive birth notifications. 
+
+",https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-notifications-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-smsp,Personal Demographics Service - SMSP API," 
+
+Use this API to access the Personal Demographics Service (PDS) - the national electronic database of NHS patient details such as name, address, date of birth, related people, registered GP and NHS number.
+
+You can:
+
+
+
+verify a patient's NHS number
+
+retrieve a patient's details
+
+search for patient details
+
+
+
+You cannot use this API to:
+
+
+
+update patient details
+
+create a new record for a birth
+
+receive birth notifications 
+
+create a new record for a new patient
+
+register a new patient at a GP Practice - use National Health Application and Infrastructure Services (NHAIS) instead
+
+
+
+This API:
+
+
+
+does not require the end user to be strongly authenticated with a smartcard
+
+only returns a result from a search if there is a single, unique match - it does not return multiple matches
+
+
+
+Spine Mini Service Provider (SMSP) options
+
+There are also commercially available products which give easier access to PDS, known as Spine Mini Service Providers (SMSPs).
+
+These and other conforming software products are listed in our Conformance Catalogue.
+
+If you are interested in becoming a provider of one of these products, see Personal Demographics Service - SMSP API standards. ",https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-smsp,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/query-accredited-system-information-soap,Query Accredited System Information - SOAP API," 
+
+Use this API to search for details about accredited systems and the processes they support, known as interactions, which are held in the Spine Directory Service (SDS) repository. 
+
+This API provides reference information on these accredited systems, along with details of how to interact with these systems. For example, use this API to retrieve the details of the API endpoint to which a PDS update message can be sent.
+
+Use this API to:
+
+
+
+search for and obtain information on accredited systems such as their accredited system identifier (ASID) and associated messaging endpoint information.
+
+verify whether a specific accredited system is able to handle a specified interaction.
+
+
+
+For more details, see the Spine External Interface Specification (EIS) Part 5 - Spine Directory Services (SDS). ",https://digital.nhs.uk/developer/api-catalogue/query-accredited-system-information-soap,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/radiology-mesh,Radiology MESH," 
+
+ 
+
+
+
+ 
+
+Use this message integration to send radiology messages from a radiology department to a GP system over MESH.  
+
+It uses MESH to send and receive messages. 
+
+",https://digital.nhs.uk/developer/api-catalogue/radiology-mesh,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/reasonable-adjustment-flag-fhir,Reasonable Adjustment Flag - FHIR API," Use this API to access and update the Reasonable Adjustment Flag - a national record which indicates that a patient requires reasonable adjustments and optionally includes details of impairments and adjustments to be considered. You can: 
+
+check if a Reasonable Adjustment Flag exists
+
+read a Reasonable Adjustment Flag
+
+create a Reasonable Adjustment Flag
+
+update a Reasonable Adjustment Flag
+
+remove a Reasonable Adjustment Flag
+
+ The flag consists of three parts: 
+
+details of consent to share the Flag and how this was obtained. Consent may have been given by the patient or via a 'best interest decision' under the Mental Capacity Act (2005). In some cases consent can also be obtained from a lasting power of attorney for health and welfare or a court appointed deputy.
+
+details of impairments, which enable clinicians to understand the range of adjustments the patient may require. Note that the patient may decline to say what their impairments are.
+
+details of reasonable adjustments to services which are needed by the patient when providing their care.
+
+ This API can only be used by relevant health and care staff providing direct care, authenticated with an NHS smartcard or equivalent. The existance of a flag is intended to be visible to all staff who have access to the patient record.  The contents of the Flag may only be visible to clinical staff - as determined by role-based access controls (RBAC). For more details see Registration authorities and smartcards. To find out more about how the flag works, categories and types of adjustments and the recording of impairments see How the Reasonable Adjustment Flag works. To watch a video of a Reasonable Adjustment Flag being created in SCRa see Creating a Reasonable Adjustment Flag on the NHS Spine. ",https://digital.nhs.uk/developer/api-catalogue/reasonable-adjustment-flag-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/signing-service,Signing Service API," Use this API to digitally sign one or more prescriptions from an application that cannot communicate directly with an NHS smartcard reader. You cannot currently use this API to: 
+
+produce signatures using an algorithm other than RS1 (RSASSA-PKCS1-v1_5 with SHA-1)
+
+ End users of this API must be authenticated with an NHS smartcard or modern alternative. ",https://digital.nhs.uk/developer/api-catalogue/signing-service,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/spine-directory-service-fhir,Spine Directory Service - FHIR API," Use this API to access details of systems registered in the Spine Directory Service (SDS). You can: 
+
+get accredited system details
+
+ You cannot currently use this API to: 
+
+search for organisations
+
+search for people
+
+ Accredited system records Every system that connects to the Spine has one or more “Accredited System” (AS) records in SDS, identified by an Accredited System Identifier (ASID).
+
+This ASID is unique to a system deployed in a specific organisation, so the same application deployed into three NHS organisations would typically be represented as three unique ASIDs. MHS records and endpoints Every GP Connect system also has one or more “MHS” records (or message handling server record), identified by Party Key and Interaction ID.
+
+MHS records of GP Connect provider systems contain the endpoint of the target practice, as defined by the FHIR service root URL.
+
+Please see System topologies for more details on the allocation of ASIDs and Party Keys. 
+
+For all intermediary messaging endpoint lookups, this API returns the NHS Digital Spine MHS endpoint address.
+
+ ",https://digital.nhs.uk/developer/api-catalogue/spine-directory-service-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/spine-directory-service-ldap,Spine Directory Service - LDAP API," 
+
+Use this API to access details from the Spine Directory Service (SDS) relating to:
+
+
+
+organisations - NHS organisations, their sites and departments
+
+people - healthcare workers who are Spine users, including their organisation and role
+
+systems registered with Spine
+
+ ",https://digital.nhs.uk/developer/api-catalogue/spine-directory-service-ldap,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/summary-care-record-fhir,Summary Care Record - FHIR API," Use this API to access or update a patient's Summary Care Record (SCR) - an electronic record of important patient information, created from GP medical records. SCRs can be seen and used by authorised staff in other areas of the health and care system involved in the patient's direct care. This API is currently only approved for use in primary care software, specifically GP software. We hope to make it available for secondary care in the future. You can vote for this on our interactive product backlog. Also use this API to update a patient's consent to share their SCR, and to raise a privacy alert where you have to override a patient's dissent to share their SCR in certain circumstances. You can: 
+
+get a patient's SCR identifier
+
+get a patient's SCR
+
+upload a patient's SCR
+
+send a privacy alert message, if you have to override a patient's dissent to view their SCR
+
+update a patient's consent to share their SCR
+
+ A healthcare worker must be present and authenticated with an NHS smartcard or a modern alternative to use this API. ",https://digital.nhs.uk/developer/api-catalogue/summary-care-record-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/summary-care-record-hl7-v3,Summary Care Record - HL7 V3 API," 
+
+Use this API to access a patient's Summary Care Record (SCR) - a national electronic record of important patient information, created from GP summaries of medical records. SCRs can be seen and used by authorised staff in other areas of the health and care system involved in the patient's direct care.
+
+Summary Care Record was previously known as Personal Spine Information Service (PSIS).
+
+Also use this API to access the Access Control Service (ACS) - which manages consent to share information for SCR. GP systems must check consent to share before sharing a patient's Summary Care Record.
+
+You can:
+
+
+
+create or add to a patient's Summary Care Record - as a GP system capable of uploading GP summaries
+
+retrieve a patient's Summary Care Record
+
+set and check consent to share information - via the Access Control Service (ACS)
+
+
+
+You cannot use this API to update GP medical records.
+
+Spine Mini Service Provider (SMSP) options
+
+There are also commercially available products which give easier access to SCR, known as Spine Mini Service Providers (SMSPs). 
+
+These and other conforming software products are listed in our Conformance Catalogue.
+
+If you are interested in becoming a provider of one of these products, see Summary Care Record - SMSP API standards.
+
+A healthcare worker must be present and authenticated with an NHS smartcard or a modern alternative to use this API. ",https://digital.nhs.uk/developer/api-catalogue/summary-care-record-hl7-v3,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/technology-reference-update-distribution-api,Technology Reference Update Distribution API," 
+
+Use this API to automate the download of Technology Reference Update Distribution (TRUD) release files.
+
+These include:
+
+
+
+classification products, including NHS Information Standards ICD and OPCS-4 in the UK, as well as other products to support the implementation of these clinical classifications and derivative products
+
+the NHS Data Model and Dictionary, which provides a reference point for approved Information Standards and Collections (including Extractions) (ISCEs) to support health care activities within the NHS in England
+
+terminology products such as SNOMED CT, the Read Codes and other products to support the implementation of terminology, including tools and derivative products
+
+
+
+You can:
+
+
+
+request release information for an item
+
+request a release file once you have its release information
+
+
+
+You must have a TRUD account before you can use this API. ",https://digital.nhs.uk/developer/api-catalogue/technology-reference-update-distribution-api,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/terminology-server-fhir,Terminology Server - FHIR APIs," 
+
+Use these APIs to retrieve content from the NHS England Terminology Server, including:
+
+
+
+international terminologies and classifications - such as SNOMED-CT and ICD-10
+
+national terminologies - such as NHS Data Model and Dictionary codes
+
+
+
+You can:
+
+
+
+directly query the terminology server in real time, using a number of FHIR APIs, as defined by the HL7 FHIR-compliant terminology module standard
+
+access a syndicated feed of terminology and classifications content in a machine-readable format, via an API
+
+syndicate content across a group of terminology servers
+
+share your own terminologies with others
+
+
+
+Some content in the Terminology Server is freely available for read access, such as Data Dictionary. Other content is subject to access controls appropriate to the license, such as SNOMED-CT.
+
+To see what terminologies and classifications you can retrieve, see content in the NHS England Terminology Server.
+
+As well as these APIs, there are a number of end user terminology browsing tools available.
+
+For more information, see terminology servers. ",https://digital.nhs.uk/developer/api-catalogue/terminology-server-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-emergency-care-discharge-fhir,Transfer of Care Emergency Care Discharge - FHIR," 
+
+ 
+
+
+
+ 
+
+Use this integration to send discharge information from an emergency care provider to a GP practice.
+
+For example, a patient attends A&E due to abdominal pain. After diagnosis and treatment the patient is discharged by an emergency care specialist who completes and sends an Emergency Care Discharge document to the patient’s GP.
+
+This integration uses MESH to send and receive messages. It is part of a suite of Transfer of Care message specifications.
+
+Before you begin any development work using this integration, contact us to discuss your best options. 
+
+",https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-emergency-care-discharge-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-inpatient-discharge-fhir,Transfer of Care Inpatient Discharge - FHIR," 
+
+ 
+
+
+
+ 
+
+Use this integration to create and transmit documents containing Transfer of Care information supporting an inpatient and day case discharge.
+
+An Inpatient and Day Case Discharge Summary Document (also known as an ITK3 eDischarge) is an ITK3 FHIR document containing Transfer of Care information supporting inpatient and day case discharges typically between an acute hospital and a GP practice.
+
+For example, a patient attends hospital for elective hip replacement surgery and is discharged by her consultant after a couple of days. The consultant completes and sends an eDischarge document to her GP.
+
+This integration uses MESH to send and receive messages. It is part of a suite of Transfer of Care FHIR message specifications.
+
+Before you begin any development work using this integration, contact us to discuss your best options. 
+
+",https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-inpatient-discharge-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-mental-health-discharge-fhir,Transfer of Care Mental Health Discharge - FHIR," 
+
+ 
+
+
+
+ 
+
+Use this integration to create and transmit documents containing Transfer of Care information supporting a mental health discharge.
+
+An Inpatient and Day Case Discharge Summary (Mental Health) Document (also known as an ITK3 Mental Health Discharge) is an ITK3 FHIR document containing Transfer of Care information supporting a mental health adult discharge summary to a GP practice.
+
+For example, following an apparent overdose, a patient is admitted to a psychiatric ward for evaluation and treatment which is successful. He is discharged and the consultant sends a copy of the Mental Health Discharge to his GP.
+
+This API is a messaging API which uses MESH to send and receive messages. It is part of a suite of Transfer of Care FHIR message specifications.
+
+Before you begin any development work using this integration, contact us to discuss your best options. 
+
+",https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-mental-health-discharge-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-mesh,Transfer of Care - MESH," 
+
+ 
+
+
+
+ 
+
+Use this message integration to send transfer of care information from an emergency care provider to a GP practice.  
+
+It uses MESH to send and receive messages. 
+
+",https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-mesh,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-outpatient-clinic-letter-fhir,Transfer of Care Outpatient Clinic Letter - FHIR," 
+
+ 
+
+
+
+ 
+
+Use this integration to create and transmit documents containing Transfer of Care information following an outpatient consultation in a clinic.
+
+An Outpatient Clinic Letter (also known as an ITK3 Outpatient Letter) is an ITK3 FHIR document containing Transfer of Care information from the hospital to the patient's GP and other relevant parties following a consultation in a clinic.
+
+For example, a patient suffering from double vision is referred to an eye hospital and subsequently attends their outpatient appointment. Investigations indicate hypertropia, and the ophthalmologist recommends glasses fitted with prisms for treatment. The ophthalmologist completes and sends an Outpatient Clinic Letter to her GP.
+
+This integration uses MESH to send and receive messages. It is part of a suite of Transfer of Care FHIR specifications.
+
+Before you begin any development work using this integration, contact us to discuss your best options. 
+
+",https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-outpatient-clinic-letter-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/urgent-and-emergency-care-continuous-quality-improvement-api,Urgent and Emergency Care Continuous Quality Improvement API," 
+
+Use this API to submit 111 or 999 call triage data to us for quality monitoring purposes, following an NHS Pathways patient phone assessment.
+
+As a 111 or 999 telephony provider's host system developer, you must submit triage data to us in real time following an NHS Pathways patient phone assessment. This is to comply with the Continuous Quality Improvement (CQI) requirement of the Pathways licence agreement.
+
+Providers and their regional commissioning groups can also log in to view this data using the Intelligent Data Tool (IDT) dashboard.
+
+Because of the dashboard name, this API is sometimes referred to as the Intelligent Data Tool (IDT) web service.
+
+You need a valid account to use this API to submit data. ",https://digital.nhs.uk/developer/api-catalogue/urgent-and-emergency-care-continuous-quality-improvement-api,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/vaccination,Vaccination," 
+
+ 
+
+
+
+ 
+
+Use these integrations to provide vaccination information to us at NHS Digital.
+
+You can send us information relating to:
+
+
+
+coronavirus (COVID-19) vaccinations
+
+COVID-19 extended data attributes
+
+COVID-19 hourly vaccination aggregate data for the NHS Foundry
+
+seasonal flu vaccinations
+
+measles, mumps and rubella (MMR) vaccinations
+
+
+
+These integrations specify the flow of vaccination-related information from healthcare settings including:
+
+
+
+
+
+hospital hubs - NHS providers vaccinating on site 
+
+
+
+
+
+local vaccine services – community or primary care led services which could include primary care facilities, retail, community facilities, temporary structures or roving teams 
+
+
+
+
+
+vaccination centres – large sites such as sports and conference venues set up for high volumes of people 
+
+
+
+
+
+These integrations use MESH to send and receive pipe-delimited (|) and not-sign-delimited (¬) files.
+
+For more details on how to interact with end users to collect COVID-19 information safely, see the functional specifications under 'Additional guidance'.
+
+For FHIR standards relating to the flow of information directly back to the patient's GP, see Digital Medicine - FHIR.
+
+For FHIR standards relating to the flow of information to other care providers such as Child Health, see Vaccination Events - FHIR. 
+
+",https://digital.nhs.uk/developer/api-catalogue/vaccination,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/vaccination-adverse-reactions-covid-19,Vaccination Adverse Reactions COVID-19," 
+
+ 
+
+
+
+ 
+
+Use this integration to provide information to us at NHS Digital on adverse reactions.
+
+You can send us information on adverse reactions relating to: 
+
+
+
+coronavirus (COVID-19) vaccinations.
+
+
+
+This integration specifies the flow of information relating to vaccination-related adverse reactions from any healthcare setting including:
+
+
+
+
+
+hospital hubs - NHS providers vaccinating on site 
+
+
+
+
+
+local vaccine services – community or primary care led services which could include primary care facilities, retail, community facilities, temporary structures or roving teams 
+
+
+
+
+
+vaccination centres – large sites such as sports and conference venues set up for high volumes of people 
+
+
+
+
+
+This integration uses MESH to send pipe-delimited files to us.
+
+For FHIR standards relating to the flow of information directly back to the patient's GP, see Digital Medicine - FHIR.
+
+Regulatory reporting
+
+This information flow captures any adverse reactions which occur within the first fifteen minutes after administration of the coronavirus (COVID-19) vaccination. 
+
+At NHS Digital, we must share this information with the Medicines and Healthcare products Regulatory Agency (MHRA) Yellow Card scheme. This scheme is the UK system for collecting and monitoring information on suspected safety concerns or incidents involving medicines and medical devices, including vaccines. 
+
+The information we share with MHRA as part of this scheme is anonymised. 
+
+",https://digital.nhs.uk/developer/api-catalogue/vaccination-adverse-reactions-covid-19,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
+2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/vaccination-events-fhir,Vaccination Events - FHIR," 
+
+ 
+
+
+
+ 
+
+Use this integration to publish or receive messages about changes to a patient's vaccination details, including:
+
+
+
+new vaccinations
+
+updated vaccination details
+
+deleted vaccination details
+
+
+
+This service currently covers childhood vaccinations up to the age of 19, and for direct care purposes only, in the context of Digital Child Health. If you'd like to use this API to publish or consume other vaccination types across all age groups, contact [email protected].
+
+Using a publish-subscribe model, we share information about these events with healthcare workers in other organisations such as GPs, Emergency Departments and Local Authorities.
+
+This integration uses a publish-subscribe model - the sending system publishes events to National Events Management Service (NEMS), and NEMS forwards the events to all subscribed systems via MESH.
+
+For example, when a GP system records a vaccination, it sends an event message containing the vaccination details to NEMS. NEMS then sends the message to all healthcare workers who have subscribed to receive vaccination event messages. 
+
+",https://digital.nhs.uk/developer/api-catalogue/vaccination-events-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,NHS Digital
