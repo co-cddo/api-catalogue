@@ -39,5 +39,5 @@ gem "redcarpet"
 gem "sass"
 gem "sprockets"
 
-gem "builder", "~> 3.0"
+gem "builder", "~> 3.3"
 gem "html-proofer"
