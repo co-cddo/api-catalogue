@@ -1,4 +1,4 @@
-FROM ruby:3.3.1-alpine
+FROM ruby:3.3.4-alpine
 WORKDIR /app
 
 RUN apk add --no-cache build-base nodejs npm
