@@ -31,10 +31,10 @@ If you are looking to set up an api.gov.uk domain for your API, email <api-domai
 
 ## API Survey
 
-We would appreciate your time and effort in completing a survey about APIs at your organisation. Your feedback will be used to inform the work of CDDO in setting API guidance and standards for government.
+If you work for government or in a public sector organisation we would appreciate your time and effort in completing a survey about APIs at your organisation. Your feedback will be used to inform the work of [Central Digital & Data Office](https://www.gov.uk/government/organisations/central-digital-and-data-office) in setting API guidance and standards for government.
 
-The Survey is a list of questions on API operations, management, strategy, platform usage, governance and security at your organisation.  Please review the questions and provide your responses, there are 36 questions in total, and the majority are multiple-choice so the survey should only take around 20 minutes to complete.
+The survey is a list of questions on API operations, management, strategy, platform usage, governance and security at your organisation.  Please review the questions and provide your responses, there are 36 questions in total, and the majority are multiple-choice so the survey should only take around 20 minutes to complete.
 
-Your insights and feedback are valuable, and we kindly invite you to share your thoughts and opinions as you complete the survey from your own perspective within your organisation. We optionally ask you to share your email address so that we can follow-up with you if you are able to take part in future research, but any responses you give will be kept anonymous and your email address will not be further shared.
+Your insights and feedback are valuable, and we kindly invite you to share your thoughts and opinions as you complete the survey from your own perspective within your organisation. We optionally ask you to share your email address so that we can follow-up with you if you are able to take part in future research, but any responses you give will be kept anonymous and your email address will not be shared further.
 
 Please access the survey via this link: [CDDO API Survey](https://forms.gle/q3ZP884KTrJqK9rF6)
