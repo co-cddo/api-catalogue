@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
+      - uses: actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
 
       - uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854
         with:
@@ -61,7 +61,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
+      - uses: actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
 
       - uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854
         with:
@@ -83,7 +83,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
+      - uses: actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
 
       - uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854
         with:
@@ -97,7 +97,7 @@ jobs:
 
       # Checkout stripped-down gh-pages branch to a subdirectory, for publishing
       - name: Checkout gh-pages branch
-        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
+        uses: actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
         with:
           ref: gh-pages
           path: tmp/publish
