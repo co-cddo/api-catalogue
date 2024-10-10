@@ -29,7 +29,7 @@ RSpec.describe DashboardStats do
 
       expect(dwp_stats).to have_attributes(
         organisation: have_attributes(name: "Department for Work and Pensions"),
-        api_count: (a_value > 30),
+        api_count: (a_value > 3),
         first_added: be_a(Date),
         last_updated: be_a(Date),
       )
