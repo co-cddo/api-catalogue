@@ -2,9 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     Ascii85 (1.1.0)
-    activemodel (7.0.8.4)
-      activesupport (= 7.0.8.4)
-    activesupport (7.0.8.4)
+    activemodel (7.0.8.6)
+      activesupport (= 7.0.8.6)
+    activesupport (7.0.8.6)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
