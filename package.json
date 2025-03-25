@@ -10,7 +10,7 @@
     "jquery": "^3",
     "lodash": "^4.17.21",
     "mark.js": "^8.11.1",
-    "tablesort": "^5.2.1"
+    "tablesort": "^5.5.0"
   },
   "devDependencies": {
     "standard": "^17.1.2"
