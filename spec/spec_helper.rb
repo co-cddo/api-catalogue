@@ -1,3 +1,4 @@
+require "logger"
 require "factory_bot"
 
 RSpec.configure do |config|
