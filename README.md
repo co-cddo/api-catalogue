@@ -2,7 +2,7 @@
 
 This API catalogue is for central government and local government APIs.
 
-If you're working on an API that publishes open data or connects government with other organisations, industry or consumers, we’d like to invite you to publish details of it in this catalogue. You can publish details of your API by submitting a [GitHub Issue](https://github.com/co-cddo/api-catalogue/issues).
+If you are working on an API that publishes open data or connects government with other organisations, industry or consumers, we’d like to invite you to publish details of it in this catalogue. You can publish details of your API by submitting a [GitHub Issue](https://github.com/co-cddo/api-catalogue/issues).
 
 Collecting a list of government APIs will help us understand:
 
