@@ -30,8 +30,4 @@ licence.
 
 ## Data sources
 
-Note that data used to generate the catalogue is mainly held in a local CSV file: data/catalogue.csv.
-
-However, additional data is pulled from https://github.com/co-cddo/api-catalogue-data-source as JSON. For convenience, this additional
-data has been extracted into a local CSV file data/catalogue-from-json-source.csv to make it easier to compare or combine with the data
-in catalogue.csv.
+The data used to generate the catalogue is held in a local CSV file: data/catalogue.csv.
