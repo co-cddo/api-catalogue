@@ -251,7 +251,7 @@ GEM
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
     temple (0.10.0)
-    thor (1.2.1)
+    thor (1.4.0)
     tilt (2.0.11)
     toml (0.3.0)
       parslet (>= 1.8.0, < 3.0.0)
