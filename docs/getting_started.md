@@ -73,11 +73,3 @@ request is merged it'll be published automatically. See the
 [ruby-version]: ../.ruby-version
 [pull-request]: https://gds-way.cloudapps.digital/standards/pull-requests.html
 [deployment]: ./deployment.md
-
-## Scorecard action
-
-Note that there is a scorecard action. This relies on a token to access parts of
-the repository. The token expires periodically.
-
-See the [scorecard-action README](https://github.com/ossf/scorecard-action#authentication-with-fine-grained-pat-optional)
-for instructions on updated the token.
