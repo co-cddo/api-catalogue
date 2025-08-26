@@ -1765,85 +1765,77 @@
             <h1 id="gp-connect-access-record-structured-fhir-api">GP Connect Access Record: Structured - FHIR API</h1>
 
   <h2>Overview</h2>
-  <p> </p>
-
-<p>Use this API to access structured information from a patient’s registered GP practice record. Structured information is patient data in a coded format that a consuming system can import and process.</p>
+  <p>Use this API to access structured information from a patient’s registered GP practice record. Structured information is patient data in a coded format that a consuming system can import and process.</p>
 
 <p>The API accesses GP principal supplier systems, provides a consistent interface and data model, and is brokered through Spine. </p>
 
 <p>You can retrieve data from GP practice records for the following areas:</p>
 
-<p>medications</p>
-
-<p>allergies</p>
+<ul>
+<li>medications</li>
+<li>allergies</li>
+</ul>
 
 <p>Data is available for the following clinical areas:</p>
 
-<p>immunizations</p>
-
-<p>consultations</p>
-
-<p>problems</p>
-
-<p>investigations</p>
-
-<p>outbound referrals</p>
-
-<p>diary entries</p>
-
-<p>uncategorised data (other clinically coded items that are present in the record)</p>
+<ul>
+<li>immunizations</li>
+<li>consultations</li>
+<li>problems</li>
+<li>investigations</li>
+<li>outbound referrals</li>
+<li>diary entries</li>
+<li>uncategorised data (other clinically coded items that are present in the record)</li>
+</ul>
 
 <p>These clinical areas are still in development; there is enough data to test, but it is subject to change as GP systems suppliers go through the development process.</p>
 
 <p>It does not include:</p>
 
-<p>extended demographics information - for example, about carers</p>
-
-<p>flags and alerts</p>
-
-<p>templates</p>
-
-<p>test requests</p>
+<ul>
+<li>extended demographics information - for example, about carers</li>
+<li>flags and alerts</li>
+<li>templates</li>
+<li>test requests</li>
+</ul>
 
 <p>Common use cases include:</p>
 
-<p>access GP medications on admission to secondary care, reducing transcription errors</p>
-
-<p>active checking of a patient&#39;s prescription in unscheduled care</p>
-
-<p>out-of-hours GP accesses patient&#39;s medications, allergies and problems</p>
-
-<p>midwife views patient record before visiting a patient</p>
-
-<p>community cardiac nurse accesses GP record before visiting a patient</p>
+<ul>
+<li>access GP medications on admission to secondary care, reducing transcription errors</li>
+<li>active checking of a patient&#39;s prescription in unscheduled care</li>
+<li>out-of-hours GP accesses patient&#39;s medications, allergies and problems</li>
+<li>midwife views patient record before visiting a patient</li>
+<li>community cardiac nurse accesses GP record before visiting a patient</li>
+</ul>
 
 <p>For more details, see the GP Connect Access Record: Structured specification.</p>
 
 <p>You cannot currently use this API to:</p>
 
-<p>create patient-facing views of a medical record</p>
+<ul>
+<li>create patient-facing views of a medical record</li>
+<li>create reports for secondary use, such as care planning</li>
+<li>write back to the GP record</li>
+</ul>
 
-<p>create reports for secondary use, such as care planning</p>
-
-<p>write back to the GP record</p>
-
-<p>Retrieving documents</p>
+<h2>Retrieving documents</h2>
 
 <p>To retrieve documents from a patient’s registered GP practice, use GP Connect Access Document - FHIR API. After you&#39;ve found the relevant document references within Access Record returns, use GP Connect Access Document to retrieve the documents. All documents can be requested separately.</p>
 
 <p>Start your development work within 6 months of use case approval. If you miss this date, a review or new submission of the use case will be required. Changes or additional development will also require a review or new use case submission. For full details of the technical conformance process, see GP Connect Consumer Supplier Test Assurance for achieving Technical Conformance (PDF).</p>
 
-<p>Clinical assurance process</p>
+<h2>Clinical assurance process</h2>
 
 <p>We are here to support you to develop clinically safe systems in line with your responsibility to achieve the relevant DCB0129 or DCB0160 clinical safety standards. </p>
 
 <p>We host a series of meetings to help you develop clinically safe systems:</p>
 
-<p>initial meeting</p>
-
-<p>clinical safety process readiness review meeting</p>
-
-<p>clinical evaluation of readiness for deployment meeting</p>
+<ul>
+<li>initial meeting</li>
+<li>clinical safety process readiness review meeting</li>
+<li>clinical evaluation of readiness for deployment meeting</li>
+</ul>
 
 <p>For more information, see Clinical assurance process details. </p>
 

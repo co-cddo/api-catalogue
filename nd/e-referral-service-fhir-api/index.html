@@ -1767,81 +1767,65 @@
   <h2>Overview</h2>
   <p>Use this API to create paperless referrals from primary to secondary care with the e-Referral Service (e-RS). As a primary care referrer, you can: </p>
 
-<p>create a new e-referral</p>
-
-<p>search for relevant patient services to create a shortlist</p>
-
-<p>access existing e-referrals</p>
-
-<p>create a triage request for the Referral Assessment Service (RAS)</p>
-
-<p>upload and manage a patient letter or attachments, linking them to a referral</p>
-
-<p>retrieve appointment slots and book appointments</p>
-
-<p>defer a booking to a provider if an appointment slot is unavailable</p>
+<ul>
+<li>create a new e-referral</li>
+<li>search for relevant patient services to create a shortlist</li>
+<li>access existing e-referrals</li>
+<li>create a triage request for the Referral Assessment Service (RAS)</li>
+<li>upload and manage a patient letter or attachments, linking them to a referral</li>
+<li>retrieve appointment slots and book appointments</li>
+<li>defer a booking to a provider if an appointment slot is unavailable</li>
+</ul>
 
 <p>As a secondary care provider, you can: </p>
 
-<p>access referrals as a worklist</p>
-
-<p>retrieve non-clinical information (meta-data) about the referral</p>
-
-<p>retrieve attachments which are linked to a referral or triage (RAS) request</p>
-
-<p>retrieve clinical information which has been provided by a referrer</p>
-
-<p>accept or reject a referral request</p>
-
-<p>retrieve Advice &amp; Guidance (A&amp;G) conversations and send responses</p>
-
-<p>convert Advice &amp; Guidance (A&amp;G) conversations into a referral</p>
+<ul>
+<li>access referrals as a worklist</li>
+<li>retrieve non-clinical information (meta-data) about the referral</li>
+<li>retrieve attachments which are linked to a referral or triage (RAS) request</li>
+<li>retrieve clinical information which has been provided by a referrer</li>
+<li>accept or reject a referral request</li>
+<li>retrieve Advice &amp; Guidance (A&amp;G) conversations and send responses</li>
+<li>convert Advice &amp; Guidance (A&amp;G) conversations into a referral</li>
+</ul>
 
 <p>You cannot use this API to: </p>
 
-<p>get patient details – instead, use the Personal Demographic Service (PDS)</p>
+<ul>
+<li>get patient details – instead, use the Personal Demographic Service (PDS)</li>
+</ul>
 
 <p>You can access the following data: </p>
 
-<p>referral attachments</p>
+<ul>
+<li>referral attachments</li>
+<li>referral letters</li>
+<li>appointment slots</li>
+<li>worklists for referral requests</li>
+<li>worklists for triage (RAS) requests</li>
+<li>worklists for Advice and Guidance (A&amp;G) requests</li>
+<li>conversation histories for Advice and Guidance (A&amp;G) requests</li>
+</ul>
 
-<p>referral letters</p>
+<h2>Access modes</h2>
 
-<p>appointment slots</p>
+<p>This API has two access modes: </p>
 
-<p>worklists for referral requests</p>
+<h3>Application-restricted, unattended access</h3>
 
-<p>worklists for triage (RAS) requests</p>
+<ul>
+<li>Authentication via: Signed JWT </li>
+<li>Functions: A004, A005, A006, A007, A024, A025 and A043 </li>
+<li>Availability: In production, beta</li>
+</ul>
 
-<p>worklists for Advice and Guidance (A&amp;G) requests</p>
+<h3>Healthcare worker, user-restricted access</h3>
 
-<p>conversation histories for Advice and Guidance (A&amp;G) requests</p>
-
-<p>Access modes This API has two access modes: </p>
-
-<p>Access mode</p>
-
-<p>Authentication via</p>
-
-<p>Functions</p>
-
-<p>Availability</p>
-
-<p>Application-restricted, unattended access</p>
-
-<p>Signed JWT</p>
-
-<p>A004, A005, A006, A007, A024, A025 and A043</p>
-
-<p>In production, beta</p>
-
-<p>Healthcare worker, user-restricted access</p>
-
-<p>CIS2</p>
-
-<p>All Endpoints</p>
-
-<p>In production, beta</p>
+<ul>
+<li>Authentication via: CIS2</li>
+<li>Functions: All Endpoints</li>
+<li>Availability: In production, beta</li>
+</ul>
 
 <p>Application-restricted, unattended access This access mode has been introduced to allow a Partner application which has been registered with us and authenticated via signed JWT to interact with a subset of e-RS FHIR API endpoints in an unattended and read-only fashion.</p>
 

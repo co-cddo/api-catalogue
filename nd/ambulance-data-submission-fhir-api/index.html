@@ -1767,33 +1767,34 @@
   <h2>Overview</h2>
   <p>Use this API to submit ambulance data to our Data Processing Service (DPS) so that it can be made available for analysis and review by NHS England and ambulance trusts. Ambulance data is information relating to emergency calls (999, 111 and others), received at an Emergency Operations Centre (EOC) and processed into a Computer Aided Despatch (CAD) system, including: </p>
 
-<p>call details</p>
-
-<p>response details - including response times and episode outcome times patient</p>
-
-<p>contact details - including patient demographics, patient response details, patient information, injury information, patient assessment, medication, observations, diagnoses, conveying outcome, safeguarding and public health information</p>
+<ul>
+<li>call details</li>
+<li>response details - including response times and episode outcome times patient</li>
+<li>contact details - including patient demographics, patient response details, patient information, injury information, patient assessment, medication, observations, diagnoses, conveying outcome, safeguarding and public health information</li>
+</ul>
 
 <p>You can: </p>
 
-<p>post ambulance data individually or in batches</p>
+<ul>
+<li>post ambulance data individually or in batches</li>
+</ul>
 
 <p>You cannot: </p>
 
-<p>read any of the records stored in DPS</p>
+<ul>
+<li>read any of the records stored in DPS</li>
+</ul>
 
 <p>The API is asynchronous - when you submit data, it acknowledges receipt without validating or processing the data first. To receive error notifications, you need to use MESH. The following diagram illustrates the end-to-end process:  The following describes the end-to-end process: </p>
 
-<p>The ambulance trust system sends the ambulance data to the Ambulance Data Submission API.</p>
-
-<p>The Ambulance Data Submission (ADS) API forwards the ambulance data to our Data Processing System (DPS).</p>
-
-<p>If there is an error, DPS sends an error notification to MESH.</p>
-
-<p>The ambulance trust system retrieves the error notification from MESH.</p>
-
-<p>An ADS User views the ambulance data in our NHS Digital ADS Dashboards.</p>
-
-<p>The NHS Digital ADS Dashboards get the ambulance data from DPS.</p>
+<ul>
+<li>The ambulance trust system sends the ambulance data to the Ambulance Data Submission API.</li>
+<li>The Ambulance Data Submission (ADS) API forwards the ambulance data to our Data Processing System (DPS).</li>
+<li>If there is an error, DPS sends an error notification to MESH.</li>
+<li>The ambulance trust system retrieves the error notification from MESH.</li>
+<li>An ADS User views the ambulance data in our NHS Digital ADS Dashboards.</li>
+<li>The NHS Digital ADS Dashboards get the ambulance data from DPS.</li>
+</ul>
 
 
 

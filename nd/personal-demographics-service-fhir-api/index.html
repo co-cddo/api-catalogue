@@ -1767,81 +1767,64 @@
   <h2>Overview</h2>
   <p>Use this API to access the Personal Demographics Service (PDS) - the national electronic database of NHS patient details such as name, address, date of birth, related people, registered GP and NHS number. You can: </p>
 
-<p>search for patients</p>
-
-<p>get patient details</p>
-
-<p>update patient details</p>
-
-<p>verify an NHS number for a patient</p>
+<ul>
+<li>search for patients</li>
+<li>get patient details</li>
+<li>update patient details</li>
+<li>verify an NHS number for a patient</li>
+</ul>
 
 <p>You cannot currently use this API to: </p>
 
-<p>create a new record for a birth - use PDS HL7 V3 API</p>
-
-<p>receive birth notifications - use PDS HL7 V3 API or PDS Notifications FHIR API</p>
-
-<p>create a record for a new patient - use PDS HL7 V3 API</p>
-
-<p>register a new patient at a GP Practice - use NHAIS GP Links API</p>
-
-<p>receive patient death notifications - use PDS Notifications FHIR API</p>
-
-<p>receive notifications about a patient&#39;s change of address - use PDS Notifications FHIR API</p>
-
-<p>receive notifications about a patient&#39;s change of GP - use PDS Notifications FHIR API</p>
-
-<p>receive notifications about any PDS record change - use PDS Notifications FHIR API</p>
+<ul>
+<li>create a new record for a birth - use PDS HL7 V3 API</li>
+<li>receive birth notifications - use PDS HL7 V3 API or PDS Notifications FHIR API</li>
+<li>create a record for a new patient - use PDS HL7 V3 API</li>
+<li>register a new patient at a GP Practice - use NHAIS GP Links API</li>
+<li>receive patient death notifications - use PDS Notifications FHIR API</li>
+<li>receive notifications about a patient&#39;s change of address - use PDS Notifications FHIR API</li>
+<li>receive notifications about a patient&#39;s change of GP - use PDS Notifications FHIR API</li>
+<li>receive notifications about any PDS record change - use PDS Notifications FHIR API</li>
+</ul>
 
 <p>You can read and update the following data: </p>
 
-<p>NHS number (read only)</p>
-
-<p>name</p>
-
-<p>gender</p>
-
-<p>addresses and contact details</p>
-
-<p>birth information</p>
-
-<p>death information</p>
-
-<p>registered GP</p>
-
-<p>nominated pharmacy</p>
-
-<p>dispensing doctor pharmacy</p>
-
-<p>medical appliance supplier pharmacy</p>
-
-<p>related people, such as next of kin (read only - update coming soon)</p>
+<ul>
+<li>NHS number (read only)</li>
+<li>name</li>
+<li>gender</li>
+<li>addresses and contact details</li>
+<li>birth information</li>
+<li>death information</li>
+<li>registered GP</li>
+<li>nominated pharmacy</li>
+<li>dispensing doctor pharmacy</li>
+<li>medical appliance supplier pharmacy</li>
+<li>related people, such as next of kin (read only - update coming soon)</li>
+</ul>
 
 <p>Patients included in PDS Regardless of nationality, or where they live now, PDS includes all patients who have ever been registered with a GP practice, or treated by a health or care organisation (even as a visitor or migrant) in England, Wales, the Isle of Man, or in a UK Defence Medical Services unit anywhere in the world. All patients in PDS have an NHS number which is unique. The 10-digit NHS number is used in England, Wales, the Isle of Man, Scotland and Northern Ireland, but not the Channel Islands. Scotland and Northern Ireland have their own distinct number ranges. Access modes This API has three access modes: </p>
 
-<p>Access mode</p>
+<h3>Application-restricted access</h3>
 
-<p>Functions</p>
+<ul>
+<li>Search for a patient (single result).Get patient details.</li>
+<li>Available in production (stable)</li>
+</ul>
 
-<p>Availability</p>
+<h3>Healthcare worker access</h3>
 
-<p>Application-restricted access</p>
+<ul>
+<li>Search for patients (multiple results).Get patient details.Update patient details.</li>
+<li>Available in production (beta)</li>
+</ul>
 
-<p>Search for a patient (single result).Get patient details.</p>
+<h3>Patient access</h3>
 
-<p>Available in production (stable)</p>
-
-<p>Healthcare worker access</p>
-
-<p>Search for patients (multiple results).Get patient details.Update patient details.</p>
-
-<p>Available in production (beta)</p>
-
-<p>Patient access</p>
-
-<p>Get own details.Update own details (limited).</p>
-
-<p>Available in production (beta)</p>
+<ul>
+<li>Get own details.Update own details (limited).</li>
+<li>Available in production (beta)</li>
+</ul>
 
 <p>For further details about the access modes for this API, see Security and authorisation below. </p>
 
