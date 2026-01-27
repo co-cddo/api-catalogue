@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    ports:
+      - "4567:4567"
+    command: bundle exec middleman server --bind-address 0.0.0.0
+    volumes:
+      - .:/app
+      - bundle:/usr/local/bundle
+      - node_modules:/app/node_modules
+
+volumes:
+  bundle:
+  node_modules:
