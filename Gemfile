@@ -29,19 +29,19 @@ end
 
 # From tech-docs-gem - to be revised
 gem "activesupport"
-gem "mutex_m"
 gem "base64"
 gem "csv"
-gem "net-http"
-gem "singleton"
 gem "middleman", "~> 4.5"
 gem "middleman-autoprefixer"
 gem "middleman-compass"
 gem "middleman-livereload"
 gem "middleman-search-gds"
 gem "middleman-sprockets"
+gem "mutex_m"
+gem "net-http"
 gem "redcarpet"
 gem "sass"
+gem "singleton"
 gem "sprockets"
 
 gem "builder", "~> 3.3"
