@@ -54,5 +54,6 @@ jobs:
           source-dir: ./build/
           preview-branch: gh-pages
           umbrella-dir: pr-preview
+          pages-base-url: www.api.gov.uk
           action: auto
           wait-for-pages-deployment: true
