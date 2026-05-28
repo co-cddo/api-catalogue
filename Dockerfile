@@ -12,4 +12,4 @@ RUN gem install bundler:1.17.2 && bundle install --jobs=4 --retry=3
 
 COPY . /app
 
-CMD ["bundle", "exec", "middleman", "serve"]
+CMD ["bundle", "exec", "middleman", "serve", "--bind-address=0.0.0.0"]

@@ -1,0 +1,59 @@
+name: PR review app
+
+# Publishes a static preview of each pull request to
+# https://<owner>.github.io/<repo>/pr-preview/pr-<N>/ by committing the
+# Middleman build into a subdirectory of the existing gh-pages branch.
+# Cleanup happens automatically on pull_request `closed` events.
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency:
+  group: pr-preview-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout pull request
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+
+      - name: Set up Ruby
+        if: github.event.action != 'closed'
+        uses: ruby/setup-ruby@ca041f971d66735f3e5ff1e21cc13e2d51e7e535
+        with:
+          bundler-cache: true
+
+      - name: Set up Node
+        if: github.event.action != 'closed'
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '16'
+
+      - name: Install NPM dependencies
+        if: github.event.action != 'closed'
+        run: npm install
+
+      - name: Build site
+        if: github.event.action != 'closed'
+        run: bundle exec rake build
+
+      - name: Deploy / remove preview
+        uses: rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9
+        with:
+          source-dir: ./build/
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          pages-base-url: www.api.gov.uk
+          action: auto
+          wait-for-pages-deployment: true
