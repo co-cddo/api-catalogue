@@ -35,7 +35,7 @@ RSpec.describe ApiCatalogue do
       )
     end
 
-    context "bulk import from synthetic CSV fixtures" do
+    context "with synthetic CSV fixtures for bulk import" do
       def with_csvs(catalogue_content, organisation_content)
         Tempfile.create(["catalogue", ".csv"]) do |cat_file|
           Tempfile.create(["organisation", ".csv"]) do |org_file|

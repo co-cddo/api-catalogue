@@ -5,7 +5,7 @@
 # Usage:
 #   bin/test                  Run the whole suite
 #   bin/test bulk             Run spec/lib/api_catalogue_spec.rb
-#   bin/test context          Run only the "bulk import from synthetic CSV fixtures" context
+#   bin/test context          Run only the "with synthetic CSV fixtures for bulk import" context
 #   bin/test line <N>         Run the example at spec/lib/api_catalogue_spec.rb:<N>
 #   bin/test -h | --help      Show this help
 #
@@ -28,7 +28,7 @@ REPO_ROOT=$(cd "$(dirname "$0")/.." && pwd)
 cd "$REPO_ROOT"
 
 BULK_SPEC="spec/lib/api_catalogue_spec.rb"
-BULK_CONTEXT="bulk import from synthetic CSV fixtures"
+BULK_CONTEXT="with synthetic CSV fixtures for bulk import"
 
 if [[ -t 2 ]]; then
   C_DIM='\033[2m'; C_BOLD='\033[1m'; C_GREEN='\033[32m'; C_YELLOW='\033[33m'; C_RESET='\033[0m'
