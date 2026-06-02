@@ -1,4 +1,5 @@
 require "api_catalogue"
+require "tempfile"
 require "webmock/rspec"
 
 RSpec.describe ApiCatalogue do
@@ -32,6 +33,111 @@ RSpec.describe ApiCatalogue do
         description: be_present,
         url: "https://api.notifications.service.gov.uk/",
       )
+    end
+
+    context "bulk import from synthetic CSV fixtures" do
+      def with_csvs(catalogue_content, organisation_content)
+        Tempfile.create(["catalogue", ".csv"]) do |cat_file|
+          Tempfile.create(["organisation", ".csv"]) do |org_file|
+            cat_file.write(catalogue_content)
+            cat_file.flush
+            org_file.write(organisation_content)
+            org_file.flush
+            yield cat_file.path, org_file.path
+          end
+        end
+      end
+
+      let(:organisations_csv) do
+        <<~CSV
+          id,name,alternateName,url
+          example-dept,Example Department,EXD,https://example.gov.uk
+          other-dept,Other Department,OD,https://other.gov.uk
+        CSV
+      end
+
+      let(:apis_csv) do
+        <<~CSV
+          dateAdded,dateUpdated,url,name,description,documentation,license,maintainer,areaServed,startDate,endDate,provider
+          2024-01-15,2024-02-01,https://api.example.gov.uk/one,API One,First API,https://docs/one,MIT,team@example.gov.uk,UK,2024-01-01,,example-dept
+          2024-03-10,2024-03-10,https://api.example.gov.uk/two,API Two,Second API,https://docs/two,MIT,team@example.gov.uk,UK,,,example-dept
+          2024-04-01,2024-04-01,https://api.other.gov.uk/three,API Three,Third API,https://docs/three,MIT,team@other.gov.uk,UK,,,other-dept
+        CSV
+      end
+
+      it "imports every row and groups APIs under their providing organisation" do
+        with_csvs(apis_csv, organisations_csv) do |cat_path, org_path|
+          catalogue = described_class.from_csv(catalogue_csv: cat_path, organisation_csv: org_path)
+
+          expect(catalogue.organisations_apis.keys.map(&:name))
+            .to contain_exactly("Example Department", "Other Department")
+
+          example, example_apis = catalogue.organisations_apis.detect { |o, _| o.name == "Example Department" }
+          expect(example.alternate_name).to eq("EXD")
+          expect(example_apis.map(&:name)).to eq(["API One", "API Two"])
+
+          _, other_apis = catalogue.organisations_apis.detect { |o, _| o.name == "Other Department" }
+          expect(other_apis.map(&:name)).to eq(["API Three"])
+        end
+      end
+
+      it "coerces date columns into Date instances" do
+        with_csvs(apis_csv, organisations_csv) do |cat_path, org_path|
+          catalogue = described_class.from_csv(catalogue_csv: cat_path, organisation_csv: org_path)
+
+          api_one = catalogue.organisations_apis.values.flatten.detect { |a| a.name == "API One" }
+
+          expect(api_one.date_added).to eq(Date.new(2024, 1, 15))
+          expect(api_one.date_updated).to eq(Date.new(2024, 2, 1))
+          expect(api_one.start_date).to eq(Date.new(2024, 1, 1))
+          expect(api_one.end_date).to be_nil
+        end
+      end
+
+      it "keeps organisations with no published APIs in the grouping with an empty list" do
+        orgs = <<~CSV
+          id,name,alternateName,url
+          empty-dept,Empty Department,ED,https://empty.gov.uk
+          example-dept,Example Department,EXD,https://example.gov.uk
+        CSV
+        apis = <<~CSV
+          dateAdded,dateUpdated,url,name,description,documentation,license,maintainer,areaServed,startDate,endDate,provider
+          2024-01-15,2024-02-01,https://api.example.gov.uk/one,API One,First API,https://docs/one,MIT,team,UK,,,example-dept
+        CSV
+
+        with_csvs(apis, orgs) do |cat_path, org_path|
+          catalogue = described_class.from_csv(catalogue_csv: cat_path, organisation_csv: org_path)
+
+          empty_org, empty_apis = catalogue.organisations_apis.detect { |o, _| o.name == "Empty Department" }
+          expect(empty_org).not_to be_nil
+          expect(empty_apis).to eq([])
+        end
+      end
+
+      it "drops imported APIs whose provider does not match any organisation" do
+        orphan_apis = <<~CSV
+          dateAdded,dateUpdated,url,name,description,documentation,license,maintainer,areaServed,startDate,endDate,provider
+          2024-01-15,2024-02-01,https://api.example.gov.uk/ghost,Ghost API,Orphan,https://docs/ghost,MIT,team,UK,,,unknown-dept
+        CSV
+
+        with_csvs(orphan_apis, organisations_csv) do |cat_path, org_path|
+          catalogue = described_class.from_csv(catalogue_csv: cat_path, organisation_csv: org_path)
+
+          expect(catalogue.organisations_apis.values.flatten).to be_empty
+          expect(catalogue.organisations_apis.keys).not_to be_empty
+        end
+      end
+
+      it "produces an empty catalogue when both CSVs contain only headers" do
+        empty_apis = "dateAdded,dateUpdated,url,name,description,documentation,license,maintainer,areaServed,startDate,endDate,provider\n"
+        empty_orgs = "id,name,alternateName,url\n"
+
+        with_csvs(empty_apis, empty_orgs) do |cat_path, org_path|
+          catalogue = described_class.from_csv(catalogue_csv: cat_path, organisation_csv: org_path)
+
+          expect(catalogue.organisations_apis).to eq({})
+        end
+      end
     end
   end
 

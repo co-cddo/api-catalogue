@@ -1,0 +1,149 @@
+#!/usr/bin/env bash
+
+# Runs the RSpec test suite.
+#
+# Usage:
+#   bin/test                  Run the whole suite
+#   bin/test bulk             Run spec/lib/api_catalogue_spec.rb
+#   bin/test context          Run only the "bulk import from synthetic CSV fixtures" context
+#   bin/test line <N>         Run the example at spec/lib/api_catalogue_spec.rb:<N>
+#   bin/test -h | --help      Show this help
+#
+# Verbosity (env vars):
+#   QUIET=1      Suppress the documentation format (use default progress dots)
+#   PROFILE=1    Append --profile to show the 10 slowest examples
+#   TRACE=1      Print each shell command as it runs (set -x)
+#
+# Any extra arguments after the subcommand are forwarded to rspec, e.g.:
+#   bin/test bulk --fail-fast
+#   bin/test -- --tag focus
+
+set -euo pipefail
+
+if [[ "${TRACE:-0}" == "1" ]]; then
+  set -x
+fi
+
+REPO_ROOT=$(cd "$(dirname "$0")/.." && pwd)
+cd "$REPO_ROOT"
+
+BULK_SPEC="spec/lib/api_catalogue_spec.rb"
+BULK_CONTEXT="bulk import from synthetic CSV fixtures"
+
+if [[ -t 2 ]]; then
+  C_DIM='\033[2m'; C_BOLD='\033[1m'; C_GREEN='\033[32m'; C_YELLOW='\033[33m'; C_RESET='\033[0m'
+else
+  C_DIM=''; C_BOLD=''; C_GREEN=''; C_YELLOW=''; C_RESET=''
+fi
+
+log()  { printf "${C_DIM}[bin/test]${C_RESET} %b\n" "$*" >&2; }
+step() { printf "${C_BOLD}${C_GREEN}==>${C_RESET} %b\n" "$*" >&2; }
+warn() { printf "${C_BOLD}${C_YELLOW}!! ${C_RESET} %b\n" "$*" >&2; }
+
+usage() {
+  sed -n '3,19p' "$0" | sed 's/^# \{0,1\}//'
+}
+
+required_ruby=$(cat .ruby-version 2>/dev/null || echo "")
+required_bundler=$(awk '/BUNDLED WITH/{getline; gsub(/ /,""); print; exit}' Gemfile.lock 2>/dev/null || echo "")
+
+preflight() {
+  step "Preflight checks"
+
+  local active_ruby
+  active_ruby=$(ruby -e 'print RUBY_VERSION' 2>/dev/null || echo "none")
+  log "ruby:    $(command -v ruby || echo 'not found') ($active_ruby)"
+  log "needed:  $required_ruby (from .ruby-version)"
+
+  if [[ "$active_ruby" != "$required_ruby" ]]; then
+    cat >&2 <<EOF
+
+bin/test: wrong Ruby active.
+  required: $required_ruby (from .ruby-version)
+  active:   $active_ruby ($(command -v ruby || echo 'not found'))
+
+Fix:
+  1. rbenv install $required_ruby
+  2. Add rbenv to your shell (one-time):
+       echo 'eval "\$(rbenv init - zsh)"' >> ~/.zshrc
+       exec zsh
+  3. gem install bundler -v $required_bundler
+  4. bundle install
+EOF
+    exit 69
+  fi
+
+  if ! bundle --version >/dev/null 2>&1; then
+    warn "bundler not available for Ruby $required_ruby"
+    echo "Run: gem install bundler -v $required_bundler" >&2
+    exit 69
+  fi
+  log "bundler: $(bundle --version)"
+
+  log "checking gem dependencies..."
+  if ! bundle check >/dev/null 2>&1; then
+    warn "gems are missing"
+    echo "Run: bundle install" >&2
+    exit 69
+  fi
+  log "gem dependencies satisfied"
+}
+
+# Default rspec flags. Documentation format with colour so each example name
+# is printed as it runs. Override with QUIET=1 or PROFILE=1.
+DEFAULT_RSPEC_ARGS=()
+if [[ "${QUIET:-0}" != "1" ]]; then
+  DEFAULT_RSPEC_ARGS+=(--format documentation --color)
+fi
+if [[ "${PROFILE:-0}" == "1" ]]; then
+  DEFAULT_RSPEC_ARGS+=(--profile)
+fi
+
+run_rspec() {
+  local label="$1"; shift
+
+  step "Running: $label"
+  log "command: bundle exec rspec ${DEFAULT_RSPEC_ARGS[*]:-} $*"
+  echo >&2
+  exec bundle exec rspec ${DEFAULT_RSPEC_ARGS[@]+"${DEFAULT_RSPEC_ARGS[@]}"} "$@"
+}
+
+cmd=${1:-suite}
+[[ $# -gt 0 ]] && shift || true
+
+case "$cmd" in
+  -h|--help|help)
+    usage
+    exit 0
+    ;;
+  suite|all|"")
+    preflight
+    run_rspec "whole suite" "$@"
+    ;;
+  bulk|spec)
+    preflight
+    run_rspec "bulk-import spec ($BULK_SPEC)" "$BULK_SPEC" "$@"
+    ;;
+  context)
+    preflight
+    run_rspec "context: \"$BULK_CONTEXT\"" "$BULK_SPEC" -e "$BULK_CONTEXT" "$@"
+    ;;
+  line)
+    if [[ $# -lt 1 ]]; then
+      echo "error: 'line' needs a line number, e.g. bin/test line 36" >&2
+      exit 64
+    fi
+    line=$1; shift
+    preflight
+    run_rspec "single example at ${BULK_SPEC}:${line}" "${BULK_SPEC}:${line}" "$@"
+    ;;
+  --)
+    preflight
+    run_rspec "rspec with passthrough args" "$@"
+    ;;
+  *)
+    echo "error: unknown command '$cmd'" >&2
+    usage >&2
+    exit 64
+    ;;
+esac
