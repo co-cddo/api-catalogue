@@ -84,9 +84,18 @@ id,name,alternateName,url
 7. A maintainer will review and merge. Once merged, deployment is automatic
    (see [deployment.md](./deployment.md)).
 
+## Getting help
+
+If you have any issues updating then contact
+[catalogue@digital.cabinet-office.gov.uk](mailto:catalogue@digital.cabinet-office.gov.uk)
+and we will try to provide further assistance.
+
 ## Common pitfalls
 
 - **`provider` does not match an organisation `id`** — the API will be silently dropped from the rendered site. `bin/test bulk` catches this.
 - **Mixed line endings** — keep CSV files using LF. Some spreadsheet apps export CRLF.
 - **Spreadsheet auto-formatting** — Excel/Numbers may convert dates or strip leading zeros. Prefer editing the file in a text editor, or export with explicit ISO date formatting.
 - **Adding a new organisation but forgetting to update `organisation.csv`** — every `provider` value must have a matching row.
+
+
+
