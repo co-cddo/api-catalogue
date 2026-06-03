@@ -87,7 +87,7 @@ id,name,alternateName,url
 ## Getting help
 
 If you have any issues updating then contact
-[catalogue@digital.cabinet-office.gov.uk](mailto:catalogue@digital.cabinet-office.gov.uk)
+[api-catalogue@digital.cabinet-office.gov.uk](mailto:api-catalogue@digital.cabinet-office.gov.uk)
 and we will try to provide further assistance.
 
 ## Common pitfalls
