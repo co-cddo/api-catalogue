@@ -9,6 +9,8 @@ Pages describing the APIs are dynamically generated from the following CSV files
 - `data/organisation.csv` details the Organisations / Departments
 - `data/catalogue.csv` details the APIs
 
+If you need to add or update multiple APIs at once, see [Submitting a bulk update](./bulk_update.md).
+
 Content for other pages is based on Markdown files located in the `source`
 directory.
 
