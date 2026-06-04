@@ -12,6 +12,19 @@ on:
       - reopened
       - synchronize
       - closed
+    paths:
+      - 'source/**'
+      - 'data/**'
+      - 'lib/**'
+      - 'helpers/**'
+      - 'config.rb'
+      - 'Gemfile'
+      - 'Gemfile.lock'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'Rakefile'
+      - 'Gemfile.lock'
+      - 'package-lock.json'
 
 concurrency:
   group: pr-preview-${{ github.ref }}
