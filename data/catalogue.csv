@@ -1790,3 +1790,4 @@ This integration uses a publish-subscribe model - the sending system publishes
 For example, when a GP system records a vaccination, it sends an event message containing the vaccination details to NEMS. NEMS then sends the message to all healthcare workers who have subscribed to receive vaccination event messages. 
 
 ",https://digital.nhs.uk/developer/api-catalogue/vaccination-events-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
+2026-06-09,2026-06-09,https://www.planning.data.gov.uk/,Planning and housing data in England,"Planning and housing data in England provides access to datasets about planning and housing across England. The service brings together data from many organisations and makes it available as open data for use by developers, researchers, and planning authorities.",https://www.planning.data.gov.uk/docs,,digitalland@communities.gov.uk,England,,,ministry-of-housing-communities-local-government
