@@ -1791,10 +1791,12 @@ For example, when a GP system records a vaccination, it sends an event message c
 
 ",https://digital.nhs.uk/developer/api-catalogue/vaccination-events-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
 2026-06-24,2026-06-24,https://findajob.dwp.gov.uk,Find a Job,"This API is implementing a simple method to automatically retrieve information about job ads meeting a custom set of criteria.It is aimed to be a replacement of the existing Universal Jobmatch API. The API can be used by cross government departments to integrate with their jobs portal or us within their website.
-Examples
-- School teacher jobs within 5 miles of London E1W, from 30k upwards/search?w=E1W&d=5&sf=30000&q=school+teacher
-- C++ jobs in London /search?w=London&q=C%2B%2B
-- All jobs in Scotland /search?w=Scotlandor/search?loc=86442
-- All jobs in Scotland with description in HTML format /search?w=Scotland&html_description=1",https://wiki.office.uc.dwpcloud.uk/spaces/Too/pages/336364645/Find+a+Job+API?preview=/336364645/336365676/FJ%20-%20Search%20API.pdf,,"DWP - Department of Works and Pensions
+
+Examples:
+
+- School teacher jobs within 5 miles of London E1W, from 30k — `upwards/search?w=E1W&d=5&sf=30000&q=school+teacher`
+- C++ jobs in London - `/search?w=London&q=C%2B%2B`
+- All jobs in Scotland - `/search?w=Scotlandor/search?loc=86442`
+- All jobs in Scotland with description in HTML format - `/search?w=Scotland&html_description=1`",https://wiki.office.uc.dwpcloud.uk/spaces/Too/pages/336364645/Find+a+Job+API?preview=/336364645/336365676/FJ%20-%20Search%20API.pdf,,"DWP - Department of Works and Pensions
 
 JCS - Jobs and Career service.",United Kingdom,2026-06-24,,department-for-work-and-pensions
