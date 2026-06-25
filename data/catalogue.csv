@@ -1787,7 +1787,16 @@ Using a publish-subscribe model, we share information about these events with h
 
 This integration uses a publish-subscribe model - the sending system publishes events to National Events Management Service (NEMS), and NEMS forwards the events to all subscribed systems via MESH.
 
-For example, when a GP system records a vaccination, it sends an event message containing the vaccination details to NEMS. NEMS then sends the message to all healthcare workers who have subscribed to receive vaccination event messages. 
+For example, when a GP system records a vaccination, it sends an event message containing the vaccination details to NEMS. NEMS then sends the message to all healthcare workers who have subscribed to receive vaccination event messages.
 
 ",https://digital.nhs.uk/developer/api-catalogue/vaccination-events-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
 2026-05-17,2026-05-17,https://environment.data.gov.uk/geoservices/datasets/9f0fa3fc-a860-4729-adc9-47fe53f658d0/ogc/features/v1,Environment Agency OGC API - Features (LIDAR Composite DTM 1m),"Defra Network WFS server provided by the Environment Agency. OpenAPI/OAS3 definition available, with endpoints for landing page, OpenAPI definition, conformance, functions, collections, queryables, items and search. Use content negotiation for HTML or GeoJSON.",https://environment.data.gov.uk/geoservices/datasets/9f0fa3fc-a860-4729-adc9-47fe53f658d0/ogc/features/v1/openapi?f=application%2Fvnd.oai.openapi%2Bjson%3Bversion%3D3.0,Open Government Licence,Defra Data Services Forum,England,2023-02-08,,environment-agency
+2026-06-24,2026-06-24,https://findajob.dwp.gov.uk,Find a Job,"This API is implementing a simple method to automatically retrieve information about job ads meeting a custom set of criteria.It is aimed to be a replacement of the existing Universal Jobmatch API. The API can be used by cross government departments to integrate with their jobs portal or us within their website.
+
+Examples:
+
+- School teacher jobs within 5 miles of London E1W, from 30k — `upwards/search?w=E1W&d=5&sf=30000&q=school+teacher`
+- C++ jobs in London - `/search?w=London&q=C%2B%2B`
+- All jobs in Scotland - `/search?w=Scotlandor/search?loc=86442`
+- All jobs in Scotland with description in HTML format - `/search?w=Scotland&html_description=1`",https://wiki.office.uc.dwpcloud.uk/spaces/Too/pages/336364645/Find+a+Job+API?preview=/336364645/336365676/FJ%20-%20Search%20API.pdf,,"DWP - Department of Works and Pensions; JCS - Jobs and Career service.",United Kingdom,2026-06-24,,department-for-work-and-pensions
+2026-06-24,2026-06-24,https://github.com/Crown-Commercial-Service/ccs-contract-map,Contractmap,"Contractmap is an AI-enabled system that maps contract descriptions to Categories within the Government Commercial Agency (GCA) commercial taxonomy. Given a contract description, it returns the name of a Category if a close match is found, or a null response if no close match is found.",https://github.com/Crown-Commercial-Service/ccs-contract-map,,"Government Commercial Agency (GCA)",,,,government-commercial-agency
