@@ -2,15 +2,6 @@
 
 Thank you for your interest in the API Catalogue. There are two main ways to contribute. Please use the guidelines below depending on your technical capabilities and the nature of your request.
 
-## Updating out-of-date content
-
-The information about each API is owned by the data source owner, not by this
-repository. If you find that content for an API is out of date or incorrect,
-please contact the relevant data source owner and ask them to update the entry
-by submitting a [pull request](https://github.com/co-cddo/api-catalogue/pulls).
-
-If you are unable to contact the content authors directly, please [report an issue](https://github.com/co-cddo/api-catalogue/issues) instead so the repository maintainers can look into it.
-
 ## Reporting a technical issue or making requests
 
 If you would like to contribute, report a problem, or make a request regarding the API catalogue itself, please follow these guidelines:
