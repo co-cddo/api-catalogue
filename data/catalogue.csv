@@ -1778,6 +1778,7 @@ This integration uses a publish-subscribe model - the sending system publishes
 For example, when a GP system records a vaccination, it sends an event message containing the vaccination details to NEMS. NEMS then sends the message to all healthcare workers who have subscribed to receive vaccination event messages.
 
 ",https://digital.nhs.uk/developer/api-catalogue/vaccination-events-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
+2026-05-17,2026-05-17,https://environment.data.gov.uk/geoservices/datasets/9f0fa3fc-a860-4729-adc9-47fe53f658d0/ogc/features/v1,Environment Agency OGC API - Features (LIDAR Composite DTM 1m),"Defra Network WFS server provided by the Environment Agency. OpenAPI/OAS3 definition available, with endpoints for landing page, OpenAPI definition, conformance, functions, collections, queryables, items and search. Use content negotiation for HTML or GeoJSON.",https://environment.data.gov.uk/geoservices/datasets/9f0fa3fc-a860-4729-adc9-47fe53f658d0/ogc/features/v1/openapi?f=application%2Fvnd.oai.openapi%2Bjson%3Bversion%3D3.0,Open Government Licence,Defra Data Services Forum,England,2023-02-08,,environment-agency
 2026-06-24,2026-06-24,https://findajob.dwp.gov.uk,Find a Job,"This API is implementing a simple method to automatically retrieve information about job ads meeting a custom set of criteria.It is aimed to be a replacement of the existing Universal Jobmatch API. The API can be used by cross government departments to integrate with their jobs portal or us within their website.
 
 Examples:
