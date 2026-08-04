@@ -26,3 +26,4 @@ spec/examples.txt
 node_modules
 
 source/apis
+.claude/settings.local.json
