@@ -5,23 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <title>e-Referral Service - FHIR API - API Catalogue</title>
+    <title>Planning and housing data in England (planning.data.gov.uk) - API Catalogue</title>
 
     <link href="/stylesheets/manifest.css" rel="stylesheet" />
 
-    <link rel="canonical" href="https://www.api.gov.uk/nd/e-referral-service-fhir-api/">
+    <link rel="canonical" href="https://www.api.gov.uk/mhclg/planning-and-housing-data-in-england-planning-data-gov-uk/">
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:domain" content="www.api.gov.uk" />
       <meta name="twitter:image" content="https://www.api.gov.uk/images/govuk-large.png" />
-      <meta name="twitter:title" content="e-Referral Service - FHIR API - API Catalogue" />
-      <meta name="twitter:url" content="https://www.api.gov.uk/nd/e-referral-service-fhir-api/" />
+      <meta name="twitter:title" content="Planning and housing data in England (planning.data.gov.uk) - API Catalogue" />
+      <meta name="twitter:url" content="https://www.api.gov.uk/mhclg/planning-and-housing-data-in-england-planning-data-gov-uk/" />
 
       <meta property="og:image" content="https://www.api.gov.uk/images/govuk-large.png" />
       <meta property="og:site_name" content="API Catalogue" />
-      <meta property="og:title" content="e-Referral Service - FHIR API" />
+      <meta property="og:title" content="Planning and housing data in England (planning.data.gov.uk)" />
       <meta property="og:type" content="object" />
-      <meta property="og:url" content="https://www.api.gov.uk/nd/e-referral-service-fhir-api/" />
+      <meta property="og:url" content="https://www.api.gov.uk/mhclg/planning-and-housing-data-in-england-planning-data-gov-uk/" />
 
     
   </head>
@@ -1720,94 +1720,48 @@
 
         <div class="app-pane__content toc-open-disabled">
           <main id="content" class="technical-documentation" data-module="anchored-headings">
-            <h1 id="e-referral-service-fhir-api">e-Referral Service - FHIR API</h1>
+            <h1 id="planning-and-housing-data-in-england-planning-data-gov-uk">Planning and housing data in England (planning.data.gov.uk)</h1>
 
   <h2>Overview</h2>
-  <p>Use this API to create paperless referrals from primary to secondary care with the e-Referral Service (e-RS). As a primary care referrer, you can: </p>
+  <p>Planning and housing data in England (planning.data.gov.uk) provides access to datasets about planning and housing across England. The service brings together data from many organisations and makes it available as open data for use by developers, researchers, and planning authorities.</p>
+
+<p>Use this API to</p>
 
 <ul>
-<li>create a new e-referral</li>
-<li>search for relevant patient services to create a shortlist</li>
-<li>access existing e-referrals</li>
-<li>create a triage request for the Referral Assessment Service (RAS)</li>
-<li>upload and manage a patient letter or attachments, linking them to a referral</li>
-<li>retrieve appointment slots and book appointments</li>
-<li>defer a booking to a provider if an appointment slot is unavailable</li>
+<li>check planning constraints for a location</li>
+<li>find development sites in an area</li>
+<li>research heritage and environmental designations</li>
+<li>monitor new planning applications</li>
+<li>screen a portfolio against planning risk</li>
 </ul>
 
-<p>As a secondary care provider, you can: </p>
+<p>and much more.</p>
 
-<ul>
-<li>access referrals as a worklist</li>
-<li>retrieve non-clinical information (meta-data) about the referral</li>
-<li>retrieve attachments which are linked to a referral or triage (RAS) request</li>
-<li>retrieve clinical information which has been provided by a referrer</li>
-<li>accept or reject a referral request</li>
-<li>retrieve Advice &amp; Guidance (A&amp;G) conversations and send responses</li>
-<li>convert Advice &amp; Guidance (A&amp;G) conversations into a referral</li>
-</ul>
-
-<p>You cannot use this API to: </p>
-
-<ul>
-<li>get patient details – instead, use the Personal Demographic Service (PDS)</li>
-</ul>
-
-<p>You can access the following data: </p>
-
-<ul>
-<li>referral attachments</li>
-<li>referral letters</li>
-<li>appointment slots</li>
-<li>worklists for referral requests</li>
-<li>worklists for triage (RAS) requests</li>
-<li>worklists for Advice and Guidance (A&amp;G) requests</li>
-<li>conversation histories for Advice and Guidance (A&amp;G) requests</li>
-</ul>
-
-<h2>Access modes</h2>
-
-<p>This API has two access modes: </p>
-
-<h3>Application-restricted, unattended access</h3>
-
-<ul>
-<li>Authentication via: Signed JWT </li>
-<li>Functions: A004, A005, A006, A007, A024, A025 and A043 </li>
-<li>Availability: In production, beta</li>
-</ul>
-
-<h3>Healthcare worker, user-restricted access</h3>
-
-<ul>
-<li>Authentication via: CIS2</li>
-<li>Functions: All Endpoints</li>
-<li>Availability: In production, beta</li>
-</ul>
-
-<p>Application-restricted, unattended access This access mode has been introduced to allow a Partner application which has been registered with us and authenticated via signed JWT to interact with a subset of e-RS FHIR API endpoints in an unattended and read-only fashion.</p>
-
-<p>Application-restricted, unattended access should only be used when authenticating a human user (for example via smartcard) is not possible. Writing changes (such as Create Referral) are not supported via this access mode. Healthcare worker, user-restricted access This access mode allows Partner applications to access e-RS FHIR API endpoints by authenticating users with NHS Care Identity Service 2 (CIS2). This access mode must be used for writing changes (such as Create Referral). </p>
+<p>You can query by CURIE, co-ordinate, UPRN, and by area (administrative, statistical, or custom boundaries).</p>
 
 
 
   <h2>Documentation</h2>
   <p>
-    <a href="https://digital.nhs.uk/developer/api-catalogue/e-referral-service-fhir">e-Referral Service - FHIR API documentation</a>
+    <a href="https://www.planning.data.gov.uk/docs">Planning and housing data in England (planning.data.gov.uk) documentation</a>
   </p>
 
   <h2>Endpoint</h2>
   <p>
     <code>
-      https://digital.nhs.uk/developer/api-catalogue/e-referral-service-fhir
+      https://www.planning.data.gov.uk/
     </code>
   </p>
 
   <h2>Contact</h2>
   <p>
-    https:&#x2F;&#x2F;digital.nhs.uk&#x2F;developer&#x2F;help-and-support
+    https:&#x2F;&#x2F;www.planning.data.gov.uk&#x2F;about&#x2F;contact
   </p>
 
+  <h2>Geographic area</h2>
+  <p>
+    England
+  </p>
 
 
 
@@ -1815,7 +1769,7 @@
 
           <aside>
               <ul class="contribution-banner">
-                <li><a href="https://github.com/co-cddo/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'e-Referral%20Service%20-%20FHIR%20API'&amp;body=Problem%20with%20'e-Referral%20Service%20-%20FHIR%20API'%20(https://www.api.gov.uk/nd/e-referral-service-fhir-api/)">Report a problem with this page's contents</a></li>
+                <li><a href="https://github.com/co-cddo/api-catalogue/issues/new?labels=bug&amp;title=Re:%20'Planning%20and%20housing%20data%20in%20England%20(planning.data.gov.uk)'&amp;body=Problem%20with%20'Planning%20and%20housing%20data%20in%20England%20(planning.data.gov.uk)'%20(https://www.api.gov.uk/mhclg/planning-and-housing-data-in-england-planning-data-gov-uk/)">Report a problem with this page's contents</a></li>
               </ul>
           </aside>
 
