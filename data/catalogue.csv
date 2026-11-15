@@ -421,7 +421,7 @@ This service is widely used in an Urgent and Emergency Care context.
 It is not currently suitable for referrals from services using NHS Pathways outcomes, such as NHS 111 - for this, use the Directory of Services - Urgent and Emergency Care - SOAP API.
 
 You need a valid DoS account to use this API. ",https://digital.nhs.uk/developer/api-catalogue/directory-of-services-urgent-and-emergency-care-rest,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
-2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/directory-of-services-soap,Directory of Services - Urgent and Emergency Care - SOAP API," Use this API to access Directory of Services (DoS) information on a wide range of health and care services across England. 
+2026-11-15,2026-11-15,https://digital.nhs.uk/developer/api-catalogue/directory-of-services-urgent-and-emergency-care-soap,Directory of Services - Urgent and Emergency Care - SOAP API," Use this API to access Directory of Services (DoS) information on a wide range of health and care services across England. 
 
 You can search for services based on a combination of parameters: 
 
@@ -431,7 +431,7 @@ You can search for services based on a combination of parameters: 
 
 This service is widely used in an Urgent and Emergency Care context using NHS Pathways outcomes. For example, NHS 111 use it to find a service in real-time with the capacity to help a patient with given symptoms, within range of a given location.
 
-You need a valid DoS account to use this API. ",https://digital.nhs.uk/developer/api-catalogue/directory-of-services-soap,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
+You need a valid DoS account to use this API. ",https://digital.nhs.uk/developer/api-catalogue/directory-of-services-urgent-and-emergency-care-soap#overview--who-can-use-this-api,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
 2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-directory-of-services,Electronic Prescription Service Directory of Services API,"Use this API to access information about dispensing services, including searching for dispensers who can provide services for a patient with a given location and urgency.
 
 You can:
@@ -444,26 +444,48 @@ The API combines data from both the Directory of Services (DoS) and  Electronic 
 It uses DoS for user authentication.
 
 Do not use this API if you are building GP software - instead use Electronic Transmission of Prescriptions (ETP) web services directly, as it provides access to information you'll need, for example, information such as dispensing appliance contractors. ",https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-directory-of-services,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
-2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-fhir,Electronic Prescription Service - FHIR API,"Use this API to access the Electronic Prescription Service (EPS). EPS is the national service used to send electronic prescription messages between prescribers and community dispensers. Prescribers in primary and secondary care can: 
 
-- create a prescription
-- encode data so the prescription is ready to sign
-- cancel a prescription
 
-Creating and cancelling a prescription are both done by the prescriber. Encoding data so the prescription is ready to sign is done by the prescribing system. Dispensers can: 
 
-- download an individual prescription from EPS
-- download a batch of prescriptions from EPS
-- return a prescription to EPS
-- submit a dispense notification to EPS
-- withdraw a dispense notification from EPS
-- submit a dispense claim
 
-You cannot currently use this API to: 
 
-- view a prescription's detailed dispense history
 
- ",https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
+2026-11-15,2026-11-15,https://digital.nhs.uk/developer/api-catalogue/eps-fhir-dispensing-api,Electronic Prescription Service FHIR Dispensing API,"Use this API to access the Electronic Prescription Service (EPS). EPS is the national service used to send electronic prescription messages between prescribers and community dispensers.
+
+Dispensers, such as community pharmacies, can:
+- Download an individual prescription from EPS.
+- Download a batch of prescriptions from EPS.
+- Return a prescription to EPS.
+- Submit a dispense notification to EPS.
+- Withdraw a dispense notification from EPS.
+- Submit a dispense claim.
+
+These functions allow dispensing systems to retrieve electronic prescriptions, record dispensing activity and submit information relating to dispensed medicines.
+
+The combined EPS FHIR API has been retired and replaced with 2 new APIs – this dispensing API and another API for prescribing.
+
+ ",https://digital.nhs.uk/developer/api-catalogue/eps-fhir-dispensing-api#overview--related-apis-services-and-documentation,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
+
+
+
+
+2026-11-15,2026-11-15,https://digital.nhs.uk/developer/api-catalogue/eps-fhir-prescribing-api,Electronic Prescription Service FHIR Prescribing API,"Use this API to access the Electronic Prescription Service (EPS). EPS is the national service used to send electronic prescription messages between prescribers and community dispensers.
+
+Prescribers in primary and secondary care can:
+- Create a prescription.
+- Encode prescription data so it is ready to sign.
+- Cancel a prescription.
+- Creating and cancelling a prescription are both done by the prescriber. Encoding prescription data so it is ready to sign is done by the prescribing system.
+
+The combined EPS FHIR API has been retired and replaced with 2 new APIs – this prescribing API and another API for dispensing.
+
+ ",https://digital.nhs.uk/developer/api-catalogue/eps-fhir-prescribing-api#overview--related-apis-services-and-documentation,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
+
+
+
+
+
+
 2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-hl7-v3,Electronic Prescription Service - HL7 V3 API,"Use this API to access the Electronic Prescription Service (EPS). EPS allows a prescriber (such as a GP) to send prescriptions electronically to a dispenser (such as a pharmacy) of the patient's choice. This makes the prescribing and dispensing process more efficient and convenient for patients and staff.
 
 You can do different things, depending on your role.
@@ -1686,11 +1708,11 @@ This API is a messaging API which uses MESH to send and receive messages. It i
 Before you begin any development work using this integration, contact us to discuss your best options. 
 
 ",https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-mental-health-discharge-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
-2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-mesh,Transfer of Care - MESH,"Use this message integration to send transfer of care information from an emergency care provider to a GP practice.  
+2026-11-15,2026-11-15,https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-pre-fhir, Transfer of Care - pre-FHIR (Previously Transfer of Care - MESH),"Use this message integration to send transfer of care information from acute trusts to a GP practice.   
 
 It uses MESH to send and receive messages. 
 
-",https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-mesh,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
+",https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-pre-fhir#technology,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
 2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-outpatient-clinic-letter-fhir,Transfer of Care Outpatient Clinic Letter - FHIR,"Use this integration to create and transmit documents containing Transfer of Care information following an outpatient consultation in a clinic.
 
 An Outpatient Clinic Letter (also known as an ITK3 Outpatient Letter) is an ITK3 FHIR document containing Transfer of Care information from the hospital to the patient's GP and other relevant parties following a consultation in a clinic.
