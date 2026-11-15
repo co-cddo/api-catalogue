@@ -444,8 +444,6 @@ The API combines data from both the Directory of Services (DoS) and  Electronic 
 It uses DoS for user authentication.
 
 Do not use this API if you are building GP software - instead use Electronic Transmission of Prescriptions (ETP) web services directly, as it provides access to information you'll need, for example, information such as dispensing appliance contractors. ",https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-directory-of-services,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
-
-
 2026-11-15,2026-11-15,https://digital.nhs.uk/developer/api-catalogue/eps-fhir-dispensing-api,Electronic Prescription Service FHIR Dispensing API,"Use this API to access the Electronic Prescription Service (EPS). EPS is the national service used to send electronic prescription messages between prescribers and community dispensers.
 
 Dispensers, such as community pharmacies, can:
@@ -461,8 +459,6 @@ These functions allow dispensing systems to retrieve electronic prescriptions, r
 The combined EPS FHIR API has been retired and replaced with 2 new APIs – this dispensing API and another API for prescribing.
 
  ",https://digital.nhs.uk/developer/api-catalogue/eps-fhir-dispensing-api#overview--related-apis-services-and-documentation,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
-
-
 2026-11-15,2026-11-15,https://digital.nhs.uk/developer/api-catalogue/eps-fhir-prescribing-api,Electronic Prescription Service FHIR Prescribing API,"Use this API to access the Electronic Prescription Service (EPS). EPS is the national service used to send electronic prescription messages between prescribers and community dispensers.
 
 Prescribers in primary and secondary care can:
@@ -474,8 +470,6 @@ Prescribers in primary and secondary care can:
 The combined EPS FHIR API has been retired and replaced with 2 new APIs – this prescribing API and another API for dispensing.
 
  ",https://digital.nhs.uk/developer/api-catalogue/eps-fhir-prescribing-api#overview--related-apis-services-and-documentation,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
-
-
 2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-hl7-v3,Electronic Prescription Service - HL7 V3 API,"Use this API to access the Electronic Prescription Service (EPS). EPS allows a prescriber (such as a GP) to send prescriptions electronically to a dispenser (such as a pharmacy) of the patient's choice. This makes the prescribing and dispensing process more efficient and convenient for patients and staff.
 
 You can do different things, depending on your role.
