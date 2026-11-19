@@ -88,7 +88,7 @@ dateAdded,dateUpdated,url,name,description,documentation,license,maintainer,area
 2023-02-20,2023-02-20,https://api.prison.service.justice.gov.uk/swagger-ui.html,Prison API,The service provides REST access to the Nomis Oracle DB prisoner information.,https://github.com/ministryofjustice/prison-api,,,,,,ministry-of-justice
 2020-10-12,2020-10-28,https://data.police.uk/api/,Police API,"The API provides a rich data source for information, including:\n\n- neighbourhood team members\n- upcoming events\n- street-level crime and outcome data\n- nearest police stations\n\nThe API is implemented as a standard JSON web service using HTTP GET and POST requests. Full request and response examples are provided in the documentation.",https://data.police.uk/docs/,,https://data.police.uk/contact/,,,,uk-police
 2020-10-12,2020-10-28,https://api.tfl.gov.uk/,Transport for London Unified API,"OpenAPI / Swagger spec: https://api.tfl.gov.uk/swagger/docs/v1 <br> Swagger UI is here : https://api.tfl.gov.uk/swagger/ui/index.html <br> To use the Unified API, developers should register for an Application ID and Key. Append the `app_id` and `app_key` query parameters to your requests.\n\nThe public TfL data (or 'open data') released here is for open data users to use in their own software and services. We encourage software developers to use this data to present customer travel information in innovative ways - providing they adhere to the transport data terms and conditions.",https://api.tfl.gov.uk/,,,,,,transport-for-london
-2020-10-12,2020-10-28,https://github.com/DFE-Digital/eapim-platform-api,DfE EAPIM Platform API,"Enterprise API Management Platform API for managing applications, subscriptions and retreiving API details.",https://github.com/DFE-Digital/eapim-platform-api,,,,,,department-for-education
+2026-11-15,2026-11-15,https://beta-find-and-use-an-api.education.gov.uk,Find and Use an API (FaUAPI),"Find and Use an API allows you to connect to Department for Education (DfE) digital services using APIs in the DfE's catalogue.",https://beta-find-and-use-an-api.education.gov.uk/docs,,https://beta-find-and-use-an-api.education.gov.uk/support,,,,department-for-education
 2020-11-12,2020-11-12,https://spatialdata.gov.scot/geonetwork/srv/api,GeoNetwork REST API,"The Scottish Spatial Data Infrastructure API endpoint allows access to all the functionality of the Geonetwork metadata catalog. Whilst some functionality is limited to authenticated users and administrators only, published metadata records can be returned using the `records` endpoint and the record UUID, for example `https://spatialdata.gov.scot/geonetwork/srv/api/records/{uuid}`.",https://spatialdata.gov.scot/geonetwork/doc/api,,SSDI.Metadata@gov.scot,Scotland,,,scottish-government
 2020-02-26,2020-02-06,https://uk-air.defra.gov.uk/sos-ukair/service?service=SOS&request=GetCapabilities,UK-AIR Sensor Observation Service,"This is an [OGC](https://www.ogc.org/) standards based Sensor Observation Service interface to Defra's UK Air Information Resource (UK-AIR). The service supports the UK obligations to European air quality e-Reporting initiative and Defra Open Data policy. The SOS provides a machine readable access point for air pollution measurements funded by Defra, Scottish Government, Welsh Government and Department of the Environment Northern Ireland. The service implements [INSPIRE guidelines](https://inspire.ec.europa.eu/id/document/tg/download-sos). You can read more about the [European air quality e-Reporting initiative](http://www.eionet.europa.eu/aqportal) and the [OGC SOS 2.0 standard](https://www.ogc.org/standards/sos).",https://uk-air.defra.gov.uk/data/about_sos,,The service provider is described on the Capabilities document as: Ricardo Energy & Environment (http://ee.ricardo.com/cms/). The phone number and email address are on the GetCapabilities response document in the <ows:ServiceProvider> element.,,,,defra
 2021-03-09,2021-03-09,https://api.familyinfo.buckinghamshire.gov.uk/api/v1/services,Services,Use this API to search for community and volunteer-run services in Buckinghamshire. It is a partial implementation of the [Open Referral UK](https://openreferraluk.org/) standard for human services data.,https://github.com/wearefuturegov/outpost-api-service/wiki,,fisdigital@buckinghamshire.gov.uk,Buckinghamshire,2021-03-01,,buckinghamshire-council
@@ -421,7 +421,7 @@ This service is widely used in an Urgent and Emergency Care context.
 It is not currently suitable for referrals from services using NHS Pathways outcomes, such as NHS 111 - for this, use the Directory of Services - Urgent and Emergency Care - SOAP API.
 
 You need a valid DoS account to use this API. ",https://digital.nhs.uk/developer/api-catalogue/directory-of-services-urgent-and-emergency-care-rest,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
-2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/directory-of-services-soap,Directory of Services - Urgent and Emergency Care - SOAP API," Use this API to access Directory of Services (DoS) information on a wide range of health and care services across England. 
+2026-11-15,2026-11-15,https://digital.nhs.uk/developer/api-catalogue/directory-of-services-urgent-and-emergency-care-soap,Directory of Services - Urgent and Emergency Care - SOAP API," Use this API to access Directory of Services (DoS) information on a wide range of health and care services across England. 
 
 You can search for services based on a combination of parameters: 
 
@@ -431,7 +431,7 @@ You can search for services based on a combination of parameters: 
 
 This service is widely used in an Urgent and Emergency Care context using NHS Pathways outcomes. For example, NHS 111 use it to find a service in real-time with the capacity to help a patient with given symptoms, within range of a given location.
 
-You need a valid DoS account to use this API. ",https://digital.nhs.uk/developer/api-catalogue/directory-of-services-soap,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
+You need a valid DoS account to use this API. ",https://digital.nhs.uk/developer/api-catalogue/directory-of-services-urgent-and-emergency-care-soap#overview--who-can-use-this-api,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
 2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-directory-of-services,Electronic Prescription Service Directory of Services API,"Use this API to access information about dispensing services, including searching for dispensers who can provide services for a patient with a given location and urgency.
 
 You can:
@@ -444,26 +444,32 @@ The API combines data from both the Directory of Services (DoS) and  Electronic 
 It uses DoS for user authentication.
 
 Do not use this API if you are building GP software - instead use Electronic Transmission of Prescriptions (ETP) web services directly, as it provides access to information you'll need, for example, information such as dispensing appliance contractors. ",https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-directory-of-services,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
-2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-fhir,Electronic Prescription Service - FHIR API,"Use this API to access the Electronic Prescription Service (EPS). EPS is the national service used to send electronic prescription messages between prescribers and community dispensers. Prescribers in primary and secondary care can: 
+2026-11-15,2026-11-15,https://digital.nhs.uk/developer/api-catalogue/eps-fhir-dispensing-api,Electronic Prescription Service FHIR Dispensing API,"Use this API to access the Electronic Prescription Service (EPS). EPS is the national service used to send electronic prescription messages between prescribers and community dispensers.
 
-- create a prescription
-- encode data so the prescription is ready to sign
-- cancel a prescription
+Dispensers, such as community pharmacies, can:
+- Download an individual prescription from EPS.
+- Download a batch of prescriptions from EPS.
+- Return a prescription to EPS.
+- Submit a dispense notification to EPS.
+- Withdraw a dispense notification from EPS.
+- Submit a dispense claim.
 
-Creating and cancelling a prescription are both done by the prescriber. Encoding data so the prescription is ready to sign is done by the prescribing system. Dispensers can: 
+These functions allow dispensing systems to retrieve electronic prescriptions, record dispensing activity and submit information relating to dispensed medicines.
 
-- download an individual prescription from EPS
-- download a batch of prescriptions from EPS
-- return a prescription to EPS
-- submit a dispense notification to EPS
-- withdraw a dispense notification from EPS
-- submit a dispense claim
+The combined EPS FHIR API has been retired and replaced with 2 new APIs – this dispensing API and another API for prescribing.
 
-You cannot currently use this API to: 
+ ",https://digital.nhs.uk/developer/api-catalogue/eps-fhir-dispensing-api#overview--related-apis-services-and-documentation,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
+2026-11-15,2026-11-15,https://digital.nhs.uk/developer/api-catalogue/eps-fhir-prescribing-api,Electronic Prescription Service FHIR Prescribing API,"Use this API to access the Electronic Prescription Service (EPS). EPS is the national service used to send electronic prescription messages between prescribers and community dispensers.
 
-- view a prescription's detailed dispense history
+Prescribers in primary and secondary care can:
+- Create a prescription.
+- Encode prescription data so it is ready to sign.
+- Cancel a prescription.
+- Creating and cancelling a prescription are both done by the prescriber. Encoding prescription data so it is ready to sign is done by the prescribing system.
 
- ",https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
+The combined EPS FHIR API has been retired and replaced with 2 new APIs – this prescribing API and another API for dispensing.
+
+ ",https://digital.nhs.uk/developer/api-catalogue/eps-fhir-prescribing-api#overview--related-apis-services-and-documentation,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
 2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/electronic-prescription-service-hl7-v3,Electronic Prescription Service - HL7 V3 API,"Use this API to access the Electronic Prescription Service (EPS). EPS allows a prescriber (such as a GP) to send prescriptions electronically to a dispenser (such as a pharmacy) of the patient's choice. This makes the prescribing and dispensing process more efficient and convenient for patients and staff.
 
 You can do different things, depending on your role.
@@ -1686,11 +1692,11 @@ This API is a messaging API which uses MESH to send and receive messages. It i
 Before you begin any development work using this integration, contact us to discuss your best options. 
 
 ",https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-mental-health-discharge-fhir,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
-2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-mesh,Transfer of Care - MESH,"Use this message integration to send transfer of care information from an emergency care provider to a GP practice.  
+2026-11-15,2026-11-15,https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-pre-fhir, Transfer of Care - pre-FHIR (Previously Transfer of Care - MESH),"Use this message integration to send transfer of care information from acute trusts to a GP practice.   
 
 It uses MESH to send and receive messages. 
 
-",https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-mesh,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
+",https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-pre-fhir#technology,,https://digital.nhs.uk/developer/help-and-support,,,,nhs-digital
 2024-04-23,2024-04-23,https://digital.nhs.uk/developer/api-catalogue/transfer-of-care-outpatient-clinic-letter-fhir,Transfer of Care Outpatient Clinic Letter - FHIR,"Use this integration to create and transmit documents containing Transfer of Care information following an outpatient consultation in a clinic.
 
 An Outpatient Clinic Letter (also known as an ITK3 Outpatient Letter) is an ITK3 FHIR document containing Transfer of Care information from the hospital to the patient's GP and other relevant parties following a consultation in a clinic.

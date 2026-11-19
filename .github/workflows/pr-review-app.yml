@@ -23,20 +23,19 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'Rakefile'
-      - 'Gemfile.lock'
-      - 'package-lock.json'
 
 concurrency:
-  group: pr-preview-${{ github.ref }}
+  group: pr-preview-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 permissions:
   contents: write
+  pages: read
   pull-requests: write
 
 jobs:
   preview:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout pull request
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
