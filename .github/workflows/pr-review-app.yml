@@ -23,15 +23,14 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'Rakefile'
-      - 'Gemfile.lock'
-      - 'package-lock.json'
 
 concurrency:
-  group: pr-preview-${{ github.ref }}
+  group: pr-preview-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 permissions:
   contents: write
+  pages: read
   pull-requests: write
 
 jobs:
